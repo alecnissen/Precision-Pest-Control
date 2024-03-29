@@ -14,6 +14,10 @@
     font-weight: bold;
 }
 
+
+
+
+
 .dropdown { 
     display: block;
 }
@@ -40,5 +44,9 @@
 }
 
 .dropdown a:hover { 
-    color: green;
+    color: red;
+}
+
+.content a { 
+    font-family: sans-serif;
 }

@@ -1,0 +1,44 @@
+.navbar-content-wrapper { 
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    background-color: darkblue;
+    padding: 0.5em;
+}
+
+.navbar-content-wrapper button { 
+    font-size: 1.4rem;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+}
+
+.dropdown { 
+    display: block;
+}
+
+.dropdown a { 
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content { 
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
+    border: 2px solid black;
+
+}
+
+.dropdown:hover .content { 
+    display: block;
+}
+
+.dropdown a:hover { 
+    color: green;
+}

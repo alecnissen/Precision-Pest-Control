@@ -10,8 +10,18 @@ export default function ContactHeader() {
       </div>
 
       <div className='contact-header-phone-email-container'>
+        
+        <div className='email-container'>
+        <img src="../assets/email-1-svgrepo-com.svg"></img>
         <p>matt@prodigypestsolutions.com</p>
+        </div>
+
+        <div className='phone-container'>
+        <img src='../assets/telephone-svgrepo-com.svg'></img>
         <p>267-603-1811</p>
+        </div>
+
+
       </div>
 
     </div>

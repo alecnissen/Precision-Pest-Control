@@ -17,7 +17,7 @@
 
 .contact-header-phone-email-container { 
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 1.3rem;
@@ -25,4 +25,11 @@
     gap: 0.5em;
     // justify-content: flex-end;
     // align-items: center;
+}
+
+.email-container,
+.phone-container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

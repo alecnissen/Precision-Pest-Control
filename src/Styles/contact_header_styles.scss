@@ -1,5 +1,28 @@
 .contact-header-content-wrapper { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
    background-color: darkblue;
    color: white;
    font-family: sans-serif;
+   padding: 0.3em;
+}
+
+.contact-header-icons-container { 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.contact-header-phone-email-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    gap: 0.5em;
+    // justify-content: flex-end;
+    // align-items: center;
 }

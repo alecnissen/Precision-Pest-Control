@@ -20,6 +20,9 @@
 
 .dropdown { 
     display: block;
+
+
+    // position: relative;
 }
 
 .dropdown a { 
@@ -43,10 +46,52 @@
     display: block;
 }
 
+
+
+
 .dropdown a:hover { 
     color: red;
 }
 
 .content a { 
     font-family: sans-serif;
+}
+
+
+/* apply the same content here for other */
+
+.dropdown .dropdown-for-stinging-pests .content-for-stinging-pests {
+    display: none;
+    position: absolute;
+    top: 62%;
+    left: 100%;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
+    border: 2px solid black;
+  }
+  
+  .dropdown .dropdown-for-stinging-pests:hover .content-for-stinging-pests {
+    display: block;
+  }
+
+.stinging-pests-dropdown-icon-container,
+.other-pests-dropdown-icon-container { 
+    display: flex;
+}
+
+
+  .dropdown .dropdown-for-other-pests .content-for-other-pests { 
+    display: none;
+    position: absolute;
+    top: 77%;
+    left: 100%;
+    background-color: white;
+    min-width: 80px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
+    border: 2px solid black;
+  }
+
+.dropdown .dropdown-for-other-pests:hover .content-for-other-pests { 
+    display: block;
 }

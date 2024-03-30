@@ -1,4 +1,5 @@
 import React from 'react'
+import arrowRightIcon from "../assets/arrowright-svgrepo-com.svg"
 
 export default function Navbar() {
   return (
@@ -50,13 +51,46 @@ export default function Navbar() {
             <a href=''>Mosquitos</a>
             <a href=''>Rats</a>
             <a href=''>Spiders</a>
+
+
+            <div className='dropdown-for-stinging-pests'>  
+
+            <div className='stinging-pests-dropdown-icon-container'>
             <a href=''>Stinging Pests</a>
+            <img src={arrowRightIcon}></img>
+            </div>
+
+            <div className='content-for-stinging-pests'>
+            <a href=''>Yellow Jackets</a>
+            <a href=''>European Hornets</a>
+            <a href=''>Bald Faced Hornets</a>
+            </div>
+            </div>
+
+
+
             <a href=''>Termites</a>
+
+            
+            <div className='dropdown-for-other-pests'>  
+
+            <div className='other-pests-dropdown-icon-container'>
             <a href=''>Other</a>
-        </div>
+            <img src={arrowRightIcon}></img>
+            </div>
+
+
+            <div className='content-for-other-pests'>
+            <a href=''>Stick Bugs</a>
+            <a href=''>Lady Bugs</a>
+            </div>
+            </div>
+
+
 
         </div>
 
+        </div>
 
 
        

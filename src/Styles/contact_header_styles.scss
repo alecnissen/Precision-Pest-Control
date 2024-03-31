@@ -1,6 +1,8 @@
 .contact-header-content-wrapper {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+//   justify-content: space-between;
+justify-content: center;
   align-items: center;
   background-color: darkblue;
   color: white;

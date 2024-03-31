@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ContactHeader() {
+export default function Header() {
   return (
     <div className="contact-header-content-wrapper">
       {/* <div className="contact-header-icons-container">

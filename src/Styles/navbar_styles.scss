@@ -2,15 +2,17 @@
   display: flex;
   justify-content: center;
   gap: 3em;
-  background-color: darkblue;
+  // background-color: darkblue;
+  background-color: rgb(70, 8, 70);;
   padding: 0.5em;
-  border-bottom: 2px solid white;
+  // border-bottom: 2px solid white;
 }
 
 .navbar-content-wrapper button {
   font-size: 1.4rem;
   border: none;
-  background-color: darkblue;
+  // background-color: darkblue;
+  background-color: rgb(70, 8, 70);
   color: white;
   font-weight: bold;
 }

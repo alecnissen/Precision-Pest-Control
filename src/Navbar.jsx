@@ -76,7 +76,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      <button>About Us</button>
+      {/* <button>About Us</button> */}
       <button>Contact</button>
     </div>
   );

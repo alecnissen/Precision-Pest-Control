@@ -1,0 +1,37 @@
+.image-title-content-wrapper { 
+    background-color: darkblue;
+    height: 80vh;
+    background-image: url('../assets/rohit-tandon-qK6898jepEU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.main-title-img-container { 
+    // display: flex;
+    // justify-content: space-between;
+    color: black;
+    font-weight: bold;
+    padding: 0.5em;
+    // background-image: url('../assets/PPS-logo.jpeg');
+    // background-size: 20%;
+    // background-repeat: no-repeat;
+    // background-position: 50%;
+}
+
+.main-title-img-container h1 { 
+    font-size: 4.5rem;
+} 
+
+.main-title-img-container h3 { 
+    font-size: 2rem;
+}
+
+
+.main-title-img-container img { 
+    width: 25em;
+}
+
+// .main-title-container { 
+//     text-align: center;
+// }

@@ -21,9 +21,10 @@ export default function Header() {
         </div>
       </div> */}
 
-      <h1>Prodigy Pest Solutions</h1>
-      {/* <img src={ppsLogo}></img> */}
-      <h3>We Got You Covered Philly!</h3>
+
+
+      {/* <h1>Prodigy Pest Solutions</h1>
+      <h3>We Got You Covered Philly!</h3> */}
 
 
 

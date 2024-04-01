@@ -8,6 +8,37 @@
   // border-bottom: 2px solid white;
 }
 
+.title-subtitle-container { 
+  display: flex;
+  flex-direction: column;
+}
+
+.title-subtitle-container { 
+  color: white;
+  font-family: sans-serif;
+}
+
+.title-subtitle-container h1 { 
+  font-size: 4rem;
+}
+
+.title-subtitle-container h3 { 
+  font-size: 2rem;
+  text-align: center;
+}
+
+.title-logo-container { 
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.title-subtitle-container img { 
+  width: 8em;
+  border-radius: 5%;
+  border: 5px solid purple;
+}
+
 .navbar-content-wrapper button {
   font-size: 1.4rem;
   border: none;

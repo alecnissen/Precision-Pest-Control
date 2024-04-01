@@ -1,9 +1,23 @@
 import React from 'react';
 import arrowRightIcon from '../assets/arrowright-svgrepo-com.svg';
+import ppsLogo from "../assets/PPS-logo.jpeg"
+
+
 
 export default function Navbar() {
   return (
     <div className="navbar-content-wrapper">
+     
+     <div className='title-subtitle-container'>
+
+      <div className='title-logo-container'>
+      <img src={ppsLogo}></img>
+      <h1>Prodigy Pest Solutions</h1>
+     </div>
+
+     <h3>We Got You Covered Philly!</h3>
+    </div>
+     
       <div className="dropdown">
         <button>Services</button>
 
@@ -79,9 +93,9 @@ export default function Navbar() {
 
       {/* <button>About Us</button> */}
 
-
+      <div className='dropdown'>
       <button>Contact</button>
-
+      </div>
 
 
      

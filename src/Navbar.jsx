@@ -32,6 +32,7 @@ export default function Navbar() {
         </div>
       </div>
 
+
       <div className="dropdown">
         <button>Pest ID</button>
 
@@ -77,7 +78,14 @@ export default function Navbar() {
       </div>
 
       {/* <button>About Us</button> */}
+
+
       <button>Contact</button>
+
+
+
+     
+
     </div>
   );
 }

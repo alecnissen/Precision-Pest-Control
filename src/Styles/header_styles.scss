@@ -18,6 +18,48 @@
   font-size: 2rem;
 }
 
+.contact-header-content-wrapper img { 
+  width: 6em;
+  border-radius: 6%;
+}
+
+
+@media (max-width: 700px) { 
+  .contact-header-content-wrapper h1 { 
+    font-size: 2.9rem;
+  }
+
+  .contact-header-content-wrapper h3 { 
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 535px) { 
+  .contact-header-content-wrapper h1 { 
+    font-size: 2.4rem;
+  }
+
+  .contact-header-content-wrapper h3 { 
+    font-size: 1.4rem;
+  }
+
+  .contact-header-content-wrapper img { 
+    width: 4em;
+    border-radius: 6%;
+  }
+}
+
+
+
+@media (max-width: 432px) { 
+  .contact-header-content-wrapper h1 { 
+    font-size: 1.9rem;
+  }
+
+  .contact-header-content-wrapper h3 { 
+    font-size: 1.4rem;
+  }
+}
 
 
 

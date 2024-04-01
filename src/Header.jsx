@@ -1,4 +1,5 @@
 import React from 'react';
+import ppsLogo from "../assets/PPS-logo.jpeg"
 
 export default function Header() {
   return (
@@ -21,6 +22,7 @@ export default function Header() {
       </div> */}
 
       <h1>Prodigy Pest Solutions</h1>
+      <img src={ppsLogo}></img>
       <h3>We Got You Covered Philly!</h3>
 
 

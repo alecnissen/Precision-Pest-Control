@@ -1,6 +1,6 @@
 .navbar-content-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 3em;
   // background-color: darkblue;
   background-color: rgb(70, 8, 70);;
@@ -16,6 +16,21 @@
   color: white;
   font-weight: bold;
 }
+
+
+// .navbar-content-wrapper .dropdown:nth-child(1),
+// .navbar-content-wrapper .dropdown:nth-child(2) {
+//   margin-right: auto;
+// }
+
+// /* Adjust margin to push the last two buttons to the right */
+// .navbar-content-wrapper .dropdown:nth-last-child(1),
+// .navbar-content-wrapper .dropdown:nth-last-child(2) {
+//   margin-left: auto;
+// }
+
+
+
 
 .dropdown {
   display: block;
@@ -88,6 +103,14 @@
 .dropdown .dropdown-for-other-pests:hover .content-for-other-pests {
   display: block;
 }
+
+// .pestID-contact-container { 
+//   display: flex;
+//   justify-content: flex-end;
+//   gap: 3em;
+// }
+
+
 
 @media (max-width: 735px) {
   .navbar-content-wrapper {

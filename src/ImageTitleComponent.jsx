@@ -6,7 +6,7 @@ export default function ImageTitleComponent() {
     <div className='image-title-content-wrapper'>
 
 
-        <h1>Proudly Serving The Philadelphia Area!</h1>
+   
 
         <div className='main-title-img-container'> 
 {/* 

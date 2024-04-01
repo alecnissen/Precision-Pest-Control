@@ -56,6 +56,7 @@
 
 .dropdown:hover .content {
   display: block;
+  z-index: 200;
 }
 
 .dropdown a:hover {
@@ -72,7 +73,7 @@
 .dropdown .dropdown-for-stinging-pests .content-for-stinging-pests {
   display: none;
   position: absolute;
-  top: 62%;
+  top: 62.5%;
   left: 100%;
   background-color: white;
   min-width: 100px;
@@ -110,6 +111,28 @@
 //   gap: 3em;
 // }
 
+@media (max-width: 1030px) { 
+  .dropdown .content {
+    font-size: 1rem;
+  }
+
+  .dropdown a {
+    padding: 6px;
+  }
+
+  .dropdown .dropdown-for-other-pests .content-for-other-pests {
+    display: none;
+    position: absolute;
+    top: 75%;
+    left: 100%;
+    background-color: white;
+    min-width: 80px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
+    border: 2px solid black;
+  }
+  
+
+}
 
 
 @media (max-width: 735px) {
@@ -122,7 +145,8 @@
   }
 }
 
-@media (max-width: 530px) {
+
+@media (max-width: 710px) { 
   .dropdown .content {
     font-size: 0.8rem;
   }
@@ -131,12 +155,36 @@
     position: absolute;
     top: 63%;
     left: 75%;
-    min-width: 80px;
+    min-width: 50px;
   }
 
   .dropdown .dropdown-for-other-pests .content-for-other-pests {
     position: absolute;
     top: 92%;
+    left: 35%;
+  }
+
+  .dropdown a {
+    padding: 4px;
+  }
+}
+
+
+@media (max-width: 530px) {
+  .dropdown .content {
+    font-size: 0.7rem;
+  }
+
+  .dropdown .dropdown-for-stinging-pests .content-for-stinging-pests {
+    position: absolute;
+    top: 63%;
+    left: 70%;
+    min-width: 60px;
+  }
+
+  .dropdown .dropdown-for-other-pests .content-for-other-pests {
+    position: absolute;
+    top: 90%;
     left: 35%;
   }
 

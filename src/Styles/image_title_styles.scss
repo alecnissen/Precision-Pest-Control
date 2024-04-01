@@ -1,42 +1,110 @@
 .image-title-content-wrapper { 
-    background-color: darkblue;
+    display: flex;
+    // background-color: darkblue;
+     // background-color: rgba(0, 0, 139, 0.2); /* Adjust the alpha value (0.5 for 50% opacity) */
+    position: relative;
     height: 80vh;
-    background-image: url('../assets/rohit-tandon-qK6898jepEU-unsplash.jpg');
+    background-image: url('../assets/dan-mall-PORWKRAI55U-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
 }
 
-.image-title-content-wrapper h1 { 
+
+
+.image-title-content-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the alpha value (0.5 for 50% opacity) */
+  }
+
+  .wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding-right: 3em;
-}
+  }
 
-.main-title-img-container { 
-    // display: flex;
-    // justify-content: space-between;
-    color: black;
-    font-weight: bold;
-    padding: 0.5em;
-    // background-image: url('../assets/PPS-logo.jpeg');
-    // background-size: 20%;
-    // background-repeat: no-repeat;
-    // background-position: 50%;
-}
-
-.main-title-img-container h1 { 
-    font-size: 4.5rem;
-} 
-
-.main-title-img-container h3 { 
+  .wrapper p { 
+    color: rgb(218, 205, 205);
+    z-index: 100;
     font-size: 2rem;
-}
+    font-weight: bold;
+    // max-width: 55em;
+    margin: 0 auto;
+    text-align: center;
+  }
 
 
-.main-title-img-container img { 
-    width: 25em;
-}
-
-// .main-title-container { 
-//     text-align: center;
+// .main-title-img-container { 
+//     background-color: darkblue;
+//     height: 80vh;
+//     background-image: url('../assets/dan-mall-HL4LuaElk2I-unsplash.jpg');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: 50%;
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .image-title-content-wrapper h1 { 
+//     text-align: center;
+//     padding-right: 3em;
+// }
+
+// .main-title-img-container { 
+//     // display: flex;
+//     // justify-content: space-between;
+//     color: black;
+//     font-weight: bold;
+//     padding: 0.5em;
+//     // background-image: url('../assets/PPS-logo.jpeg');
+//     // background-size: 20%;
+//     // background-repeat: no-repeat;
+//     // background-position: 50%;
+// }
+
+// .main-title-img-container h1 { 
+//     font-size: 4.5rem;
+// } 
+
+// .main-title-img-container h3 { 
+//     font-size: 2rem;
+// }
+
+
+// .main-title-img-container img { 
+//     width: 25em;
+// }
+
+// // .main-title-container { 
+// //     text-align: center;
+// // }

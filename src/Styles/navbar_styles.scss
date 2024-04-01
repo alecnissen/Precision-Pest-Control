@@ -36,7 +36,7 @@
 .title-subtitle-container img { 
   width: 8em;
   border-radius: 5%;
-  border: 5px solid purple;
+  border: 2px solid purple;
 }
 
 .navbar-content-wrapper button {
@@ -141,6 +141,16 @@
 
 
 
+
+
+
+
+
+
+
+// media queries start here 
+
+
 @media (max-width: 1455px) { 
   .title-subtitle-container h1 { 
     font-size: 3rem;
@@ -163,10 +173,28 @@
     gap: 2em;
   }
 
-  // .navbar-content-wrapper { 
-  //   display: flex;
-  //   justify-content: flex-start;
-  // }
+
+  .dropdown .content {
+    font-size: 1rem;
+  }
+
+  .dropdown a {
+    padding: 6px;
+  }
+
+  .dropdown .dropdown-for-other-pests .content-for-other-pests {
+    display: none;
+    position: absolute;
+    top: 75%;
+    left: 100%;
+    background-color: white;
+    min-width: 80px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
+    border: 2px solid black;
+  }
+
+
+
 }
 
 @media (max-width: 1250px) { 
@@ -255,11 +283,11 @@
   }
 
   .title-subtitle-container h1 { 
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   
   .title-subtitle-container h3 { 
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-align: center;
   }
 }
@@ -282,6 +310,15 @@
 
   .navbar-content-wrapper button {
     font-size: 0.9rem;
+  }
+
+  .title-subtitle-container h1 { 
+    font-size: 2.5rem;
+  }
+  
+  .title-subtitle-container h3 { 
+    font-size: 1.2rem;
+    text-align: center;
   }
 }
 
@@ -307,6 +344,22 @@
   .dropdown a {
     padding: 4px;
   }
+}
+
+@media (max-width: 555px) { 
+  .title-subtitle-container h1 { 
+    font-size: 2rem;
+  }
+  
+  .title-subtitle-container h3 { 
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .title-subtitle-container img { 
+    width: 4em;
+  }
+
 }
 
 
@@ -335,4 +388,45 @@
   .navbar-content-wrapper button {
     font-size: 3.3vw;
   }
+  
+ 
+}
+
+@media (max-width: 450px) { 
+
+  // .navbar-content-wrapper { 
+  //   gap: 0;
+  // }
+
+  // .title-logo-container { 
+  //   gap: 1em;
+  // }
+
+  .title-subtitle-container h1 { 
+    font-size: 1.6rem;
+  }
+  
+  .title-subtitle-container h3 { 
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .title-subtitle-container img { 
+    width: 3em;
+  }
+
+ 
+
+}
+
+@media (max-width: 370px) { 
+  .title-subtitle-container h1 { 
+    font-size: 1.4rem;
+  }
+
+  .title-subtitle-container h3 { 
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  
 }

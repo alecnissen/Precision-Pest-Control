@@ -66,14 +66,15 @@ export default function Navbar() {
           <div className="dropdown-for-stinging-pests">
             <div className="stinging-pests-dropdown-icon-container">
               <a href="">Stinging Pests</a>
-              <img src={arrowRightIcon}></img>
+              {/* <img src={arrowRightIcon}></img> */}
             </div>
 
-            <div className="content-for-stinging-pests">
+            {/* <div className="content-for-stinging-pests">
               <a href="">Yellow Jackets</a>
               <a href="">European Hornets</a>
               <a href="">Bald Faced Hornets</a>
-            </div>
+            </div> */}
+
           </div>
 
           <a href="">Termites</a>
@@ -81,13 +82,16 @@ export default function Navbar() {
           <div className="dropdown-for-other-pests">
             <div className="other-pests-dropdown-icon-container">
               <a href="">Other</a>
-              <img src={arrowRightIcon}></img>
+              {/* <img src={arrowRightIcon}></img> */}
             </div>
 
-            <div className="content-for-other-pests">
+            {/* <div className="content-for-other-pests">
               <a href="">Stick Bugs</a>
               <a href="">Lady Bugs</a>
-            </div>
+            </div> */}
+
+
+
           </div>
         </div>
       </div>

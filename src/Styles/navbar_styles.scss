@@ -55,17 +55,6 @@
 }
 
 
-// .navbar-content-wrapper .dropdown:nth-child(1),
-// .navbar-content-wrapper .dropdown:nth-child(2) {
-//   margin-right: auto;
-// }
-
-// /* Adjust margin to push the last two buttons to the right */
-// .navbar-content-wrapper .dropdown:nth-last-child(1),
-// .navbar-content-wrapper .dropdown:nth-last-child(2) {
-//   margin-left: auto;
-// }
-
 
 
 
@@ -148,6 +137,85 @@
 //   gap: 3em;
 // }
 
+
+
+
+
+@media (max-width: 1455px) { 
+  .title-subtitle-container h1 { 
+    font-size: 3rem;
+  }
+  
+  .title-subtitle-container h3 { 
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .title-subtitle-container img { 
+    width: 6em;
+  }
+
+  .navbar-content-wrapper button { 
+    font-size: 1.2rem;
+  }
+
+  .navbar-button-container { 
+    gap: 2em;
+  }
+
+  // .navbar-content-wrapper { 
+  //   display: flex;
+  //   justify-content: flex-start;
+  // }
+}
+
+@media (max-width: 1250px) { 
+  .title-subtitle-container h1 { 
+    font-size: 2.5rem;
+  }
+  
+  .title-subtitle-container h3 { 
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .title-subtitle-container img { 
+    width: 4em;
+  }
+
+  .navbar-button-container { 
+    gap: 1em;
+  }
+}
+
+// @media (max-width: 1022px) { 
+//   .navbar-content-wrapper { 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//   }
+
+//   .title-subtitle-container img { 
+//     width: 5em;
+//   }
+
+//   .title-subtitle-container h1 { 
+//     font-size: 3rem;
+//   }
+  
+//   .title-subtitle-container h3 { 
+//     font-size: 1.5rem;
+//     text-align: center;
+//   }
+// }
+
+
+
+
+
+
+
 @media (max-width: 1030px) { 
   .dropdown .content {
     font-size: 1rem;
@@ -170,6 +238,41 @@
   
 
 }
+
+
+
+
+@media (max-width: 1022px) { 
+  .navbar-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-subtitle-container img { 
+    width: 5em;
+  }
+
+  .title-subtitle-container h1 { 
+    font-size: 3rem;
+  }
+  
+  .title-subtitle-container h3 { 
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 735px) {

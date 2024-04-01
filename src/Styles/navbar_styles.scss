@@ -1,6 +1,6 @@
 .navbar-content-wrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   gap: 3em;
   // background-color: darkblue;
   background-color: rgb(70, 8, 70);;
@@ -46,6 +46,12 @@
   background-color: rgb(70, 8, 70);
   color: white;
   font-weight: bold;
+}
+
+.navbar-button-container { 
+  display: flex;
+  align-items: flex-end;
+  gap: 3em;
 }
 
 

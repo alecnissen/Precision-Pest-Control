@@ -18,6 +18,7 @@ export default function Navbar() {
      <h3>We Got You Covered Philly!</h3>
     </div>
      
+     <div className='navbar-button-container'> 
       <div className="dropdown">
         <button>Services</button>
 
@@ -95,6 +96,10 @@ export default function Navbar() {
 
       <div className='dropdown'>
       <button>Contact</button>
+      </div>
+
+
+
       </div>
 
 

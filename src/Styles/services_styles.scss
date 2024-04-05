@@ -17,16 +17,37 @@
     gap: 1em;
 }
 
-.services-card-wrapper .card { 
+.service-card-styles { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 18em;
     border: 2px solid white;
     text-align: center;
+    border-radius: 5%;
 }
 
+.service-card-img { 
+    width: 15em;
+    border-radius: 5%;
+}
 
-.card img { 
-    width: 10em;
+.service-card-body { 
+    padding: 0.5em;
+    font-family: sans-serif;
+}
+
+.service-card-title-text { 
+    font-size: 1.4rem;
+    padding: 0.2em;
+} 
+
+.service-card-title-text,
+.service-card-body-text { 
+    font-family: sans-serif;
+}
+
+.service-card-learn-more-btn { 
+    padding: 0.2em;
 }

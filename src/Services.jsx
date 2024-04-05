@@ -15,17 +15,53 @@ export default function Services() {
 
     <div className='services-card-wrapper'> 
 
-    {/* <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={bedBugImg} />
-      <Card.Body>
-        <Card.Title>Bed Bugs</Card.Title>
-        <Card.Text>
+    <Card className='service-card-styles'>
+      <Card.Img variant="top" src={bedBugImg} className='service-card-img' />
+      <Card.Body className='service-card-body'>
+        <Card.Title className='service-card-title-text'>Bed Bugs</Card.Title>
+        <Card.Text className='service-card-body-text'>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">Learn More</Button>
+        <Button variant="primary" className='service-card-learn-more-btn'>Learn More</Button>
       </Card.Body>
-    </Card> */}
+    </Card>
+
+    <Card className='service-card-styles'>
+      <Card.Img variant="top" src={roachesImg} className='service-card-img' />
+      <Card.Body className='service-card-body'>
+        <Card.Title className='service-card-title-text'>Roaches</Card.Title>
+        <Card.Text className='service-card-body-text'>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary" className='service-card-learn-more-btn'>Learn More</Button>
+      </Card.Body>
+    </Card>
+
+    <Card className='service-card-styles'>
+      <Card.Img variant="top" src={termitesImg} className='service-card-img' />
+      <Card.Body className='service-card-body'>
+        <Card.Title className='service-card-title-text'>Termites</Card.Title>
+        <Card.Text className='service-card-body-text'>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary" className='service-card-learn-more-btn'>Learn More</Button>
+      </Card.Body>
+    </Card>
+
+    <Card className='service-card-styles'>
+      <Card.Img variant="top" src={antImg} className='service-card-img' />
+      <Card.Body className='service-card-body'>
+        <Card.Title className='service-card-title-text'>Ants</Card.Title>
+        <Card.Text className='service-card-body-text'>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary" className='service-card-learn-more-btn'>Learn More</Button>
+      </Card.Body>
+    </Card>
 
     {/* <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={roachesImg} />

@@ -1,0 +1,23 @@
+.contact-form-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 8, 70);
+    color: white;
+    font-family: sans-serif;
+    padding-top: 2em;
+}
+
+
+
+
+.contact-label-input-pair-name { 
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-container { 
+    display: flex;
+    gap: 2em;
+}

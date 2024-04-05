@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import AboutUs from './AboutUs';
+import ContactForm from './ContactForm';
 import Header from './Header';
 import ImageTitleComponent from './ImageTitleComponent';
 import Navbar from './Navbar';
@@ -13,6 +14,7 @@ export default function App() {
     <ImageTitleComponent></ImageTitleComponent>
     <Services></Services>
     <AboutUs></AboutUs>
+    <ContactForm></ContactForm>
     </>
   );
 }

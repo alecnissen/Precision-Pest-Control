@@ -1,0 +1,22 @@
+.services-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 8, 70);
+    color: white;
+    font-family: sans-serif;
+}
+
+.services-content-wrapper h1 { 
+    font-size: 2rem;
+}
+
+.services-card-wrapper { 
+    display: flex;
+    gap: 1em;
+}
+
+.services-card-wrapper .card { 
+    border: 2px solid white;
+}

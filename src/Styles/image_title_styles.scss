@@ -44,6 +44,11 @@
     line-height: 1.5;
   }
 
+  .description-container h1 { 
+    color: rgb(218, 205, 205);
+    z-index: 100;
+  }
+
   .description-container button { 
     z-index: 100;
     font-size: 2rem;

@@ -18,5 +18,15 @@
 }
 
 .services-card-wrapper .card { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 2px solid white;
+    text-align: center;
+}
+
+
+.card img { 
+    width: 10em;
 }

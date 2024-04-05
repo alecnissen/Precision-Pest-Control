@@ -42,6 +42,7 @@
     margin: 0 auto;
     text-align: center;
     line-height: 1.5;
+    padding: 0.5em;
   }
 
   .description-container h1 { 
@@ -70,10 +71,40 @@
 
 
 
+@media (max-width: 1030px) { 
+  .description-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2em;
+  }
+}
 
 
+@media (max-width: 1000px) { 
+  .description-container p,
+  .description-container button { 
+    font-size: 1.7rem;
+    // opacity: 0.8;
+  } 
+
+}
 
 
+@media (max-width: 700px) { 
+  .description-container p,
+  .description-container button { 
+    font-size: 1.2rem;
+  } 
+
+  .description-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 
 

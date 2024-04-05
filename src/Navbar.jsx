@@ -102,6 +102,10 @@ export default function Navbar() {
       <button>Contact</button>
       </div>
 
+      <div className='dropdown'>
+      <button>Reviews</button>
+      </div>
+
 
 
       </div>

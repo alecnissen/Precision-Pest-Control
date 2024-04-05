@@ -1,0 +1,17 @@
+.about-us-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 8, 70);
+    color: white;
+    font-family: sans-serif;
+    padding-top: 2em;
+}
+
+.about-us-wrapper p { 
+    max-width: 45em;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}

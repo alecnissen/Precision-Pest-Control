@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import AboutUs from './AboutUs';
 import Header from './Header';
 import ImageTitleComponent from './ImageTitleComponent';
 import Navbar from './Navbar';
@@ -11,6 +12,7 @@ export default function App() {
     <Navbar></Navbar>
     <ImageTitleComponent></ImageTitleComponent>
     <Services></Services>
+    <AboutUs></AboutUs>
     </>
   );
 }

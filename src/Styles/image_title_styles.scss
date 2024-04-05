@@ -22,21 +22,35 @@
     background-color: rgba(0, 0, 0, 0.6); /* Adjust the alpha value (0.5 for 50% opacity) */
   }
 
-  .wrapper { 
+  .description-container { 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
   }
 
-  .wrapper p { 
+
+
+  .description-container p { 
     color: rgb(218, 205, 205);
     z-index: 100;
     font-size: 2rem;
     font-weight: bold;
-    // max-width: 55em;
+    max-width: 30em;
     margin: 0 auto;
     text-align: center;
+    line-height: 1.5;
+  }
+
+  .description-container button { 
+    z-index: 100;
+    font-size: 2rem;
+    border-radius: 5%;
+    border: none;
+    padding: 0.2em;
+    font-family: sans-serif;
   }
 
 

@@ -15,6 +15,14 @@
 .services-card-wrapper { 
     display: flex;
     gap: 1em;
+    flex-wrap: wrap;
+} 
+
+.service-card-set-1,
+.service-card-set-2 { 
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
 }
 
 .service-card-styles { 
@@ -22,14 +30,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 18em;
-    border: 2px solid white;
+    width: 16em;
+    border: 1px solid white;
     text-align: center;
     border-radius: 5%;
 }
 
 .service-card-img { 
-    width: 15em;
+    // width: 15em;
+    width: 100%;
     border-radius: 5%;
 }
 
@@ -39,7 +48,7 @@
 }
 
 .service-card-title-text { 
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     padding: 0.2em;
 } 
 
@@ -50,4 +59,41 @@
 
 .service-card-learn-more-btn { 
     padding: 0.2em;
+    border-radius: 5%;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.service-card-learn-more-btn:hover { 
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) { 
+    .services-card-wrapper { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) { 
+    .services-card-wrapper { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .service-card-set-1,
+    .service-card-set-2 { 
+        display: flex;
+        justify-content: center;
+    }
+
+    // .services-content-wrapper { 
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
 }

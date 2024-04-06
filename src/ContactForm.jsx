@@ -8,6 +8,7 @@ export default function ContactForm() {
 
         <div className='contact-form-container'>
 
+
         <div className='contact-label-input-pair-name'>
        <label>Name</label>
        <input></input>
@@ -23,13 +24,20 @@ export default function ContactForm() {
        <input></input>
        </div>
 
+
+
+
+
+
+
        </div>
 
-       <div className='contact-label-input-pair-name'>
+       <div className='contact-label-input-pair-name message-container'>
        <label>Message</label>
        <textarea></textarea>
        </div>
 
+       <button>Send Message</button>
 
 
 

@@ -12,6 +12,8 @@ export default function Footer() {
         <div className='footer-logo-title-container'> 
             <img src={ppsLogo}></img>
             <h1>Prodigy Pest Solutions</h1>
+            <h3>267-603-1811</h3>
+            <h3>matt@prodigypestsolutions.com</h3>
         </div>
 
         <div className='footer-links-container'> 

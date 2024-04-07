@@ -3,8 +3,10 @@
   justify-content: space-around;
   gap: 3em;
   // background-color: darkblue;
-  background-color: rgb(44, 28, 44);
+  // background-color: rgb(44, 28, 44);
+  background-color: lightgrey;
   padding: 0.5em;
+  
   // border-bottom: 2px solid white;
 }
 
@@ -14,18 +16,23 @@
 }
 
 .title-subtitle-container { 
-  color: white;
+  // color: white;
+  // color: rgb(44, 28, 44);
   // font-family: sans-serif;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .title-subtitle-container h1 { 
   font-size: 4rem;
+  color: purple;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .title-subtitle-container h3 { 
   font-size: 2rem;
   text-align: center;
+  color: purple;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .title-logo-container { 
@@ -45,8 +52,9 @@
   border: none;
   // background-color: darkblue;
   // background-color: rgb(70, 8, 70);
-  background-color: rgb(44, 28, 44);
-  color: white;
+  // background-color: rgb(44, 28, 44);
+  background: none;
+  color: purple;
   font-weight: bold;
 }
 
@@ -342,6 +350,8 @@
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
     border: 2px solid black;
   }
+
+  
   
 
 }
@@ -399,6 +409,9 @@
     font-size: 1.2rem;
     text-align: center;
   }
+
+
+
 }
 
 
@@ -465,7 +478,7 @@
   }
 
   .navbar-content-wrapper button {
-    font-size: 3.3vw;
+    font-size: 4vw;
   }
   
  

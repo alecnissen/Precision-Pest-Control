@@ -11,7 +11,7 @@ export default function ImageTitleComponent() {
           a quick and reliable solution to your pest concerns. If you are looking for the best bed bug exterminator in
           the Delaware Valley, you’ve come to the right place!
         </p>
-        <button>Contact</button>
+        {/* <button>Contact</button> */}
       </div>
     </div>
   );

@@ -1,12 +1,14 @@
 .footer-content-wrapper { 
     display: flex;
     // flex-direction: column; /* Change to column layout */
-    justify-content: space-between; /* Center vertically */
+    justify-content: space-evenly; /* Center vertically */
     align-items: center; /* Center horizontally */
     // background-color: rgb(70, 8, 70);
-    background-color: rgb(44, 28, 44);
-    color: white;
-    font-family: sans-serif;
+    // background-color: rgb(44, 28, 44);
+    background-color: lightgray;
+    
+    color: purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 2em;
 }
 
@@ -31,7 +33,7 @@
     align-items: center;
     gap: 2em;
     padding: 0.5em;
-    margin-right: 12em;
+    margin-right: 10em;
 }
 
 .icon-links-container { 

@@ -11,12 +11,9 @@ export default function App() {
 
   return (
     <>
-    <Navbar></Navbar>
+    {/* <Navbar></Navbar>
     <ImageTitleComponent></ImageTitleComponent>
-    {/* <Services></Services>
-    <AboutUs></AboutUs>
-    <ContactForm></ContactForm> */}
-    <Footer></Footer>
+    <Footer></Footer> */}
     </>
   );
 }

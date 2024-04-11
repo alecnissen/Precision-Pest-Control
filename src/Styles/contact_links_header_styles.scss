@@ -1,0 +1,23 @@
+.contact-links-content-wrapper { 
+   display: flex;
+   justify-content: space-around;
+   background-color: gray;
+   padding: 0.5em;
+}
+
+.phone-email-hours-container { 
+    display: flex;
+    align-items: center;
+    gap: 1em;
+} 
+
+.social-media-icons-container { 
+    display: flex;
+    gap: 1em;
+}
+
+.social-media-icons-container img { 
+    width: 2em;
+}
+
+

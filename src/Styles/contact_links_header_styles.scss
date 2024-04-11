@@ -1,23 +1,61 @@
 .contact-links-content-wrapper { 
    display: flex;
    justify-content: space-around;
-   background-color: gray;
-   padding: 0.5em;
+   background-color: lightgrey;
+   padding: 0.3em;
+   color: gray;
+   
+}
+
+.contact-links-content-wrapper * { 
+    font-family: sans-serif;
 }
 
 .phone-email-hours-container { 
     display: flex;
     align-items: center;
-    gap: 1em;
+    // gap: 1em;
 } 
 
 .social-media-icons-container { 
     display: flex;
-    gap: 1em;
+    // gap: 1em;
 }
 
 .social-media-icons-container img { 
     width: 2em;
 }
 
+.phone-container-contact-header { 
+    padding: 0.5em;
+    border-left: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+}
+
+.email-container-contact-header { 
+    padding: 0.5em;
+    border-right: 2px solid darkgray;
+}
+
+
+.hours-container-contact-header { 
+    padding: 0.5em;
+    border-right: 2px solid darkgray;
+}
+
+.insta-icon-container-contact-header { 
+    padding: 0.3em;
+    border-left: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+}
+
+.fb-container-contact-header { 
+    padding: 0.3em;
+    border-right: 2px solid darkgray;
+}
+
+.linkedin-container-contact-header { 
+    padding: 0.3em;
+    border-right: 2px solid darkgray;
+}
 

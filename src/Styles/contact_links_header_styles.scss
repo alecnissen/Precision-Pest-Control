@@ -20,6 +20,7 @@
 .social-media-icons-container { 
     display: flex;
     // gap: 1em;
+    // padding: 0.5em;
 }
 
 .social-media-icons-container img { 
@@ -30,6 +31,7 @@
     display: flex;
     align-items: center;
     padding: 0.5em;
+    height: 100%;
     border-left: 2px solid darkgray;
     border-right: 2px solid darkgray;
 }
@@ -38,6 +40,7 @@
     display: flex;
     align-items: center;
     padding: 0.5em;
+    height: 100%;
     border-right: 2px solid darkgray;
 }
 
@@ -47,31 +50,56 @@
     align-items: center;
     padding: 0.5em;
     border-right: 2px solid darkgray;
+    height: 100%;
 }
 
 .insta-icon-container-contact-header { 
-    padding: 0.3em;
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
     border-left: 2px solid darkgray;
     border-right: 2px solid darkgray;
+    height: 100%;
 }
 
 .fb-container-contact-header { 
-    padding: 0.3em;
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
     border-right: 2px solid darkgray;
+    height: 100%;
 }
 
 .linkedin-container-contact-header { 
-    padding: 0.3em;
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
     border-right: 2px solid darkgray;
+    height: 100%;
 }
 
 
+@media (max-width: 800px) { 
+    .contact-links-content-wrapper * { 
+        font-size: 0.7rem;
+    } 
+}
 
-@media (max-width: 750px) { 
-    .contact-links-content-wrapper  { 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
+@media (max-width: 600px) { 
+    // .contact-links-content-wrapper  { 
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+
+
+    .phone-container-contact-header p,
+    .email-container-contact-header p,
+    .hours-container-contact-header p { 
+        display: none;
     }
+
+
 }

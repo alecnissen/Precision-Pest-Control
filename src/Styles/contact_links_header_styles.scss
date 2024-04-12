@@ -27,18 +27,24 @@
 }
 
 .phone-container-contact-header { 
+    display: flex;
+    align-items: center;
     padding: 0.5em;
     border-left: 2px solid darkgray;
     border-right: 2px solid darkgray;
 }
 
 .email-container-contact-header { 
+    display: flex;
+    align-items: center;
     padding: 0.5em;
     border-right: 2px solid darkgray;
 }
 
 
 .hours-container-contact-header { 
+    display: flex;
+    align-items: center;
     padding: 0.5em;
     border-right: 2px solid darkgray;
 }
@@ -59,3 +65,13 @@
     border-right: 2px solid darkgray;
 }
 
+
+
+@media (max-width: 750px) { 
+    .contact-links-content-wrapper  { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

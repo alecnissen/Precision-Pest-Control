@@ -1,6 +1,57 @@
 import React from 'react';
 import arrowRightIcon from '../assets/arrowright-svgrepo-com.svg';
 import ppsLogo from "../assets/PPS-logo.jpeg"
+import searchLogo from "../assets/search-svgrepo-com (1).svg"
+
+
+export default function Navbar() {
+  return (
+    <div className='navbar-content-wrapper'>
+
+    <div className='title-img-container-navbar'> 
+      <img src={ppsLogo}></img>
+      <h1>Prodigy Pest Solutions</h1>
+    </div>
+
+    <div className='navlinks-button-container-navbar'> 
+        <button>Services</button>
+        <button>Service Areas</button>
+        <button>PestId</button>
+        <button>Blog</button>
+        <button>Contact</button>
+        <img src={searchLogo} id="search-icon-navbar"></img>
+    </div>
+
+
+    </div>
+  )
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

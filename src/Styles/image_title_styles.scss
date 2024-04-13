@@ -1,119 +1,24 @@
-.image-title-content-wrapper { 
-    display: flex;
-    // background-color: darkblue;
-     // background-color: rgba(0, 0, 139, 0.2); /* Adjust the alpha value (0.5 for 50% opacity) */
-    position: relative;
-    height: 80vh;
-    background-image: url('../assets/dan-mall-PORWKRAI55U-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-}
-
-
-
-.image-title-content-wrapper::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); /* Adjust the alpha value (0.5 for 50% opacity) */
-  }
-
-  .description-container { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-
-
-  .description-container p { 
-    color: rgb(218, 205, 205);
-    z-index: 100;
-    font-size: 2rem;
-    font-weight: bold;
-    max-width: 30em;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 1.5;
-    padding: 0.5em;
-  }
-
-  .description-container h1 { 
-    color: rgb(218, 205, 205);
-    z-index: 100;
-  }
-
-  .description-container button { 
-    z-index: 100;
-    font-size: 2rem;
-    border-radius: 5%;
-    border: none;
-    padding: 0.2em;
-    font-family: sans-serif;
-  }
-
-
-// .main-title-img-container { 
-//     background-color: darkblue;
-//     height: 80vh;
-//     background-image: url('../assets/dan-mall-HL4LuaElk2I-unsplash.jpg');
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     background-position: 50%;
+// .image-title-component-wrapper { 
+//   background-image: url('../assets/portrait-professional-exterminator-holding-sprayer-with-chemicals-pest-control.jpg');
+  
+//   background-size: contain;
 // }
 
-
-
-@media (max-width: 1030px) { 
-  .description-container { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
-  }
-
-
-  .image-title-content-wrapper { 
-    background-size: 60vh;
-    
-  }
-
-
-
+.image-title-component-wrapper img { 
+  width: 100%;
+  height: 100%;
 }
 
 
-@media (max-width: 1000px) { 
-  .description-container p,
-  .description-container button { 
-    font-size: 1.7rem;
-    // opacity: 0.8;
-  } 
-
-}
 
 
-@media (max-width: 700px) { 
-  .description-container p,
-  .description-container button { 
-    font-size: 1.2rem;
-  } 
 
-  .description-container { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
+
+
+
+
+
+
 
 
 

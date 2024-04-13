@@ -1,40 +1,569 @@
-.navbar-content-wrapper { 
+// .navbar-content-wrapper { 
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+//   padding: 1em;
+ 
+// }
+
+// .navbar-content-wrapper * { 
+//   font-family: sans-serif;
+// }
+
+// .title-img-container-navbar h1 { 
+//   font-size: 2.5rem;
+// }
+
+
+// .title-img-container-navbar { 
+//   display: flex;
+//   align-items: center;
+// }
+
+// .title-img-container-navbar img { 
+//   width: 5em;
+// }
+
+// .navlinks-button-container-navbar { 
+//   display: flex;
+//   gap: 1.5em;
+// }
+
+// .navlinks-button-container-navbar button { 
+//   font-size: 1.2rem;
+//   border: none;
+//   background-color: white;
+// }
+
+// .search-icon-navbar { 
+//   width: 5em;
+// }
+
+
+
+.navbar-content-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1em;
+  gap: 3em;
+  // background-color: darkblue;
+  // background-color: rgb(44, 28, 44);
+  background-color: lightgrey;
+  padding: 0.5em;
+  
+  // border-bottom: 2px solid white;
+}
+
+.title-subtitle-container { 
+  display: flex;
+  flex-direction: column;
+}
+
+.title-subtitle-container { 
+  // color: white;
+  // color: rgb(44, 28, 44);
+  // font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title-subtitle-container h1 { 
+  font-size: 4rem;
+  color: purple;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title-subtitle-container h3 { 
+  font-size: 2rem;
+  text-align: center;
+  color: purple;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title-logo-container { 
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.title-subtitle-container img { 
+  width: 8em;
+  border-radius: 5%;
+  border: 2px solid purple;
+}
+
+.navbar-content-wrapper button {
+  font-size: 1.4rem;
+  border: none;
+  // background-color: darkblue;
+  // background-color: rgb(70, 8, 70);
+  // background-color: rgb(44, 28, 44);
+  background: none;
+  color: purple;
+  font-weight: bold;
+}
+
+.navbar-button-container { 
+  display: flex;
+  align-items: flex-end;
+  gap: 3em;
+}
+
+
+
+
+
+.dropdown {
+  display: block;
+
+  // position: relative;
+}
+
+.dropdown a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.dropdown .content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
+  border: 2px solid black;
+}
+
+.dropdown:hover .content {
+  display: block;
+  z-index: 200;
+}
+
+.dropdown a:hover {
+  color: red;
+}
+
+.content a {
+  font-family: sans-serif;
+  // text-align: center;
+}
+
+/* apply the same content here for other */
+
+.dropdown .dropdown-for-stinging-pests .content-for-stinging-pests {
+  display: none;
+  position: absolute;
+  top: 62.5%;
+  left: 100%;
+  background-color: white;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
+  border: 2px solid black;
+}
+
+.dropdown .dropdown-for-stinging-pests:hover .content-for-stinging-pests {
+  display: block;
+}
+
+.stinging-pests-dropdown-icon-container,
+.other-pests-dropdown-icon-container {
+  display: flex;
+}
+
+.dropdown .dropdown-for-other-pests .content-for-other-pests {
+  display: none;
+  position: absolute;
+  top: 77%;
+  left: 100%;
+  background-color: white;
+  min-width: 80px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
+  border: 2px solid black;
+}
+
+.dropdown .dropdown-for-other-pests:hover .content-for-other-pests {
+  display: block;
+}
+
+// .pestID-contact-container { 
+//   display: flex;
+//   justify-content: flex-end;
+//   gap: 3em;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+// media queries start here 
+
+
+@media (max-width: 1600px) { 
+  .title-subtitle-container h1 { 
+    font-size: 3rem;
+  }
+  
+  .title-subtitle-container h3 { 
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .title-subtitle-container img { 
+    width: 6em;
+  }
+
+  .navbar-content-wrapper button { 
+    font-size: 1.2rem;
+  }
+
+  .navbar-button-container { 
+    gap: 2em;
+  }
+
+
+  .dropdown .content {
+    font-size: 1rem;
+  }
+
+  .dropdown a {
+    padding: 6px;
+  }
+
+  .dropdown .dropdown-for-other-pests .content-for-other-pests {
+    display: none;
+    position: absolute;
+    top: 75%;
+    left: 100%;
+    background-color: white;
+    min-width: 80px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
+    border: 2px solid black;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+// @media (max-width: 1455px) { 
+//   .title-subtitle-container h1 { 
+//     font-size: 3rem;
+//   }
+  
+//   .title-subtitle-container h3 { 
+//     font-size: 1.5rem;
+//     text-align: center;
+//   }
+
+//   .title-subtitle-container img { 
+//     width: 6em;
+//   }
+
+//   .navbar-content-wrapper button { 
+//     font-size: 1.2rem;
+//   }
+
+//   .navbar-button-container { 
+//     gap: 2em;
+//   }
+
+
+//   .dropdown .content {
+//     font-size: 1rem;
+//   }
+
+//   .dropdown a {
+//     padding: 6px;
+//   }
+
+//   .dropdown .dropdown-for-other-pests .content-for-other-pests {
+//     display: none;
+//     position: absolute;
+//     top: 75%;
+//     left: 100%;
+//     background-color: white;
+//     min-width: 80px;
+//     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
+//     border: 2px solid black;
+//   }
+
+
+
+// }
+
+@media (max-width: 1250px) { 
+  .title-subtitle-container h1 { 
+    font-size: 2.5rem;
+  }
+  
+  .title-subtitle-container h3 { 
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .title-subtitle-container img { 
+    width: 4em;
+  }
+
+  .navbar-button-container { 
+    gap: 1em;
+  }
+}
+
+// @media (max-width: 1022px) { 
+//   .navbar-content-wrapper { 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//   }
+
+//   .title-subtitle-container img { 
+//     width: 5em;
+//   }
+
+//   .title-subtitle-container h1 { 
+//     font-size: 3rem;
+//   }
+  
+//   .title-subtitle-container h3 { 
+//     font-size: 1.5rem;
+//     text-align: center;
+//   }
+// }
+
+
+
+
+@media (max-width: 1070px) { 
+  .navbar-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-subtitle-container img { 
+    width: 5em;
+  }
+
+  .title-subtitle-container h1 { 
+    font-size: 3.5rem;
+  }
+  
+  .title-subtitle-container h3 { 
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+
+
+
+
+@media (max-width: 1030px) { 
+  .dropdown .content {
+    font-size: 1rem;
+  }
+
+  .dropdown a {
+    padding: 6px;
+  }
+
+  .dropdown .dropdown-for-other-pests .content-for-other-pests {
+    display: none;
+    position: absolute;
+    top: 75%;
+    left: 100%;
+    background-color: white;
+    min-width: 80px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
+    border: 2px solid black;
+  }
+
+  
+  
+
+}
+
+
+
+
+// @media (max-width: 1030px) { 
+//   .navbar-content-wrapper { 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//   }
+
+//   .title-subtitle-container img { 
+//     width: 5em;
+//   }
+
+//   .title-subtitle-container h1 { 
+//     font-size: 3.5rem;
+//   }
+  
+//   .title-subtitle-container h3 { 
+//     font-size: 1.8rem;
+//     text-align: center;
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 735px) {
+  .navbar-content-wrapper {
+    gap: 1em;
+  }
+
+  .navbar-content-wrapper button {
+    font-size: 0.9rem;
+  }
+
+  .title-subtitle-container h1 { 
+    font-size: 2.5rem;
+  }
+  
+  .title-subtitle-container h3 { 
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+
+
+}
+
+
+@media (max-width: 710px) { 
+  .dropdown .content {
+    font-size: 0.8rem;
+  }
+
+  .dropdown .dropdown-for-stinging-pests .content-for-stinging-pests {
+    position: absolute;
+    top: 63%;
+    left: 75%;
+    min-width: 50px;
+  }
+
+  .dropdown .dropdown-for-other-pests .content-for-other-pests {
+    position: absolute;
+    top: 92%;
+    left: 35%;
+  }
+
+  .dropdown a {
+    padding: 4px;
+  }
+}
+
+@media (max-width: 555px) { 
+  .title-subtitle-container h1 { 
+    font-size: 2rem;
+  }
+  
+  .title-subtitle-container h3 { 
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .title-subtitle-container img { 
+    width: 4em;
+  }
+
+}
+
+
+@media (max-width: 530px) {
+  .dropdown .content {
+    font-size: 0.7rem;
+  }
+
+  .dropdown .dropdown-for-stinging-pests .content-for-stinging-pests {
+    position: absolute;
+    top: 63%;
+    left: 70%;
+    min-width: 60px;
+  }
+
+  .dropdown .dropdown-for-other-pests .content-for-other-pests {
+    position: absolute;
+    top: 90%;
+    left: 35%;
+  }
+
+  .dropdown a {
+    padding: 4px;
+  }
+
+  .navbar-content-wrapper button {
+    // font-size: 4vw;
+    font-size: 3.3vw;
+  }
+  
  
 }
 
-.navbar-content-wrapper * { 
-  font-family: sans-serif;
+@media (max-width: 450px) { 
+
+  // .navbar-content-wrapper { 
+  //   gap: 0;
+  // }
+
+  // .title-logo-container { 
+  //   gap: 1em;
+  // }
+
+  .title-subtitle-container h1 { 
+    font-size: 1.6rem;
+  }
+  
+  .title-subtitle-container h3 { 
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .title-subtitle-container img { 
+    width: 3em;
+  }
+
+ 
+
 }
 
-.title-img-container-navbar h1 { 
-  font-size: 2.5rem;
-}
+@media (max-width: 370px) { 
+  .title-subtitle-container h1 { 
+    font-size: 1.4rem;
+  }
 
-
-.title-img-container-navbar { 
-  display: flex;
-  align-items: center;
-}
-
-.title-img-container-navbar img { 
-  width: 5em;
-}
-
-.navlinks-button-container-navbar { 
-  display: flex;
-  gap: 1.5em;
-}
-
-.navlinks-button-container-navbar button { 
-  font-size: 1.2rem;
-  border: none;
-  background-color: white;
-}
-
-.search-icon-navbar { 
-  width: 5em;
+  .title-subtitle-container h3 { 
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  
 }

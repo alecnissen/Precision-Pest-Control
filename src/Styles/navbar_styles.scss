@@ -93,7 +93,7 @@
 }
 
 .navbar-content-wrapper button {
-  font-size: 1.4rem;
+  font-size: 1rem;
   border: none;
   // background-color: darkblue;
   // background-color: rgb(70, 8, 70);
@@ -108,7 +108,7 @@
 .navbar-button-container { 
   display: flex;
   align-items: flex-end;
-  gap: 3em;
+  gap: 2em;
 }
 
 
@@ -188,385 +188,62 @@
   display: block;
 }
 
-// .pestID-contact-container { 
-//   display: flex;
-//   justify-content: flex-end;
-//   gap: 3em;
-// }
+.hamburger-menu-icon-navbar { 
+  display: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-// media queries start here 
-
-
-@media (max-width: 1600px) { 
-  .title-subtitle-container h1 { 
-    font-size: 3rem;
-  }
-  
-  .title-subtitle-container h3 { 
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  .title-subtitle-container img { 
-    width: 6em;
-  }
-
-  .navbar-content-wrapper button { 
-    font-size: 1.2rem;
-  }
-
-  .navbar-button-container { 
-    gap: 2em;
-  }
-
-
-  .dropdown .content {
-    font-size: 1rem;
-  }
-
-  .dropdown a {
-    padding: 6px;
-  }
-
-  .dropdown .dropdown-for-other-pests .content-for-other-pests {
-    display: none;
-    position: absolute;
-    top: 75%;
-    left: 100%;
-    background-color: white;
-    min-width: 80px;
-    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
-    border: 2px solid black;
-  }
-
-
-
+.search-hamburger-icon-container { 
+  display: flex;
+  align-items: center;
 }
 
 
 
 
 
+@media (max-width: 1120px) { 
+  // .navbar-button-container { 
+  //   display: none;
+  // }
 
-
-
-
-// @media (max-width: 1455px) { 
-//   .title-subtitle-container h1 { 
-//     font-size: 3rem;
-//   }
-  
-//   .title-subtitle-container h3 { 
-//     font-size: 1.5rem;
-//     text-align: center;
-//   }
-
-//   .title-subtitle-container img { 
-//     width: 6em;
-//   }
-
-//   .navbar-content-wrapper button { 
-//     font-size: 1.2rem;
-//   }
-
-//   .navbar-button-container { 
-//     gap: 2em;
-//   }
-
-
-//   .dropdown .content {
-//     font-size: 1rem;
-//   }
-
-//   .dropdown a {
-//     padding: 6px;
-//   }
-
-//   .dropdown .dropdown-for-other-pests .content-for-other-pests {
-//     display: none;
-//     position: absolute;
-//     top: 75%;
-//     left: 100%;
-//     background-color: white;
-//     min-width: 80px;
-//     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
-//     border: 2px solid black;
-//   }
-
-
-
-// }
-
-@media (max-width: 1250px) { 
-  .title-subtitle-container h1 { 
-    font-size: 2.5rem;
-  }
-  
-  .title-subtitle-container h3 { 
-    font-size: 1.3rem;
-    text-align: center;
-  }
-
-  .title-subtitle-container img { 
-    width: 4em;
-  }
-
-  .navbar-button-container { 
-    gap: 1em;
-  }
-}
-
-// @media (max-width: 1022px) { 
-//   .navbar-content-wrapper { 
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//   }
-
-//   .title-subtitle-container img { 
-//     width: 5em;
-//   }
-
-//   .title-subtitle-container h1 { 
-//     font-size: 3rem;
-//   }
-  
-//   .title-subtitle-container h3 { 
-//     font-size: 1.5rem;
-//     text-align: center;
-//   }
-// }
-
-
-
-
-@media (max-width: 1070px) { 
-  .navbar-content-wrapper { 
+  .search-hamburger-icon-container { 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-  }
-
-  .title-subtitle-container img { 
-    width: 5em;
-  }
-
-  .title-subtitle-container h1 { 
-    font-size: 3.5rem;
-  }
-  
-  .title-subtitle-container h3 { 
-    font-size: 1.8rem;
-    text-align: center;
-  }
-}
-
-
-
-
-
-@media (max-width: 1030px) { 
-  .dropdown .content {
-    font-size: 1rem;
-  }
-
-  .dropdown a {
-    padding: 6px;
-  }
-
-  .dropdown .dropdown-for-other-pests .content-for-other-pests {
-    display: none;
-    position: absolute;
-    top: 75%;
-    left: 100%;
-    background-color: white;
-    min-width: 80px;
-    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
-    border: 2px solid black;
-  }
-
-  
-  
-
-}
-
-
-
-
-// @media (max-width: 1030px) { 
-//   .navbar-content-wrapper { 
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//   }
-
-//   .title-subtitle-container img { 
-//     width: 5em;
-//   }
-
-//   .title-subtitle-container h1 { 
-//     font-size: 3.5rem;
-//   }
-  
-//   .title-subtitle-container h3 { 
-//     font-size: 1.8rem;
-//     text-align: center;
-//   }
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 735px) {
-  .navbar-content-wrapper {
     gap: 1em;
   }
 
-  .navbar-content-wrapper button {
-    font-size: 0.9rem;
+  .dropdown { 
+    display: none;
   }
 
-  .title-subtitle-container h1 { 
-    font-size: 2.5rem;
+  .hamburger-menu-icon-navbar { 
+    display: block;
+    visibility: visible;
   }
+
   
-  .title-subtitle-container h3 { 
-    font-size: 1.2rem;
-    text-align: center;
-  }
-
-
-
 }
 
-
-@media (max-width: 710px) { 
-  .dropdown .content {
-    font-size: 0.8rem;
-  }
-
-  .dropdown .dropdown-for-stinging-pests .content-for-stinging-pests {
-    position: absolute;
-    top: 63%;
-    left: 75%;
-    min-width: 50px;
-  }
-
-  .dropdown .dropdown-for-other-pests .content-for-other-pests {
-    position: absolute;
-    top: 92%;
-    left: 35%;
-  }
-
-  .dropdown a {
-    padding: 4px;
-  }
-}
-
-@media (max-width: 555px) { 
+@media (max-width: 680px) { 
   .title-subtitle-container h1 { 
-    font-size: 2rem;
-  }
-  
-  .title-subtitle-container h3 { 
-    font-size: 1rem;
-    text-align: center;
+    // font-size: 1.5rem;
+    display: none;
   }
 
   .title-subtitle-container img { 
     width: 4em;
   }
-
 }
 
-
-@media (max-width: 530px) {
-  .dropdown .content {
-    font-size: 0.7rem;
-  }
-
-  .dropdown .dropdown-for-stinging-pests .content-for-stinging-pests {
-    position: absolute;
-    top: 63%;
-    left: 70%;
-    min-width: 60px;
-  }
-
-  .dropdown .dropdown-for-other-pests .content-for-other-pests {
-    position: absolute;
-    top: 90%;
-    left: 35%;
-  }
-
-  .dropdown a {
-    padding: 4px;
-  }
-
-  .navbar-content-wrapper button {
-    // font-size: 4vw;
-    font-size: 3.3vw;
-  }
-  
- 
-}
-
-@media (max-width: 450px) { 
-
-  // .navbar-content-wrapper { 
-  //   gap: 0;
-  // }
-
-  // .title-logo-container { 
-  //   gap: 1em;
-  // }
-
+@media (max-width: 505px) { 
   .title-subtitle-container h1 { 
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
-  
-  .title-subtitle-container h3 { 
-    font-size: 0.9rem;
-    text-align: center;
-  }
-
-  .title-subtitle-container img { 
-    width: 3em;
-  }
-
- 
-
 }
 
-@media (max-width: 370px) { 
-  .title-subtitle-container h1 { 
-    font-size: 1.4rem;
-  }
 
-  .title-subtitle-container h3 { 
-    font-size: 0.7rem;
-    text-align: center;
-  }
-  
-}
+
+
+
+
+

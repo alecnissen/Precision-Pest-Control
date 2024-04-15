@@ -1,7 +1,8 @@
 import React from 'react';
 import arrowRightIcon from '../assets/arrowright-svgrepo-com.svg';
-import ppsLogo from "../assets/PPS-logo.jpeg"
-import searchLogo from "../assets/search-svgrepo-com (1).svg"
+import ppsLogo from "../assets/PPS-logo.jpeg";
+import searchLogo from "../assets/search-svgrepo-com (1).svg";
+import hamburgerLogo from "../assets/hamburger-menu-svgrepo-com.svg"
 
 
 // export default function Navbar() {
@@ -157,8 +158,14 @@ export default function Navbar() {
       <button>Reviews</button>
       </div>
 
+        
 
-      <img src={searchLogo}></img>
+
+      <div className='search-hamburger-icon-container'>
+      <img src={searchLogo} className="search-icon-navbar"></img>
+      <img src={hamburgerLogo} className="hamburger-menu-icon-navbar"></img>
+      </div>
+
 
       </div>
 

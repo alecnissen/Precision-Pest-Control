@@ -26,7 +26,7 @@
 
 .image-title-component-wrapper * { 
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: bold;
   font-style: normal;
 
 }
@@ -66,12 +66,99 @@
 }
 
 
+.discover-more-btn-container { 
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em;
+}
+
+.discover-more-btn-container button { 
+  background-color: yellow;
+  border: none;
+  border-radius: 5%;
+  font-size: 1.5rem;
+  padding: 0.5em;
+}
 
 
 
 
 
+@media (max-width: 1330px) { 
+  .image-title-component-wrapper { 
+    padding: 6em;
+    height: auto;
+  }
 
+  .image-title-component-wrapper h1 { 
+    font-size: 3rem;
+  }
+
+  .check-marks-features h3  { 
+    font-size: 0.8rem;
+  }
+
+  .discover-more-btn-container button { 
+    font-size: 1rem;
+  }
+}
+
+
+
+
+@media (max-width: 640px) { 
+
+  //  .image-title-component-wrapper { 
+  //   padding: 5em;
+  // }
+
+  // .image-title-component-wrapper { 
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+
+  .image-title-component-wrapper { 
+    padding: 4em;
+  }
+
+  .image-title-component-wrapper h1 { 
+    max-width: 9em;
+    // text-align: center;
+    padding-bottom: 0.5em;
+  }
+
+
+  .check-marks-features { 
+    display: flex;
+    flex-direction: column;
+    gap: 0em;
+  }
+
+  .image-title-component-wrapper h1 { 
+    font-size: 2.2rem;
+  } 
+
+
+}
+
+@media (max-width: 442px) { 
+  .image-title-component-wrapper h1 { 
+    font-size: 1.8rem;
+  } 
+
+
+  .image-title-component-wrapper { 
+    padding: 3em;
+  }
+}
+
+@media (max-width: 352px) { 
+  .image-title-component-wrapper h1 { 
+    font-size: 1.5rem;
+  } 
+}
 
 
 

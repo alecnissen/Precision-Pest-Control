@@ -35,6 +35,10 @@ export default function ImageTitleComponent() {
           <h3>Licensed and Insured</h3>
           </div>
 
+      </div> 
+
+      <div className='discover-more-btn-container'>
+      <button>Discover More</button>
       </div>
 
     </div>

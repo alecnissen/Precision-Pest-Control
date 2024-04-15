@@ -4,13 +4,33 @@
 //   background-size: contain;
 // }
 
-.image-title-component-wrapper img { 
+// .image-title-component-wrapper img { 
+//   width: 100%;
+//   height: 100%;
+// }
+
+
+
+.image-title-component-wrapper { 
+  height: 80vh;
   width: 100%;
-  height: 100%;
+  background-image: url('../assets/hero-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10em;
+}
+
+.image-title-component-wrapper * { 
+  font-family: sans-serif;
 }
 
 
-
+.image-title-component-wrapper h1 { 
+  font-size: 4rem;
+  max-width: 8em;
+  color: white;
+  
+}
 
 
 

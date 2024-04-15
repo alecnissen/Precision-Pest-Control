@@ -1,7 +1,7 @@
 .contact-links-content-wrapper { 
    display: flex;
-   justify-content: space-around;
-   background-color: lightgrey;
+   justify-content: space-between;
+   background-color: rgb(37, 1, 37);
    padding: 0.3em;
    color: gray;
    border-bottom: 2px solid darkgray;
@@ -15,6 +15,7 @@
 .phone-email-hours-container { 
     display: flex;
     align-items: center;
+    color: white;
     // gap: 1em;
 } 
 
@@ -26,6 +27,7 @@
 
 .social-media-icons-container img { 
     width: 2em;
+    
 }
 
 .phone-container-contact-header { 

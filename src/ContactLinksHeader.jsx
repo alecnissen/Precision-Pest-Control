@@ -1,8 +1,8 @@
 import React from 'react';
 import phoneIcon from '../assets/telephone-receiver-material-svgrepo-com.svg';
-import instaIcon from '../assets/instagram-logo-facebook-2-svgrepo-com (1).svg';
-import fbIcon from '../assets/fb-logo.svg';
-import linkedinIcon from '../assets/linkedin-svgrepo-com (1).svg';
+import instaIcon from '../assets/larger-insta-icon.svg';
+import fbIcon from '../assets/larger-fb-logo.svg';
+import linkedinIcon from '../assets/linkedin-svgrepo-com (3).svg';
 // import phoneIcon from '../assets/telephone-svgrepo-com.svg';
 import emailLogo from "../assets/email-1-svgrepo-com.svg";
 import clockLogo from "../assets/clock-three-svgrepo-com.svg"

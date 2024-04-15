@@ -158,6 +158,7 @@ export default function Navbar() {
       </div>
 
 
+      <img src={searchLogo}></img>
 
       </div>
 

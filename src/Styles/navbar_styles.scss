@@ -48,7 +48,7 @@
   gap: 3em;
   // background-color: darkblue;
   // background-color: rgb(44, 28, 44);
-  background-color: lightgrey;
+  // background-color: rgb(2, 2, 49);
   padding: 0.5em;
   
   // border-bottom: 2px solid white;
@@ -63,13 +63,14 @@
   // color: white;
   // color: rgb(44, 28, 44);
   // font-family: sans-serif;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: sans-serif;
 }
 
 .title-subtitle-container h1 { 
-  font-size: 4rem;
-  color: purple;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  // font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
 }
 
 .title-subtitle-container h3 { 
@@ -86,9 +87,9 @@
 }
 
 .title-subtitle-container img { 
-  width: 8em;
+  width: 3em;
   border-radius: 5%;
-  border: 2px solid purple;
+  border: 2px solid black;
 }
 
 .navbar-content-wrapper button {
@@ -98,8 +99,10 @@
   // background-color: rgb(70, 8, 70);
   // background-color: rgb(44, 28, 44);
   background: none;
-  color: purple;
+  color: black;
+  // color: purple;
   font-weight: bold;
+  font-family: sans-serif;
 }
 
 .navbar-button-container { 

@@ -54,6 +54,12 @@
   // border-bottom: 2px solid white;
 }
 
+.navbar-content-wrapper * { 
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .title-subtitle-container { 
   display: flex;
   flex-direction: column;

@@ -1,0 +1,70 @@
+.modal-content {
+    display: block; /* Ensure the modal content is always visible */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px; /* Adjust width as needed */
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  @media (max-width: 1120px) {
+    .modal-content {
+      width: 200px; /* Adjust width for smaller screens */
+    }
+  } 
+
+
+
+
+
+// @media (max-width: 1120px) {
+//     .modal-content {
+//       display: block; /* Ensure the modal content is always visible */
+//       position: fixed;
+//       top: 0;
+//       left: 0;
+//       width: 100%; /* Adjust width as needed */
+//       height: 100%;
+//       background-color: white;
+//       z-index: 1000;
+//       overflow-y: auto;
+//       transition: transform 0.3s ease-in-out;
+//     }
+  
+//     .modal-content .navbar-button-container {
+//       display: flex;
+//       flex-direction: column; /* Display navbar buttons in a column */
+//       gap: 1rem; /* Adjust gap between navbar buttons */
+//       padding: 2rem; /* Add padding to the modal content */
+//     }
+  
+//     /* Adjust styles for navbar buttons within the modal */
+//     .modal-content .dropdown {
+//       display: block;
+//       /* Add other styles as needed */
+//     }
+//   }
+  
+  
+
+// .modal-content {
+//     display: block;
+//     position: fixed;
+//     top: 0;
+//     left: 0; /* Adjust left position to show modal content to the left side */
+//     width: 80%; /* Adjust width as needed */
+//     height: 100%;
+//     background-color: white;
+//     z-index: 1000;
+//     overflow-y: auto;
+//     transition: transform 0.3s ease-in-out;
+//     transform: translateX(-100%); /* Initially hide the modal content to the left */
+//   }
+  
+//   .modal-content.show {
+//     transform: translateX(0); /* Move modal content to the center when shown */
+//   }

@@ -9,7 +9,7 @@ export default function App() {
     <>
     <ContactLinksHeader></ContactLinksHeader>
     <Navbar></Navbar>
-    {/* <ImageTitleComponent></ImageTitleComponent> */}
+    <ImageTitleComponent></ImageTitleComponent>
     </>
   );
 }

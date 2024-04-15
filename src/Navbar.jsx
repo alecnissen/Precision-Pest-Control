@@ -2,31 +2,12 @@ import React from 'react';
 import arrowRightIcon from '../assets/arrowright-svgrepo-com.svg';
 import ppsLogo from "../assets/PPS-logo.jpeg";
 import searchLogo from "../assets/search-svgrepo-com (1).svg";
-import hamburgerLogo from "../assets/hamburger-menu-svgrepo-com.svg"
+import hamburgerLogo from "../assets/hamburger-menu-svgrepo-com.svg";
+import { useState } from 'react';
+import Modal from './Modal';
 
 
-// export default function Navbar() {
-//   return (
-//     <div className='navbar-content-wrapper'>
 
-//     <div className='title-img-container-navbar'> 
-//       <img src={ppsLogo}></img>
-//       <h1>Prodigy Pest Solutions</h1>
-//     </div>
-
-//     <div className='navlinks-button-container-navbar'> 
-//         <button>Services</button>
-//         <button>Service Areas</button>
-//         <button>PestId</button>
-//         <button>Blog</button>
-//         <button>Contact</button>
-//         <img src={searchLogo} id="search-icon-navbar"></img>
-//     </div>
-
-
-//     </div>
-//   )
-// }
 
 
 
@@ -57,6 +38,16 @@ import hamburgerLogo from "../assets/hamburger-menu-svgrepo-com.svg"
 
 
 export default function Navbar() {
+
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleModal = () => { 
+    setIsModalOpen(!isModalOpen);
+  }
+
+
+
   return (
     <div className="navbar-content-wrapper">
      
@@ -118,15 +109,9 @@ export default function Navbar() {
           <div className="dropdown-for-stinging-pests">
             <div className="stinging-pests-dropdown-icon-container">
               <a href="">Stinging Pests</a>
-              {/* <img src={arrowRightIcon}></img> */}
             </div>
 
-            {/* <div className="content-for-stinging-pests">
-              <a href="">Yellow Jackets</a>
-              <a href="">European Hornets</a>
-              <a href="">Bald Faced Hornets</a>
-            </div> */}
-
+        
           </div>
 
           <a href="">Termites</a>
@@ -134,21 +119,15 @@ export default function Navbar() {
           <div className="dropdown-for-other-pests">
             <div className="other-pests-dropdown-icon-container">
               <a href="">Other</a>
-              {/* <img src={arrowRightIcon}></img> */}
             </div>
 
-            {/* <div className="content-for-other-pests">
-              <a href="">Stick Bugs</a>
-              <a href="">Lady Bugs</a>
-            </div> */}
-
+         
 
 
           </div>
         </div>
       </div>
 
-      {/* <button>About Us</button> */}
 
       <div className='dropdown'>
       <button>Contact</button>
@@ -163,11 +142,18 @@ export default function Navbar() {
 
       <div className='search-hamburger-icon-container'>
       <img src={searchLogo} className="search-icon-navbar"></img>
-      <img src={hamburgerLogo} className="hamburger-menu-icon-navbar"></img>
+      <img src={hamburgerLogo} className="hamburger-menu-icon-navbar" onClick={toggleModal}></img>
       </div>
 
 
       </div>
+
+         {/* Modal */}
+      {isModalOpen && (
+        <Modal onClose={toggleModal} isOpen={isModalOpen}>
+          {/* Content of the modal, including all your navbar elements */}
+        </Modal>
+      )}
 
 
      

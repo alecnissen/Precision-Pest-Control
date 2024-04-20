@@ -1,4 +1,5 @@
 
+import AboutUsHomepage from './AboutUsHomepage';
 import ContactLinksHeader from './ContactLinksHeader';
 import ImageTitleComponent from './ImageTitleComponent';
 import InsectCards from './InsectCards';
@@ -12,6 +13,7 @@ export default function App() {
     <Navbar></Navbar>
     <ImageTitleComponent></ImageTitleComponent>
     <InsectCards></InsectCards>
+    <AboutUsHomepage></AboutUsHomepage>
     </>
   );
 }

@@ -1,6 +1,7 @@
 
 import ContactLinksHeader from './ContactLinksHeader';
 import ImageTitleComponent from './ImageTitleComponent';
+import InsectCards from './InsectCards';
 import Navbar from './Navbar';
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
     <ContactLinksHeader></ContactLinksHeader>
     <Navbar></Navbar>
     <ImageTitleComponent></ImageTitleComponent>
+    <InsectCards></InsectCards>
     </>
   );
 }

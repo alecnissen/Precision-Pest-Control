@@ -1,0 +1,41 @@
+.insect-cards-content-wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 1em;
+}
+
+.insect-cards-content-wrapper * { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+} 
+
+.insect-card { 
+    width: 10em;
+    height: auto;
+    // background-color: rgb(233, 215, 215);
+    background-color: rgb(195 193 223);
+    text-align: center;
+    padding: 1em;
+    border-radius: 5%;
+}
+
+.insect-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    padding: 1em;
+    // max-width: 40em;
+}
+
+
+
+@media (max-width: 1072px) { 
+    .insect-cards-container { 
+        max-width: 50em;
+    }
+}

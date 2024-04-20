@@ -8,7 +8,7 @@ export default function App() {
 
   return (
     <>
-    <ContactLinksHeader></ContactLinksHeader>
+    {/* <ContactLinksHeader></ContactLinksHeader> */}
     <Navbar></Navbar>
     <ImageTitleComponent></ImageTitleComponent>
     <InsectCards></InsectCards>

@@ -49,7 +49,11 @@
   // background-color: darkblue;
   // background-color: rgb(44, 28, 44);
   // background-color: rgb(2, 2, 49);
+  background-color: white;
+  width: 100%;
+
   padding: 0.5em;
+  position: fixed;
   
   // border-bottom: 2px solid white;
 }
@@ -196,15 +200,19 @@
 
 .hamburger-menu-icon-navbar { 
   display: none;
+  width: 2em;
 }
 
 .search-hamburger-icon-container { 
   display: flex;
   align-items: center;
+  
 }
 
 
-
+.search-icon-navbar { 
+  width: 1.5em;
+}
 
 
 @media (max-width: 1120px) { 
@@ -212,11 +220,20 @@
   //   display: none;
   // }
 
+  .navbar-content-wrapper { 
+    padding: 0.3em;
+  }
+
   .search-hamburger-icon-container { 
     display: flex;
     align-items: center;
     gap: 1em;
+    // width: 2em;
   }
+
+  // .search-icon-navbar { 
+  //   width: 1.5em;
+  // }
 
   .dropdown { 
     display: none;
@@ -225,6 +242,7 @@
   .hamburger-menu-icon-navbar { 
     display: block;
     visibility: visible;
+    // width: 2em;
   }
 
   
@@ -237,7 +255,7 @@
   }
 
   .title-subtitle-container img { 
-    width: 3em;
+    width: 2.3em;
   }
 }
 

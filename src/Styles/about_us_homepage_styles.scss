@@ -3,6 +3,7 @@
     justify-content: center;
     // justify-content: space-evenly;
     gap: 3em;
+    // background: linear-gradient(0.25turn, #eec041, #d3ffb6, #eea455);
 }
 
 // .about-us-homepage-content-wrapper * { 
@@ -10,8 +11,8 @@
 // }
 
 .pps-worker-img-1 { 
-    display: flex;
-    align-items: flex-start;
+    // display: flex;
+    // align-items: flex-start;
     width: 26em;
     height: 18em;
     border-radius: 5%;
@@ -52,7 +53,7 @@
 }
 
 .learn-more-btn-container button { 
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 0.5em;
     font-family: "Poppins", sans-serif;
     background-color: yellow;
@@ -125,13 +126,21 @@
 }
 
 .call-for-help-container p { 
-    font-size: 1rem;
-}
-
-.call-for-help-container h3 { 
     font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    // color: rgb(57, 181, 74);
+    
 }
 
+// .call-for-help-container h3 { 
+//     font-size: 1.2rem;
+// }
+
+.call-for-help-phone-num { 
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    color: rgb(57, 181, 74);
+}
 
 
 
@@ -173,6 +182,169 @@
     height: auto; 
 }
 
+@media (max-width: 1530px) { 
+
+   .about-us-homepage-content-wrapper { 
+    gap: 0;
+   }
 
 
+    .pps-worker-img-1 { 
+        width: 22em;
+        // height: 14em;
+    }
 
+    .pps-worker-img2 { 
+        width: 22em;
+    }
+}
+
+
+@media (max-width: 1400px) { 
+    .about-us-homepage-content-wrapper { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        gap: 0;
+    }
+
+    .pps-worker-img-1 { 
+        width: 27em;
+        height: 25em;
+    }
+
+    .pps-worker-img2 { 
+        width: 25em;
+    }
+
+
+}
+
+@media (max-width: 900px) { 
+    .pps-worker-img-1 { 
+        width: 20em;
+        height: 17em;
+    }
+
+    .pps-worker-img2 { 
+        width: 17em;
+    }
+}
+
+
+@media (max-width: 650px) { 
+    .pps-worker-img-1 { 
+        width: 14em;
+        height: 14em;
+    }
+
+    .pps-worker-img2 { 
+        width: 14em;
+    }
+}
+
+
+@media (max-width: 550px) { 
+    .about-us-content-container h3 { 
+        font-size: 1.2rem;
+        text-align: center;
+    } 
+
+    .about-us-content-container h1 { 
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .about-us-description-p { 
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .learn-more-btn-container button { 
+        font-size: 1rem;
+    }
+
+    .learn-more-call-help-button-container { 
+        display: flex;
+        justify-content: center;
+    }
+
+    .check-mark-set-1, .check-mark-set-2 { 
+        display: flex;
+        flex-direction: column;
+        // justify-content: flex-start;
+        // align-items: center;
+    }
+
+    // .pps-worker-img-1, .pps-worker-img2 { 
+    //     display: none;
+    // }
+
+    // .pps-worker-img-1 { 
+    //     width: 12em;
+    //     height: 12em;
+    // }
+
+    // .pps-worker-img2 { 
+    //     width: 12m;
+    // }
+
+    .pps-workers-container { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    // .about-us-content-container h3 { 
+    //     font-size: 1rem;
+    // }
+
+  
+    .call-for-help-container p,
+    .call-for-help-phone-num { 
+        font-size: 1rem;
+    }
+
+    .phone-icon-container img { 
+        width: 1.5em;
+    }
+
+    .phone-icon-container { 
+        width: 2em;
+        height: 2em;
+    }
+
+    .check-mark-set-1, 
+    .check-mark-set-2 { 
+        margin-right: 3em;
+    }
+
+
+}
+
+// .pps-worker-img-1 { 
+//     // display: flex;
+//     // align-items: flex-start;
+//     width: 26em;
+//     height: 18em;
+//     border-radius: 5%;
+// }
+
+// .pps-worker-img2 { 
+//     width: 24em;
+//     border-radius: 5%;
+
+// }
+
+
+@media (max-width: 380px) { 
+    .learn-more-btn-container button { 
+        font-size: 0.8rem;
+    }
+
+    .call-for-help-container p, 
+    .call-for-help-phone-num { 
+        font-size: 0.8rem;
+    }
+}

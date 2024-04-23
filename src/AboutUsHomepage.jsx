@@ -40,7 +40,7 @@ export default function AboutUsHomepage() {
         <div className='call-for-help-container'> 
 
           <p>Call for help: </p>
-          <h3>555-555-5555</h3>
+          <h4 className='call-for-help-phone-num'>555-555-5555</h4>
         </div>
 
         </div>

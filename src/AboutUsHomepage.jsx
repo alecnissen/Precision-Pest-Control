@@ -2,7 +2,7 @@ import React from 'react';
 import ppsWorkersImg from '../assets/pps-img-3.jpg';
 import ppsWorkersImg2 from '../assets/tyler-pps-img-1.jpg';
 import phoneImg from "../assets/phone-svgrepo-com.svg";
-
+import greenCheckMarkImg from "../assets/check-mark-button-svgrepo-com (1).svg"
 
 
 
@@ -17,8 +17,8 @@ export default function AboutUsHomepage() {
       <div className="about-us-content-container">
         <h3>Your Trusted Pest Control Experts</h3>
 
-        <h1>Your Trusted Solution for Effective Pest Control Services</h1>
-        <p>
+        <h1>Your <span className='trusted-solution-text-about-us'>Trusted Solution</span> for Effective Pest Control Services</h1>
+        <p className='about-us-description-p'>
           Your trusted source for fast, effective, and eco-friendly pest control solutions expert exterminators ensuring
           thorough inspections, customized treatment plans, and guaranteed results at affordable prices
         </p>
@@ -32,12 +32,48 @@ export default function AboutUsHomepage() {
 
 
         <div className='phone-icon-container'>
+
             <img src={phoneImg}></img>
         </div>
 
 
+        <div className='call-for-help-container'> 
+
+          <p>Call for help: </p>
+          <h3>555-555-5555</h3>
+        </div>
 
         </div>
+
+
+
+
+
+
+        <div className='check-marks-wrapper'> 
+        
+        <div className='check-marks-container'>
+
+        <div className='check-mark-set-1'> 
+          <img src={greenCheckMarkImg}></img>
+          <p>Licensed and Insured</p>
+          <img src={greenCheckMarkImg}></img>
+          <p>Trusted Pest Experts</p>
+        </div>
+
+        <div className='check-mark-set-2'> 
+        <img src={greenCheckMarkImg}></img>
+          <p>Guaranteed Results</p>
+          <img src={greenCheckMarkImg}></img>
+          <p>Organic Methods</p>
+
+        </div>
+
+        </div>
+
+        
+        </div>
+
 
 
       </div>

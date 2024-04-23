@@ -1,0 +1,69 @@
+.features-homepage-content-wrapper { 
+    display: flex;
+    background-color: rgb(247, 237, 182);
+    padding: 2em;
+}
+
+.features-left-side-container { 
+    display: flex;
+    flex-direction: column;
+}
+
+.features-title-subtitle-container { 
+    display: flex;
+    flex-direction: column;
+    // padding: 2em;
+}
+
+.features-title-subtitle-container * { 
+    font-family: "Poppins", sans-serif;
+}
+
+.features-effective-pest-solutions-text { 
+    color: darkorange;
+}
+
+
+
+
+.features-phone-icon { 
+    width: 4em;
+}
+
+
+
+// .features-phone-icon-container { 
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 4em;
+//     height: 4em;
+//     background-color: orange;
+//     border-radius: 50%;
+// }
+
+
+
+
+
+
+.features-card { 
+    display: flex;
+    flex-direction: column;
+    width: 24em;
+    padding: 1em;
+    background-color: white;
+    // font-family: "Poppins", sans-serif;
+} 
+
+
+.features-card h3 { 
+    font-size: 1.8rem;
+    padding-bottom: 1em;
+    font-family: "Poppins", sans-serif;
+} 
+
+.features-card p { 
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+}

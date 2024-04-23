@@ -1,2 +1,8 @@
+
+main img
 <a href="https://www.freepik.com/free-photo/portrait-professional-exterminator-holding-sprayer-with-chemicals-pest-control_11138011.htm#fromView=search&page=2&position=2&uuid=741c658b-36bc-40a5-bdaf-88089cefe750">Image by aleksandarlittlewolf on Freepik</a>
+
+
+features section img
+<a href="https://www.freepik.com/free-photo/person-disinfecting-restricted-area_12354201.htm#fromView=search&page=1&position=26&uuid=e1c496f4-ceea-4911-a1f2-1dd0a617f503">Image by freepik</a>
 

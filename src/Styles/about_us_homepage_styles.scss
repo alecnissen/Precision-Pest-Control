@@ -18,8 +18,9 @@
 }
 
 .pps-worker-img2 { 
-    width: 18em;
+    width: 20em;
     border-radius: 5%;
+
 }
 
 .pps-workers-container { 
@@ -36,6 +37,7 @@
     flex-direction: column;
     max-width: 45em;
     padding: 2em;
+    // border-bottom: 2px solid rgba(57, 181, 74, 1);
 }
 
 .about-us-content-container h1 { 
@@ -53,6 +55,8 @@
     font-size: 1.4rem;
     padding: 0.5em;
     font-family: "Poppins", sans-serif;
+    background-color: yellow;
+    border: 2px solid black;
 }
 
 .about-us-content-container h3 { 
@@ -70,4 +74,15 @@
     padding: 0.5em;
     border-left: 2px solid orange;
     font-family: "Poppins", sans-serif;
+}
+
+// .phone-icon-container { 
+//     width: 3em;
+//     background-color: green;
+//     color: green;
+// } 
+
+.learn-more-call-help-button-container { 
+    display: flex;
+    align-items: center;
 }

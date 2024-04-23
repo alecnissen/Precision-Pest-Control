@@ -1,6 +1,10 @@
 import React from 'react';
 import ppsWorkersImg from '../assets/pps-img-3.jpg';
 import ppsWorkersImg2 from '../assets/tyler-pps-img-1.jpg';
+import phoneImg from "../assets/phone-svgrepo-com.svg";
+
+
+
 
 export default function AboutUsHomepage() {
   return (
@@ -20,9 +24,19 @@ export default function AboutUsHomepage() {
         </p>
 
 
+        <div className='learn-more-call-help-button-container'>
 
         <div className='learn-more-btn-container'>
         <button>Learn More</button>
+        </div>
+
+
+        <div className='phone-icon-container'>
+            <img src={phoneImg}></img>
+        </div>
+
+
+
         </div>
 
 

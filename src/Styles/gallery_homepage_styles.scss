@@ -1,0 +1,22 @@
+.gallery-homepage-content-wrapper { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    gap: 2em;
+}
+
+.gallery-homepage-content-wrapper img { 
+    width: 30em;
+}
+
+// .gallery-homepage-content-wrapper img:nth-child(3) { 
+//     width: 25em;
+// }
+
+.gallery-homepage-content-wrapper img:nth-child(2),
+.gallery-homepage-content-wrapper img:nth-child(3) { 
+    height: 42em;
+}
+

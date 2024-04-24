@@ -1,5 +1,6 @@
 .features-homepage-content-wrapper { 
     display: flex;
+    justify-content: space-evenly;
     background-color: rgb(247, 237, 182);
     padding: 2em;
 }
@@ -7,12 +8,18 @@
 .features-left-side-container { 
     display: flex;
     flex-direction: column;
+    gap: 2em;
 }
 
 .features-title-subtitle-container { 
     display: flex;
     flex-direction: column;
     // padding: 2em;
+}
+
+.features-title-subtitle-container h3 { 
+    color: rgba(57, 181, 74, 1);
+    
 }
 
 .features-title-subtitle-container * { 
@@ -43,7 +50,18 @@
 // }
 
 
+.container-for-features-cards { 
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
 
+
+.features-card-set-1,
+.features-card-set-2 { 
+    display: flex;
+    gap: 2em;
+}
 
 
 
@@ -56,6 +74,10 @@
     // font-family: "Poppins", sans-serif;
 } 
 
+.features-card:hover { 
+    background-color: darkorange;
+}
+
 
 .features-card h3 { 
     font-size: 1.8rem;
@@ -67,3 +89,58 @@
     font-size: 1.2rem;
     font-family: "Poppins", sans-serif;
 }
+
+.features-employee-img { 
+    width: 30em;
+} 
+
+.numbers-container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: lightblue;
+    gap: 4em;
+    font-size: 1.3rem;
+    padding: 1em;
+   
+}
+
+
+.experience-container,
+.volunteers-container,
+.satisfied-clients-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    // align-items: center;
+}
+
+
+
+.experience-container:hover,
+.volunteers-container:hover,
+.satisfied-clients-container:hover { 
+    color: darkorange;
+    
+    // align-items: center;
+}
+
+
+
+
+
+
+
+.experience-container *,
+.volunteers-container *,
+.satisfied-clients-container * { 
+    font-family: "Poppins", sans-serif;
+}
+
+// .experience-container h1:hover,
+// .volunteers-container h1,
+// .satisfied-clients-container h1 { 
+//     color: darkorange
+// }

@@ -5,6 +5,7 @@ import ImageTitleComponent from './ImageTitleComponent';
 import InsectCards from './InsectCards';
 import Navbar from './Navbar';
 import FeaturesHomepage from './FeaturesHomepage';
+import Process from './Process';
 
 export default function App() {
 
@@ -16,6 +17,7 @@ export default function App() {
     <InsectCards></InsectCards>
     <AboutUsHomepage></AboutUsHomepage>
     <FeaturesHomepage></FeaturesHomepage>
+    <Process></Process>
     </>
   );
 }

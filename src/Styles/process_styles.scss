@@ -1,0 +1,31 @@
+.process-title-subtitle-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em
+}
+
+.process-title-subtitle-container * { 
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+
+.process-title-subtitle-container h3 { 
+    color: rgb(57, 181, 74);
+    font-weight: 400;
+}
+
+.process-title-subtitle-container h1 { 
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.process-pest-free-text { 
+    color: darkorange;
+}
+
+.process-title-subtitle-container p { 
+    max-width: 45em;
+}

@@ -29,3 +29,70 @@
 .process-title-subtitle-container p { 
     max-width: 45em;
 }
+
+
+.process-cards-container { 
+    display: flex;
+    padding-top: 2em;
+    gap: 2em;
+    padding: 2em;
+}
+
+.process-card { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    // border: 2px solid white;
+    // box-shadow: 2em;
+    box-shadow: 3px 3px 3px gray;
+    gap: 1em;
+    padding: 3em;
+}
+
+.process-card:hover { 
+    border: 1px solid darkorange;
+}
+
+.process-card * { 
+    font-family: "Poppins", sans-serif;
+}
+
+.process-card h3 { 
+    // font-family: "Poppins", sans-serif;
+    padding-top: 1em;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.process-card p { 
+    font-size: 1rem;
+    text-align: center;
+    max-width: 20em;
+}
+
+
+.process-step-number-container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(57, 181, 74);
+    border-radius: 50%;
+    width: 2em;
+}
+
+.process-step-number-container h4 { 
+    font-size: 1.3rem;
+}
+
+.process-card-img-container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(57, 181, 74);
+    border-radius: 50%;
+    width: 5.7em;
+    height: 5.7em;
+
+}

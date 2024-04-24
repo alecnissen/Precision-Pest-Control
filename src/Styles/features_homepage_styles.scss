@@ -19,7 +19,12 @@
 
 .features-title-subtitle-container h3 { 
     color: rgba(57, 181, 74, 1);
+    font-weight: 400;
     
+}
+
+.features-title-subtitle-container h1 { 
+    font-weight: 400;
 }
 
 .features-title-subtitle-container * { 
@@ -83,6 +88,7 @@
     font-size: 1.8rem;
     padding-bottom: 1em;
     font-family: "Poppins", sans-serif;
+    font-weight: 500;
 } 
 
 .features-card p { 

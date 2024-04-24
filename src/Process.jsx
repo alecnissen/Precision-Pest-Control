@@ -1,4 +1,9 @@
 import React from 'react';
+import msgImg from "../assets/messages-1-svgrepo-com.svg";
+import calenderImg from "../assets/calender-svgrepo-com.svg"
+
+
+
 
 export default function Process() {
   return (
@@ -6,21 +11,92 @@ export default function Process() {
       <div className="process-title-subtitle-container">
         <h3>Behind the Scenes</h3>
 
-        <h1>
-          How We Keep Your Space
-        </h1>
+        <h1>How We Keep Your Space</h1>
 
-        <h1 className='process-pest-free-text'>Pest Free</h1>
-
-     
+        <h1 className="process-pest-free-text">Pest Free</h1>
 
         <p>
           Discover our simple three-step process: Inspection, Treatment, and Follow-up, ensuring effective pest control
           solutions tailored to your need
         </p>
-
-        
       </div>
+
+      <div className="process-cards-container">
+        <div className="process-card">
+
+
+           <div className='process-step-number-container'> 
+           <h4>01</h4>
+           </div>
+
+          <div className='process-card-img-container'> 
+          <img src={msgImg}></img>
+          </div>
+
+          <h3>Project Discussion</h3>
+
+          <p>Discuss your pest control needs with our experts to determine the best solution</p>
+        </div>
+      
+      
+      
+        <div className="process-card">
+
+
+
+        <div className='process-step-number-container'> 
+           <h4>02</h4>
+        </div>
+
+
+        <div className='process-card-img-container'> 
+          <img src={calenderImg}></img>
+          </div>
+
+          <h3>Schedule Online</h3>
+
+          <p>Book an appointment online at your convenience for our team to visit your property</p>
+        </div> 
+
+        <div className="process-card">
+          <h3>Project Discussion</h3>
+
+          <p>Discuss your pest control needs with our experts to determine the best solution</p>
+        </div>
+
+        <div className="process-card">
+          <h3>Project Discussion</h3>
+
+          <p>Discuss your pest control needs with our experts to determine the best solution</p>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 }

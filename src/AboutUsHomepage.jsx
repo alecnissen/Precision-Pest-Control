@@ -1,6 +1,6 @@
 import React from 'react';
-import ppsWorkersImg from '../assets/pps-img-3.jpg';
-import ppsWorkersImg2 from '../assets/tyler-pps-img-1.jpg';
+import ppsWorkersImg from '../assets/2148848560.jpg';
+import ppsWorkersImg2 from '../assets/2148848567.jpg';
 import phoneImg from "../assets/phone-svgrepo-com.svg";
 import greenCheckMarkImg from "../assets/check-mark-button-svgrepo-com (1).svg"
 

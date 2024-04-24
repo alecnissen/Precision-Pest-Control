@@ -6,3 +6,11 @@ main img
 features section img
 <a href="https://www.freepik.com/free-photo/person-disinfecting-restricted-area_12354201.htm#fromView=search&page=1&position=26&uuid=e1c496f4-ceea-4911-a1f2-1dd0a617f503">Image by freepik</a>
 
+
+trusted solution section, employee img 1 
+
+<a href="https://www.freepik.com/free-photo/person-protective-suit-getting-ready-disinfect-room_12354052.htm#fromView=search&page=1&position=50&uuid=e1c496f4-ceea-4911-a1f2-1dd0a617f503">Image by freepik</a>
+
+trusted solution section, employee img 2 
+
+<a href="https://www.freepik.com/free-photo/people-disinfecting-together-dangerous-area_12354142.htm#fromView=search&page=1&position=2&uuid=e1c496f4-ceea-4911-a1f2-1dd0a617f503">Image by freepik</a>

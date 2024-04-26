@@ -1,0 +1,47 @@
+.payment-plans-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.payment-plans-title-subtitle-wrapper { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.payment-plans-title-subtitle-container { 
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-plans-title-subtitle-container h3 { 
+    color: rgb(57, 181, 74);
+}
+
+.payment-plans-title-subtitle-container * { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.payment-plans-title-subtitle-wrapper p { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    max-width: 40em;
+}
+
+.plan-fits-text { 
+    color: darkorange;
+}
+
+.payment-plans-card-wrapper { 
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-plan-price-container { 
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}

@@ -7,6 +7,7 @@ import Navbar from './Navbar';
 import FeaturesHomepage from './FeaturesHomepage';
 import Process from './Process';
 import GalleryHomepage from './GalleryHomepage';
+import PaymentPlans from './PaymentPlans';
 
 export default function App() {
 
@@ -20,6 +21,7 @@ export default function App() {
     <FeaturesHomepage></FeaturesHomepage>
     <Process></Process>
     <GalleryHomepage></GalleryHomepage>
+    <PaymentPlans></PaymentPlans>
     </>
   );
 }

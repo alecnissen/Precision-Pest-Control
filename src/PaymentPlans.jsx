@@ -1,4 +1,5 @@
 import React from 'react';
+import greenCheckMark from '../assets/check-mark-svgrepo-com (1).svg';
 
 export default function PaymentPlans() {
   return (
@@ -21,7 +22,11 @@ export default function PaymentPlans() {
       </div>
 
 
-      <div className='payment-plans-card-wrapper'> 
+
+      <div className='payment-plans-cards-wrapper'>
+
+
+      <div className='payment-plans-card-container'> 
 
         <div className='payment-plan-card'> 
 
@@ -34,9 +39,214 @@ export default function PaymentPlans() {
 
         </div>
 
+
+
+
+        <div className='payment-card-features-container'>
+
+
+        <div className='feature-img-container'> 
+        <img src={greenCheckMark}></img>
+        <h3>Energy saving pest Control</h3>
+        </div>
+
+        <div className='feature-img-container'> 
+        <img src={greenCheckMark}></img>
+        <h3>Mosquito Services</h3>
+        </div>
+
+        <div className='feature-img-container'> 
+        <img src={greenCheckMark}></img>
+        <h3>Bed Bug Solution</h3>
+        </div>
+
+        <div className='feature-img-container'> 
+        <img src={greenCheckMark}></img>
+        <h3>Property Maintenance</h3>
+        </div>
+
+        <div className='feature-img-container'> 
+        <img src={greenCheckMark}></img>
+        <h3>Mouse Removal</h3>
+        </div>
+
+        <div className='feature-img-container'> 
+        <img src={greenCheckMark}></img>
+        <h3>Home Pest Control</h3>
+        </div>
+
+
+
+        
+
+        </div>
+      
+        <div className='our-services-button-container'> 
+
+          <button>Our Services</button>
+
+        </div>
+
+
+      </div> 
+
+
+
+      <div className='payment-plans-card-container'> 
+
+<div className='payment-plan-card'> 
+
+  <h3>Standard Plan</h3>
+
+  <div className='payment-plan-price-container'>
+  <h1>$25.00</h1>
+  <p>Per Month</p>
+  </div>
+
+</div>
+
+
+
+
+<div className='payment-card-features-container'>
+
+
+<div className='feature-img-container'> 
+<img src={greenCheckMark}></img>
+<h3>Energy saving pest Control</h3>
+</div>
+
+<div className='feature-img-container'> 
+<img src={greenCheckMark}></img>
+<h3>Mosquito Services</h3>
+</div>
+
+<div className='feature-img-container'> 
+<img src={greenCheckMark}></img>
+<h3>Bed Bug Solution</h3>
+</div>
+
+<div className='feature-img-container'> 
+<img src={greenCheckMark}></img>
+<h3>Property Maintenance</h3>
+</div>
+
+<div className='feature-img-container'> 
+<img src={greenCheckMark}></img>
+<h3>Mouse Removal</h3>
+</div>
+
+<div className='feature-img-container'> 
+<img src={greenCheckMark}></img>
+<h3>Home Pest Control</h3>
+</div>
+
+
+
+
+
+</div>
+
+<div className='our-services-button-container'> 
+
+  <button>Our Services</button>
+
+</div>
+
+
+</div> 
+
+
+
+
+<div className='payment-plans-card-container'> 
+
+<div className='payment-plan-card'> 
+
+  <h3>Deluxe Plan</h3>
+
+  <div className='payment-plan-price-container'>
+  <h1>$40.00</h1>
+  <p>Per Month</p>
+  </div>
+
+</div>
+
+
+
+
+<div className='payment-card-features-container'>
+
+
+<div className='feature-img-container'> 
+<img src={greenCheckMark}></img>
+<h3>Energy saving pest Control</h3>
+</div>
+
+<div className='feature-img-container'> 
+<img src={greenCheckMark}></img>
+<h3>Mosquito Services</h3>
+</div>
+
+<div className='feature-img-container'> 
+<img src={greenCheckMark}></img>
+<h3>Bed Bug Solution</h3>
+</div>
+
+<div className='feature-img-container'> 
+<img src={greenCheckMark}></img>
+<h3>Property Maintenance</h3>
+</div>
+
+<div className='feature-img-container'> 
+<img src={greenCheckMark}></img>
+<h3>Mouse Removal</h3>
+</div>
+
+<div className='feature-img-container'> 
+<img src={greenCheckMark}></img>
+<h3>Home Pest Control</h3>
+</div>
+
+
+
+
+
+</div>
+
+<div className='our-services-button-container'> 
+
+  <button>Our Services</button>
+
+</div>
+
+
+</div> 
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
-
-
 
     </div>
   );

@@ -35,13 +35,88 @@
     color: darkorange;
 }
 
-.payment-plans-card-wrapper { 
+
+.payment-plans-cards-wrapper { 
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding-top: 1em;
+}
+
+.feature-img-container { 
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.feature-img-container img { 
+    width: 1.5em;
+}
+
+
+.payment-plans-card-container { 
     display: flex;
     flex-direction: column;
+    border: 1px solid darkorange;
+    width: 25em;
+    padding: 2em;
 }
 
 .payment-plan-price-container { 
     display: flex;
     align-items: center;
     gap: 0.5em;
+} 
+
+.payment-card-features-container { 
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 0.5em;
+    // align-items: center;
+    border-top: 1px solid black;
+}
+
+
+.payment-card-features-container h3 { 
+    font-weight: 400;
+}
+
+.our-services-button-container { 
+    display: flex;
+    justify-content: center;
+}
+
+.payment-plan-card h3 { 
+    color: rgb(57, 181, 74);
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.payment-plan-price-container h1 { 
+    color: rgb(57, 181, 74);
+    font-weight: 700;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.payment-plan-price-container p { 
+    font-family: "Poppins", sans-serif;
+}
+
+.payment-card-features-container * { 
+    font-family: "Poppins", sans-serif;
+}
+
+.feature-img-container h3 { 
+    font-size: 1rem;
+}
+
+.our-services-button-container button { 
+    font-family: "Poppins", sans-serif;
+    padding: 0.5em;
+    background-color: rgb(57, 181, 74);
+    color: white;
+    border: none;
+    border-radius: 1em;
 }

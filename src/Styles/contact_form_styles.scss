@@ -1,72 +1,27 @@
-.contact-form-wrapper { 
+.contact-form-content-wrapper { 
+    display: flex;
+    background-color: rgba(0, 47, 71, 1);
+    margin-top: 1em;
+}
+
+.contact-form-title-subtitle-container { 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+.contact-form-title-subtitle-container * { 
+    font-family: "Poppins", sans-serif;
+    // color: white;
+    // font-weight: 300;
+}
+
+.phone-icon-container-contact-form { 
+    display: flex;
+}
+
+.call-for-help-container-contact-form { 
+    display: flex;
     align-items: center;
-    // background-color: rgb(70, 8, 70);
-    background-color: rgb(44, 28, 44);
-    color: white;
-    font-family: sans-serif;
-    padding-top: 2em;
 }
 
 
-
-
-.contact-label-input-pair-name { 
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-form-container { 
-    display: flex;
-    gap: 2em;
-}
-
-.name-phone-email-container { 
-    display: flex;
-}
-
-.contact-label-input-pair-name input { 
-    font-size: 1.5rem;
-    font-family: sans-serif;
-    border-radius: 5%;
-    border: none;
-}
-
-.contact-label-input-pair-name label { 
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: sans-serif;
-}
-
-.contact-label-input-pair-name textarea { 
-    font-size: 1.5rem;
-    width: 42em;
-    border-radius: 5%;
-    border: none;
-}
-
-.message-container { 
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
-.contact-form-wrapper button { 
-    font-size: 1.5rem;
-    font-family: sans-serif;
-    border-radius: 5%;
-    border: none;
-}
-
-
-@media (max-width: 1000px) { 
-    .contact-form-container { 
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contact-label-input-pair-name textarea { 
-        width: 13em;
-    }
-}

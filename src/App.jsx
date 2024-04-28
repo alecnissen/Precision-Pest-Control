@@ -8,6 +8,7 @@ import FeaturesHomepage from './FeaturesHomepage';
 import Process from './Process';
 import GalleryHomepage from './GalleryHomepage';
 import PaymentPlans from './PaymentPlans';
+import ContactForm from './ContactForm';
 
 export default function App() {
 
@@ -22,6 +23,7 @@ export default function App() {
     <Process></Process>
     <GalleryHomepage></GalleryHomepage>
     <PaymentPlans></PaymentPlans>
+    <ContactForm></ContactForm>
     </>
   );
 }

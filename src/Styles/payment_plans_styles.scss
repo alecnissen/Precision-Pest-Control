@@ -58,7 +58,7 @@
     display: flex;
     flex-direction: column;
     border: 1px solid darkorange;
-    width: 25em;
+    width: 28em;
     padding: 2em;
 }
 
@@ -91,12 +91,13 @@
     color: rgb(57, 181, 74);
     font-weight: 400;
     font-family: "Poppins", sans-serif;
+    font-size: 2rem;
 }
 
 .payment-plan-price-container h1 { 
     color: rgb(57, 181, 74);
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-family: "Poppins", sans-serif;
 }
 
@@ -109,7 +110,7 @@
 }
 
 .feature-img-container h3 { 
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .our-services-button-container button { 
@@ -118,5 +119,28 @@
     background-color: rgb(57, 181, 74);
     color: white;
     border: none;
+    border-radius: 1em;
+    font-size: 1.1rem;
+}
+
+//  .payment-plans-card-container:nth-child(2) { 
+//     height: 60em;
+// }
+
+// #second-payment-card { 
+//     height: 50em;
+// }
+
+.most-popular-container { 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.most-popular-container h4 { 
+    font-family: "Poppins", sans-serif;
+    background-color: darkorange;
+    padding: 0.5em;
+    font-weight: 600;
     border-radius: 1em;
 }

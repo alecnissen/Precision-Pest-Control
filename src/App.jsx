@@ -9,6 +9,7 @@ import Process from './Process';
 import GalleryHomepage from './GalleryHomepage';
 import PaymentPlans from './PaymentPlans';
 import ContactForm from './ContactForm';
+import MeetYourTeam from './MeetYourTeam';
 
 export default function App() {
 
@@ -24,6 +25,7 @@ export default function App() {
     <GalleryHomepage></GalleryHomepage>
     <PaymentPlans></PaymentPlans>
     <ContactForm></ContactForm>
+    <MeetYourTeam></MeetYourTeam>
     </>
   );
 }

@@ -51,7 +51,7 @@
   // background-color: rgb(2, 2, 49);
   background-color: rgb(57, 181, 74);
   width: 100%;
-
+  z-index: 1000;
   padding: 0.5em;
   position: fixed;
   
@@ -110,6 +110,7 @@
   // background-color: rgb(44, 28, 44);
   background: none;
   color: black;
+  z-index: 3000;
   // color: purple;
   // font-weight: bold;
   // font-family: sans-serif;
@@ -146,11 +147,12 @@
   min-width: 100px;
   box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
   border: 2px solid black;
+  z-index: 3000;
 }
 
 .dropdown:hover .content {
   display: block;
-  z-index: 200;
+  
 }
 
 .dropdown a:hover {
@@ -193,6 +195,7 @@
   min-width: 80px;
   box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
   border: 2px solid black;
+  // z-index: 3000;
 }
 
 .dropdown .dropdown-for-other-pests:hover .content-for-other-pests {
@@ -210,9 +213,12 @@
   
 }
 
-
 .search-icon-navbar { 
   width: 1.5em;
+}
+
+.navbar-content-wrapper button:hover {
+  z-index: 3000; /* Or any value higher than other elements */
 }
 
 

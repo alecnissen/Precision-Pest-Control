@@ -20,3 +20,42 @@
 .meet-team-content-wrapper { 
     padding: 3em;
 }
+
+.team-profile-container { 
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 2em;
+    gap: 2em;
+}
+
+.team-profile-container * { 
+    font-family: "Poppins", sans-serif;
+}
+
+.team-member-profile-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    gap: 1em;
+    background-color: whitesmoke;
+    // border: 2px solid black;
+    box-shadow: 3px 3px 3px gray;
+//    width: 100%;
+flex: 1;
+}
+
+.team-member-profile-container p { 
+    text-align: center;
+    // white-space: nowrap;
+    // font-size: 0.9rem;
+    // line-break: none;
+}
+
+.team-member-profile-container img { 
+    width: 10em;
+    border-radius: 50%;
+}
+

@@ -1,5 +1,6 @@
 import React from 'react';
-import phoneImgContactForm from "../assets/phone-svgrepo-com.svg"
+import phoneImgContactForm from "../assets/phone-svgrepo-com.svg";
+import profileImg from "../assets/account-svgrepo-com.svg";
 
 export default function ContactForm() {
   return (
@@ -9,7 +10,7 @@ export default function ContactForm() {
 
         <h1>Booking Our Service Online</h1>
 
-        <p>
+        <p className='contact-form-description-text'>
           Booking your pest control service online is quick and convenient - simply choose your preferred date and time,
           provide necessary details, and confirm your appointment with ease.
         </p>
@@ -32,6 +33,53 @@ export default function ContactForm() {
         </div>
 
       </div>
+
+
+
+      <form className='contact-form-wrapper'>
+
+        <h1>Book Now</h1>
+
+        <div className='form-name-phone-num-container'>
+        
+        <div className='contact-form-name-container'>
+        <input placeholder='Your Name'></input>
+        {/* <i src={phoneImgContactForm}></i> */}
+        <img src={profileImg}></img>
+        </div>
+
+
+        <div className='contact-form-phone-num-container'>
+        <input placeholder='Phone Number'></input>
+        <img src={phoneImgContactForm}></img>
+        </div>
+
+        </div>
+       
+
+        
+        <input placeholder='Services'></input>
+
+
+
+
+        <div className='form-date-time-container'>
+
+        <input placeholder='Select Date'></input>
+
+        <input placeholder='Select Time'></input>
+
+        </div>
+
+        <button>Book Now</button>
+
+      </form>
+
+
+
+
+
+
     </div>
   );
 }

@@ -1,7 +1,9 @@
 .contact-form-content-wrapper { 
     display: flex;
+    justify-content: space-evenly;
     background-color: rgba(0, 47, 71, 1);
     margin-top: 1em;
+    padding: 2em;
 }
 
 .contact-form-title-subtitle-container { 
@@ -15,8 +17,54 @@
     // font-weight: 300;
 }
 
+.contact-form-title-subtitle-container h3 { 
+    color: lightgray;
+    font-weight: 400;
+}
+
+.contact-form-title-subtitle-container h1 { 
+    color: white;
+    font-weight: 400;
+}
+
+.contact-form-description-text { 
+    color: lightgray;
+    font-weight: 300;
+    max-width: 40em;
+}
+
+.phone-num-container p { 
+    color: lightgrey;
+}
+
+.phone-num-container { 
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-num-container p { 
+    font-size: 1.5rem;
+}
+
+.phone-num-container h4 { 
+    color: yellow;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
 .phone-icon-container-contact-form { 
     display: flex;
+    align-items: center;
+   
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 0.5em;
+    
+    
+}
+
+.phone-icon-container-contact-form img { 
+    width: 3em;
 }
 
 .call-for-help-container-contact-form { 
@@ -24,4 +72,58 @@
     align-items: center;
 }
 
+.contact-form-wrapper * { 
+    font-family: "Poppins", sans-serif;
+}
 
+
+.contact-form-wrapper { 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 1000;
+    gap: 1em;
+    padding: 3em;
+    clip-path: polygon(8% 0, 100% 0%, 100% 100%, 2% 100%);
+}
+
+.form-name-phone-num-container,
+.form-date-time-container { 
+    display: flex;
+    gap: 1em;
+}
+
+.contact-form-wrapper button { 
+    font-size: 1.2rem;
+    background-color: yellow;
+    border: none;
+    border-radius: 1em;
+    font-weight: 500;
+    // width: 8em;
+    padding: 0.5em;
+}
+
+form h1 { 
+    text-align: center;
+}
+
+// .contact-form-name-container input { 
+//     outline: none;
+//     border: none;
+// }
+
+.contact-form-wrapper input { 
+    outline: none;
+    border: none;
+}
+
+.contact-form-name-container { 
+    display: flex;
+    align-items: center;
+}
+
+.contact-form-name-container img,
+.contact-form-phone-num-container img { 
+    // border: 1px solid black;
+    width: 1.2em;
+}

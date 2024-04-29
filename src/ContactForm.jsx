@@ -1,6 +1,7 @@
 import React from 'react';
 import phoneImgContactForm from "../assets/phone-svgrepo-com.svg";
 import profileImg from "../assets/account-svgrepo-com.svg";
+import dropdownIcon from '../assets/dropdown-arrow-svgrepo-com.svg';
 
 export default function ContactForm() {
   return (
@@ -44,7 +45,6 @@ export default function ContactForm() {
         
         <div className='contact-form-name-container'>
         <input placeholder='Your Name'></input>
-        {/* <i src={phoneImgContactForm}></i> */}
         <img src={profileImg}></img>
         </div>
 
@@ -57,17 +57,26 @@ export default function ContactForm() {
         </div>
        
 
-        
-        <input placeholder='Services'></input>
+        <div className='contact-form-services-container'>
+        <label>Select A Service</label>
+        <select placeholder='Services'>
+        <option>Residential Pest Control</option>
+        <option>Commerical Pest Control</option>
+        <option>Bed Bug Control</option>
+        <option>Fast Pest Removal</option>
 
+        </select>
+       
+        {/* <img src={dropdownIcon}></img> */}
+        </div>
 
 
 
         <div className='form-date-time-container'>
-
-        <input placeholder='Select Date'></input>
-
-        <input placeholder='Select Time'></input>
+        <p>Select A Date</p>
+        <input placeholder='Select Date' type='date'></input>
+        <p>Select A Time</p>
+        <input placeholder='Select Time' type='time'></input>
 
         </div>
 

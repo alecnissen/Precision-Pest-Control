@@ -125,6 +125,8 @@
 
 .call-for-help-container { 
     display: flex;
+    // align-items: center;
+    // justify-content: center;
     flex-direction: column;
 
 }
@@ -132,6 +134,7 @@
 .call-for-help-container p { 
     font-size: 1.2rem;
     font-family: "Poppins", sans-serif;
+   
     // color: rgb(57, 181, 74);
     
 }

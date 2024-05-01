@@ -30,3 +30,20 @@ gallery section homepage img3
 gallery section homepage img4 
 
 <a href="https://www.freepik.com/free-photo/coronavirus-pandemic-disinfectant-protective-suit-mask-sprays-disinfectants-room_7540264.htm#fromView=search&page=4&position=5&uuid=d969fb72-3011-4fe9-b4bc-f669596de0ad">Image by master1305 on Freepik</a>
+
+
+testiomonal section: 
+
+business man photo, slide 2 
+
+Photo by <a href="https://unsplash.com/@alimorshedlou?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ali Morshedlou</a> on <a href="https://unsplash.com/photos/man-wearing-black-notched-lapel-suit-jacket-in-focus-photography-WMD64tMfc4k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+slide 3 
+
+Photo by <a href="https://unsplash.com/@hellvetikaphotos?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andrew Power</a> on <a href="https://unsplash.com/photos/man-wearing-black-suit-y9L5-wmifaY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+
+  slide 4 
+
+  Photo by <a href="https://unsplash.com/@jeremy_mcgilvrey?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jeremy McGilvrey</a> on <a href="https://unsplash.com/photos/man-in-black-suit-jacket-Mum-4dB0VsE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  

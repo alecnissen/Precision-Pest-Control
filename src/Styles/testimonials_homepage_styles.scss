@@ -1,9 +1,91 @@
-.testimonials-content-wrapper { 
+// .testimonials-content-wrapper { 
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .testimonial-content-card-container { 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: darkslateblue;
+// }
+
+
+.testimonial-content-wrapper { 
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2em;
 }
 
 .testimonial-content-card-container { 
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 47, 71);
+    padding: 2em;
+    border-radius: 1em;
 }
+
+.testimonial-header-container * { 
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.testimonial-img-container { 
+    display: flex;
+}
+
+.testimonial-header-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-header-container h3 { 
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.testimonial-header-container h1 { 
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.those-who-trust-text { 
+    color: yellow;
+}
+
+#event-carousel-container { 
+    // height: 10em;
+    // height: auto;
+    display: flex;
+    align-items: center;
+    width: 50em;
+    padding: 3em;
+    
+}
+
+.carousel-control-prev-icon { 
+    position: absolute;
+    right: 10em;
+}
+
+.carousel-control-next-icon { 
+    position: absolute;
+    left: 10em;
+} 
+
+
+.carousel-indicators { 
+    position: absolute;
+    top: 10.5em;
+}
+
+// #carousel-image { 
+//     width: 15em;
+// }

@@ -5,11 +5,11 @@
 
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import slide1 from "../assets/new-testimonal-img-1.png";
-import slide2 from "../assets/slide-2-update.png"
-import slide3 from "../assets/slide-3-img.png";
+import slide1 from "../assets/new-slide-1.png";
+import slide2 from "../assets/new-slide-2-x.png";
+import slide3 from "../assets/new-slide-3.png";
 import quoteImg from '../assets/quote-svgrepo-com.svg';
-import slide4 from "../assets/slide-4.png"
+import slide4 from "../assets/new-slide-4.png"
 
 
 
@@ -38,23 +38,23 @@ export default function TestimonialsHomepage() {
 
         <Carousel id='event-carousel-container'>
          <Carousel.Item>
-            <img id='carousel-image' className="img-fluid" src={slide1} alt='testimonial'></img>
+            <img id='carousel-image' src={slide1} alt='testimonial'></img>
         </Carousel.Item>
         <Carousel.Item>
-        <img id='carousel-image' className="img-fluid" src={slide2} alt='testimonial'></img>
+        <img id='carousel-image' src={slide2} alt='testimonial'></img>
         </Carousel.Item>
         <Carousel.Item>
-         <img id='carousel-image' className="img-fluid" src={slide3} alt='testimonial'></img>
+         <img id='carousel-image' src={slide3} alt='testimonial'></img>
          </Carousel.Item>
          <Carousel.Item>
-        <img id='carousel-image' className="img-fluid" src={slide4} alt='testimonial'></img>
+        <img id='carousel-image' src={slide4} alt='testimonial'></img>
         </Carousel.Item>
       </Carousel>
 
 
 
 
-
+        
 
 
 
@@ -67,6 +67,10 @@ export default function TestimonialsHomepage() {
     </div>
   )
 }
+
+
+
+// 733 141
 
 
 

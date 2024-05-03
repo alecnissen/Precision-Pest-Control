@@ -47,3 +47,21 @@ Photo by <a href="https://unsplash.com/@hellvetikaphotos?utm_content=creditCopyT
 
   Photo by <a href="https://unsplash.com/@jeremy_mcgilvrey?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jeremy McGilvrey</a> on <a href="https://unsplash.com/photos/man-in-black-suit-jacket-Mum-4dB0VsE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
+
+
+images section before footer 
+
+img1
+<a href="https://www.freepik.com/free-photo/full-shot-man-wearing-protective-suit_13651667.htm#fromView=search&page=1&position=1&uuid=5cac29c2-238e-4f2a-a7ef-7996eb9a6b83">Image by freepik</a> 
+
+img2 
+
+<a href="https://www.freepik.com/free-photo/medium-shot-man-disinfecting_13554168.htm#fromView=search&page=1&position=3&uuid=5cac29c2-238e-4f2a-a7ef-7996eb9a6b83">Image by freepik</a> 
+
+img3 
+
+<a href="https://www.freepik.com/free-photo/exterminator-white-protective-uniform-standing-by-reservoir-with-chemicals-sprayer_11138064.htm#fromView=search&page=2&position=27&uuid=a6f8f768-f672-4833-98c5-fa6c07d46022">Image by aleksandarlittlewolf on Freepik</a> 
+
+img4 
+
+<a href="https://www.freepik.com/free-photo/person-white-chemical-protection-suit-holding-sprayer-with-disinfectant-chemicals-stop-spreading-highly-contagious-virus_11137970.htm#fromView=search&page=3&position=27&uuid=a6f8f768-f672-4833-98c5-fa6c07d46022">Image by aleksandarlittlewolf on Freepik</a>

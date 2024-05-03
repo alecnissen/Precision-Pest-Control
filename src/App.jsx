@@ -12,6 +12,7 @@ import ContactForm from './ContactForm';
 import MeetYourTeam from './MeetYourTeam';
 import TestimonialsHomepage from './TestimonialsHomepage';
 import Footer from './Footer';
+import GalleryHomepage2 from './GalleryHomepage2';
 
 export default function App() {
 
@@ -29,6 +30,7 @@ export default function App() {
     <ContactForm></ContactForm>
     <MeetYourTeam></MeetYourTeam>
     <TestimonialsHomepage></TestimonialsHomepage>
+    <GalleryHomepage2></GalleryHomepage2>
     <Footer></Footer>
     </>
   );

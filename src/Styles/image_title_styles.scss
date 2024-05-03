@@ -63,7 +63,8 @@
 .check-mark-2-pair,
 .check-mark-3-pair { 
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  gap: 0.5em;
 }
 
 

@@ -11,6 +11,7 @@ import PaymentPlans from './PaymentPlans';
 import ContactForm from './ContactForm';
 import MeetYourTeam from './MeetYourTeam';
 import TestimonialsHomepage from './TestimonialsHomepage';
+import Footer from './Footer';
 
 export default function App() {
 
@@ -28,6 +29,7 @@ export default function App() {
     <ContactForm></ContactForm>
     <MeetYourTeam></MeetYourTeam>
     <TestimonialsHomepage></TestimonialsHomepage>
+    <Footer></Footer>
     </>
   );
 }

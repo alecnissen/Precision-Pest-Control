@@ -1,0 +1,73 @@
+.commerical-residential-wrapper { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+// .commerical-residential-wrapper img { 
+//     width: 30em;
+// }
+
+.pest-control-animated-img-1 { 
+    width: 30em;
+}
+
+.animated-worker-img { 
+    width: 20em;
+}
+
+// .animated-worker-img { 
+//     width: 5em;
+// }
+
+.residential-services-container,
+.commerical-services-container { 
+    display: flex;
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 1em;
+    gap: 1em;
+}
+
+.residential-services-content-container { 
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.residential-services-content-container p,
+.commerical-services-content-container p  { 
+    max-width: 20em;
+}
+
+.residential-services-content-container h6, 
+.commerical-services-content-container h6 { 
+    color: darkorange;
+}
+
+.residential-services-container img,
+.commerical-services-container img { 
+    width: 7em;
+}
+
+.commerical-services-container { 
+    display: flex;
+}
+
+.commerical-services-content-container { 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.residential-and-commerical-containers { 
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.residential-and-commerical-containers * { 
+    font-family: "Poppins", sans-serif;
+}

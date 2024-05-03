@@ -13,6 +13,7 @@ import MeetYourTeam from './MeetYourTeam';
 import TestimonialsHomepage from './TestimonialsHomepage';
 import Footer from './Footer';
 import GalleryHomepage2 from './GalleryHomepage2';
+import CommericalAndResidential from './CommericalAndResidential';
 
 export default function App() {
 
@@ -22,6 +23,7 @@ export default function App() {
     <Navbar></Navbar>
     <ImageTitleComponent></ImageTitleComponent>
     <InsectCards></InsectCards>
+    <CommericalAndResidential></CommericalAndResidential>
     <AboutUsHomepage></AboutUsHomepage>
     <FeaturesHomepage></FeaturesHomepage>
     <Process></Process>

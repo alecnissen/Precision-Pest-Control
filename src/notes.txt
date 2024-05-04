@@ -1,0 +1,16 @@
+//
+
+5/4 
+
+work on placing the animated images in certain sections, 
+
+check the site and see where the images can fit,
+
+
+first I see the payment plan section, 
+
+see if you can place the animated image in row with the rest of the content, 
+
+use animated image in meet the team section, the one in the row with payment looks good 
+
+change the img in the meet the team section, 

@@ -6,9 +6,13 @@
 
 .payment-plans-title-subtitle-wrapper { 
     display: flex;
-    justify-content: space-around;
+    // justify-content: space-around;
+
+
+    // justify-content: center;
+    justify-content: center;
     align-items: center;
-    
+    gap: 1em;
 }
 
 .payment-plans-title-subtitle-container { 
@@ -28,7 +32,10 @@
 .payment-plans-title-subtitle-wrapper p { 
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    max-width: 40em;
+    max-width: 30em;
+    font-size: 1.2rem;
+    padding-top: 3em;
+    text-align: center;
 }
 
 .plan-fits-text { 
@@ -143,4 +150,14 @@
     padding: 0.5em;
     font-weight: 600;
     border-radius: 1em;
+}
+
+.payment-plans-pest-logo { 
+    width: 20em;
+}
+
+.payment-plans-img-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

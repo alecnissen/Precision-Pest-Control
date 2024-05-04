@@ -1,5 +1,6 @@
 import React from 'react';
 import greenCheckMark from '../assets/check-mark-svgrepo-com (1).svg';
+import pestLogo from '../assets/10780277_19198237.svg';
 
 export default function PaymentPlans() {
   return (
@@ -16,11 +17,16 @@ export default function PaymentPlans() {
         </div>
 
         <p>
-          Explore Competitive Prices for Professional Pest Control Services.Affordable Pricing Options for a Pest-Free
+          Explore Competitive Prices for Professional Pest Control Services. Affordable Pricing Options for a Pest-Free
           Environment
         </p>
-      </div>
 
+
+        <div className='payment-plans-img-container'> 
+        <img src={pestLogo} className='payment-plans-pest-logo'></img>
+        </div>
+
+      </div>
 
 
       <div className='payment-plans-cards-wrapper'>

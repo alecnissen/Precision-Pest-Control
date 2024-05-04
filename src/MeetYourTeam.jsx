@@ -1,11 +1,18 @@
 import React from 'react';
 import employeeImg from '../assets/edited-profile-pic.png';
 import mockEmployeeImg from '../assets/mock-image-testimonial-section.jpg';
-import pestControlSvgImg from '../assets/10780550_19198459.svg'
+import pestControlSvgImg from '../assets/10780550_19198459.svg';
+
+import pestControlWorkerImg from '../assets/28457766_38aj_10j6_220602.svg';
 
 export default function MeetYourTeam() {
   return (
     <div className="meet-team-content-wrapper">
+
+
+
+      <div className='team-title-subtitle-wrapper'>
+
       <div className="team-title-subtitle-container">
         <h1>
           Meet Our Expert <span className='pest-control-team-text-styles'>Pest Control Team</span>
@@ -16,6 +23,15 @@ export default function MeetYourTeam() {
           Meet our experienced team members below.
         </p>
       </div>
+
+
+      <img src={pestControlWorkerImg} className='pest-control-worker-img'></img>
+
+
+
+      </div>
+
+
 
 
     <div className='team-profile-container'> 

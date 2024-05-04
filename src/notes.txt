@@ -17,4 +17,9 @@ change the img in the meet the team section,
 
 
 
-// adjust the images before the footer, see if you can find a new first image
+// adjust the images before the footer, see if you can find a new first image 
+
+
+// start making the navbar responsive and go through each section 
+
+making it responsive and polishing 

@@ -2,7 +2,7 @@ import React from 'react';
 import arrowRightIcon from '../assets/arrowright-svgrepo-com.svg';
 import ppsLogo from "../assets/PPS-logo.jpeg";
 import searchLogo from "../assets/search-svgrepo-com (1).svg";
-import hamburgerLogo from "../assets/hamburger-menu-svgrepo-com.svg";
+import hamburgerLogo from "../assets/hamburger-menu-svgrepo-com (1).svg";
 import { useState } from 'react';
 import Modal from './Modal';
 

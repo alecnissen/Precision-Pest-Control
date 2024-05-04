@@ -1,8 +1,11 @@
 import React from 'react';
+// import img1 from '../assets/2148926597.jpg';
+
 import img1 from '../assets/2148926597.jpg';
+
 import img2 from '../assets/2148926651.jpg';
 import img3 from '../assets/930.jpg';
-import img4 from '../assets/907.jpg';
+import img4 from '../assets/915.jpg';
 
 export default function GalleryHomepage2() {
   return (

@@ -14,3 +14,7 @@ see if you can place the animated image in row with the rest of the content,
 use animated image in meet the team section, the one in the row with payment looks good 
 
 change the img in the meet the team section, 
+
+
+
+// adjust the images before the footer, see if you can find a new first image

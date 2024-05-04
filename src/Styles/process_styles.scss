@@ -6,13 +6,23 @@
     padding-top: 1em
 }
 
+.process-title-subtitle-wrapper { 
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .process-title-subtitle-container * { 
     font-family: "Poppins", sans-serif;
     text-align: center;
 }
 
+.process-pest-control-img { 
+    width: 35em;
+}
+
 
 .process-title-subtitle-container h3 { 
+    font-size: 3rem;
     color: rgb(57, 181, 74);
     font-weight: 400;
 }
@@ -28,6 +38,7 @@
 
 .process-title-subtitle-container p { 
     max-width: 45em;
+    font-size: 1.1rem;
 }
 
 

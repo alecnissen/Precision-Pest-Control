@@ -4,9 +4,17 @@ import calenderImg from '../assets/calender-svgrepo-com.svg';
 import dollarBillImg from '../assets/three-dollar-banknotes-svgrepo-com.svg';
 import handshakeImg from '../assets/handshake-svgrepo-com.svg';
 
+import pestControlSvgImg from '../assets/10780550_19198459.svg';
+
+
 export default function Process() {
   return (
     <div className="process-content-wrapper">
+
+
+      <div className='process-title-subtitle-wrapper'> 
+
+
       <div className="process-title-subtitle-container">
         <h3>Behind the Scenes</h3>
 
@@ -19,6 +27,15 @@ export default function Process() {
           solutions tailored to your need
         </p>
       </div>
+
+
+      <img src={pestControlSvgImg} className='process-pest-control-img'></img>
+
+      </div>
+
+
+
+
 
       <div className="process-cards-container">
         <div className="process-card">

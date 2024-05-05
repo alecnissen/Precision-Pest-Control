@@ -5,32 +5,8 @@ import searchLogo from "../assets/search-svgrepo-com (1).svg";
 import hamburgerLogo from "../assets/hamburger-menu-svgrepo-com (1).svg";
 import { useState } from 'react';
 import Modal from './Modal';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// import OffCanvasExample from '../src/OffCanvasExample';
+import OffCanvasExample from './OffCanvasExample.jsx';
 
 
 
@@ -40,12 +16,20 @@ import Modal from './Modal';
 export default function Navbar() {
 
 
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  // const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const toggleModal = () => { 
-    setIsModalOpen(!isModalOpen);
-  }
+  // const toggleModal = () => { 
+  //   setIsModalOpen(!isModalOpen);
+  // }
 
+  const [isOffCanvasOpen, setIsOffCanvasOpen] = useState(false);
+
+  const toggleOffCanvas = () => {
+    console.log("Toggle OffCanvas");
+    setIsOffCanvasOpen(!isOffCanvasOpen);
+  };
+
+  console.log(isOffCanvasOpen);
 
 
   return (
@@ -58,7 +42,6 @@ export default function Navbar() {
       <h1>Prodigy Pest Solutions</h1>
      </div>
 
-     {/* <h3>We Got You Covered Philly!</h3> */}
     </div>
      
      <div className='navbar-button-container'> 
@@ -138,26 +121,37 @@ export default function Navbar() {
       </div>
 
         
-
+      
 
       <div className='search-hamburger-icon-container'>
       <img src={searchLogo} className="search-icon-navbar"></img>
-      <img src={hamburgerLogo} className="hamburger-menu-icon-navbar" onClick={toggleModal}></img>
+      <img src={hamburgerLogo} className="hamburger-menu-icon-navbar" onClick={toggleOffCanvas}></img>
       </div>
+
+      {isOffCanvasOpen && <OffCanvasExample onClose={toggleOffCanvas} />}
+
+      
 
 
       </div>
 
          {/* Modal */}
-      {isModalOpen && (
+
+
+      {/* {isModalOpen && (
         <Modal onClose={toggleModal} isOpen={isModalOpen}>
-          {/* Content of the modal, including all your navbar elements */}
+          
         </Modal>
-      )}
+      )} */}
 
 
      
 
+     
+
     </div>
+
   );
 }
+
+

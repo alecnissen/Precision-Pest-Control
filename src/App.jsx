@@ -14,6 +14,7 @@ import TestimonialsHomepage from './TestimonialsHomepage';
 import Footer from './Footer';
 import GalleryHomepage2 from './GalleryHomepage2';
 import CommericalAndResidential from './CommericalAndResidential';
+import OffCanvasExample from './OffCanvasExample';
 
 export default function App() {
 
@@ -21,6 +22,7 @@ export default function App() {
     <>
     {/* <ContactLinksHeader></ContactLinksHeader> */}
     <Navbar></Navbar>
+    <OffCanvasExample></OffCanvasExample>
     {/* <ImageTitleComponent></ImageTitleComponent>
     <InsectCards></InsectCards>
     <CommericalAndResidential></CommericalAndResidential>

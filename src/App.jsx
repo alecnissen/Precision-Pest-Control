@@ -21,7 +21,7 @@ export default function App() {
     <>
     {/* <ContactLinksHeader></ContactLinksHeader> */}
     <Navbar></Navbar>
-    <ImageTitleComponent></ImageTitleComponent>
+    {/* <ImageTitleComponent></ImageTitleComponent>
     <InsectCards></InsectCards>
     <CommericalAndResidential></CommericalAndResidential>
     <AboutUsHomepage></AboutUsHomepage>
@@ -33,7 +33,7 @@ export default function App() {
     <MeetYourTeam></MeetYourTeam>
     <TestimonialsHomepage></TestimonialsHomepage>
     <GalleryHomepage2></GalleryHomepage2>
-    <Footer></Footer>
+    <Footer></Footer> */}
     </>
   );
 }

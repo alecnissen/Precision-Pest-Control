@@ -23,3 +23,13 @@ change the img in the meet the team section,
 // start making the navbar responsive and go through each section 
 
 making it responsive and polishing 
+
+make the navbar icons bigger, that should take care of the responsiveness, 
+
+ remove previous media query styles and start the media querys over, 
+
+
+ why is the search icon going away, when the navbar button container is removed
+
+
+ try to center the container 

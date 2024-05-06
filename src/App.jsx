@@ -23,8 +23,8 @@ export default function App() {
     {/* <ContactLinksHeader></ContactLinksHeader> */}
     <Navbar></Navbar>
     <OffCanvasExample></OffCanvasExample>
-    {/* <ImageTitleComponent></ImageTitleComponent>
-    <InsectCards></InsectCards>
+    <ImageTitleComponent></ImageTitleComponent>
+    {/* <InsectCards></InsectCards>
     <CommericalAndResidential></CommericalAndResidential>
     <AboutUsHomepage></AboutUsHomepage>
     <FeaturesHomepage></FeaturesHomepage>

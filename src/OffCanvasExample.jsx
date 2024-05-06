@@ -5,29 +5,45 @@ import { useEffect } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 
 export default function OffCanvasExample({ onClose }) {
-//   const [show, setShow] = useState(false);
 
-//   const handleClose = () => {
-//     setShow(false);
-//     onClose(); // Call onClose to update the isOffCanvasOpen state in the Navbar component
-//   };
+
+  const [show, setShow] = useState(true);
+
+  // const handleClose = () => {
+  //   setShow(false);
+  //   onClose(); // Call onClose to update the isOffCanvasOpen state in the Navbar component
+  // };
 
 //   const toggleShow = () => setShow((s) => !s);
 
 
 
-const [show, setShow] = useState(false);
+// const [show, setShow] = useState(false);
+
+
+
+
+  // useEffect(() => {
+  //   setShow(true); // Ensure the Offcanvas is initially closed
+  // }, []);
 
   useEffect(() => {
-    setShow(true); // Ensure the Offcanvas is initially closed
+    setShow(false);
   }, []);
+
+
+
+
 
   const handleClose = () => {
     setShow(false);
     onClose(); // Call onClose to update the isOffCanvasOpen state in the Navbar component
   };
 
-  const toggleShow = () => setShow(!show);
+
+
+
+  // const toggleShow = () => setShow(!show);
 
 
 
@@ -35,9 +51,9 @@ const [show, setShow] = useState(false);
 
   return (
     <>
-      <Button variant="primary" onClick={toggleShow} className="me-2">
+      {/* <Button variant="primary" onClick={toggleShow} className="me-2">
         Toggle Offcanvas
-      </Button>
+      </Button> */}
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title></Offcanvas.Title>
@@ -168,7 +184,7 @@ const [show, setShow] = useState(false);
         </a>
 
         <a href="#"> 
-          <h3>Spiders</h3>
+          <h3>Spider</h3>
         </a>
 
 
@@ -176,30 +192,7 @@ const [show, setShow] = useState(false);
       </Accordion.Item>
 
 
-
-
-
-
-
-
-
     </Accordion>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         </Offcanvas.Body>

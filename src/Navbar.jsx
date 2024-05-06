@@ -128,9 +128,18 @@ export default function Navbar() {
       <img src={hamburgerLogo} className="hamburger-menu-icon-navbar" onClick={toggleOffCanvas}></img>
       </div>
 
-      {isOffCanvasOpen && <OffCanvasExample onClose={toggleOffCanvas} />}
 
-      
+      {/* og  */}
+      {/* {isOffCanvasOpen && <OffCanvasExample onClose={toggleOffCanvas} />} */}
+
+
+
+      {/* <OffCanvasExample isOpen={isOffCanvasOpen} onClose={() => setIsOffCanvasOpen(false)} /> */}
+
+
+
+      {isOffCanvasOpen && <OffCanvasExample onClose={() => setIsOffCanvasOpen(false)} />}
+
 
 
       </div>

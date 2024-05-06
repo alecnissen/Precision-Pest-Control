@@ -113,15 +113,19 @@
   box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
   border: 2px solid black;
   z-index: 3000;
+
+
+
 }
 
 .dropdown:hover .content {
   display: block;
-  
+ 
 }
 
 .dropdown a:hover {
   color: red;
+  
 }
 
 .content a {
@@ -183,7 +187,7 @@
 // }
 
 .navbar-content-wrapper button:hover {
-  z-index: 3000; /* Or any value higher than other elements */
+  z-index: 3000; 
 }
 
 

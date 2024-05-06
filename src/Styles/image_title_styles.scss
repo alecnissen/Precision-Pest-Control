@@ -64,7 +64,7 @@
 .check-mark-3-pair { 
   display: flex;
   align-items: flex-end;
-  gap: 0.5em;
+  // gap: 0.5em;
 }
 
 
@@ -83,6 +83,9 @@
 }
 
 
+
+
+// media queries begin 
 
 
 
@@ -106,61 +109,180 @@
 }
 
 
-
-
-@media (max-width: 640px) { 
-
-  //  .image-title-component-wrapper { 
-  //   padding: 5em;
-  // }
-
-  // .image-title-component-wrapper { 
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: center;
-  //   align-items: center;
-  // }
-
+@media (max-width: 765px) { 
   .image-title-component-wrapper { 
-    padding: 4em;
+    background-image: url('../assets/907.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .image-title-component-wrapper h1 { 
-    max-width: 9em;
-    // text-align: center;
-    padding-bottom: 0.5em;
+    font-size: 1.5rem;
   }
-
 
   .check-marks-features { 
     display: flex;
     flex-direction: column;
-    gap: 0em;
+    gap: 0;
   }
-
-  .image-title-component-wrapper h1 { 
-    font-size: 2.2rem;
-  } 
 
 
 }
 
-@media (max-width: 442px) { 
-  .image-title-component-wrapper h1 { 
-    font-size: 1.8rem;
-  } 
 
 
+
+@media (max-width: 550px) { 
   .image-title-component-wrapper { 
-    padding: 3em;
+    padding: 5em;
+  }
+
+  .title-cta-button-container { 
+    position: relative;
+    right: 3em;
+  }
+
+  .check-marks-features { 
+    position: relative;
+    right: 3em;
+  }
+
+  .discover-more-btn-container { 
+    position: relative;
+    right: 3em;
+  }
+
+
+
+}
+
+
+
+@media (max-width: 450px) { 
+  .image-title-component-wrapper { 
+    background-position: 40%;
+  }
+  .image-title-component-wrapper h1 { 
+    font-size: 1.2rem;
+  }
+
+  .check-marks-features * { 
+    font-size: 0.8rem;
+  }
+
+  .discover-more-btn-container button { 
+    font-size: 0.8rem;
+  } 
+
+
+
+  .title-cta-button-container { 
+    position: relative;
+    right: 4em;
+  }
+
+  .check-marks-features { 
+    position: relative;
+    right: 4em;
+  }
+
+  .discover-more-btn-container { 
+    position: relative;
+    right: 4em;
+  }
+
+
+
+} 
+
+
+@media (max-width: 355px) { 
+
+  // .image-title-component-wrapper h1 { 
+  //   text-align: center;
+  // }
+
+  .check-marks-features * { 
+    font-size: 0.6rem;
+    
+  }
+
+
+}
+
+
+
+
+@media (max-width: 330px) { 
+  .image-title-component-wrapper h1 { 
+    font-size: 1.1rem;
   }
 }
 
-@media (max-width: 352px) { 
-  .image-title-component-wrapper h1 { 
-    font-size: 1.5rem;
-  } 
-}
+
+
+
+// probably will have to fix the media queries below tablet size 
+
+// play in dev tools but may have to redo them below 765px 
+
+
+
+
+// @media (max-width: 640px) { 
+
+  
+
+//   .image-title-component-wrapper { 
+//     padding: 4em;
+//   }
+
+//   .image-title-component-wrapper h1 { 
+//     max-width: 9em;
+//     // text-align: center;
+//     padding-bottom: 0.5em;
+//   }
+
+
+//   .check-marks-features { 
+//     display: flex;
+//     flex-direction: column;
+//     gap: 0em;
+//   }
+
+//   .image-title-component-wrapper h1 { 
+//     font-size: 2.2rem;
+//   } 
+
+
+// }
+
+// @media (max-width: 442px) { 
+//   .image-title-component-wrapper h1 { 
+//     font-size: 1.8rem;
+//   } 
+
+
+//   .image-title-component-wrapper { 
+//     padding: 3em;
+//   }
+// }
+
+
+// @media (max-width: 380px) { 
+//   .image-title-component-wrapper { 
+//     background-position: 20%;
+//   }
+// }
+
+
+
+
+// @media (max-width: 352px) { 
+//   .image-title-component-wrapper h1 { 
+//     font-size: 1.5rem;
+//   } 
+// }
 
 
 

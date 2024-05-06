@@ -129,7 +129,9 @@
 }
 
 .content a {
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
+ 
+  // font-family: sans-serif;
   // text-align: center;
 }
 
@@ -286,6 +288,7 @@
   .title-logo-container { 
     width: auto;
     gap: 0.2em;
+    padding-left: 1em;
   }
 
   .navbar-button-container  { 

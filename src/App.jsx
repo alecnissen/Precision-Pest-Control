@@ -24,8 +24,8 @@ export default function App() {
     <Navbar></Navbar>
     <OffCanvasExample></OffCanvasExample>
     <ImageTitleComponent></ImageTitleComponent>
-    {/* <InsectCards></InsectCards>
-    <CommericalAndResidential></CommericalAndResidential>
+    <InsectCards></InsectCards>
+    {/* <CommericalAndResidential></CommericalAndResidential>
     <AboutUsHomepage></AboutUsHomepage>
     <FeaturesHomepage></FeaturesHomepage>
     <Process></Process>

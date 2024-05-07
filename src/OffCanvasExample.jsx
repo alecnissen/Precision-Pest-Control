@@ -27,9 +27,9 @@ export default function OffCanvasExample({ onClose }) {
   //   setShow(true); // Ensure the Offcanvas is initially closed
   // }, []);
 
-  useEffect(() => {
-    setShow(false);
-  }, []);
+  // useEffect(() => {
+  //   setShow(false);
+  // }, []);
 
 
 

@@ -39,7 +39,7 @@ export default function CommericalAndResidential() {
 
 
 
-        <img src={animatedWorker} className='animated-worker-img'></img>
+        {/* <img src={animatedWorker} className='animated-worker-img'></img> */}
 
 
 

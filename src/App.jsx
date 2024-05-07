@@ -25,8 +25,8 @@ export default function App() {
     <OffCanvasExample></OffCanvasExample>
     <ImageTitleComponent></ImageTitleComponent>
     <InsectCards></InsectCards>
-    {/* <CommericalAndResidential></CommericalAndResidential>
-    <AboutUsHomepage></AboutUsHomepage>
+    <CommericalAndResidential></CommericalAndResidential>
+    {/* <AboutUsHomepage></AboutUsHomepage>
     <FeaturesHomepage></FeaturesHomepage>
     <Process></Process>
     <GalleryHomepage></GalleryHomepage>

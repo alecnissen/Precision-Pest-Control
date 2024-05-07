@@ -1,7 +1,9 @@
 .commerical-residential-wrapper { 
     display: flex;
-    justify-content: space-evenly;
+    // justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 5em;
     
 }
 
@@ -70,4 +72,35 @@
 
 .residential-and-commerical-containers * { 
     font-family: "Poppins", sans-serif;
+}
+
+
+
+@media (max-width: 1150px) { 
+    .commerical-residential-wrapper { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) { 
+    .pest-control-animated-img-1 { 
+        width: 20em;
+    }
+
+    .commerical-residential-wrapper { 
+        gap: 1em;
+    } 
+
+    .residential-services-content-container h1 { 
+        font-size: 1.3rem;
+    }
+
+    .residential-services-content-container p { 
+        font-size: 0.8rem;
+    }
+
+
 }

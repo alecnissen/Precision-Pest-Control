@@ -47,8 +47,40 @@
 
 
 
+@media (max-width: 1330px) { 
+    .insect-cards-content-wrapper * { 
+        font-size: 1rem;
+    }
+
+
+    .insect-card img { 
+        width: 3em;
+    }
+}
+
+@media (max-width: 1170px) { 
+    .insect-cards-container { 
+        max-width: 50em;
+    }
+}
+
+
 @media (max-width: 1072px) { 
     .insect-cards-container { 
         max-width: 50em;
     }
 }
+
+
+@media (max-width: 765px) { 
+    .insect-cards-content-wrapper * { 
+        font-size: 0.8rem;
+    }
+
+    .insect-card { 
+        width: 9em;
+    }
+
+}
+
+

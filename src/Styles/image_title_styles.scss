@@ -101,6 +101,7 @@
 
   .check-marks-features h3  { 
     font-size: 0.8rem;
+    white-space: nowrap;
   }
 
   .discover-more-btn-container button { 
@@ -205,6 +206,11 @@
   .check-marks-features * { 
     font-size: 0.6rem;
     
+  }
+
+  .check-marks-features h3 { 
+    position: relative;
+    top: 0.3em;
   }
 
 

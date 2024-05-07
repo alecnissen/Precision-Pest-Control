@@ -13,16 +13,16 @@
 .pps-worker-img-1 { 
     // display: flex;
     // align-items: flex-start;
-    width: 30em;
-    height: 30em;
+    width: 25em;
+    height: 25em;
     // height: 18em;
     border-radius: 5%;
 }
 
 .pps-worker-img2 { 
     // width: 20em;
-    width: 30em;
-    height: 30em;
+    width: 25em;
+    height: 25em;
     border-radius: 5%;
 
 }
@@ -103,7 +103,9 @@
 .learn-more-call-help-button-container { 
     display: flex;
     align-items: center;
+    // justify-content: center;
     border-bottom: 4px solid orange;
+    gap: 1em;
 }
 
 .phone-icon-container img { 
@@ -134,7 +136,7 @@
 .call-for-help-container p { 
     font-size: 1.2rem;
     font-family: "Poppins", sans-serif;
-   
+    margin-bottom: 0;
     // color: rgb(57, 181, 74);
     
 }
@@ -192,7 +194,7 @@
 @media (max-width: 1530px) { 
 
    .about-us-homepage-content-wrapper { 
-    gap: 0;
+        gap: 0;
    }
 
 
@@ -231,85 +233,29 @@
 
 @media (max-width: 900px) { 
     .pps-worker-img-1 { 
-        width: 20em;
+        width: 17em;
         height: 17em;
     }
 
     .pps-worker-img2 { 
         width: 17em;
-    }
-}
-
-
-@media (max-width: 650px) { 
-    .pps-worker-img-1 { 
-        width: 14em;
-        height: 14em;
+        height: 17em;
     }
 
-    .pps-worker-img2 { 
-        width: 14em;
-    }
-}
-
-
-@media (max-width: 550px) { 
     .about-us-content-container h3 { 
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         text-align: center;
     } 
 
     .about-us-content-container h1 { 
         font-size: 2rem;
-        text-align: center;
     }
 
     .about-us-description-p { 
-        font-size: 1rem;
-        text-align: center;
+        font-size: 1.1rem;
     }
 
     .learn-more-btn-container button { 
-        font-size: 1rem;
-    }
-
-    .learn-more-call-help-button-container { 
-        display: flex;
-        justify-content: center;
-    }
-
-    .check-mark-set-1, .check-mark-set-2 { 
-        display: flex;
-        flex-direction: column;
-        // justify-content: flex-start;
-        // align-items: center;
-    }
-
-    // .pps-worker-img-1, .pps-worker-img2 { 
-    //     display: none;
-    // }
-
-    // .pps-worker-img-1 { 
-    //     width: 12em;
-    //     height: 12em;
-    // }
-
-    // .pps-worker-img2 { 
-    //     width: 12m;
-    // }
-
-    .pps-workers-container { 
-        display: flex;
-        flex-direction: column;
-    }
-
-    // .about-us-content-container h3 { 
-    //     font-size: 1rem;
-    // }
-
-  
-    .call-for-help-container p,
-    .call-for-help-phone-num { 
         font-size: 1rem;
     }
 
@@ -320,38 +266,197 @@
     .phone-icon-container { 
         width: 2em;
         height: 2em;
-    }
+    } 
 
-    .check-mark-set-1, 
-    .check-mark-set-2 { 
-        margin-right: 3em;
+    .call-for-help-container p,
+    .call-for-help-phone-num { 
+        font-size: 1rem;
     }
+    
 
 
 }
 
-// .pps-worker-img-1 { 
-//     // display: flex;
-//     // align-items: flex-start;
-//     width: 26em;
-//     height: 18em;
-//     border-radius: 5%;
-// }
 
-// .pps-worker-img2 { 
-//     width: 24em;
-//     border-radius: 5%;
+@media (max-width: 640px) { 
+    .pps-worker-img-1,
+    .pps-worker-img2 { 
+        width: 14em;
+        height: 14em;
+    }
+}
 
-// }
+
+@media (max-width: 600px) { 
+    .pps-workers-container { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .check-marks-container { 
+        padding-left: 0;
+    }
+}
+
+
+@media (max-width: 550px) { 
+
+
+    // .about-us-content-container * { 
+    //     text-align: center;
+    // }
+
+    .about-us-content-container h3, 
+    .about-us-content-container h1 { 
+        text-align: center;
+    }
+
+
+
+    .check-mark-set-1 p, .check-mark-set-2 p { 
+        font-size: 0.8rem;
+    }
+
+    .check-mark-set-1 img, .check-mark-set-2 img { 
+        width: 1.2em;
+    }
+}
+
+
+
+@media (max-width: 455px) { 
+    .about-us-content-container h3 { 
+        font-size: 1.2rem;
+        
+    }
+
+    .about-us-content-container h1 { 
+        font-size: 1.6rem;
+    }
+
+    .about-us-description-p { 
+        font-size: 0.9rem;
+    }
+
+    .learn-more-btn-container button { 
+        font-size: 0.9rem;
+    }
+}
+
+
+
+@media (max-width: 415px) { 
+    .check-mark-set-1, .check-mark-set-2 { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .check-mark-set-1 p, .check-mark-set-2 p { 
+        font-size: 1rem;
+    }
+    
+}
+
 
 
 @media (max-width: 380px) { 
-    .learn-more-btn-container button { 
-        font-size: 0.8rem;
+    .about-us-content-container h3 { 
+        font-size: 0.9rem;
     }
 
     .call-for-help-container p, 
-    .call-for-help-phone-num { 
-        font-size: 0.8rem;
+    .call-for-help-phone-num,
+    .learn-more-btn-container button  { 
+        font-size: 0.7rem;
     }
+
+    
+   
+
+
 }
+
+
+
+// @media (max-width: 650px) { 
+    //     .pps-worker-img-1 { 
+        //         width: 14em;
+//         height: 14em;
+//     }
+
+//     .pps-worker-img2 { 
+//         width: 14em;
+//     }
+// }
+
+
+// @media (max-width: 550px) { 
+//     .about-us-content-container h3 { 
+//         font-size: 1.2rem;
+//         text-align: center;
+//     } 
+
+//     .about-us-content-container h1 { 
+//         font-size: 2rem;
+//         text-align: center;
+//     }
+
+//     .about-us-description-p { 
+//         font-size: 1rem;
+//         text-align: center;
+//     }
+
+//     .learn-more-btn-container button { 
+//         font-size: 1rem;
+//     }
+
+    
+
+//     .check-mark-set-1, .check-mark-set-2 { 
+//         display: flex;
+//         flex-direction: column;
+        
+//     }
+
+ 
+
+//     .pps-workers-container { 
+//         display: flex;
+//         flex-direction: column;
+//     }
+
+
+  
+//     .call-for-help-container p,
+//     .call-for-help-phone-num { 
+//         font-size: 1rem;
+//     }
+
+//     .phone-icon-container img { 
+//         width: 1.5em;
+//     }
+
+//     .phone-icon-container { 
+//         width: 2em;
+//         height: 2em;
+//     }
+
+//     .check-mark-set-1, 
+//     .check-mark-set-2 { 
+//         margin-right: 3em;
+//     }
+
+
+// }
+
+
+// @media (max-width: 380px) { 
+//     .learn-more-btn-container button { 
+//         font-size: 0.8rem;
+//     }
+
+//     .call-for-help-container p, 
+//     .call-for-help-phone-num { 
+//         font-size: 0.8rem;
+//     }
+// }

@@ -26,8 +26,8 @@ export default function App() {
     <ImageTitleComponent></ImageTitleComponent>
     <InsectCards></InsectCards>
     <CommericalAndResidential></CommericalAndResidential>
-    {/* <AboutUsHomepage></AboutUsHomepage>
-    <FeaturesHomepage></FeaturesHomepage>
+    <AboutUsHomepage></AboutUsHomepage>
+    {/* <FeaturesHomepage></FeaturesHomepage>
     <Process></Process>
     <GalleryHomepage></GalleryHomepage>
     <PaymentPlans></PaymentPlans>

@@ -27,8 +27,8 @@ export default function App() {
     <InsectCards></InsectCards>
     <CommericalAndResidential></CommericalAndResidential>
     <AboutUsHomepage></AboutUsHomepage>
-    {/* <FeaturesHomepage></FeaturesHomepage>
-    <Process></Process>
+    <FeaturesHomepage></FeaturesHomepage>
+    {/* <Process></Process>
     <GalleryHomepage></GalleryHomepage>
     <PaymentPlans></PaymentPlans>
     <ContactForm></ContactForm>

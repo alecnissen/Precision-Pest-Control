@@ -328,6 +328,7 @@
     .about-us-content-container h3 { 
         font-size: 1.2rem;
         
+        
     }
 
     .about-us-content-container h1 { 
@@ -367,11 +368,11 @@
     .call-for-help-container p, 
     .call-for-help-phone-num,
     .learn-more-btn-container button  { 
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+        white-space: nowrap;
     }
 
     
-   
 
 
 }

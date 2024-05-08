@@ -45,8 +45,11 @@
 .process-cards-container { 
     display: flex;
     padding-top: 2em;
+    justify-content: center;
+    align-items: center;
     gap: 2em;
     padding: 2em;
+    flex-wrap: wrap;
 }
 
 .process-card { 
@@ -59,12 +62,13 @@
     // box-shadow: 2em;
     box-shadow: 3px 3px 3px gray;
     gap: 1em;
-    padding: 3em;
+    // padding: 3em;
+    padding: 1em;
 }
 
-.process-card:hover { 
-    border: 1px solid darkorange;
-}
+// .process-card:hover { 
+//     border: 1px solid darkorange;
+// }
 
 .process-card * { 
     font-family: "Poppins", sans-serif;
@@ -108,3 +112,108 @@
     height: 5.7em;
 
 }
+
+
+
+// media queries begin here 
+
+
+
+@media (max-width: 1567px) {
+    .process-cards-container {
+      justify-content: center;
+    }
+  
+    // .process-card {
+    //   flex-basis: calc(50% - 1em); /* Adjust the width of each card */
+    //   max-width: calc(50% - 1em); /* Adjust the maximum width of each card */
+    //   margin-right: 1em; /* Adjust the gap between cards */
+    // }
+  
+    // .process-card:last-child {
+    //   margin-right: 0; /* Remove the right margin of the last card */
+    // }
+  }
+
+
+
+// @media (max-width: 1567px) { 
+//     .process-cards-container { 
+//         display: flex;
+//         flex-basis: calc(50% - 1em);
+//     }
+// }
+
+
+// @media (max-width: 1288px) { 
+//    .process-cards-container {
+//     display: flex; 
+//     flex-basis: 54.444%;
+//    }
+// }
+
+
+
+
+
+@media (max-width: 1070px) { 
+    .process-title-subtitle-container h3 { 
+        font-size: 2rem;
+    }
+
+    .process-title-subtitle-container h1 { 
+        font-size: 2rem;
+    }
+
+    .process-title-subtitle-container p { 
+        font-size: 0.9rem;
+    }
+
+    .process-pest-control-img { 
+        width: 24em;
+    } 
+
+    .process-card { 
+        padding: 0.5em;
+    }
+
+}
+
+
+@media (max-width: 800px) { 
+    .process-title-subtitle-wrapper { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .process-title-subtitle-container p { 
+        max-width: 30em;
+    }
+}
+
+
+@media (max-width: 500px) { 
+    .process-pest-control-img { 
+        width: 20em;
+    }
+
+    .process-title-subtitle-container h1 { 
+        font-size: 1.5rem;
+    }
+
+    .process-title-subtitle-container p { 
+        font-size: 0.8rem;
+    }
+
+    .process-card h3 { 
+        font-size: 1.4rem;
+    }
+
+    .process-card p { 
+        font-size: 0.8rem;
+    }
+
+}
+

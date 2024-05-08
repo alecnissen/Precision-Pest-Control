@@ -28,8 +28,8 @@ export default function App() {
     <CommericalAndResidential></CommericalAndResidential>
     <AboutUsHomepage></AboutUsHomepage>
     <FeaturesHomepage></FeaturesHomepage>
-    {/* <Process></Process>
-    <GalleryHomepage></GalleryHomepage>
+    <Process></Process>
+    {/* <GalleryHomepage></GalleryHomepage>
     <PaymentPlans></PaymentPlans>
     <ContactForm></ContactForm>
     <MeetYourTeam></MeetYourTeam>

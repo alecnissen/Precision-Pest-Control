@@ -29,8 +29,8 @@ export default function App() {
     <AboutUsHomepage></AboutUsHomepage>
     <FeaturesHomepage></FeaturesHomepage>
     <Process></Process>
-    {/* <GalleryHomepage></GalleryHomepage>
-    <PaymentPlans></PaymentPlans>
+    <GalleryHomepage></GalleryHomepage>
+    {/* <PaymentPlans></PaymentPlans>
     <ContactForm></ContactForm>
     <MeetYourTeam></MeetYourTeam>
     <TestimonialsHomepage></TestimonialsHomepage>

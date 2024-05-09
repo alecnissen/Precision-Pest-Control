@@ -31,8 +31,8 @@ export default function App() {
     <Process></Process>
     <GalleryHomepage></GalleryHomepage>
     <PaymentPlans></PaymentPlans>
-    {/* <ContactForm></ContactForm>
-    <MeetYourTeam></MeetYourTeam>
+    <ContactForm></ContactForm>
+    {/* <MeetYourTeam></MeetYourTeam>
     <TestimonialsHomepage></TestimonialsHomepage>
     <GalleryHomepage2></GalleryHomepage2>
     <Footer></Footer> */}

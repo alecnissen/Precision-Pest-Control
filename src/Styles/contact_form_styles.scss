@@ -9,6 +9,7 @@
 .contact-form-title-subtitle-container { 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1em;
 }
 
@@ -89,13 +90,13 @@
     // z-index: 1000;
     gap: 1.5em;
     
-    padding: 3.5em;
+    // padding: 3.5em;
+    padding: 1.7em;
     border-radius: 1em;
     // clip-path: polygon(8% 0, 100% 0%, 100% 100%, 2% 100%);
 }
 
-.form-name-phone-num-container,
-.form-date-time-container { 
+.form-name-phone-num-container { 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,10 +141,14 @@ form h1 {
 .contact-form-wrapper input,
 .contact-form-wrapper select { 
     outline: none;
-    border: none;
+    // border: none;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    padding: 0.2em;
 }
 
-.contact-form-name-container { 
+.contact-form-name-container,
+.contact-form-phone-num-container { 
     display: flex;
     align-items: center;
 }
@@ -163,14 +168,131 @@ form h1 {
 .contact-form-phone-num-container img,
 .contact-form-services-container img { 
     // border: 1px solid black;
-    width: 1.2em;
+    width: 1.7em;
 }
 
 .form-date-time-container { 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .form-date-time-container label { 
     font-size: 0.8rem;
 }
+
+
+
+
+// contact form plan 
+
+// place borders around inputs 
+
+// try to center the left side text so its more in the center of the container 
+
+// try to make sure the inputs and everything is even within the form, 
+
+// fix that then begin the responsiveness aspect 
+
+
+
+@media (max-width: 1260px) { 
+    .form-name-phone-num-container,
+    .form-date-time-container { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-form-title-subtitle-container { 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    
+}
+
+
+
+@media (max-width: 765px) { 
+    .contact-form-content-wrapper { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .contact-form-title-subtitle-container { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .phone-icon-container-contact-form img { 
+        width: 2em;
+    }
+
+
+    .phone-num-container p { 
+        // position: relative;
+        // right: 1.3em;
+        font-size: 1rem;
+    }
+
+    .phone-num-container h4 { 
+        // position: relative;
+        // right: 0.5em;
+        font-size: 1rem;
+        // font-weight: 300;
+    }
+
+    .contact-form-description-text { 
+        max-width: 30em;
+    }
+
+    .call-for-help-container-contact-form { 
+        gap: 0.5em;
+    }
+
+
+    .phone-num-container { 
+        display: flex;
+       
+        align-items: center;
+        flex-direction: row;
+    }
+
+}
+
+
+// make the form smaller too, 
+
+@media (max-width: 450px) { 
+
+    .contact-form-title-subtitle-container h1 { 
+        font-size: 1.5rem;
+    }
+
+    .contact-form-description-text { 
+        font-size: 0.9rem;
+    }
+
+
+    .phone-num-container p,
+    .phone-num-container h4 { 
+        font-size: 0.8rem;
+    }
+
+    .phone-icon-container-contact-form img { 
+        width: 1.5em;
+    }
+
+
+
+}
+
+

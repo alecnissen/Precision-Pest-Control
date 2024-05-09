@@ -121,9 +121,21 @@
 
 
 @media (max-width: 1567px) {
+
+    .process-content-wrapper { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
     .process-cards-container {
       display: flex;
       justify-content: center;
+      align-items: center;
+      width: 50em;
+      flex-wrap: wrap;
     //   flex-basis: 33.33333%;
     }
   
@@ -181,6 +193,15 @@
     .process-card { 
         padding: 0.5em;
     }
+
+    .process-cards-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        flex-wrap: wrap;
+      //   flex-basis: 33.33333%;
+      }
 
 }
 

@@ -15,11 +15,11 @@ export default function PaymentPlans() {
 
           <h1>Your Pest Control Needs</h1>
         </div>
-
+{/* 
         <p>
           Explore Competitive Prices for Professional Pest Control Services. Affordable Pricing Options for a Pest-Free
           Environment
-        </p>
+        </p> */}
 
 
         <div className='payment-plans-img-container'> 

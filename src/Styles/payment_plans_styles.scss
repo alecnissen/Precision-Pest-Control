@@ -10,7 +10,9 @@
 
 
     // justify-content: center;
-    justify-content: center;
+
+
+    justify-content: space-evenly;
     align-items: center;
     gap: 1em;
 }
@@ -20,8 +22,13 @@
     flex-direction: column;
 }
 
+.payment-plans-title-subtitle-container h1 { 
+    font-size: 2.6rem;
+}
+
 .payment-plans-title-subtitle-container h3 { 
     color: rgb(57, 181, 74);
+    // font-size: 2rem;
 }
 
 .payment-plans-title-subtitle-container * { 
@@ -47,7 +54,7 @@
     display: flex;
     justify-content: center;
     gap: 2em;
-    padding-top: 1em;
+    // padding-top: 1em;
 }
 
 .feature-img-container { 
@@ -153,7 +160,7 @@
 }
 
 .payment-plans-pest-logo { 
-    width: 20em;
+    width: 23em;
 }
 
 .payment-plans-img-container { 

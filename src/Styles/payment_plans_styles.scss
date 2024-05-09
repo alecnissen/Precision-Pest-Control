@@ -72,7 +72,7 @@
     display: flex;
     flex-direction: column;
     border: 1px solid darkorange;
-    width: 28em;
+    // width: 28em;
     padding: 2em;
 }
 
@@ -167,4 +167,143 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+
+
+
+
+// media queries begin here, 
+
+// at 800px switch the title/subtitle container to column, 
+
+// change the font size and make things smaller till 800px
+
+
+
+
+@media (max-width: 1410px) { 
+    .payment-plans-cards-wrapper { 
+        gap: 1em;
+    }
+}
+
+
+
+@media (max-width: 1370px) {
+    .feature-img-container h3 { 
+        font-size: 1rem;
+    }
+
+    .payment-plan-card h3 { 
+        font-size: 1.2rem;
+    }
+
+    .payment-plan-price-container h1 { 
+        font-size: 2rem;
+    }
+
+    .payment-plan-price-container { 
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .payment-plans-card-container { 
+        padding: 1em;
+    }
+
+    .our-services-button-container button { 
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+@media (max-width: 1070px) { 
+    .payment-plans-title-subtitle-container h3 { 
+        font-size: 2rem;
+    }
+
+    .payment-plans-title-subtitle-container h1 { 
+        font-size: 2rem;
+    }
+
+    .payment-plans-pest-logo { 
+        width: 18em;
+    }
+
+    .payment-plans-cards-wrapper { 
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 800px) { 
+    .payment-plans-title-subtitle-wrapper { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 500px) { 
+
+    .payment-plans-title-subtitle-container { 
+        text-align: center;
+    }
+
+    .payment-plans-title-subtitle-container h1 { 
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+@media (max-width: 400px) { 
+    .payment-plans-title-subtitle-container h3 { 
+        font-size: 1.5rem;
+    }
+
+    .payment-plans-title-subtitle-container h1 { 
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 370px) { 
+   
+    .feature-img-container h3 { 
+            font-size: 0.9rem;
+    }
+
+
+
+
+
+
+
+    .payment-plans-card-container { 
+        padding: 0.4em;
+    }
+
+    // .our-services-button-container button { 
+    //     font-size: 0.8rem;
+    // }
+
+
 }

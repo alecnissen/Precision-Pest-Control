@@ -3,7 +3,9 @@ import employeeImg from '../assets/edited-profile-pic.png';
 import mockEmployeeImg from '../assets/mock-image-testimonial-section.jpg';
 import pestControlSvgImg from '../assets/10780550_19198459.svg';
 
-import pestControlWorkerImg from '../assets/28457766_38aj_10j6_220602.svg';
+import pestControlWorkerImg from '../assets/5972364_21696.jpg';
+
+import pestControlTeamImg from '../assets/5972364_21696.jpg';
 
 export default function MeetYourTeam() {
   return (
@@ -25,7 +27,9 @@ export default function MeetYourTeam() {
       </div>
 
 
-      <img src={pestControlWorkerImg} className='pest-control-worker-img'></img>
+      {/* <img src={pestControlWorkerImg} className='pest-control-worker-img'></img> */}
+
+      <img src={pestControlTeamImg} className='pest-control-team-img'></img>
 
 
 

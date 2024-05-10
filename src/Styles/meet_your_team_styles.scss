@@ -5,6 +5,9 @@
 .team-title-subtitle-container { 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .team-title-subtitle-wrapper { 
@@ -13,8 +16,13 @@
     align-items: center;
 }
 
-.pest-control-worker-img { 
-    width: 18em;
+// .pest-control-worker-img { 
+//     width: 12em;
+// }
+
+.pest-control-team-img { 
+    width: 22em;
+    border-radius: 1em;
 }
 
 .team-title-subtitle-container * { 
@@ -29,9 +37,10 @@
 }
 
 .team-title-subtitle-container p { 
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
-    max-width: 40em;
+    max-width: 35em;
+    text-align: center;
 }
 
 .meet-team-content-wrapper { 
@@ -44,6 +53,7 @@
     align-items: stretch;
     padding-top: 2em;
     gap: 2em;
+    flex-wrap: wrap;
 }
 
 .team-profile-container * { 
@@ -73,6 +83,44 @@
 
 .team-member-profile-container img { 
     width: 10em;
-    border-radius: 50%;
+    border-radius: 0.5em;
 }
 
+
+
+
+// media queries begin here 
+
+@media (max-width: 1360px) { 
+    .team-title-subtitle-container { 
+        padding-right: 2em;
+    }
+
+    .team-title-subtitle-container h1 { 
+        font-size: 2.5rem;
+    }
+
+    .team-title-subtitle-container p { 
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 875px) { 
+    .team-title-subtitle-container h1 { 
+        font-size: 2rem;
+    }
+
+    .pest-control-team-img { 
+        width: 17em;
+    }
+}
+
+@media (max-width: 765px)  {
+    .team-title-subtitle-wrapper { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

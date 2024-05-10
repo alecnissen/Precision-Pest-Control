@@ -85,4 +85,12 @@ gallery 2 imgs
 
 photo1 
 
-<a href="https://www.freepik.com/free-photo/person-white-chemical-protection-suit-doing-disinfection-public-areas-stop-spreading-highly-contagious-corona-virus_11138002.htm#fromView=search&page=2&position=47&uuid=7728ffec-c9cd-4cdc-8408-a9b0d41c77ce">Image by aleksandarlittlewolf on Freepik</a>
+<a href="https://www.freepik.com/free-photo/person-white-chemical-protection-suit-doing-disinfection-public-areas-stop-spreading-highly-contagious-corona-virus_11138002.htm#fromView=search&page=2&position=47&uuid=7728ffec-c9cd-4cdc-8408-a9b0d41c77ce">Image by aleksandarlittlewolf on Freepik</a> 
+
+
+
+Pest control team 
+
+img 1 
+
+<a href="https://www.freepik.com/free-vector/pest-control-isometric-background_5972364.htm#fromView=search&page=8&position=32&uuid=aa711a25-b02b-45a1-aafa-d242635faf54">Image by macrovector on Freepik</a>

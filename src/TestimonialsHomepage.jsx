@@ -37,7 +37,9 @@ export default function TestimonialsHomepage() {
 
 
         <Carousel id='event-carousel-container'>
-         <Carousel.Item>
+
+
+         {/* <Carousel.Item>
             <img id='carousel-image' src={slide1} alt='testimonial'></img>
         </Carousel.Item>
         <Carousel.Item>
@@ -48,7 +50,13 @@ export default function TestimonialsHomepage() {
          </Carousel.Item>
          <Carousel.Item>
         <img id='carousel-image' src={slide4} alt='testimonial'></img>
-        </Carousel.Item>
+        </Carousel.Item> */}
+
+
+
+
+
+
       </Carousel>
 
 

@@ -99,3 +99,26 @@
 //     width: 
 //     object-fit: cover; 
 // }
+
+
+@media (max-width: 1300px) { 
+    .testimonial-content-card-container { 
+        width: auto;
+    }
+}
+
+
+@media (max-width: 1040px) { 
+    .testimonial-header-container h3 { 
+        font-size: 1.2rem;
+    }
+
+    .testimonial-header-container h1 { 
+       font-size: 1.5rem; 
+    }
+
+  
+
+
+
+}

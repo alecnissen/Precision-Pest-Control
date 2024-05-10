@@ -33,3 +33,17 @@ make the navbar icons bigger, that should take care of the responsiveness,
 
 
  try to center the container 
+
+
+
+
+
+ // working on making the testiomonial section responsive 
+
+ // I think the current approach won't work, the img within the carousel 
+ // is a certain size, it can't shrink too much the user will not be able to read CFA
+ // you cannot import images because they will have a fixed width and you cannot adjust them 
+
+ // write the content within the carousel 
+
+ // there will be no other way to make it responsive

@@ -25,6 +25,13 @@
     border-radius: 1em;
 }
 
+.team-member-description-text-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
 .team-title-subtitle-container * { 
     font-family: "Poppins", sans-serif;
 }
@@ -58,12 +65,13 @@
 
 .team-profile-container * { 
     font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 
 .team-member-profile-container { 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-direction: column;
     padding: 2em;
     gap: 1em;
@@ -79,6 +87,11 @@
     // white-space: nowrap;
     // font-size: 0.9rem;
     // line-break: none;
+}
+
+.team-member-img-container { 
+    display: flex;
+    justify-content: center;
 }
 
 .team-member-profile-container img { 

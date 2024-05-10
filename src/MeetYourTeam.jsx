@@ -43,27 +43,65 @@ export default function MeetYourTeam() {
         <div className='team-member-profile-container'> 
             
             <h3>John Smith</h3>
+
+            <div className='team-member-img-container'> 
             <img src={mockEmployeeImg}></img>
+            </div>
+
+
+            <div className='team-member-description-text-container'> 
+            
             <p>Termite Technician</p>
 
+
+
             <p>"My Goal is to go above and beyond to help you!"</p>
+
+
+            </div>
+
+
+
+
 
         </div>
 
         <div className='team-member-profile-container'> 
             
             <h3>David Williams</h3>
+
+            <div className='team-member-img-container'> 
             <img src={mockEmployeeImg}></img>
+            </div>
+            
+            
+            
+            <div className='team-member-description-text-container'>
+            
             <p>Wildlife Technician</p>
 
+
+
             <p>"My Goal is to do an excellent job everyday and to get the job done!"</p>
+            </div>
+
+
+
+
+
 
         </div>
 
         <div className='team-member-profile-container'> 
             
             <h3>Andy Frisella</h3>
+
+            <div className='team-member-img-container'> 
             <img src={mockEmployeeImg}></img>
+            </div>
+
+
+
             <p>Termite Inspector</p>
 
             <p>"My Goal is to provide the very best customer service!"</p>
@@ -73,8 +111,23 @@ export default function MeetYourTeam() {
         <div className='team-member-profile-container'> 
             
             <h3>Ed Mylett</h3>
+
+
+
+            <div className='team-member-img-container'> 
             <img src={mockEmployeeImg}></img>
+            </div>
+            
+            
+            
+            
+            
+            
             <p>Rodent Expert</p>
+
+
+
+
 
             <p>"My Goal is to ensure your home and family are safe!"</p>
 

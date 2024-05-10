@@ -44,13 +44,15 @@ export default function ContactForm() {
         <div className='form-name-phone-num-container'>
         
         <div className='contact-form-name-container'>
-        <input placeholder='Your Name'></input>
+        <label>Full Name</label>
+        <input></input>
         <img src={profileImg}></img>
         </div>
 
 
         <div className='contact-form-phone-num-container'>
-        <input placeholder='Phone Number'></input>
+        <label>Phone Number</label>
+        <input></input>
         <img src={phoneImgContactForm}></img>
         </div>
 

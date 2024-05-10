@@ -32,7 +32,7 @@
 .contact-form-description-text { 
     color: lightgray;
     font-weight: 300;
-    max-width: 40em;
+    max-width: 30em;
 }
 
 .phone-num-container p { 
@@ -101,7 +101,7 @@
     justify-content: center;
     align-items: center;
     // flex-direction: column;
-    gap: 3em;
+    gap: 1em;
 }
 
 .contact-form-name-container input::placeholder,
@@ -111,7 +111,9 @@
 }
 
 .form-date-time-container p,
-.contact-form-services-container label { 
+.contact-form-services-container label,
+.contact-form-name-container label,
+.contact-form-phone-num-container label { 
     color: gray;
     font-weight: 300;
 }
@@ -145,11 +147,14 @@ form h1 {
     border: 1px solid black;
     border-radius: 0.5em;
     padding: 0.2em;
+    // width: 22em;
+    width: 100%;
 }
 
 .contact-form-name-container,
 .contact-form-phone-num-container { 
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -169,10 +174,13 @@ form h1 {
 .contact-form-services-container img { 
     // border: 1px solid black;
     width: 1.7em;
+    display: none;
 }
 
-.form-date-time-container { 
+.form-date-time-container,
+.contact-form-services-container { 
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
@@ -198,7 +206,8 @@ form h1 {
 
 @media (max-width: 1260px) { 
     .form-name-phone-num-container,
-    .form-date-time-container { 
+    .form-date-time-container, 
+    .contact-form-services-container { 
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -208,8 +217,16 @@ form h1 {
     .contact-form-title-subtitle-container { 
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        // justify-content: flex-start;
+        padding-right: 2em;
     }
+
+    .contact-form-name-container img,
+.contact-form-phone-num-container img,
+.contact-form-services-container img { 
+    // border: 1px solid black;
+    width: 1.4em;
+}
 
     
 }
@@ -284,7 +301,7 @@ form h1 {
 
     .phone-num-container p,
     .phone-num-container h4 { 
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .phone-icon-container-contact-form img { 
@@ -292,7 +309,32 @@ form h1 {
     }
 
 
+    // .contact-form-wrapper { 
+    //     padding: 0.6em;
+    // }
+
+
+    .contact-form-wrapper input, 
+    .contact-form-wrapper select { 
+        // font-size: 0.9rem;
+        width: 15em;
+    }
+
+    .contact-form-wrapper button { 
+        font-size: 1rem;
+    }
+
 
 }
 
 
+// @media (max-width: 360px) { 
+//     .contact-form-wrapper { 
+//         padding: 0.4em;
+//     }
+
+//     .contact-form-wrapper input, 
+//     .contact-form-wrapper select { 
+//         font-size: 0.8rem;
+//     }
+// }

@@ -32,10 +32,17 @@ export default function App() {
     <GalleryHomepage></GalleryHomepage>
     <PaymentPlans></PaymentPlans>
     <ContactForm></ContactForm>
-    <MeetYourTeam></MeetYourTeam>
-    <TestimonialsHomepage></TestimonialsHomepage>
-    {/* <GalleryHomepage2></GalleryHomepage2>
-    <Footer></Footer> */}
+
+    {/* <MeetYourTeam></MeetYourTeam>
+    <TestimonialsHomepage></TestimonialsHomepage>  */}
+
+
+
+    <GalleryHomepage2></GalleryHomepage2>
+
+    {/* <Footer></Footer> */}
+
+
     </>
   );
 }

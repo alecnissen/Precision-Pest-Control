@@ -10,6 +10,7 @@ import slide2 from "../assets/new-slide-2-x.png";
 import slide3 from "../assets/new-slide-3.png";
 import quoteImg from '../assets/quote-svgrepo-com.svg';
 import slide4 from "../assets/new-slide-4.png"
+import { CarouselItem } from 'react-bootstrap';
 
 
 
@@ -38,6 +39,7 @@ export default function TestimonialsHomepage() {
 
         <Carousel id='event-carousel-container'>
 
+       
 
          {/* <Carousel.Item>
             <img id='carousel-image' src={slide1} alt='testimonial'></img>

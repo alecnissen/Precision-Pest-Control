@@ -20,6 +20,7 @@
 .footer-welcome-to-container h5 { 
     font-weight: 700;
     padding-bottom: 1em;
+    font-family: "Poppins", sans-serif;
 }
 
 .footer-welcome-to-container p { 
@@ -30,6 +31,7 @@
 
 .footer-pps-text { 
     color: yellow;
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -93,6 +95,8 @@
     width: 15em;
     font-family: "Poppins", sans-serif;
     padding: 0.5em;
+    border-radius: 0.5em;
+    border: none;
 }
 
 .newsletter-btn-container { 
@@ -106,7 +110,7 @@
     font-size: 1.2rem;
     font-family: "Poppins", sans-serif;
     background-color: yellow;
-    
+    border-radius: 0.5em;
 }
 
 
@@ -185,6 +189,7 @@
 
     .footer-welcome-to-container p { 
         max-width: 21em;
+        font-size: 1.2rem;
     }
 
     .footer-icon-container { 
@@ -199,11 +204,35 @@
         align-items: center;
     }
 
-    .footer-welcome-to-container h1 { 
+    .footer-welcome-to-container h5 { 
         font-size: 2rem;
     }
 
+    .footer-privacy-policy-container h4, 
+    .footer-emergency-services-container h4, 
+    .newsletter-container h4 { 
+        font-size: 1.5rem;
+    }
 
+
+    .footer-privacy-policy-container h5, .footer-emergency-services-container h5, .footer-welcome-to-container p { 
+        font-size: 1.1rem;
+    }
+
+
+    // .policy-container h5, 
+    // .footer-emergency-services-container h5 { 
+    //     font-size: 1.2rem;
+    // }
+
+
+    .newsletter-container input { 
+        font-size: 1rem;
+    }
+
+    .newsletter-btn-container button { 
+        font-size: 0.9rem;
+    }
 
 }
 
@@ -216,6 +245,11 @@
 
 
 
+// @media (max-width: 425px) { 
+//     .footer-welcome-to-container h5 { 
+//         font-size: 1.5rem;
+//     }
+// }
 
 
 

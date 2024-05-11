@@ -109,11 +109,112 @@
     
 }
 
-// .newsletter-container { 
-//     display: flex;
-//     flex-direction: column;
-//     gap: 1em;
-// }
+
+
+
+
+// media queries begin here 
+
+
+@media (max-width: 1334px) { 
+    .footer-privacy-policy-container h4,
+    .footer-emergency-services-container h4,
+    .newsletter-container h4  { 
+        font-size: 1rem;    
+    }
+
+    .footer-privacy-policy-container h5,
+    .footer-emergency-services-container h5,
+    .footer-welcome-to-container p  { 
+        font-size: 0.9rem;
+    }
+
+    .newsletter-container input { 
+        font-size: 0.9rem;
+    }
+
+    .newsletter-btn-container button { 
+        font-size: 1rem;
+    }
+
+    
+
+}
+
+
+@media (max-width: 1091px) { 
+    .footer-privacy-policy-container,
+    .footer-emergency-services-container,
+    .newsletter-container { 
+        text-align: center;
+    }
+
+    .newsletter-container input { 
+       font-size: 0.8rem;
+    }
+
+    .newsletter-btn-container button { 
+        font-size: 0.8rem;
+    }
+
+    .footer-welcome-to-container { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 1000px) { 
+    .footer-content-wrapper { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .footer-privacy-policy-container, 
+    .footer-emergency-services-container, 
+    .newsletter-container { 
+        padding: 1em;
+    }
+
+    .footer-welcome-to-container p { 
+        max-width: 21em;
+    }
+
+    .footer-icon-container { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-welcome-to-container { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-welcome-to-container h1 { 
+        font-size: 2rem;
+    }
+
+
+
+}
+
+
+
+// at 1000px you need to increase the size of the titles again, 
+
+// then possibly shrink down at mobile phones screen sizes
+
+
+
 
 
 

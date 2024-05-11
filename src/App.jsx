@@ -40,7 +40,7 @@ export default function App() {
 
     <GalleryHomepage2></GalleryHomepage2>
 
-    {/* <Footer></Footer> */}
+    <Footer></Footer>
 
 
     </>

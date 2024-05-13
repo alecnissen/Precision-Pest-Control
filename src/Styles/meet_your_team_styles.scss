@@ -21,7 +21,7 @@
 // }
 
 .pest-control-team-img { 
-    width: 22em;
+    width: 25em;
     border-radius: 1em;
 }
 
@@ -39,14 +39,14 @@
 .team-title-subtitle-container h1 { 
     font-weight: 400;
     // font-size: 2.4rem;
-    font-size: 3rem;
+    font-size: 3.3rem;
     padding-bottom: 0.5em;
 }
 
 .team-title-subtitle-container p { 
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
-    max-width: 35em;
+    max-width: 30em;
     text-align: center;
 }
 
@@ -60,7 +60,7 @@
     align-items: stretch;
     padding-top: 2em;
     gap: 2em;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
 }
 
 .team-profile-container * { 
@@ -70,8 +70,8 @@
 
 .team-member-profile-container { 
     display: flex;
-    justify-content: center;
-    align-items: stretch;
+    justify-content: stretch;
+    align-items: center;
     flex-direction: column;
     padding: 2em;
     gap: 1em;
@@ -79,13 +79,22 @@
     // border: 2px solid black;
     box-shadow: 3px 3px 3px gray;
 //    width: 100%;
-    flex: 1;
+    // width: calc(25% - 2em);
+
+    // width: 20em;
+
+    width: 16em;
+    border-radius: 1em;
+
+
+    // flex: 1;
 }
 
 .team-member-profile-container p { 
     text-align: center;
+    
     // white-space: nowrap;
-    // font-size: 0.9rem;
+    font-size: 0.9rem;
     // line-break: none;
 }
 
@@ -95,45 +104,159 @@
 }
 
 .team-member-profile-container img { 
-    width: 10em;
+    width: 7em;
     border-radius: 0.5em;
 }
 
+.team-member-profile-inner-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.team-member-profile-inner-container h3 { 
+    font-size: 1.3rem;
+}
 
 
 // media queries begin here 
 
-@media (max-width: 1360px) { 
-    .team-title-subtitle-container { 
-        padding-right: 2em;
-    }
 
-    .team-title-subtitle-container h1 { 
-        font-size: 2.5rem;
-    }
-
-    .team-title-subtitle-container p { 
-        font-size: 1rem;
-    }
-}
-
-
-@media (max-width: 875px) { 
-    .team-title-subtitle-container h1 { 
-        font-size: 2rem;
-    }
-
+@media (max-width: 1100px) { 
     .pest-control-team-img { 
-        width: 17em;
+        width: 20em;
     }
 }
 
-@media (max-width: 765px)  {
+
+
+@media (max-width: 1070px) { 
+    .team-profile-container { 
+        gap: 1em;
+    }
+
+    .team-member-profile-container  { 
+        padding: 1em;
+    }
+
+}
+
+
+@media (max-width: 975px) { 
     .team-title-subtitle-wrapper { 
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+
+
+
+
+@media (max-width: 950px) { 
+
+    .meet-team-content-wrapper { 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
+    .team-profile-container { 
+        display: flex;
+       
+        flex-wrap: wrap;
+        max-width: 40em;
+    }
 }
+
+
+@media (max-width: 500px) { 
+    .team-title-subtitle-container h1 { 
+        font-size: 2.3rem;
+    }
+
+    .team-title-subtitle-container p { 
+        font-size: 1rem;
+    }
+
+    .pest-control-team-img { 
+        width: 18em;
+    }
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @media (max-width: 1471px) { 
+//     .team-profile-container { 
+       
+//         width: 50em;
+//     }
+
+//     .meet-team-content-wrapper { 
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//     }
+// }
+
+
+
+
+
+// @media (max-width: 1360px) { 
+//     .team-title-subtitle-container { 
+//         padding-right: 2em;
+//     }
+
+//     .team-title-subtitle-container h1 { 
+//         font-size: 2.5rem;
+//     }
+
+//     .team-title-subtitle-container p { 
+//         font-size: 1rem;
+//     }
+// }
+
+
+// @media (max-width: 875px) { 
+//     .team-title-subtitle-container h1 { 
+//         font-size: 2rem;
+//     }
+
+//     .pest-control-team-img { 
+//         width: 17em;
+//     }
+// }
+
+// @media (max-width: 765px)  {
+//     .team-title-subtitle-wrapper { 
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//     }
+// }

@@ -17,7 +17,11 @@ export default function MeetYourTeam() {
 
       <div className="team-title-subtitle-container">
         <h1>
-          Meet Our Expert <span className='pest-control-team-text-styles'>Pest Control Team</span>
+          Meet Our Expert 
+
+          <br></br>
+          
+          <span className='pest-control-team-text-styles'>Pest Control Team</span>
         </h1>
 
         <p>
@@ -41,6 +45,8 @@ export default function MeetYourTeam() {
     <div className='team-profile-container'> 
 
         <div className='team-member-profile-container'> 
+
+        <div className='team-member-profile-inner-container'> 
             
             <h3>John Smith</h3>
 
@@ -60,13 +66,17 @@ export default function MeetYourTeam() {
 
             </div>
 
-
+            </div>
 
 
 
         </div>
 
         <div className='team-member-profile-container'> 
+
+
+
+        <div className='team-member-profile-inner-container'> 
             
             <h3>David Williams</h3>
 
@@ -86,13 +96,15 @@ export default function MeetYourTeam() {
             </div>
 
 
-
+            </div> 
 
 
 
         </div>
 
         <div className='team-member-profile-container'> 
+
+          <div className='team-member-profile-inner-container'> 
             
             <h3>Andy Frisella</h3>
 
@@ -106,9 +118,19 @@ export default function MeetYourTeam() {
 
             <p>"My Goal is to provide the very best customer service!"</p>
 
+
+
+            </div>
+
+
+
+
+
         </div>
 
         <div className='team-member-profile-container'> 
+
+            <div className='team-member-profile-inner-container'> 
             
             <h3>Ed Mylett</h3>
 
@@ -130,6 +152,9 @@ export default function MeetYourTeam() {
 
 
             <p>"My Goal is to ensure your home and family are safe!"</p>
+
+            </div>
+
 
         </div>
 

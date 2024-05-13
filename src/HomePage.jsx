@@ -1,9 +1,9 @@
-
-import AboutUsHomepage from './AboutUsHomepage';
-import ContactLinksHeader from './ContactLinksHeader';
-import ImageTitleComponent from './ImageTitleComponent';
-import InsectCards from './InsectCards';
+import React from 'react';
 import Navbar from './Navbar';
+import InsectCards from './InsectCards';
+import ImageTitleComponent from './ImageTitleComponent';
+import CommericalAndResidential from './CommericalAndResidential';
+import AboutUsHomepage from './AboutUsHomepage';
 import FeaturesHomepage from './FeaturesHomepage';
 import Process from './Process';
 import GalleryHomepage from './GalleryHomepage';
@@ -11,18 +11,16 @@ import PaymentPlans from './PaymentPlans';
 import ContactForm from './ContactForm';
 import MeetYourTeam from './MeetYourTeam';
 import TestimonialsHomepage from './TestimonialsHomepage';
-import Footer from './Footer';
 import GalleryHomepage2 from './GalleryHomepage2';
-import CommericalAndResidential from './CommericalAndResidential';
-import OffCanvasExample from './OffCanvasExample';
-import HomePage from './HomePage';
+import Footer from './Footer';
 
-export default function App() {
 
+
+export default function HomePage() {
   return (
     <>
-    
-    {/* <Navbar></Navbar>
+      
+    <Navbar></Navbar>
     <ImageTitleComponent></ImageTitleComponent>
     <InsectCards></InsectCards>
     <CommericalAndResidential></CommericalAndResidential>
@@ -35,12 +33,9 @@ export default function App() {
     <MeetYourTeam></MeetYourTeam>
     <TestimonialsHomepage></TestimonialsHomepage> 
     <GalleryHomepage2></GalleryHomepage2>
-    <Footer></Footer> */}
-
-    <HomePage></HomePage>
+    <Footer></Footer>
 
     </>
-  );
+
+  )
 }
-
-

@@ -35,7 +35,7 @@ export default function App() {
 
     <MeetYourTeam></MeetYourTeam>
 
-    {/* <TestimonialsHomepage></TestimonialsHomepage>  */}
+    <TestimonialsHomepage></TestimonialsHomepage> 
 
 
 

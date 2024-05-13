@@ -16,6 +16,12 @@ import GalleryHomepage2 from './GalleryHomepage2';
 import CommericalAndResidential from './CommericalAndResidential';
 import OffCanvasExample from './OffCanvasExample';
 import HomePage from './HomePage';
+import Services from './Services';
+
+import { Route, Routes } from 'react-router-dom';
+
+
+import { Link } from "react-router-dom";
 
 export default function App() {
 
@@ -37,7 +43,15 @@ export default function App() {
     <GalleryHomepage2></GalleryHomepage2>
     <Footer></Footer> */}
 
-    <HomePage></HomePage>
+    <Routes> 
+
+    <Route path='/' element={<HomePage></HomePage>}></Route>
+
+    <Route path='/Services' element={<Services></Services>}></Route>
+   
+
+    </Routes>
+
 
     </>
   );

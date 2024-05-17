@@ -7,6 +7,7 @@ import { useState } from 'react';
 import Modal from './Modal';
 // import OffCanvasExample from '../src/OffCanvasExample';
 import OffCanvasExample from './OffCanvasExample.jsx';
+import { Link } from 'react-router-dom';
 
 
 
@@ -43,8 +44,10 @@ export default function Navbar() {
      <div className='navbar-button-container'> 
       <div className="dropdown">
 
-        
-        <button>Services</button>
+
+        <button>
+          <Link to='/Services' className='header-link'>Services</Link>
+        </button>
 
         <div className="content">
           <a href="">Ants</a>
@@ -60,7 +63,11 @@ export default function Navbar() {
       </div>
 
       <div className="dropdown">
-        <button>Service Areas</button>
+
+        <button>
+          <Link to='/ServiceAreas' className='header-link'>Service Areas</Link>
+          
+        </button>
 
         <div className="content">
           <a href="">Delaware County</a>
@@ -73,7 +80,11 @@ export default function Navbar() {
 
 
       <div className="dropdown">
-        <button>Pest ID</button>
+
+
+        <button>
+          <Link to='/PestID' className='header-link'>Pest ID</Link>
+        </button>
 
         <div className="content">
           <a href="">Ants</a>
@@ -111,11 +122,25 @@ export default function Navbar() {
 
 
       <div className='dropdown'>
-      <button>Contact</button>
+
+
+     
+      <button>
+        <Link to='/Contact' className='header-link'>Contact</Link>
+      </button>
+
+
       </div>
 
       <div className='dropdown'>
-      <button>Reviews</button>
+
+
+      <button>
+       <Link to='/Reviews' className='header-link'>Reviews</Link>
+      </button>
+
+
+
       </div>
 
         

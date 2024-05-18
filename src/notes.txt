@@ -47,3 +47,21 @@ make the navbar icons bigger, that should take care of the responsiveness,
  // write the content within the carousel 
 
  // there will be no other way to make it responsive
+
+*-----------
+
+ // 5/18 
+
+ complete testimonial section and make it responsive, 
+
+ // then begin building the services section, 
+
+ // remove the slides you had in there previously and use flex container 
+
+ with cropped picture ?? Or just manipulate the picture, 
+
+ make sure all the pictures are around the same size, 
+
+ // screen is probably shrinking because the second picture is smaller 
+
+

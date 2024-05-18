@@ -23,10 +23,11 @@
 .testimonial-content-card-container { 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: rgb(0, 47, 71);
-    padding: 2em;
+    padding: 3em;
     border-radius: 1em;
     width: 80em;
     height: 30em;
@@ -62,27 +63,43 @@
     color: yellow;
 }
 
-#event-carousel-container { 
-    // height: 10em;
-    // height: auto;
+// #event-carousel-container { 
+ 
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+  
+
+    
+//     padding: 3em;
+    
+
+// }
+
+.carousel-content-container { 
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 50em;
-
-    
-    padding: 3em;
-    
+    width: 80em;
 }
 
-.carousel-control-prev-icon { 
-    position: absolute;
-    right: 10em;
-}
+// .carousel-control-prev-icon { 
+//     position: absolute;
+//     right: 10em;
+// }
 
-.carousel-control-next-icon { 
-    position: absolute;
-    left: 10em;
-} 
+// .carousel-control-next-icon { 
+//     position: absolute;
+//     left: 10em;
+// } 
+
+.carousel-content-container p { 
+    max-width: 30em;
+    // line-height: 1.2;
+    color: white;
+    padding-left: 2em;
+    font-family: "Poppins", sans-serif;
+}
 
 
 .carousel-indicators { 
@@ -90,10 +107,26 @@
     top: 15em;
 }
 
-#carousel-image { 
-    width: 100%;
-    height: 100%;
+
+
+
+.example-portriat-photo-1 { 
+    width: 6em;
+    // height: 10em;
+    border-radius: 2em;
 }
+
+.example-portriat-photo-2 { 
+    width: 7em;
+    border-radius: 2em;
+}
+
+
+
+
+
+
+
 
 // #event-carousel-container img {
 //     width: 

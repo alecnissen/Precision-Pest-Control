@@ -9,6 +9,10 @@ import quoteImg from '../assets/quote-svgrepo-com.svg';
 import slide4 from '../assets/new-slide-4.png';
 import { CarouselItem } from 'react-bootstrap';
 
+import examplePortriatPhoto1 from '../assets/pexels-italo-melo-2379004.jpg';
+import examplePortriatPhoto2 from '../assets/andrew-power-y9L5-wmifaY-unsplash.jpg';
+
+
 export default function TestimonialsHomepage() {
   return (
     <div className="testimonial-content-wrapper">
@@ -26,18 +30,53 @@ export default function TestimonialsHomepage() {
         </div>
 
         <Carousel id="event-carousel-container">
-          <Carousel.Item>
-            <img id="carousel-image" src={slide1} alt="testimonial"></img>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img id="carousel-image" src={slide2} alt="testimonial"></img>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img id="carousel-image" src={slide3} alt="testimonial"></img>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img id="carousel-image" src={slide4} alt="testimonial"></img>
-          </Carousel.Item>
+
+          
+          
+
+        <CarouselItem>
+        <div className='carousel-content-container'> 
+
+
+
+
+        <img src={examplePortriatPhoto1} className='example-portriat-photo-1'></img>
+
+
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. In optio, consequuntur quam assumenda sapiente consequatur. Hic maiores molestiae facilis saepe est dolorem recusandae nihil veritatis distinctio, qui, eos ratione numquam.
+          Fugiat consequuntur laborum quo."</p>
+
+
+        </div> 
+        </CarouselItem>
+
+
+
+
+        <CarouselItem>
+        <div className='carousel-content-container'> 
+
+
+
+
+        <img src={examplePortriatPhoto2} className='example-portriat-photo-2'></img>
+
+
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. In optio, consequuntur quam assumenda sapiente consequatur. Hic maiores molestiae facilis saepe est dolorem recusandae nihil veritatis distinctio, qui, eos ratione numquam.
+          Fugiat consequuntur laborum quo."</p>
+
+
+        </div> 
+        </CarouselItem>
+
+          
+          
+
+
+
+
+
+
         </Carousel>
       </div>
     </div>

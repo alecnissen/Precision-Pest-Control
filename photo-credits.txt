@@ -94,3 +94,11 @@ Pest control team
 img 1 
 
 <a href="https://www.freepik.com/free-vector/pest-control-isometric-background_5972364.htm#fromView=search&page=8&position=32&uuid=aa711a25-b02b-45a1-aafa-d242635faf54">Image by macrovector on Freepik</a>
+
+
+
+SERVICES TAB 
+
+Services header text/background img 
+
+Image by <a href="https://www.freepik.com/free-photo/man-with-protective-suit-medium-shot_13651674.htm#page=3&query=exterminator&position=5&from_view=keyword&track=sph&uuid=da3c3f67-133d-4fdc-b681-1c4aceb71a64">Freepik</a>

@@ -1,100 +1,196 @@
-.services-content-wrapper { 
+// .services-content-wrapper { 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     // background-color: rgb(70, 8, 70);
+//     background-color: rgb(44, 28, 44);
+//     color: white;
+//     font-family: sans-serif;
+// }
+
+// .services-content-wrapper h1 { 
+//     font-size: 2rem;
+// }
+
+// .services-card-wrapper { 
+//     display: flex;
+//     gap: 1em;
+//     flex-wrap: wrap;
+// } 
+
+// .service-card-set-1,
+// .service-card-set-2 { 
+//     display: flex;
+//     gap: 1em;
+//     flex-wrap: wrap;
+// }
+
+// .service-card-styles { 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     width: 16em;
+//     border: 1px solid white;
+//     text-align: center;
+//     border-radius: 5%;
+// }
+
+// .service-card-img { 
+//     // width: 15em;
+//     width: 100%;
+//     border-radius: 5%;
+// }
+
+// .service-card-body { 
+//     padding: 0.5em;
+//     font-family: sans-serif;
+// }
+
+// .service-card-title-text { 
+//     font-size: 1.5rem;
+//     padding: 0.2em;
+// } 
+
+// .service-card-title-text,
+// .service-card-body-text { 
+//     font-family: sans-serif;
+// }
+
+// .service-card-learn-more-btn { 
+//     padding: 0.2em;
+//     border-radius: 5%;
+//     border: none;
+//     font-size: 1.2rem;
+// }
+
+// .service-card-learn-more-btn:hover { 
+//     cursor: pointer;
+// }
+
+// @media (max-width: 1200px) { 
+//     .services-card-wrapper { 
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         flex-wrap: wrap;
+//     }
+// }
+
+// @media (max-width: 600px) { 
+//     .services-card-wrapper { 
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         flex-wrap: wrap;
+//     }
+
+//     .service-card-set-1,
+//     .service-card-set-2 { 
+//         display: flex;
+//         justify-content: center;
+//     }
+
+ 
+// }
+
+
+
+
+
+
+
+.services-tab-content-wrapper { 
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    // background-color: rgb(70, 8, 70);
-    background-color: rgb(44, 28, 44);
-    color: white;
-    font-family: sans-serif;
-}
-
-.services-content-wrapper h1 { 
-    font-size: 2rem;
-}
-
-.services-card-wrapper { 
-    display: flex;
-    gap: 1em;
-    flex-wrap: wrap;
-} 
-
-.service-card-set-1,
-.service-card-set-2 { 
-    display: flex;
-    gap: 1em;
-    flex-wrap: wrap;
-}
-
-.service-card-styles { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 16em;
-    border: 1px solid white;
-    text-align: center;
-    border-radius: 5%;
-}
-
-.service-card-img { 
-    // width: 15em;
     width: 100%;
-    border-radius: 5%;
+    height: 100vh;
+    // background-image: url('../assets/ali-morshedlou-WMD64tMfc4k-unsplash.jpg');
+    
 }
 
-.service-card-body { 
-    padding: 0.5em;
-    font-family: sans-serif;
+.services-header-wrapper { 
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background-image: url('../assets/person-white-chemical-protection-suit-holding-sprayer-with-disinfectant-chemicals-stop-spreading-highly-contagious-virus.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    // background-image: url('../assets/person-disinfecting-dangerous-area-while-wearing-protective-suit.jpg');
+    background-size: cover;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.service-card-title-text { 
-    font-size: 1.5rem;
-    padding: 0.2em;
-} 
+.services-header-btn-wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 6em;
+    // left: 2em;
 
-.service-card-title-text,
-.service-card-body-text { 
-    font-family: sans-serif;
 }
 
-.service-card-learn-more-btn { 
-    padding: 0.2em;
-    border-radius: 5%;
+.services-header-btn-wrapper h1 { 
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 4rem;
+    // position: relative;
+    // left: 1em;
+}
+
+
+.services-btn-container { 
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.services-btn-container button { 
+    font-family: "Poppins", sans-serif;
     border: none;
-    font-size: 1.2rem;
+    outline: none;
+    background: none;
+    color: white;
 }
 
-.service-card-learn-more-btn:hover { 
-    cursor: pointer;
+.services-btn-container button:nth-child(3) { 
+    text-decoration: underline;
 }
 
-@media (max-width: 1200px) { 
-    .services-card-wrapper { 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-}
 
-@media (max-width: 600px) { 
-    .services-card-wrapper { 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
 
-    .service-card-set-1,
-    .service-card-set-2 { 
-        display: flex;
-        justify-content: center;
-    }
 
-    // .services-content-wrapper { 
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    // }
-}
+// .services-header-wrapper {
+//     position: relative;
+//     height: 100vh;
+//     width: 100%;
+// }
+
+// .services-header-wrapper::before {
+//     content: '';
+//     position: absolute;
+//     background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black */
+//     top: 0;
+//     left: 0;
+//     height: 100%;
+//     width: 100%;
+//     background-image: url('../assets/person-white-chemical-protection-suit-holding-sprayer-with-disinfectant-chemicals-stop-spreading-highly-contagious-virus.jpg');
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover; /* or contain, depending on your needs */
+//     opacity: 1; 
+//     z-index: 1; /* Ensure it stays behind the content */
+// }
+
+
+
+
+

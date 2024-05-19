@@ -42,7 +42,18 @@ export default function Navbar() {
     </div>
      
      <div className='navbar-button-container'> 
+
+      <div className='dropdown'>
+
+        <button> 
+          <Link to='/' className='header-link'>Home</Link>
+        </button>
+
+        </div>
+
+
       <div className="dropdown">
+
 
 
         <button>

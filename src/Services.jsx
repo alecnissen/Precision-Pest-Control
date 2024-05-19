@@ -16,16 +16,7 @@ export default function Services() {
 
         <h1>Services</h1>
 
-        <div className='services-btn-container'>
-        <Link to='/'> 
-        <button>Home Page</button>
-        </Link>
-
-        <img src={rightArrow}></img>
-
-        <button to='/services'>Services</button>
-
-        </div>
+     
 
        </div>
 

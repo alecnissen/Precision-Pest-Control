@@ -38,7 +38,13 @@ export default function Services() {
         </div>
       </div>
 
+
+
+
       <InsectCards></InsectCards>
+
+
+      <div className='service-container-cards-wrapper'> 
 
       <div className="service-container">
         <img src={AntImg}></img>
@@ -52,6 +58,9 @@ export default function Services() {
             pest-free environment.
           </p>
 
+
+            <h3 className='features-header-text'>Features Of The Plan</h3>
+         
           <ul>
             <li>
               <span className="li-header-text">Regular Inspections: </span>Technicians conduct thorough inspections to
@@ -66,6 +75,11 @@ export default function Services() {
               strategies to seal entry points, reduce attractants, and maintain a barrier to keep ants from returning.
             </li>
           </ul>
+
+        
+
+
+
         </div>
       </div>
 
@@ -80,6 +94,8 @@ export default function Services() {
             residential or commercial settings. This plan includes detailed inspections, customized treatments, and
             ongoing monitoring to ensure effective control and long-term protection.
           </p>
+
+          <h3 className='features-header-text'>Features Of The Plan</h3>
 
           <ul>
             <li>
@@ -111,6 +127,10 @@ export default function Services() {
             inspections, targeted treatment methods, and ongoing monitoring to ensure long-lasting control.
           </p>
 
+          <h3 className='features-header-text'>Features Of The Plan</h3>
+
+
+          
           <ul>
             <li>
               <span className="li-header-text">Comprehensive Assessments: </span> Skilled technicians perform exhaustive
@@ -127,6 +147,9 @@ export default function Services() {
               infestations and maintain a pest-free environment.
             </li>
           </ul>
+         
+
+
         </div>
       </div>
 
@@ -141,6 +164,8 @@ export default function Services() {
             prevent their recurrence in both residential and commercial settings. This plan encompasses detailed
             inspections, targeted treatment methods, and ongoing monitoring to ensure long-lasting control.
           </p>
+
+          <h3 className='features-header-text'>Features Of The Plan</h3>
 
           <ul>
             <li>
@@ -174,6 +199,8 @@ export default function Services() {
             treatments, and continuous monitoring for effective and lasting mosquito control.
           </p>
 
+          <h3 className='features-header-text'>Features Of The Plan</h3>
+
           <ul>
             <li>
               <span className="li-header-text">Detailed Site Inspections: </span> Professional technicians carry out
@@ -205,6 +232,8 @@ export default function Services() {
             occurrences in homes and businesses. This plan includes meticulous inspections, targeted treatments, and
             ongoing monitoring to ensure effective and lasting control.
           </p>
+
+          <h3 className='features-header-text'>Features Of The Plan</h3>
 
           <ul>
             <li>
@@ -238,6 +267,8 @@ export default function Services() {
             precise treatments, and continuous monitoring to ensure effective and lasting spider control.
           </p>
 
+          <h3 className='features-header-text'>Features Of The Plan</h3>
+
           <ul>
             <li>
               <span className="li-header-text">Comprehensive Inspections: </span> Expert technicians perform thorough
@@ -257,6 +288,16 @@ export default function Services() {
           </ul>
         </div>
       </div>
+
+
+
+
+
+      </div>
+
+
+
+
     </>
   );
 }

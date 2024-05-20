@@ -197,6 +197,11 @@
     padding-top: 0.5em;
 }
 
+.service-container-cards-wrapper { 
+    display: flex;
+    flex-direction: column;
+}
+
 .service-container { 
     display: flex;
     flex-direction: row;
@@ -215,19 +220,38 @@
     
 }
 
+.service-content-container p,
+.service-content-container ul { 
+    font-size: 1.2rem;
+}
+
+.service-content-container li { 
+    padding-bottom: 0.5em;
+}
+
+
+
+
+.service-content-container h1 { 
+    color: darkorange;
+}
+
 .service-content-container * { 
     font-family: "Poppins", sans-serif;
 }
 
 .service-container img { 
-    width: 30em;
+    width: 35em;
     border-radius: 1em;
     
 }
 
 .service-content-container p, ul { 
-    max-width: 50em;
-    
+    max-width: 50em;  
+}
+
+.features-header-text { 
+    color: darkorange;
 }
 
 .li-header-text { 
@@ -235,6 +259,41 @@
     color: rgb(0, 47, 71);
 }
 
+.service-content-container ul { 
+    text-align: left;
+}
+
+// .services-li-container { 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     text-align: left;
+// }
+
+
+
+@media (max-width: 1250px) { 
+    .service-container { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1000px) { 
+    .service-container img { 
+        width: 30em;
+    }
+
+    .service-content-container p, 
+    .service-content-container ul { 
+        font-size: 1rem;
+    }
+
+
+}
 
 
 
@@ -257,6 +316,39 @@
         padding-top: 1em;
         font-size: 3rem;
     }
+
+    .service-content-container p, 
+    .service-content-container ul { 
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 530px) { 
+    .service-container img { 
+        width: 22em;
+    }
+}
+
+@media (max-width: 500px) { 
+    .service-content-container h1 { 
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 400px) { 
+    .service-container img { 
+        width: 16em;
+    }
+
+    .service-content-container h1,
+    .features-header-text { 
+        font-size: 1.2rem;
+    }
+
+
+   
+
 }
 
 

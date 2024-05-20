@@ -102,3 +102,14 @@ SERVICES TAB
 Services header text/background img 
 
 Image by <a href="https://www.freepik.com/free-photo/man-with-protective-suit-medium-shot_13651674.htm#page=3&query=exterminator&position=5&from_view=keyword&track=sph&uuid=da3c3f67-133d-4fdc-b681-1c4aceb71a64">Freepik</a>
+
+
+
+ant image 
+
+Photo by Egor Kamelev: https://www.pexels.com/photo/macro-photography-of-red-ant-1104974/
+
+bed bug image 
+
+Photo by Pixabay: https://www.pexels.com/photo/brown-8-legged-insect-on-black-surface-35804/
+

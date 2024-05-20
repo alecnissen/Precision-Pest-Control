@@ -105,6 +105,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
     height: 100vh;
 }
@@ -140,7 +141,7 @@
 }
 
 .services-header-btn-wrapper h1 { 
-    padding-top: 0.2em;
+    padding-top: 0.7em;
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: 4rem;
@@ -162,6 +163,79 @@
 .services-btn-container button:nth-child(3) { 
     text-decoration: underline;
 }
+
+
+.title-cards-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding-top: 0.5em;
+    // padding: 2em 1em; /* Added padding to give space */
+    // background-color: white; /* Background color to differentiate */
+    // z-index: 2; /* Ensure it is above the overlay */
+    // width: 100%;
+   
+}
+
+.trusted-source-text-styles { 
+    color: darkorange;
+}
+
+.title-cards-container * { 
+    font-family: "Poppins", sans-serif;
+}
+
+.title-cards-container h1 { 
+    padding-top: 0.5em;
+}
+
+.service-container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    gap: 1.5em;
+}
+
+.service-content-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.service-content-container * { 
+    font-family: "Poppins", sans-serif;
+}
+
+.service-container img { 
+    width: 30em;
+    border-radius: 1em;
+    
+}
+
+.service-content-container p, ul { 
+    max-width: 50em;
+    
+}
+
+.li-header-text { 
+    font-weight: bold;
+    color: rgb(0, 47, 71);
+}
+
+
+@media (max-width: 570px) { 
+    .services-header-btn-wrapper h1 { 
+        padding-top: 1em;
+        font-size: 3rem;
+    }
+}
+
 
 
 

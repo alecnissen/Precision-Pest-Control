@@ -173,13 +173,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     // padding-top: 0.5em;
     // padding: 2em 1em; /* Added padding to give space */
     // background-color: white; /* Background color to differentiate */
     // z-index: 2; /* Ensure it is above the overlay */
     // width: 100%;
-   
 }
+
+// .title-cards-container h1:nth-child(1) { 
+//     font-size: 1rem;
+// }
 
 .trusted-source-text-styles { 
     color: darkorange;
@@ -230,6 +234,22 @@
     font-weight: bold;
     color: rgb(0, 47, 71);
 }
+
+
+
+
+@media (max-width: 890px) { 
+    // .title-cards-container h1 { 
+    //     font-size: 2rem;
+    // }
+
+    .title-cards-container h1:nth-child(1) { 
+        max-width: 15em;
+    }
+
+}
+
+
 
 
 @media (max-width: 570px) { 

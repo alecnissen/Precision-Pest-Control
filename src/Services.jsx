@@ -11,11 +11,23 @@ import rodentsImg from '../assets/pexels-skitterphoto-3773.jpg';
 import mosquitoImg from '../assets/pexels-ekamelev-1685610.jpg';
 import fleaImg from '../assets/171.jpg';
 import spiderImg from '../assets/pexels-ekamelev-995466.jpg';
+import PaymentPlans from './PaymentPlans';
+import goldMedal from '../assets/medal.png';
+import Footer from './Footer';
+
+
+
 
 export default function Services() {
   return (
     <>
       <Navbar></Navbar>
+
+
+         
+
+
+
       <div className="services-tab-content-wrapper">
         <div className="services-header-wrapper">
           <div className="services-header-btn-wrapper">
@@ -23,9 +35,40 @@ export default function Services() {
           </div>
         </div>
 
+
+
+      
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
         {/* <img src={servicesHeaderBackgroundImg} className='services-header-img'></img> */}
 
+
+
         <div className="title-cards-container">
+
+
+
+
+
+
+
+
+
+
+
+
           <h1>
             Your <span className="trusted-source-text-styles">Trusted Source</span> for Professional Pest Control
           </h1>
@@ -39,10 +82,72 @@ export default function Services() {
       </div>
 
 
+      {/* <InsectCards></InsectCards> */}
 
 
-      <InsectCards></InsectCards>
+    <div className='expertise-wrapper'> 
 
+    <div className='expertise-container'> 
+
+
+
+      <div className='expertise-header-container'> 
+
+      <h5>Our Skills</h5>
+
+      <h1>Expertise That Delievers</h1>
+
+      <span className='exceptional-results-text'><h1>Exceptional Results</h1></span>
+
+      <p className='description-text-expertise-header'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iste praesentium unde culpa facilis soluta mollitia, minima sequi repudiandae, dicta iure omnis exercitationem similique voluptas molestias voluptate alias. Aut, accusamus?</p>
+
+      </div>
+
+     
+
+      <div className='stats-container'> 
+
+        <div className='customers-served-container'>
+
+          <img src={goldMedal}></img>
+          <h3>Customers Served</h3>
+          
+          <h3>30K</h3>
+
+        </div>
+
+        <div className='five-star-review-container'>
+
+        <img src={goldMedal}></img>
+          <h3>5 Star Reviews</h3>
+          <h3>3K</h3>
+
+        </div>
+
+
+        <div className='years-operating-container'> 
+
+        <img src={goldMedal}></img>
+          <h3>Years In Business</h3>
+          <h3>30</h3>
+
+        </div>
+
+     
+
+      </div>
+
+
+    </div>
+
+
+
+
+    </div>
+
+
+
+    <InsectCards></InsectCards>
 
       <div className='service-container-cards-wrapper'> 
 
@@ -295,7 +400,10 @@ export default function Services() {
 
       </div>
 
+      <PaymentPlans></PaymentPlans>
 
+
+      <Footer></Footer>
 
 
     </>

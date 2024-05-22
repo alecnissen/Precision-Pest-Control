@@ -271,6 +271,169 @@
 //     text-align: left;
 // }
 
+.expertise-wrapper { 
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.expertise-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60em;
+    height: 30em;
+    background-color: rgb(0, 47, 71);
+    border-radius: 1em;
+} 
+
+// .expertise-stats-container-wrapper { 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: flex-start;
+//     align-items: center;
+//     width: 50em;
+//     height: 25em;
+//     border-radius: 1em;
+//     background-color: rgb(247, 237, 182);
+// } 
+
+.expertise-stats-container-wrapper * { 
+    font-family: "Poppins", sans-serif;
+}
+
+.expertise-stats-container-wrapper p:nth-child(1) { 
+    color: green;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.exceptional-results-text { 
+    color: darkorange;
+}
+
+
+.expertise-stats-container-wrapper p { 
+    max-width: 20em;
+    text-align: center;
+}
+
+.professional-abilities-container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    
+}
+
+.progress { 
+    display: flex;
+    flex-direction: column;
+    height: 4px;
+    background-color: #e9ecef;
+    width: 75%;
+}
+
+
+/* new styles for stats container */ 
+
+
+.expertise-wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding-bottom: 2em;
+}
+
+.expertise-container * { 
+    font-family: "Poppins", sans-serif;
+}
+
+
+.expertise-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // align-items: center;
+    // justify-content: flex-start;
+    padding: 1em;
+    background-color: rgb(0, 47, 71);
+}
+
+.expertise-container h5 { 
+    color: rgb(57, 181, 74);
+}
+
+
+.description-text-expertise-header { 
+    color: white;
+    max-width: 30em;
+    text-align: center;
+}
+
+
+.stats-wrapper { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    // align-items: flex-end;
+}
+
+.expertise-header-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.expertise-container h1 { 
+    color: white;
+}
+
+
+.exceptional-results-text h1 { 
+    color: darkorange;
+}
+
+.stats-container * { 
+    font-family: "Poppins", sans-serif;
+}
+
+.customers-served-container,
+.five-star-review-container,
+.years-operating-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+
+
+.stats-container { 
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.stats-container h3:nth-child(2) { 
+    color: white;
+}
+
+.stats-container h3:nth-child(3) { 
+    color: darkorange;
+    
+}
+
+.customers-served-container img,
+.five-star-review-container img,
+.years-operating-container img { 
+    width: 2em;
+}
+
+
 
 
 @media (max-width: 1250px) { 

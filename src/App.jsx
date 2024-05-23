@@ -21,6 +21,7 @@ import ServiceAreas from './ServiceAreas';
 import PestID from './PestID';
 import Contact from './Contact';
 import Reviews from './Reviews';
+import PaymentPlansServicePage from './PaymentPlansServicesPage';
 
 import { Route, Routes } from 'react-router-dom';
 
@@ -60,6 +61,8 @@ export default function App() {
     <Route path='/Contact' element={<Contact></Contact>}></Route>
 
     <Route path='/Reviews' element={<Reviews></Reviews>}></Route>
+
+    
 
 
 

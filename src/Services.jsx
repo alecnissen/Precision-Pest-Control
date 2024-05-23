@@ -14,6 +14,10 @@ import spiderImg from '../assets/pexels-ekamelev-995466.jpg';
 import PaymentPlans from './PaymentPlans';
 import goldMedal from '../assets/medal.png';
 import Footer from './Footer';
+import PaymentPlansServicePage from './PaymentPlansServicesPage';
+
+
+
 
 
 
@@ -400,7 +404,9 @@ export default function Services() {
 
       </div>
 
-      <PaymentPlans></PaymentPlans>
+      {/* <PaymentPlans></PaymentPlans> */}
+
+      <PaymentPlansServicePage></PaymentPlansServicePage>
 
 
       <Footer></Footer>

@@ -5,8 +5,8 @@ import pestLogo from '../assets/10780277_19198237.svg';
 export default function PaymentPlansServicePage() {
   return (
     <div className="payment-plans-content-wrapper-2">
-      <div className="payment-plans-title-subtitle-wrapper">
-        <div className="payment-plans-title-subtitle-container">
+      <div className="payment-plans-title-subtitle-wrapper-2">
+        <div className="payment-plans-title-subtitle-container-2">
           <h3>Flexible Pricing Packages</h3>
 
           <h1>
@@ -29,16 +29,16 @@ export default function PaymentPlansServicePage() {
       </div>
 
 
-      <div className='payment-plans-cards-wrapper'>
+      <div className='payment-plans-cards-wrapper-2'>
 
 
-      <div className='payment-plans-card-container'> 
+      <div className='payment-plans-card-container-2'> 
 
-        <div className='payment-plan-card'> 
+        <div className='payment-plan-card-2'> 
 
           <h3>Basic Plan</h3>
 
-          <div className='payment-plan-price-container'>
+          <div className='payment-plan-price-container-2'>
           <h1>$15.00</h1>
           <p>Per Month</p>
           </div>
@@ -48,35 +48,35 @@ export default function PaymentPlansServicePage() {
 
 
 
-        <div className='payment-card-features-container'>
+        <div className='payment-card-features-container-2'>
 
 
-        <div className='feature-img-container'> 
+        <div className='feature-img-container-2'> 
         <img src={greenCheckMark}></img>
         <h3>Energy saving pest Control</h3>
         </div>
 
-        <div className='feature-img-container'> 
+        <div className='feature-img-container-2'> 
         <img src={greenCheckMark}></img>
         <h3>Mosquito Services</h3>
         </div>
 
-        <div className='feature-img-container'> 
+        <div className='feature-img-container-2'> 
         <img src={greenCheckMark}></img>
         <h3>Bed Bug Solution</h3>
         </div>
 
-        <div className='feature-img-container'> 
+        <div className='feature-img-container-2'> 
         <img src={greenCheckMark}></img>
         <h3>Property Maintenance</h3>
         </div>
 
-        <div className='feature-img-container'> 
+        <div className='feature-img-container-2'> 
         <img src={greenCheckMark}></img>
         <h3>Mouse Removal</h3>
         </div>
 
-        <div className='feature-img-container'> 
+        <div className='feature-img-container-2'> 
         <img src={greenCheckMark}></img>
         <h3>Home Pest Control</h3>
         </div>
@@ -87,7 +87,7 @@ export default function PaymentPlansServicePage() {
 
         </div>
       
-        <div className='our-services-button-container'> 
+        <div className='our-services-button-container-2'> 
 
           <button>Our Services</button>
 
@@ -97,9 +97,9 @@ export default function PaymentPlansServicePage() {
       </div> 
 
 
-      <div className='payment-plans-card-container'> 
+      <div className='payment-plans-card-container-2'> 
 
-<div className='payment-plan-card'> 
+<div className='payment-plan-card-2'> 
 
 {/* <div className='most-popular-container'> 
     <h4>Most Popular</h4>
@@ -108,7 +108,7 @@ export default function PaymentPlansServicePage() {
 
   <h3>Standard Plan</h3>
 
-  <div className='payment-plan-price-container'>
+  <div className='payment-plan-price-container-2'>
   <h1>$25.00</h1>
   <p>Per Month</p>
   </div>
@@ -118,35 +118,35 @@ export default function PaymentPlansServicePage() {
 
 
 
-<div className='payment-card-features-container'>
+<div className='payment-card-features-container-2'>
 
 
-<div className='feature-img-container'> 
+<div className='feature-img-container-2'> 
 <img src={greenCheckMark}></img>
 <h3>Energy saving pest Control</h3>
 </div>
 
-<div className='feature-img-container'> 
+<div className='feature-img-container-2'> 
 <img src={greenCheckMark}></img>
 <h3>Mosquito Services</h3>
 </div>
 
-<div className='feature-img-container'> 
+<div className='feature-img-container-2'> 
 <img src={greenCheckMark}></img>
 <h3>Bed Bug Solution</h3>
 </div>
 
-<div className='feature-img-container'> 
+<div className='feature-img-container-2'> 
 <img src={greenCheckMark}></img>
 <h3>Property Maintenance</h3>
 </div>
 
-<div className='feature-img-container'> 
+<div className='feature-img-container-2'> 
 <img src={greenCheckMark}></img>
 <h3>Mouse Removal</h3>
 </div>
 
-<div className='feature-img-container'> 
+<div className='feature-img-container-2'> 
 <img src={greenCheckMark}></img>
 <h3>Home Pest Control</h3>
 </div>
@@ -157,7 +157,7 @@ export default function PaymentPlansServicePage() {
 
 </div>
 
-<div className='our-services-button-container'> 
+<div className='our-services-button-container-2'> 
 
   <button>Our Services</button>
 
@@ -169,13 +169,13 @@ export default function PaymentPlansServicePage() {
 
 
 
-<div className='payment-plans-card-container'> 
+<div className='payment-plans-card-container-2'> 
 
-<div className='payment-plan-card'> 
+<div className='payment-plan-card-2'> 
 
   <h3>Deluxe Plan</h3>
 
-  <div className='payment-plan-price-container'>
+  <div className='payment-plan-price-container-2'>
   <h1>$40.00</h1>
   <p>Per Month</p>
   </div>
@@ -185,35 +185,35 @@ export default function PaymentPlansServicePage() {
 
 
 
-<div className='payment-card-features-container'>
+<div className='payment-card-features-container-2'>
 
 
-<div className='feature-img-container'> 
+<div className='feature-img-container-2'> 
 <img src={greenCheckMark}></img>
 <h3>Energy saving pest Control</h3>
 </div>
 
-<div className='feature-img-container'> 
+<div className='feature-img-container-2'> 
 <img src={greenCheckMark}></img>
 <h3>Mosquito Services</h3>
 </div>
 
-<div className='feature-img-container'> 
+<div className='feature-img-container-2'> 
 <img src={greenCheckMark}></img>
 <h3>Bed Bug Solution</h3>
 </div>
 
-<div className='feature-img-container'> 
+<div className='feature-img-container-2'> 
 <img src={greenCheckMark}></img>
 <h3>Property Maintenance</h3>
 </div>
 
-<div className='feature-img-container'> 
+<div className='feature-img-container-2'> 
 <img src={greenCheckMark}></img>
 <h3>Mouse Removal</h3>
 </div>
 
-<div className='feature-img-container'> 
+<div className='feature-img-container-2'> 
 <img src={greenCheckMark}></img>
 <h3>Home Pest Control</h3>
 </div>
@@ -224,9 +224,9 @@ export default function PaymentPlansServicePage() {
 
 </div>
 
-<div className='our-services-button-container'> 
+<div className='our-services-button-container-2'> 
 
-  <button>Hello world</button>
+  <button>Our Services</button>
 
 </div>
 

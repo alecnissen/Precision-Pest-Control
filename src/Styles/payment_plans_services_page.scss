@@ -1,44 +1,46 @@
 .payment-plans-content-wrapper-2 { 
     display: flex;
     flex-direction: column;
-    background-color: darkblue;
+    background-color: rgb(0, 47, 71);
+    // padding: 1em;
+}
+
+.payment-plans-content-wrapper-2 * { 
+    font-family: "Poppins", sans-serif;
 }
 
 
-.payment-plans-title-subtitle-wrapper { 
+.payment-plans-title-subtitle-wrapper-2 { 
     display: flex;
-    
-    // justify-content: space-around;
-
-
-    // justify-content: center;
-
-
     justify-content: space-evenly;
     align-items: center;
     gap: 1em;
+    padding: 1em;
 }
 
-.payment-plans-title-subtitle-container { 
+.payment-plans-title-subtitle-container-2 { 
     display: flex;
     flex-direction: column;
 }
 
-.payment-plans-title-subtitle-container h1 { 
+.payment-plans-title-subtitle-container-2 h1 { 
     font-size: 2.6rem;
+    color: white;
 }
 
-.payment-plans-title-subtitle-container h3 { 
-    color: rgb(57, 181, 74);
+.payment-plans-title-subtitle-container-2 h3 { 
+    // color: rgb(57, 181, 74);
+    // color: white;
     // font-size: 2rem;
+    color: darkorange;
 }
 
-.payment-plans-title-subtitle-container * { 
+.payment-plans-title-subtitle-container-2 * { 
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
 
-.payment-plans-title-subtitle-wrapper p { 
+.payment-plans-title-subtitle-wrapper-2 p { 
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     max-width: 30em;
@@ -52,39 +54,41 @@
 }
 
 
-.payment-plans-cards-wrapper { 
+.payment-plans-cards-wrapper-2 { 
     display: flex;
     justify-content: center;
     gap: 2em;
+    padding: 1em;
     // padding-top: 1em;
 }
 
-.feature-img-container { 
+.feature-img-container-2 { 
     display: flex;
     align-items: center;
     gap: 0.5em;
 }
 
-.feature-img-container img { 
+.feature-img-container-2 img { 
     width: 1.5em;
 }
 
 
-.payment-plans-card-container { 
+.payment-plans-card-container-2 { 
     display: flex;
     flex-direction: column;
     border: 1px solid darkorange;
+    // border: 1px solid white;
     // width: 28em;
     padding: 2em;
 }
 
-.payment-plan-price-container { 
+.payment-plan-price-container-2 { 
     display: flex;
     align-items: center;
     gap: 0.5em;
 } 
 
-.payment-card-features-container { 
+.payment-card-features-container-2 { 
     display: flex;
     flex-direction: column;
     padding: 2em;
@@ -94,42 +98,46 @@
 }
 
 
-.payment-card-features-container h3 { 
+.payment-card-features-container-2 h3 { 
     font-weight: 400;
 }
 
-.our-services-button-container { 
+.our-services-button-container-2 { 
     display: flex;
     justify-content: center;
 }
 
-.payment-plan-card h3 { 
-    color: rgb(57, 181, 74);
+.payment-plan-card-2 h3 { 
+    // color: rgb(57, 181, 74);
+    color: darkorange;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     font-size: 2rem;
 }
 
-.payment-plan-price-container h1 { 
-    color: rgb(57, 181, 74);
+.payment-plan-price-container-2 h1 { 
+    // color: rgb(57, 181, 74);
+    color: darkorange;
     font-weight: 700;
     font-size: 2.8rem;
     font-family: "Poppins", sans-serif;
 }
 
-.payment-plan-price-container p { 
+.payment-plan-price-container-2 p { 
+    font-family: "Poppins", sans-serif;
+    color: darkorange;
+}
+
+.payment-card-features-container-2 * { 
     font-family: "Poppins", sans-serif;
 }
 
-.payment-card-features-container * { 
-    font-family: "Poppins", sans-serif;
-}
-
-.feature-img-container h3 { 
+.feature-img-container-2 h3 { 
     font-size: 1.3rem;
+    color: white;
 }
 
-.our-services-button-container button { 
+.our-services-button-container-2 button { 
     font-family: "Poppins", sans-serif;
     padding: 0.5em;
     background-color: rgb(57, 181, 74);
@@ -188,7 +196,7 @@
 
 
 @media (max-width: 1410px) { 
-    .payment-plans-cards-wrapper { 
+    .payment-plans-cards-wrapper-2 { 
         gap: 1em;
     }
 }
@@ -196,28 +204,28 @@
 
 
 @media (max-width: 1370px) {
-    .feature-img-container h3 { 
+    .feature-img-container-2 h3 { 
         font-size: 1rem;
     }
 
-    .payment-plan-card h3 { 
+    .payment-plan-card-2 h3 { 
         font-size: 1.2rem;
     }
 
-    .payment-plan-price-container h1 { 
+    .payment-plan-price-container-2 h1 { 
         font-size: 2rem;
     }
 
-    .payment-plan-price-container { 
+    .payment-plan-price-container-2 { 
         display: flex;
         align-items: flex-end;
     }
 
-    .payment-plans-card-container { 
+    .payment-plans-card-container-2 { 
         padding: 1em;
     }
 
-    .our-services-button-container button { 
+    .our-services-button-container-2 button { 
         font-size: 0.9rem;
     }
 }
@@ -226,11 +234,11 @@
 
 
 @media (max-width: 1070px) { 
-    .payment-plans-title-subtitle-container h3 { 
+    .payment-plans-title-subtitle-container-2 h3 { 
         font-size: 2rem;
     }
 
-    .payment-plans-title-subtitle-container h1 { 
+    .payment-plans-title-subtitle-container-2 h1 { 
         font-size: 2rem;
     }
 
@@ -238,15 +246,30 @@
         width: 18em;
     }
 
-    .payment-plans-cards-wrapper { 
+    .payment-plans-cards-wrapper-2 { 
         display: flex;
         flex-wrap: wrap;
     }
 }
 
+@media (max-width: 815px) { 
+    .stats-container { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .expertise-container { 
+        height: auto;
+    }
+
+    .expertise-header-container { 
+        text-align: center;
+    }
+}
+
 
 @media (max-width: 800px) { 
-    .payment-plans-title-subtitle-wrapper { 
+    .payment-plans-title-subtitle-wrapper-2 { 
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -257,11 +280,11 @@
 
 @media (max-width: 500px) { 
 
-    .payment-plans-title-subtitle-container { 
+    .payment-plans-title-subtitle-container-2 { 
         text-align: center;
     }
 
-    .payment-plans-title-subtitle-container h1 { 
+    .payment-plans-title-subtitle-container-2 h1 { 
         font-size: 1.5rem;
     }
 }
@@ -271,11 +294,11 @@
 
 
 @media (max-width: 400px) { 
-    .payment-plans-title-subtitle-container h3 { 
+    .payment-plans-title-subtitle-container-2 h3 { 
         font-size: 1.5rem;
     }
 
-    .payment-plans-title-subtitle-container h1 { 
+    .payment-plans-title-subtitle-container-2 h1 { 
         font-size: 1.3rem;
     }
 }
@@ -283,29 +306,19 @@
 
 
 
-
-
-
-
 @media (max-width: 370px) { 
    
-    .feature-img-container h3 { 
+    .feature-img-container-2 h3 { 
             font-size: 0.9rem;
     }
 
 
-
-
-
-
-
-    .payment-plans-card-container { 
+    .payment-plans-card-container-2 { 
         padding: 0.4em;
     }
 
     // .our-services-button-container button { 
     //     font-size: 0.8rem;
     // }
-
 
 } 

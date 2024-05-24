@@ -1,0 +1,79 @@
+.service-areas-tab-content-wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.service-areas-header-wrapper { 
+    position: relative;
+    height: 82vh;
+    width: 100%;
+    background-image: url('../assets/pexels-trev-takes-photos-11531602.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.service-areas-header-wrapper::before { 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 1;
+}
+
+.service-areas-header-text-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2; /* Ensure it is above the overlay */
+    // top: 80%;
+    top: 55%;
+}
+
+.service-areas-header-text-container * { 
+    font-family: "Poppins", sans-serif;
+}
+
+.service-areas-header-text-container h1 { 
+    color: white;
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+
+// media queries begin here, 
+
+
+@media (max-width: 815px) { 
+    .service-areas-header-text-container h1 { 
+        font-size: 3rem;
+        
+    }
+
+    .service-areas-header-text-container { 
+        position: relative; 
+        top: 65%;
+    }
+
+}
+
+
+@media (max-width: 400px) { 
+    .service-areas-header-text-container h1 { 
+        font-size: 2.5rem;
+    }
+}

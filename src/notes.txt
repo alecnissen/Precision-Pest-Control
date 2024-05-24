@@ -86,3 +86,4 @@ put something like we are here to serve you, proudly serving the philadelphia, c
 
 
 
+// 900px .service-area-container switch to column for responsiveness 

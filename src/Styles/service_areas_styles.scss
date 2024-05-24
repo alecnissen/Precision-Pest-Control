@@ -119,6 +119,7 @@
 
 .service-area-container li { 
     font-size: 1.3rem;
+    font-weight: bold;
 }
 
 
@@ -126,6 +127,48 @@
 
 
 // media queries begin here, 
+
+// decrease the size of the images before breaking to column 
+
+@media (max-width: 1115px) { 
+    .service-area-container img { 
+        width: 25em;
+    }
+}
+
+
+
+@media (max-width: 1040px) { 
+    .service-area-container { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-area-container img { 
+        width: 30em;
+    }
+}
+
+
+
+// @media (max-width: 600px) { 
+//     .service-area-container img { 
+//         width: 24em;
+//     }
+
+//     .service-area-content-container p { 
+//         font-size: 1rem;
+//     }
+
+//     .service-area-container li { 
+//         font-size: 1rem;
+//     }
+// }
+
+
+
 
 
 @media (max-width: 815px) { 
@@ -139,11 +182,60 @@
         top: 65%;
     }
 
+} 
+
+
+
+@media (max-width: 600px) { 
+    .service-area-container img { 
+        width: 24em;
+    }
+
+    .service-area-content-container p { 
+        font-size: 1rem;
+    }
+
+    .service-area-container li { 
+        font-size: 1rem;
+    }
+
+    .service-area-container h1 { 
+        font-size: 2.3rem;
+    }
+}
+
+
+@media (max-width: 450px) { 
+    .service-area-container img { 
+        width: 19em;
+    }
+
+    .service-header-text-container h1 { 
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 420px) { 
+    .service-area-container h1 { 
+        font-size: 2rem;
+    }
 }
 
 
 @media (max-width: 400px) { 
     .service-areas-header-text-container h1 { 
         font-size: 2.5rem;
+    }
+
+    // .service-header-text-container h1 { 
+    //     font-size: 1.2rem;
+    // }
+
+   
+}
+
+@media (max-width: 370px) { 
+    .service-area-container h1 { 
+        font-size: 1.6rem;
     }
 }

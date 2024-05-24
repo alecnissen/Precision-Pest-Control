@@ -60,7 +60,7 @@ export default function ServiceAreas() {
             </ul>
 
 
-            <h1>And More! </h1>
+            
 
             </div> 
 
@@ -93,7 +93,7 @@ export default function ServiceAreas() {
             </ul>
 
 
-            <h1>And More! </h1>
+            
 
             </div> 
 
@@ -126,7 +126,7 @@ export default function ServiceAreas() {
             </ul>
 
 
-            <h1>And More! </h1>
+            
 
             </div> 
 
@@ -161,7 +161,7 @@ export default function ServiceAreas() {
             </ul>
 
 
-            <h1>And More! </h1>
+            
 
             </div> 
 
@@ -194,7 +194,7 @@ export default function ServiceAreas() {
             </ul>
 
 
-            <h1>And More! </h1>
+            
 
             </div> 
 

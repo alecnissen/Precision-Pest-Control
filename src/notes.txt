@@ -76,7 +76,12 @@ make the navbar icons bigger, that should take care of the responsiveness,
  // make the background of philly skyline, with service areas text as an overlay 
 
  
-// make the header and background img responsive 
+// make the header and background img responsive / CHECK 
+
+
+complete the main header and description text 
+
+put something like we are here to serve you, proudly serving the philadelphia, chester, delaware county, bucks and montgomery county 
 
 
 

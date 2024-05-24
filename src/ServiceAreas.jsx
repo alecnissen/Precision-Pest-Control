@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import philadelphiaImg from '../assets/pexels-trev-takes-photos-11531610.jpg';
+import delcoImg from '../assets/chris-henry-rUMzI6Vn7hU-unsplash.jpg';
 
 export default function ServiceAreas() {
   return (
@@ -62,10 +63,85 @@ export default function ServiceAreas() {
 
 
 
+          <div className='service-area-container'>
+            <img src={delcoImg}></img>
+
+            <div className='service-area-content-container'> 
+
+            <h1>Delaware County</h1> 
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus est ratione perferendis voluptas, obcaecati dolorum facere, repellendus quaerat, nam maxime consectetur suscipit consequuntur nemo repudiandae! Magnam perspiciatis esse optio illum!</p>
+            
+
+
+            <ul>
+              <li>Ridley</li>
+              <li>Morton</li>
+              <li>Springfield</li>
+              <li>Darby</li>
+              <li>Media</li>
+              <li>Brookhaven</li>
+              <li>Clifton Heights</li>
+              <li>Prospect Park</li>
+            </ul>
+
+
+            <h1>And More! </h1>
+
+            </div> 
+
+
+          </div>
 
 
 
-          
+          <div className='service-area-container'>
+            <img src={delcoImg}></img>
+
+            <div className='service-area-content-container'> 
+
+            <h1>Chester County</h1> 
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus est ratione perferendis voluptas, obcaecati dolorum facere, repellendus quaerat, nam maxime consectetur suscipit consequuntur nemo repudiandae! Magnam perspiciatis esse optio illum!</p>
+            
+
+
+            <ul>
+              <li>Ridley</li>
+              <li>Morton</li>
+              <li>Springfield</li>
+              <li>Darby</li>
+              <li>Media</li>
+              <li>Brookhaven</li>
+              <li>Clifton Heights</li>
+              <li>Prospect Park</li>
+            </ul>
+
+
+            <h1>And More! </h1>
+
+            </div> 
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         </div>
 

@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import philadelphiaImg from '../assets/pexels-trev-takes-photos-11531610.jpg';
 import delcoImg from '../assets/chris-henry-rUMzI6Vn7hU-unsplash.jpg';
+import chesterImg from '../assets/dan-mall-HL4LuaElk2I-unsplash (1).jpg';
 
 export default function ServiceAreas() {
   return (
@@ -96,7 +97,7 @@ export default function ServiceAreas() {
 
 
           <div className='service-area-container'>
-            <img src={delcoImg}></img>
+            <img src={chesterImg}></img>
 
             <div className='service-area-content-container'> 
 
@@ -107,14 +108,14 @@ export default function ServiceAreas() {
 
 
             <ul>
-              <li>Ridley</li>
-              <li>Morton</li>
-              <li>Springfield</li>
-              <li>Darby</li>
-              <li>Media</li>
-              <li>Brookhaven</li>
-              <li>Clifton Heights</li>
-              <li>Prospect Park</li>
+              <li>West Chester</li>
+              <li>Dowingtown</li>
+              <li>Malvern</li>
+              <li>Coatesville</li>
+              <li>West Grove</li>
+              <li>Spring City</li>
+              <li>Parkesburg</li>
+              <li>Atglen</li>
             </ul>
 
 

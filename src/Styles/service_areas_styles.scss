@@ -67,6 +67,7 @@
     flex-direction: column;
     width: 100%;
     gap: 2em;
+    padding: 1em;
     // justify-content: center;
     // align-items: center;
 } 
@@ -74,7 +75,7 @@
 .service-area-content-container { 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     text-align: center;
     // gap: 2em;

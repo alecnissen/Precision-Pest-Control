@@ -54,6 +54,31 @@ export default function PestID() {
               aeration and decomposition.
             </p>
 
+            <h3 className="features-header-text-2">Types Of Ants</h3>
+
+            <ul>
+              <li>
+                <span className="li-header-text-2">Carpenter Ant: </span>Known for nesting in wood, often causing
+                structural damage.
+              </li>
+              <li>
+                <span className="li-header-text-2">Odorous House Ant: </span>Small ants that emit a foul odor when
+                crushed.
+              </li>
+              <li>
+                <span className="li-header-text-2">Pavement Ant: </span> Commonly found nesting in cracks in pavement
+                and sidewalks.
+              </li>
+              <li>
+                <span className="li-header-text-2">Fire Ant: </span> Recognizable by their reddish color and painful
+                sting.
+              </li>
+              <li>
+                <span className="li-header-text-2">Argentine Ant: </span> Often found in large colonies, known for
+                displacing native ant species.
+              </li>
+            </ul>
+
             <h3 className="features-header-text-2">How to Identify</h3>
 
             <ul>
@@ -211,221 +236,269 @@ export default function PestID() {
           </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-        
-
-        {/* <div className="service-container-2">
-
-        <h1>Bed Bugs</h1>
-
-          <img src={bedBugImg}></img>
-
-          <div className="service-content-container-2">
-            <h1>Bed Bug Service Plan</h1>
-
-            <p>
-              A bed bug service plan provides a thorough strategy to eliminate and prevent bed bug infestations in
-              residential or commercial settings. This plan includes detailed inspections, customized treatments, and
-              ongoing monitoring to ensure effective control and long-term protection.
-            </p>
-
-            <h3 className="features-header-text-2">Features Of The Plan</h3>
-
-            <ul>
-              <li>
-                <span className="li-header-text-2">Detailed Inspections: </span> Technicians perform comprehensive
-                inspections of all potential hiding spots to accurately assess the severity and spread of the
-                infestation.
-              </li>
-              <li>
-                <span className="li-header-text-2">Customized Treatments: </span>The plan includes the application of
-                targeted treatments using safe and effective methods tailored to eradicate bed bugs at all life stages.
-              </li>
-              <li>
-                <span className="li-header-text-2">Ongoing Monitoring: </span> Continuous monitoring and follow-up
-                visits are scheduled to ensure that the bed bugs are completely eradicated and to prevent future
-                infestations through proactive measures.
-              </li>
-            </ul>
-          </div>
-        </div>
-
         <div className="service-container-2">
-          <img src={cockroachImg}></img>
-
-          <div className="service-content-container-2">
-            <h1>Cockroaches Service Plan</h1>
-
-            <p>
-              A cockroach service plan provides a thorough and strategic approach to eliminate cockroach infestations
-              and prevent their recurrence in both residential and commercial settings. This plan encompasses detailed
-              inspections, targeted treatment methods, and ongoing monitoring to ensure long-lasting control.
-            </p>
-
-            <h3 className="features-header-text-2">Features Of The Plan</h3>
-
-            <ul>
-              <li>
-                <span className="li-header-text-2">Comprehensive Assessments: </span> Skilled technicians perform
-                exhaustive inspections to identify key infestation areas, entry points, and the severity of the problem.
-              </li>
-              <li>
-                <span className="li-header-text-2">Strategic Treatments: </span>Utilizing a combination of baits,
-                insecticides, and traps, the plan targets cockroaches at their source, aiming to disrupt their life
-                cycles and prevent reproduction.
-              </li>
-              <li>
-                <span className="li-header-text-2">Ongoing Surveillance: </span> Regular follow-up visits and continuous
-                monitoring ensure the treatment's effectiveness, with proactive measures implemented to prevent future
-                infestations and maintain a pest-free environment.
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="service-container-2">
+          <h1>Rodents</h1>
           <img src={rodentsImg}></img>
 
           <div className="service-content-container-2">
-            <h1>Rodents Service Plan</h1>
+            <h1>Facts About Rodents</h1>
 
             <p>
-              A cockroach service plan provides a thorough and strategic approach to eliminate cockroach infestations
-              and prevent their recurrence in both residential and commercial settings. This plan encompasses detailed
-              inspections, targeted treatment methods, and ongoing monitoring to ensure long-lasting control.
+              Rodents are mammals characterized by their continuously growing incisors, which they must gnaw on to keep
+              from overgrowing. They are highly adaptable creatures found on every continent except Antarctica, thriving
+              in various habitats ranging from urban areas to forests and grasslands. Rodents play essential roles in
+              ecosystems as both prey and predators, but they can also pose significant challenges as pests when they
+              invade human dwellings, causing damage and transmitting diseases.
             </p>
 
-            <h3 className="features-header-text-2">Features Of The Plan</h3>
+            <h3 className="features-header-text-2">How to Identify</h3>
 
             <ul>
               <li>
-                <span className="li-header-text-2">Detailed Site Inspections: </span> Expert technicians conduct
-                thorough inspections to identify rodent entry points, nesting sites, and signs of infestation, tailoring
-                the plan to address specific problem areas.
+                <span className="li-header-text-2">Size and Shape: </span>Rodents vary in size and shape, but they
+                generally have small, compact bodies with short legs and tails. Rats are typically larger and more
+                robust than mice, with longer tails and thicker bodies.
               </li>
               <li>
-                <span className="li-header-text-2">Custom Treatment Solutions: </span>The plan employs a range of
-                methods such as traps, bait stations, and exclusion techniques, specifically designed to eliminate
-                rodents and block their access to your property.
+                <span className="li-header-text-2">Fur Color and Texture: </span>Rodents may have different fur colors
+                and textures depending on the species. Common colors include brown, gray, and black, with variations in
+                patterns and markings. Some rodents may have sleek, smooth fur, while others have coarse or wiry coats.
               </li>
               <li>
-                <span className="li-header-text-2">Regular Monitoring and Maintenance: </span> Continuous follow-up
-                visits and monitoring ensure the treatment’s effectiveness, with proactive adjustments made to maintain
-                a rodent-free environment and prevent re-infestation.
+                <span className="li-header-text-2">Facial Features: </span> Pay attention to the facial features of
+                rodents, including the shape of their snouts, ears, and eyes. Mice usually have small, rounded snouts
+                and large ears relative to their body size, while rats have more elongated snouts and ears that are
+                proportionate to their head size.
               </li>
             </ul>
+
+            <h3 className="features-header-text-2">How to Treat</h3>
+
+            <ul>
+              <li>
+                <span className="li-header-text-2">Bait Stations: </span> Place bait stations strategically in areas
+                where rodents are active, using rodenticides that are specifically formulated to attract and kill
+                rodents. The rodents will consume the bait and carry it back to their nests, effectively reducing the
+                population.
+              </li>
+              <li>
+                <span className="li-header-text-2">Sealing Entry Points: </span> Identify and seal any potential entry
+                points that rodents may use to access your home or building. This includes gaps in walls, doors,
+                windows, and utility penetrations, as well as cracks in the foundation.
+              </li>
+              <li>
+                <span className="li-header-text-2">Sanitation: </span> Maintain cleanliness and eliminate potential food
+                sources that may attract rodents. Store food in sealed containers, clean up spills and crumbs promptly,
+                and dispose of garbage regularly to reduce the availability of food for rodents.
+              </li>
+            </ul>
+
+            <div className="services-btn-container-2">
+              <h3>Learn More Details About Our Treatment Options!</h3>
+
+              <button>Pest Services</button>
+            </div>
           </div>
         </div>
 
         <div className="service-container-2">
+          <h1>Mosquitos</h1>
           <img src={mosquitoImg}></img>
 
           <div className="service-content-container-2">
-            <h1>Mosquitos Service Plan</h1>
+            <h1>Facts About Mosquitos</h1>
 
             <p>
-              A mosquito service plan offers a comprehensive solution to eliminate mosquito populations and prevent
-              their return, ensuring a comfortable and safe environment. This plan includes thorough site inspections,
-              targeted treatments, and continuous monitoring for effective and lasting mosquito control.
+              Mosquitoes are small, flying insects known for their ability to bite and feed on the blood of humans and
+              animals. They are vectors for various diseases, including malaria, dengue fever, and Zika virus, making
+              them a significant public health concern. Mosquitoes breed in stagnant water, where their larvae develop
+              before emerging as adults
             </p>
 
-            <h3 className="features-header-text-2">Features Of The Plan</h3>
+            <h3 className="features-header-text-2">How to Identify</h3>
 
             <ul>
               <li>
-                <span className="li-header-text-2">Detailed Site Inspections: </span> Professional technicians carry out
-                thorough inspections to identify mosquito breeding sites, potential entry points, and areas of high
-                activity, allowing for a customized treatment plan tailored to the specific needs of the property.
+                <span className="li-header-text-2">Slender Body: </span>Mosquitoes have slender bodies that typically
+                range from 1/8 to 3/8 inch in length, with long, thin legs and a narrow abdomen.
               </li>
               <li>
-                <span className="li-header-text-2">Targeted Treatment Applications: </span>The plan employs a
-                combination of larvicides, adulticides, and biological controls to effectively target mosquito
-                populations at various life stages, ensuring thorough eradication.
+                <span className="li-header-text-2">Wings: </span>They have two long, translucent wings that often have
+                tiny scales along the veins, giving them a delicate appearance.
               </li>
               <li>
-                <span className="li-header-text-2">Ongoing Monitoring and Prevention: </span>Regular follow-up visits
-                and continuous monitoring ensure the treatment remains effective, with proactive measures taken to
-                prevent re-infestation and maintain a mosquito-free environment.
+                <span className="li-header-text-2">Long Proboscis: </span> Mosquitoes possess a long, needle-like
+                proboscis used for piercing the skin and feeding on blood, which is a distinctive feature of their
+                appearance.
               </li>
             </ul>
+
+            <h3 className="features-header-text-2">How to Treat</h3>
+
+            <ul>
+              <li>
+                <span className="li-header-text-2">Eliminate Standing Water: </span> Remove or treat any standing water
+                around your home, such as in birdbaths, flowerpots, and gutters, to prevent mosquitoes from breeding.
+              </li>
+              <li>
+                <span className="li-header-text-2">Insect Repellents: </span> Use insect repellents containing DEET,
+                picaridin, or oil of lemon eucalyptus on exposed skin and clothing to deter mosquito bites.
+              </li>
+              <li>
+                <span className="li-header-text-2">Mosquito Traps: </span> Set up mosquito traps that use attractants
+                like carbon dioxide and light to lure and capture mosquitoes, reducing their population in the area.
+              </li>
+            </ul>
+
+            <div className="services-btn-container-2">
+              <h3>Learn More Details About Our Treatment Options!</h3>
+
+              <button>Pest Services</button>
+            </div>
           </div>
         </div>
 
         <div className="service-container-2">
+          <h1>Fleas</h1>
           <img src={fleaImg}></img>
 
           <div className="service-content-container-2">
-            <h1>Fleas Service Plan</h1>
+            <h1>Facts About Fleas</h1>
 
             <p>
-              A flea service plan offers a comprehensive approach to eliminate flea infestations and prevent future
-              occurrences in homes and businesses. This plan includes meticulous inspections, targeted treatments, and
-              ongoing monitoring to ensure effective and lasting control.
+              Fleas are small, wingless insects known for their ability to jump long distances and their role as
+              external parasites on mammals and birds. They feed on the blood of their hosts, causing itching and
+              discomfort, and can transmit diseases such as the plague and murine typhus. Flea infestations often begin
+              with pets but can quickly spread to carpets, bedding, and furniture in a household.
             </p>
 
-            <h3 className="features-header-text-2">Features Of The Plan</h3>
+            <h3 className="features-header-text-2">How to Identify</h3>
 
             <ul>
               <li>
-                <span className="li-header-text-2">Thorough Property Assessments: </span> Professional technicians
-                conduct detailed inspections to identify flea hotspots, potential entry points, and the extent of the
-                infestation, ensuring a customized treatment plan.
+                <span className="li-header-text-2">Small Size: </span>Fleas are very small, typically measuring about
+                1/12 to 1/6 inch in length, making them difficult to spot with the naked eye.
               </li>
               <li>
-                <span className="li-header-text-2">Specialized Treatment Methods: </span>The plan utilizes a combination
-                of safe and effective treatments, including insect growth regulators (IGRs), insecticides, and
-                environmental modifications to disrupt the flea lifecycle and eradicate the infestation.
+                <span className="li-header-text-2">Flattened Body: </span>Fleas have a laterally flattened body, which
+                allows them to move easily through the fur of their hosts.
               </li>
               <li>
-                <span className="li-header-text-2">Ongoing Surveillance and Support: </span>Regular follow-up visits and
-                monitoring ensure the continued effectiveness of the treatment, with proactive steps taken to prevent
-                re-infestation and maintain a flea-free environment.
+                <span className="li-header-text-2">Jumping Ability: </span> Fleas are known for their powerful hind
+                legs, enabling them to jump long distances relative to their size, often several inches high and far.
               </li>
             </ul>
+
+            <h3 className="features-header-text-2">How to Treat</h3>
+
+            <ul>
+              <li>
+                <span className="li-header-text-2">Flea Treatments for Pets: </span> Use flea treatments such as topical
+                solutions, oral medications, or flea collars specifically designed to kill and repel fleas on pets.
+              </li>
+              <li>
+                <span className="li-header-text-2">Vacuum Regularly: </span> Vacuum carpets, rugs, furniture, and pet
+                bedding frequently to remove fleas, eggs, and larvae. Dispose of the vacuum bag or contents immediately
+                to prevent re-infestation.
+              </li>
+              <li>
+                <span className="li-header-text-2">Insect Growth Regulators (IGRs): </span> Apply insect growth
+                regulators in your home to disrupt the flea life cycle by preventing eggs and larvae from developing
+                into adult fleas.
+              </li>
+            </ul>
+
+            <div className="services-btn-container-2">
+              <h3>Learn More Details About Our Treatment Options!</h3>
+
+              <button>Pest Services</button>
+            </div>
           </div>
         </div>
 
         <div className="service-container-2">
+          <h1>Spiders</h1>
           <img src={spiderImg}></img>
 
           <div className="service-content-container-2">
-            <h1>Spider Service Plan</h1>
+            <h1>Facts About Spiders</h1>
 
             <p>
-              A spider service plan provides a comprehensive approach to eliminate spider infestations and prevent
-              future occurrences, ensuring a safe and comfortable living environment. This plan includes meticulous
-              inspections, precise treatments, and continuous monitoring to ensure effective and lasting spider control.
+              Spiders are arachnids, characterized by having eight legs and a body divided into two main segments: the
+              cephalothorax and abdomen. They are found in nearly every habitat on Earth and play a crucial role in
+              controlling insect populations. While most spiders are harmless to humans, some species, such as the black
+              widow and brown recluse, have venomous bites that can pose health risks.
             </p>
 
-            <h3 className="features-header-text-2">Features Of The Plan</h3>
+            <h3 className="features-header-text-2">Types Of Spiders</h3>
 
             <ul>
               <li>
-                <span className="li-header-text-2">Comprehensive Inspections: </span> Expert technicians perform
-                thorough inspections to locate spider nests, webs, and potential entry points, allowing for an accurate
-                assessment of the infestation and the development of a tailored treatment plan.
+                <span className="li-header-text-2">House Spider: </span>Often found in homes, sheds, and basements.
               </li>
               <li>
-                <span className="li-header-text-2">Specialized Treatments: </span> The plan includes the application of
-                eco-friendly insecticides and strategic placement of traps to target spiders directly and eliminate
-                their food sources, reducing spider populations effectively.
+                <span className="li-header-text-2">Black Widow: </span>Recognizable by the red hourglass shape on its
+                abdomen.
               </li>
               <li>
-                <span className="li-header-text-2">Regular Monitoring and Prevention: </span>Ongoing follow-up visits
-                and continuous monitoring ensure the treatment remains effective, with preventative measures implemented
-                to reduce the risk of future spider infestations, maintaining a spider-free environment.
+                <span className="li-header-text-2">Brown Recluse: </span> Known for the violin-shaped marking on its
+                back.
+              </li>
+              <li>
+                <span className="li-header-text-2">Wolf Spider: </span> Large, hairy spiders commonly found in gardens
+                and grassy areas.
+              </li>
+              <li>
+                <span className="li-header-text-2">Jumping Spider: </span> Small, agile spiders with distinctive eye
+                patterns, often found indoors and outdoors.
               </li>
             </ul>
+
+            <h3 className="features-header-text-2">How to Identify</h3>
+
+            <ul>
+              <li>
+                <span className="li-header-text-2">Eight Legs: </span>Spiders have eight legs, distinguishing them from insects, which have six legs.
+              </li>
+              <li>
+                <span className="li-header-text-2">Two Body Segments: </span>Spiders have two main body segments: the cephalothorax (head and thorax combined) and the abdomen.
+              </li>
+              <li>
+                <span className="li-header-text-2">Silk Production: </span> Spiders produce silk from spinnerets located at the rear of their abdomen, which they use to build webs, wrap prey, and create egg sacs.
+              </li>
+            </ul>
+
+            <h3 className="features-header-text-2">How to Treat</h3>
+
+            <ul>
+              <li>
+                <span className="li-header-text-2">Remove Clutter: </span> Clear away clutter and debris from indoor and outdoor areas to eliminate hiding spots for spiders.
+              </li>
+              <li>
+                <span className="li-header-text-2">Seal Entry Points: </span> Seal cracks, gaps, and openings around windows, doors, and foundation to prevent spiders from entering buildings.
+              </li>
+              <li>
+                <span className="li-header-text-2">Regular Cleaning:  </span> Regularly clean and vacuum indoor spaces, especially corners, ceilings, and behind furniture, to remove webs and spiders.
+              </li>
+            </ul>
+
+            <div className="services-btn-container-2">
+              <h3>Learn More Details About Our Treatment Options!</h3>
+
+              <button>Pest Services</button>
+            </div>
           </div>
-        </div> */}
+        </div>
+
+
+
+
+
+
+
+
+
+
       </div>
 
       <Footer></Footer>

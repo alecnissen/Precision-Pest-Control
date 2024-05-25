@@ -51,7 +51,7 @@ export default function PestID() {
               ants to follow, and there are over 12,000 species of ants found on every continent except Antarctica. Some
               ant species form mutualistic relationships with plants and other insects, providing protection in exchange
               for food, and despite their small size, ants play a crucial role in the ecosystem by aiding in soil
-              aeration and decomposition
+              aeration and decomposition.
             </p>
 
             <h3 className="features-header-text-2">How to Identify</h3>
@@ -75,29 +75,154 @@ export default function PestID() {
 
             <ul>
               <li>
-                <span className="li-header-text-2">Bait Traps:  </span>Use bait traps to attract ants, which they then carry back to their colony, effectively eliminating the entire nest.
+                <span className="li-header-text-2">Bait Traps: </span>Use bait traps to attract ants, which they then
+                carry back to their colony, effectively eliminating the entire nest.
               </li>
               <li>
-                <span className="li-header-text-2">Seal Entry Points:  </span> Seal cracks and crevices around your home to prevent ants from entering.
+                <span className="li-header-text-2">Seal Entry Points: </span> Seal cracks and crevices around your home
+                to prevent ants from entering.
               </li>
               <li>
-                <span className="li-header-text-2">Cleanliness: </span> Maintain cleanliness by keeping food sealed and surfaces free of crumbs to reduce attractants for ants.
+                <span className="li-header-text-2">Cleanliness: </span> Maintain cleanliness by keeping food sealed and
+                surfaces free of crumbs to reduce attractants for ants.
               </li>
             </ul>
 
-              <div className='services-btn-container-2'>
+            <div className="services-btn-container-2">
+              <h3>Learn More Details About Our Treatment Options!</h3>
 
-                <h3>Learn More in Detail About Our Treatment Options!</h3>
-                  
-                <button>Pest Services</button>
-
-              </div>
-
-
+              <button>Pest Services</button>
+            </div>
           </div>
         </div>
 
         <div className="service-container-2">
+          <h1>Bed Bugs</h1>
+          <img src={bedBugImg}></img>
+
+          <div className="service-content-container-2">
+            <h1>Facts About Bed Bugs</h1>
+
+            <p>
+              Bed bugs are small, reddish-brown insects that feed on the blood of humans and animals, usually at night.
+              They are excellent hitchhikers, often spreading through luggage, clothing, and used furniture. Bed bugs
+              can survive for several months without feeding, making them particularly difficult to eliminate once they
+              infest an area.
+            </p>
+
+            <h3 className="features-header-text-2">How to Identify</h3>
+
+            <ul>
+              <li>
+                <span className="li-header-text-2">Small Size: </span>Bed bugs are small, usually about the size of an
+                apple seed, ranging from 1/4 to 3/8 inch in length.
+              </li>
+              <li>
+                <span className="li-header-text-2">Flat, Oval Shape: </span>They have a flat, oval-shaped body that
+                becomes more elongated and swollen after feeding.
+              </li>
+              <li>
+                <span className="li-header-text-2">Reddish-Brown Color: </span> Bed bugs are reddish-brown in color, but
+                they appear darker after feeding on blood.
+              </li>
+            </ul>
+
+            <h3 className="features-header-text-2">How to Treat</h3>
+
+            <ul>
+              <li>
+                <span className="li-header-text-2">Heat Treatment: </span>Use professional heat treatments to raise the
+                temperature in infested areas above 120°F, which effectively kills bed bugs at all life stages.
+              </li>
+              <li>
+                <span className="li-header-text-2">Insecticide Application: </span> Apply insecticides specifically
+                designed for bed bugs to cracks, crevices, and other hiding places, ensuring thorough coverage.
+              </li>
+              <li>
+                <span className="li-header-text-2">Vacuuming: </span> Regularly vacuum carpets, furniture, and
+                mattresses to remove bed bugs and their eggs, and immediately dispose of the vacuum bag outside.
+              </li>
+            </ul>
+
+            <div className="services-btn-container-2">
+              <h3>Learn More Details About Our Treatment Options!</h3>
+
+              <button>Pest Services</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="service-container-2">
+          <h1>Cockroaches</h1>
+          <img src={cockroachImg}></img>
+
+          <div className="service-content-container-2">
+            <h1>Facts About Cockroaches</h1>
+
+            <p>
+              Cockroaches are ancient insects that have been around for millions of years, with over 4,500 species
+              worldwide. They are known for their resilience and adaptability, able to survive in a wide range of
+              environments, including urban areas, forests, and deserts. Cockroaches are scavengers, feeding on almost
+              anything, including food scraps, paper, and even glue.
+            </p>
+
+            <h3 className="features-header-text-2">How to Identify</h3>
+
+            <ul>
+              <li>
+                <span className="li-header-text-2">Size and Shape: </span>Cockroaches vary in size depending on the
+                species, but most are oval-shaped and range from about 1/2 to 2 inches in length.
+              </li>
+              <li>
+                <span className="li-header-text-2">Color: </span>They can be brown, black, or reddish-brown, with some
+                species exhibiting distinctive markings or patterns on their bodies.
+              </li>
+              <li>
+                <span className="li-header-text-2">Antennae: </span> Cockroaches have long, flexible antennae that are
+                often as long as or longer than their bodies. These antennae are used for sensing their environment and
+                detecting food sources.
+              </li>
+            </ul>
+
+            <h3 className="features-header-text-2">How to Treat</h3>
+
+            <ul>
+              <li>
+                <span className="li-header-text-2">Bait Stations: </span>Place bait stations in areas where cockroaches
+                are frequently seen, as they will be attracted to the bait and carry it back to their nest, effectively
+                eliminating the colony.
+              </li>
+              <li>
+                <span className="li-header-text-2">Sealing Entry Points: </span> Seal cracks and crevices in walls,
+                floors, and around pipes to prevent cockroaches from entering your home.
+              </li>
+              <li>
+                <span className="li-header-text-2">Sanitation: </span> Keep your home clean and free of food crumbs and
+                spills, as cockroaches are attracted to food sources. Regularly clean kitchen appliances and cabinets to
+                remove food residues.
+              </li>
+            </ul>
+
+            <div className="services-btn-container-2">
+              <h3>Learn More Details About Our Treatment Options!</h3>
+
+              <button>Pest Services</button>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        
+
+        {/* <div className="service-container-2">
 
         <h1>Bed Bugs</h1>
 
@@ -300,7 +425,7 @@ export default function PestID() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <Footer></Footer>

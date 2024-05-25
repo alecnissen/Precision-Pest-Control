@@ -96,7 +96,6 @@
         width: 95% !important;
         margin-left: auto;
         margin-right: auto;
-        height: 50rem;
     }
 }
 
@@ -160,4 +159,13 @@
 
 .bold-text {
     font-weight: bold;
+    margin-top: .5rem;
 }
+
+.testimonial-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    box-sizing: border-box;
+  }

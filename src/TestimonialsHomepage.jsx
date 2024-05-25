@@ -11,7 +11,6 @@ import carouselImage3 from "../assets/smallcarousel3.png";
 import carouselImage4 from "../assets/smallcarousel4.png";
 
 export default function TestimonialsHomepage() {
-
   const [isWideScreen, setIsWideScreen] = useState(false);
 
   useEffect(() => {
@@ -23,6 +22,21 @@ export default function TestimonialsHomepage() {
 
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  useEffect(() => {
+    const paragraphs = document.querySelectorAll('.testimonial-text');
+    let maxHeight = 0;
+
+    paragraphs.forEach(p => {
+      if (p.offsetHeight > maxHeight) {
+        maxHeight = p.offsetHeight;
+      }
+    });
+
+    paragraphs.forEach(p => {
+      p.style.height = `${maxHeight}px`;
+    });
   }, []);
 
   return (
@@ -62,26 +76,26 @@ export default function TestimonialsHomepage() {
               <Carousel.Item>
                 <img id='carousel-image' src={carouselImage1} alt='testimonial'></img>
                 <p className='bold-text'>Daniel Murphy</p>
-                <p className='bold-text'>4/28/23</p>
-                <p>Choosing Prodigy Pest Solutions was the best decision I made for my home. Their professional team not only eradicated the pests efficiently but also provided invaluable advice to prevent future infestations. I'm impressed with their thoroughness and would highly recommend their services to anyone in need.</p>
+                <p className='bold-text' id='date-text'>4/28/23</p>
+                <p className='testimonial-text'>Choosing Prodigy Pest Solutions was the best decision I made for my home. Their professional team not only eradicated the pests efficiently but also provided invaluable advice to prevent future infestations. I'm impressed with their thoroughness and would highly recommend their services to anyone in need.</p>
               </Carousel.Item>
               <Carousel.Item>
                 <img id='carousel-image' src={carouselImage2} alt='testimonial'></img>
                 <p className='bold-text'>John Anderson</p>
-                <p className='bold-text'>4/28/23</p>
-                <p>Working with Prodigy Pest Solutions was an absolute game-changer for us. Their expertise and dedication not only rid our home of pests but also gave us peace of mind knowing that our space was thoroughly protected. I'm truly grateful for their exceptional service and would confidently recommend them to anyone seeking top-notch pest control solutions.</p>
+                <p className='bold-text' id='date-text'>4/28/23</p>
+                <p className='testimonial-text'>Working with Prodigy Pest Solutions was an absolute game-changer for us. Their expertise and dedication not only rid our home of pests but also gave us peace of mind knowing that our space was thoroughly protected. I'm truly grateful for their exceptional service and would confidently recommend them to anyone seeking top-notch pest control solutions.</p>
               </Carousel.Item>
               <Carousel.Item>
                 <img id='carousel-image' src={carouselImage3} alt='testimonial'></img>
                 <p className='bold-text'>Andrew Johnson</p>
-                <p className='bold-text'>9/20/2022</p>
-                <p>Prodigy Pest Solutions completely transformed our living environment. Their team's expertise and commitment not only eliminated pests from our home but also ensured a lasting shield against future infestations. We're immensely thankful for their exceptional service and would enthusiastically endorse them to anyone seeking effective pest control solutions.</p>
+                <p className='bold-text' id='date-text'>9/20/2022</p>
+                <p className='testimonial-text'>Prodigy Pest Solutions completely transformed our living environment. Their team's expertise and commitment not only eliminated pests from our home but also ensured a lasting shield against future infestations. We're immensely thankful for their exceptional service and would enthusiastically endorse them to anyone seeking effective pest control solutions.</p>
               </Carousel.Item>
               <Carousel.Item>
                 <img id='carousel-image' src={carouselImage4} alt='testimonial'></img>
                 <p className='bold-text'>Jeremy Ferguson</p>
-                <p className='bold-text'>5/11/2021</p>
-                <p>Prodigy Pest Solutions went above and beyond in delivering exceptional service. Their professionalism and attention to detail were evident from the moment they arrived. Not only did they eradicate the pests effectively, but they also took the time to educate us on preventative measures. Their commitment to customer satisfaction is unmatched, and we're grateful for their outstanding service.</p>
+                <p className='bold-text' id='date-text'>5/11/2021</p>
+                <p className='testimonial-text'>Prodigy Pest Solutions went above and beyond in delivering exceptional service. Their professionalism and attention to detail were evident from the moment they arrived. Not only did they eradicate the pests effectively, but they also took the time to educate us on preventative measures. Their commitment to customer satisfaction is unmatched, and we're grateful for their outstanding service.</p>
               </Carousel.Item>
             </Carousel>
           </>

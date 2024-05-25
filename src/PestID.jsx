@@ -42,7 +42,7 @@ export default function PestID() {
         </div>
 
 
-        {/* <h1>Pest Identification and Facts</h1> */} 
+        
 
 
         <div className='pestid-header-text-container'> 
@@ -57,13 +57,15 @@ export default function PestID() {
 
 
         </div>
+
+        
      
 
-      {/* <div className="service-container-cards-wrapper">
-        <div className="service-container">
+      <div className="service-container-cards-wrapper-2">
+        <div className="service-container-2">
           <img src={AntImg}></img>
 
-          <div className="service-content-container">
+          <div className="service-content-container-2">
             <h1>Ant Service Plan</h1>
 
             <p>
@@ -72,30 +74,30 @@ export default function PestID() {
               a pest-free environment.
             </p>
 
-            <h3 className="features-header-text">Features Of The Plan</h3>
+            <h3 className="features-header-text-2">Features Of The Plan</h3>
 
             <ul>
               <li>
-                <span className="li-header-text">Regular Inspections: </span>Technicians conduct thorough inspections to
+                <span className="li-header-text-2">Regular Inspections: </span>Technicians conduct thorough inspections to
                 identify ant colonies and entry points, assessing the extent of the infestation.
               </li>
               <li>
-                <span className="li-header-text">Targeted Treatments: </span>The plan includes the application of safe
+                <span className="li-header-text-2">Targeted Treatments: </span>The plan includes the application of safe
                 and effective treatments specifically designed to eliminate ant colonies and prevent future
                 infestations.
               </li>
               <li>
-                <span className="li-header-text">Preventative Measures: </span> Recommendations and implementations of
+                <span className="li-header-text-2">Preventative Measures: </span> Recommendations and implementations of
                 strategies to seal entry points, reduce attractants, and maintain a barrier to keep ants from returning.
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="service-container">
+        <div className="service-container-2">
           <img src={bedBugImg}></img>
 
-          <div className="service-content-container">
+          <div className="service-content-container-2">
             <h1>Bed Bug Service Plan</h1>
 
             <p>
@@ -104,20 +106,20 @@ export default function PestID() {
               ongoing monitoring to ensure effective control and long-term protection.
             </p>
 
-            <h3 className="features-header-text">Features Of The Plan</h3>
+            <h3 className="features-header-text-2">Features Of The Plan</h3>
 
             <ul>
               <li>
-                <span className="li-header-text">Detailed Inspections: </span> Technicians perform comprehensive
+                <span className="li-header-text-2">Detailed Inspections: </span> Technicians perform comprehensive
                 inspections of all potential hiding spots to accurately assess the severity and spread of the
                 infestation.
               </li>
               <li>
-                <span className="li-header-text">Customized Treatments: </span>The plan includes the application of
+                <span className="li-header-text-2">Customized Treatments: </span>The plan includes the application of
                 targeted treatments using safe and effective methods tailored to eradicate bed bugs at all life stages.
               </li>
               <li>
-                <span className="li-header-text">Ongoing Monitoring: </span> Continuous monitoring and follow-up visits
+                <span className="li-header-text-2">Ongoing Monitoring: </span> Continuous monitoring and follow-up visits
                 are scheduled to ensure that the bed bugs are completely eradicated and to prevent future infestations
                 through proactive measures.
               </li>
@@ -125,10 +127,10 @@ export default function PestID() {
           </div>
         </div>
 
-        <div className="service-container">
+        <div className="service-container-2">
           <img src={cockroachImg}></img>
 
-          <div className="service-content-container">
+          <div className="service-content-container-2">
             <h1>Cockroaches Service Plan</h1>
 
             <p>
@@ -137,20 +139,20 @@ export default function PestID() {
               inspections, targeted treatment methods, and ongoing monitoring to ensure long-lasting control.
             </p>
 
-            <h3 className="features-header-text">Features Of The Plan</h3>
+            <h3 className="features-header-text-2">Features Of The Plan</h3>
 
             <ul>
               <li>
-                <span className="li-header-text">Comprehensive Assessments: </span> Skilled technicians perform
+                <span className="li-header-text-2">Comprehensive Assessments: </span> Skilled technicians perform
                 exhaustive inspections to identify key infestation areas, entry points, and the severity of the problem.
               </li>
               <li>
-                <span className="li-header-text">Strategic Treatments: </span>Utilizing a combination of baits,
+                <span className="li-header-text-2">Strategic Treatments: </span>Utilizing a combination of baits,
                 insecticides, and traps, the plan targets cockroaches at their source, aiming to disrupt their life
                 cycles and prevent reproduction.
               </li>
               <li>
-                <span className="li-header-text">Ongoing Surveillance: </span> Regular follow-up visits and continuous
+                <span className="li-header-text-2">Ongoing Surveillance: </span> Regular follow-up visits and continuous
                 monitoring ensure the treatment's effectiveness, with proactive measures implemented to prevent future
                 infestations and maintain a pest-free environment.
               </li>
@@ -158,10 +160,10 @@ export default function PestID() {
           </div>
         </div>
 
-        <div className="service-container">
+        <div className="service-container-2">
           <img src={rodentsImg}></img>
 
-          <div className="service-content-container">
+          <div className="service-content-container-2">
             <h1>Rodents Service Plan</h1>
 
             <p>
@@ -170,21 +172,21 @@ export default function PestID() {
               inspections, targeted treatment methods, and ongoing monitoring to ensure long-lasting control.
             </p>
 
-            <h3 className="features-header-text">Features Of The Plan</h3>
+            <h3 className="features-header-text-2">Features Of The Plan</h3>
 
             <ul>
               <li>
-                <span className="li-header-text">Detailed Site Inspections: </span> Expert technicians conduct thorough
+                <span className="li-header-text-2">Detailed Site Inspections: </span> Expert technicians conduct thorough
                 inspections to identify rodent entry points, nesting sites, and signs of infestation, tailoring the plan
                 to address specific problem areas.
               </li>
               <li>
-                <span className="li-header-text">Custom Treatment Solutions: </span>The plan employs a range of methods
+                <span className="li-header-text-2">Custom Treatment Solutions: </span>The plan employs a range of methods
                 such as traps, bait stations, and exclusion techniques, specifically designed to eliminate rodents and
                 block their access to your property.
               </li>
               <li>
-                <span className="li-header-text">Regular Monitoring and Maintenance: </span> Continuous follow-up visits
+                <span className="li-header-text-2">Regular Monitoring and Maintenance: </span> Continuous follow-up visits
                 and monitoring ensure the treatment’s effectiveness, with proactive adjustments made to maintain a
                 rodent-free environment and prevent re-infestation.
               </li>
@@ -192,10 +194,10 @@ export default function PestID() {
           </div>
         </div>
 
-        <div className="service-container">
+        <div className="service-container-2">
           <img src={mosquitoImg}></img>
 
-          <div className="service-content-container">
+          <div className="service-content-container-2">
             <h1>Mosquitos Service Plan</h1>
 
             <p>
@@ -204,21 +206,21 @@ export default function PestID() {
               targeted treatments, and continuous monitoring for effective and lasting mosquito control.
             </p>
 
-            <h3 className="features-header-text">Features Of The Plan</h3>
+            <h3 className="features-header-text-2">Features Of The Plan</h3>
 
             <ul>
               <li>
-                <span className="li-header-text">Detailed Site Inspections: </span> Professional technicians carry out
+                <span className="li-header-text-2">Detailed Site Inspections: </span> Professional technicians carry out
                 thorough inspections to identify mosquito breeding sites, potential entry points, and areas of high
                 activity, allowing for a customized treatment plan tailored to the specific needs of the property.
               </li>
               <li>
-                <span className="li-header-text">Targeted Treatment Applications: </span>The plan employs a combination
+                <span className="li-header-text-2">Targeted Treatment Applications: </span>The plan employs a combination
                 of larvicides, adulticides, and biological controls to effectively target mosquito populations at
                 various life stages, ensuring thorough eradication.
               </li>
               <li>
-                <span className="li-header-text">Ongoing Monitoring and Prevention: </span>Regular follow-up visits and
+                <span className="li-header-text-2">Ongoing Monitoring and Prevention: </span>Regular follow-up visits and
                 continuous monitoring ensure the treatment remains effective, with proactive measures taken to prevent
                 re-infestation and maintain a mosquito-free environment.
               </li>
@@ -226,10 +228,10 @@ export default function PestID() {
           </div>
         </div>
 
-        <div className="service-container">
+        <div className="service-container-2">
           <img src={fleaImg}></img>
 
-          <div className="service-content-container">
+          <div className="service-content-container-2">
             <h1>Fleas Service Plan</h1>
 
             <p>
@@ -238,21 +240,21 @@ export default function PestID() {
               ongoing monitoring to ensure effective and lasting control.
             </p>
 
-            <h3 className="features-header-text">Features Of The Plan</h3>
+            <h3 className="features-header-text-2">Features Of The Plan</h3>
 
             <ul>
               <li>
-                <span className="li-header-text">Thorough Property Assessments: </span> Professional technicians conduct
+                <span className="li-header-text-2">Thorough Property Assessments: </span> Professional technicians conduct
                 detailed inspections to identify flea hotspots, potential entry points, and the extent of the
                 infestation, ensuring a customized treatment plan.
               </li>
               <li>
-                <span className="li-header-text">Specialized Treatment Methods: </span>The plan utilizes a combination
+                <span className="li-header-text-2">Specialized Treatment Methods: </span>The plan utilizes a combination
                 of safe and effective treatments, including insect growth regulators (IGRs), insecticides, and
                 environmental modifications to disrupt the flea lifecycle and eradicate the infestation.
               </li>
               <li>
-                <span className="li-header-text">Ongoing Surveillance and Support: </span>Regular follow-up visits and
+                <span className="li-header-text-2">Ongoing Surveillance and Support: </span>Regular follow-up visits and
                 monitoring ensure the continued effectiveness of the treatment, with proactive steps taken to prevent
                 re-infestation and maintain a flea-free environment.
               </li>
@@ -260,10 +262,10 @@ export default function PestID() {
           </div>
         </div>
 
-        <div className="service-container">
+        <div className="service-container-2">
           <img src={spiderImg}></img>
 
-          <div className="service-content-container">
+          <div className="service-content-container-2">
             <h1>Spider Service Plan</h1>
 
             <p>
@@ -272,31 +274,31 @@ export default function PestID() {
               inspections, precise treatments, and continuous monitoring to ensure effective and lasting spider control.
             </p>
 
-            <h3 className="features-header-text">Features Of The Plan</h3>
+            <h3 className="features-header-text-2">Features Of The Plan</h3>
 
             <ul>
               <li>
-                <span className="li-header-text">Comprehensive Inspections: </span> Expert technicians perform thorough
+                <span className="li-header-text-2">Comprehensive Inspections: </span> Expert technicians perform thorough
                 inspections to locate spider nests, webs, and potential entry points, allowing for an accurate
                 assessment of the infestation and the development of a tailored treatment plan.
               </li>
               <li>
-                <span className="li-header-text">Specialized Treatments: </span> The plan includes the application of
+                <span className="li-header-text-2">Specialized Treatments: </span> The plan includes the application of
                 eco-friendly insecticides and strategic placement of traps to target spiders directly and eliminate
                 their food sources, reducing spider populations effectively.
               </li>
               <li>
-                <span className="li-header-text">Regular Monitoring and Prevention: </span>Ongoing follow-up visits and
+                <span className="li-header-text-2">Regular Monitoring and Prevention: </span>Ongoing follow-up visits and
                 continuous monitoring ensure the treatment remains effective, with preventative measures implemented to
                 reduce the risk of future spider infestations, maintaining a spider-free environment.
               </li>
             </ul>
           </div>
         </div>
-      </div> */}
+      </div> 
 
      
-      {/* <Footer></Footer> */}
+       <Footer></Footer>
 
 
 

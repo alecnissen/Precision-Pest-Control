@@ -70,6 +70,12 @@
 
 .pestid-header-text-container h1:nth-child(1) { 
     color: darkorange;
+    font-size: 3.3rem;
+}
+
+.pestid-header-text-container h3 { 
+    
+    font-size: 2rem;
 }
 
 
@@ -92,11 +98,12 @@
 .service-container-2 h1 { 
     font-family: "Poppins", sans-serif;
     color: darkorange;
+    font-size: 3rem;
 }
 
 .service-container-2 img { 
     // width: 35em;
-    width: 45em;
+    width: 50em;
     border-radius: 1em;
 }
 
@@ -116,7 +123,7 @@
 
 .service-content-container-2 p,
 .service-content-container-2 ul { 
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .service-content-container-2 p, ul { 
@@ -163,6 +170,7 @@
     color: white; 
     border: none;
     border-radius: 1em;
+    font-size: 1.2rem;
 }
 
 

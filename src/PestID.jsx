@@ -75,16 +75,13 @@ export default function PestID() {
 
             <ul>
               <li>
-                <span className="li-header-text-2">Small Size: </span>Ants are typically small, ranging from 1/16 to 1/2
-                inch in length.
+                <span className="li-header-text-2">Bait Traps:  </span>Use bait traps to attract ants, which they then carry back to their colony, effectively eliminating the entire nest.
               </li>
               <li>
-                <span className="li-header-text-2">Segmented Body: </span>They have a segmented body with a narrow
-                waist, known as the petiole, connecting the thorax and abdomen.
+                <span className="li-header-text-2">Seal Entry Points:  </span> Seal cracks and crevices around your home to prevent ants from entering.
               </li>
               <li>
-                <span className="li-header-text-2">Antennae: </span> Ants have elbowed antennae that bend in the middle,
-                which they use for sensing their environment.
+                <span className="li-header-text-2">Cleanliness: </span> Maintain cleanliness by keeping food sealed and surfaces free of crumbs to reduce attractants for ants.
               </li>
             </ul>
 

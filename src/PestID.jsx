@@ -15,86 +15,95 @@ import PaymentPlans from './PaymentPlans';
 import goldMedal from '../assets/medal.png';
 import Footer from './Footer';
 import PaymentPlansServicePage from './PaymentPlansServicesPage';
-import antBackgroundImg from '../assets/peter-f-wolf-XG8eYNYdz54-unsplash.jpg'
-
+import antBackgroundImg from '../assets/peter-f-wolf-XG8eYNYdz54-unsplash.jpg';
 
 export default function PestID() {
   return (
     <>
       <Navbar></Navbar>
 
-
-
-        <div className='pestid-header-wrapper'> 
-
-       
-
-        <div className='pestid-background-container'> 
-
-
-
-          <div className='pestid-background-text-container'> 
-
+      <div className="pestid-header-wrapper">
+        <div className="pestid-background-container">
+          <div className="pestid-background-text-container">
             <h1>Pest ID</h1>
-
           </div>
-
         </div>
 
-
-        
-
-
-        <div className='pestid-header-text-container'> 
-
+        <div className="pestid-header-text-container">
           <h1>Pest Identification and Facts</h1>
 
           <h3>Learn More About Common Pests and How to Spot Them</h3>
-
         </div>
-
-
-
-
-        </div>
-
-        
-     
+      </div>
 
       <div className="service-container-cards-wrapper-2">
         <div className="service-container-2">
+          <h1>Ants</h1>
           <img src={AntImg}></img>
 
           <div className="service-content-container-2">
-            <h1>Ant Service Plan</h1>
+            <h1>Facts About Ants</h1>
 
             <p>
-              An ant service plan offers a comprehensive approach to control and prevent ant infestations in your home
-              or business. This plan includes regular inspections, targeted treatments, and proactive measures to ensure
-              a pest-free environment.
+              Ants are incredibly strong, capable of lifting objects up to 50 times their own body weight, and they live
+              in highly organized colonies with a clear division of labor, including roles such as workers, soldiers,
+              and queens. They communicate using chemicals called pheromones, which they use to leave trails for other
+              ants to follow, and there are over 12,000 species of ants found on every continent except Antarctica. Some
+              ant species form mutualistic relationships with plants and other insects, providing protection in exchange
+              for food, and despite their small size, ants play a crucial role in the ecosystem by aiding in soil
+              aeration and decomposition
             </p>
 
-            <h3 className="features-header-text-2">Features Of The Plan</h3>
+            <h3 className="features-header-text-2">How to Identify</h3>
 
             <ul>
               <li>
-                <span className="li-header-text-2">Regular Inspections: </span>Technicians conduct thorough inspections to
-                identify ant colonies and entry points, assessing the extent of the infestation.
+                <span className="li-header-text-2">Small Size: </span>Ants are typically small, ranging from 1/16 to 1/2
+                inch in length.
               </li>
               <li>
-                <span className="li-header-text-2">Targeted Treatments: </span>The plan includes the application of safe
-                and effective treatments specifically designed to eliminate ant colonies and prevent future
-                infestations.
+                <span className="li-header-text-2">Segmented Body: </span>They have a segmented body with a narrow
+                waist, known as the petiole, connecting the thorax and abdomen.
               </li>
               <li>
-                <span className="li-header-text-2">Preventative Measures: </span> Recommendations and implementations of
-                strategies to seal entry points, reduce attractants, and maintain a barrier to keep ants from returning.
+                <span className="li-header-text-2">Antennae: </span> Ants have elbowed antennae that bend in the middle,
+                which they use for sensing their environment.
               </li>
             </ul>
+
+            <h3 className="features-header-text-2">How to Treat</h3>
+
+            <ul>
+              <li>
+                <span className="li-header-text-2">Small Size: </span>Ants are typically small, ranging from 1/16 to 1/2
+                inch in length.
+              </li>
+              <li>
+                <span className="li-header-text-2">Segmented Body: </span>They have a segmented body with a narrow
+                waist, known as the petiole, connecting the thorax and abdomen.
+              </li>
+              <li>
+                <span className="li-header-text-2">Antennae: </span> Ants have elbowed antennae that bend in the middle,
+                which they use for sensing their environment.
+              </li>
+            </ul>
+
+              <div className='services-btn-container-2'>
+
+                <h3>Learn More in Detail About Our Treatment Options!</h3>
+                  
+                <button>Pest Services</button>
+
+              </div>
+
+
           </div>
         </div>
 
         <div className="service-container-2">
+
+        <h1>Bed Bugs</h1>
+
           <img src={bedBugImg}></img>
 
           <div className="service-content-container-2">
@@ -119,9 +128,9 @@ export default function PestID() {
                 targeted treatments using safe and effective methods tailored to eradicate bed bugs at all life stages.
               </li>
               <li>
-                <span className="li-header-text-2">Ongoing Monitoring: </span> Continuous monitoring and follow-up visits
-                are scheduled to ensure that the bed bugs are completely eradicated and to prevent future infestations
-                through proactive measures.
+                <span className="li-header-text-2">Ongoing Monitoring: </span> Continuous monitoring and follow-up
+                visits are scheduled to ensure that the bed bugs are completely eradicated and to prevent future
+                infestations through proactive measures.
               </li>
             </ul>
           </div>
@@ -176,19 +185,19 @@ export default function PestID() {
 
             <ul>
               <li>
-                <span className="li-header-text-2">Detailed Site Inspections: </span> Expert technicians conduct thorough
-                inspections to identify rodent entry points, nesting sites, and signs of infestation, tailoring the plan
-                to address specific problem areas.
+                <span className="li-header-text-2">Detailed Site Inspections: </span> Expert technicians conduct
+                thorough inspections to identify rodent entry points, nesting sites, and signs of infestation, tailoring
+                the plan to address specific problem areas.
               </li>
               <li>
-                <span className="li-header-text-2">Custom Treatment Solutions: </span>The plan employs a range of methods
-                such as traps, bait stations, and exclusion techniques, specifically designed to eliminate rodents and
-                block their access to your property.
+                <span className="li-header-text-2">Custom Treatment Solutions: </span>The plan employs a range of
+                methods such as traps, bait stations, and exclusion techniques, specifically designed to eliminate
+                rodents and block their access to your property.
               </li>
               <li>
-                <span className="li-header-text-2">Regular Monitoring and Maintenance: </span> Continuous follow-up visits
-                and monitoring ensure the treatment’s effectiveness, with proactive adjustments made to maintain a
-                rodent-free environment and prevent re-infestation.
+                <span className="li-header-text-2">Regular Monitoring and Maintenance: </span> Continuous follow-up
+                visits and monitoring ensure the treatment’s effectiveness, with proactive adjustments made to maintain
+                a rodent-free environment and prevent re-infestation.
               </li>
             </ul>
           </div>
@@ -215,14 +224,14 @@ export default function PestID() {
                 activity, allowing for a customized treatment plan tailored to the specific needs of the property.
               </li>
               <li>
-                <span className="li-header-text-2">Targeted Treatment Applications: </span>The plan employs a combination
-                of larvicides, adulticides, and biological controls to effectively target mosquito populations at
-                various life stages, ensuring thorough eradication.
+                <span className="li-header-text-2">Targeted Treatment Applications: </span>The plan employs a
+                combination of larvicides, adulticides, and biological controls to effectively target mosquito
+                populations at various life stages, ensuring thorough eradication.
               </li>
               <li>
-                <span className="li-header-text-2">Ongoing Monitoring and Prevention: </span>Regular follow-up visits and
-                continuous monitoring ensure the treatment remains effective, with proactive measures taken to prevent
-                re-infestation and maintain a mosquito-free environment.
+                <span className="li-header-text-2">Ongoing Monitoring and Prevention: </span>Regular follow-up visits
+                and continuous monitoring ensure the treatment remains effective, with proactive measures taken to
+                prevent re-infestation and maintain a mosquito-free environment.
               </li>
             </ul>
           </div>
@@ -244,8 +253,8 @@ export default function PestID() {
 
             <ul>
               <li>
-                <span className="li-header-text-2">Thorough Property Assessments: </span> Professional technicians conduct
-                detailed inspections to identify flea hotspots, potential entry points, and the extent of the
+                <span className="li-header-text-2">Thorough Property Assessments: </span> Professional technicians
+                conduct detailed inspections to identify flea hotspots, potential entry points, and the extent of the
                 infestation, ensuring a customized treatment plan.
               </li>
               <li>
@@ -278,8 +287,8 @@ export default function PestID() {
 
             <ul>
               <li>
-                <span className="li-header-text-2">Comprehensive Inspections: </span> Expert technicians perform thorough
-                inspections to locate spider nests, webs, and potential entry points, allowing for an accurate
+                <span className="li-header-text-2">Comprehensive Inspections: </span> Expert technicians perform
+                thorough inspections to locate spider nests, webs, and potential entry points, allowing for an accurate
                 assessment of the infestation and the development of a tailored treatment plan.
               </li>
               <li>
@@ -288,22 +297,16 @@ export default function PestID() {
                 their food sources, reducing spider populations effectively.
               </li>
               <li>
-                <span className="li-header-text-2">Regular Monitoring and Prevention: </span>Ongoing follow-up visits and
-                continuous monitoring ensure the treatment remains effective, with preventative measures implemented to
-                reduce the risk of future spider infestations, maintaining a spider-free environment.
+                <span className="li-header-text-2">Regular Monitoring and Prevention: </span>Ongoing follow-up visits
+                and continuous monitoring ensure the treatment remains effective, with preventative measures implemented
+                to reduce the risk of future spider infestations, maintaining a spider-free environment.
               </li>
             </ul>
           </div>
         </div>
-      </div> 
+      </div>
 
-     
-       <Footer></Footer>
-
-
-
-
-
+      <Footer></Footer>
     </>
   );
 }

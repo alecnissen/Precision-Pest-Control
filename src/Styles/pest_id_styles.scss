@@ -5,6 +5,7 @@
     flex-direction: column;
     width: 100%;
     // height: 100vh;
+   
 }
 
 
@@ -17,6 +18,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    // padding-bottom: 1em;
 }
 
 .pestid-background-container::before { 
@@ -51,6 +53,24 @@
     font-size: 5rem;
 }
 
+
+.pestid-header-text-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+}
+
+
+.pestid-header-text-container h1,h3 { 
+    font-family: "Poppins", sans-serif;
+}
+
+.pestid-header-text-container h1:nth-child(1) { 
+    color: darkorange;
+}
 
 
 

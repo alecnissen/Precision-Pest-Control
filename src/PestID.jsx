@@ -41,6 +41,21 @@ export default function PestID() {
 
         </div>
 
+
+        {/* <h1>Pest Identification and Facts</h1> */} 
+
+
+        <div className='pestid-header-text-container'> 
+
+          <h1>Pest Identification and Facts</h1>
+
+          <h3>Learn More About Common Pests and How to Spot Them</h3>
+
+        </div>
+
+
+
+
         </div>
      
 

@@ -1,0 +1,41 @@
+.reviews-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6em;
+}
+
+
+.reviews-header-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews-header-container * { 
+    font-family: "Poppins", sans-serif;
+}
+
+.reviews-header-container h1 { 
+    color: darkorange;
+}
+
+
+.reviews-text-photo-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    padding: 2em;
+}
+
+.reviews-text-photo-container p { 
+    max-width: 40em;
+}
+
+.reviews-text-photo-container img { 
+    width: 15em;
+    border-radius: 1em;
+}

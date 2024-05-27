@@ -266,9 +266,10 @@ form h1 {
     
 }
 
+// new 800 
+// old 756 
 
-
-@media (max-width: 765px) { 
+@media (max-width: 800px) { 
     .contact-form-content-wrapper { 
         display: flex;
         flex-direction: column;

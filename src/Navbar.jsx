@@ -83,7 +83,6 @@ export default function Navbar() {
           <Link to="/ServiceAreas#philly-section">Philadelphia</Link>
           <Link to="/ServiceAreas#chester-section">Chester County</Link>
           <Link to="/ServiceAreas#montco-section">Montgomery County</Link>
-          {/* <a href="">Bucks County</a> */}
           <Link to="/ServiceAreas#bucks-section">Bucks County</Link>
         </div>
       </div>
@@ -97,7 +96,8 @@ export default function Navbar() {
         </button>
 
         <div className="content">
-          <a href="">Ants</a>
+          {/* <a href="">Ants</a> */}
+          <Link to="/PestID#ant-section">Ants</Link>
           <a href="">Bed Bugs</a>
           <a href="">Cockroaches</a>
           <a href="">Rodents</a>

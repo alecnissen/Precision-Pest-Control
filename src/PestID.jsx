@@ -17,7 +17,43 @@ import Footer from './Footer';
 import PaymentPlansServicePage from './PaymentPlansServicesPage';
 import antBackgroundImg from '../assets/peter-f-wolf-XG8eYNYdz54-unsplash.jpg';
 
+import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
+
 export default function PestID() {
+
+  const location = useLocation();
+  const antSection = useRef(null);
+  const bedBugSection = useRef(null);
+  const cockroachSection = useRef(null);
+  const rodentsSection = useRef(null);
+  const mosquitoSection = useRef(null);
+  const fleaSection = useRef(null);
+  const spiderSection = useRef(null);
+
+  useEffect(() => {
+    const hash = location.hash;
+    console.log('Current hash:', hash); // Debugging
+    if (hash === '#ant-section') {
+      antSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#bed-bug-section') { 
+      bedBugSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#cockroaches-section') { 
+      cockroachSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#rodents-section') { 
+      rodentsSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#mosquito-section') { 
+      mosquitoSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#flea-section') { 
+      fleaSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#spider-section') { 
+      spiderSection.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [location]);
+
+
+
+
   return (
     <>
       <Navbar></Navbar>
@@ -36,7 +72,7 @@ export default function PestID() {
         </div>
       </div>
 
-      <div className="service-container-cards-wrapper-2">
+      <div className="service-container-cards-wrapper-2" id="ant-section" ref={antSection}>
         <div className="service-container-2">
           <h1>Ants</h1>
           <img src={AntImg}></img>
@@ -121,7 +157,7 @@ export default function PestID() {
           </div>
         </div>
 
-        <div className="service-container-2">
+        <div className="service-container-2" id="bed-bug-section" ref={bedBugSection}>
           <h1>Bed Bugs</h1>
           <img src={bedBugImg}></img>
 
@@ -177,7 +213,7 @@ export default function PestID() {
           </div>
         </div>
 
-        <div className="service-container-2">
+        <div className="service-container-2" id="cockroaches-section" ref={cockroachSection}>
           <h1>Cockroaches</h1>
           <img src={cockroachImg}></img>
 
@@ -236,7 +272,7 @@ export default function PestID() {
           </div>
         </div>
 
-        <div className="service-container-2">
+        <div className="service-container-2" id="rodents-section" ref={rodentsSection}>
           <h1>Rodents</h1>
           <img src={rodentsImg}></img>
 
@@ -301,7 +337,7 @@ export default function PestID() {
           </div>
         </div>
 
-        <div className="service-container-2">
+        <div className="service-container-2" id="mosquito-section" ref={mosquitoSection}>
           <h1>Mosquitos</h1>
           <img src={mosquitoImg}></img>
 
@@ -358,7 +394,7 @@ export default function PestID() {
           </div>
         </div>
 
-        <div className="service-container-2">
+        <div className="service-container-2" id="flea-section" ref={fleaSection}>
           <h1>Fleas</h1>
           <img src={fleaImg}></img>
 
@@ -416,7 +452,7 @@ export default function PestID() {
           </div>
         </div>
 
-        <div className="service-container-2">
+        <div className="service-container-2" id="spider-section" ref={spiderSection}>
           <h1>Spiders</h1>
           <img src={spiderImg}></img>
 

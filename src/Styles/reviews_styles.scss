@@ -39,3 +39,15 @@
     width: 15em;
     border-radius: 1em;
 }
+
+.reviews-text-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews-text-container p { 
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}

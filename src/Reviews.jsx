@@ -31,12 +31,17 @@ export default function Reviews() {
 
        <img src={mockEmployeeImg}></img> 
 
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam animi ea, aliquid, quod fugit dolores repudiandae, cumque dolorum quo hic repellat deleniti laboriosam aspernatur sit quidem voluptas quia officiis dicta!
+      <div className='reviews-text-container'> 
+
+       <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam animi ea, aliquid, quod fugit dolores repudiandae, cumque dolorum quo hic repellat deleniti laboriosam aspernatur sit quidem voluptas quia officiis dicta!
        Cupiditate minus perspiciatis nam eum molestiae vero iusto mollitia unde, enim quae quidem pariatur modi expedita, a nesciunt tenetur ullam maxime similique! Corporis nam perferendis odio delectus provident tempore consectetur.
-       Iure vero nesciunt facilis corrupti ratione dolores quisquam autem, dolor inventore? Error eveniet soluta, cumque in ipsum dolorum voluptates, reprehenderit eligendi dolore quia obcaecati quibusdam. Repellendus modi laborum nostrum earum?</p>
+       Iure vero nesciunt facilis corrupti ratione dolores quisquam autem, dolor inventore? Error eveniet soluta, cumque in ipsum dolorum voluptates, reprehenderit eligendi dolore quia obcaecati quibusdam. Repellendus modi laborum nostrum earum"</p>
 
 
+        <p>Alec Nissen</p>
 
+
+        </div>
 
 
       </div>

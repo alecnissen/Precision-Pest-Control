@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .reviews-header-container * { 
@@ -49,5 +50,59 @@
 
 .reviews-text-container p { 
     font-family: "Poppins", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
+
+.review-name-styles { 
+    font-weight: bold;
+}
+
+
+
+
+// media queries begin here 
+
+
+@media (max-width: 1030px) { 
+    .reviews-text-photo-container { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviews-text-photo-container img { 
+        width: 22em;
+    }
+
+    .reviews-text-photo-container { 
+        display: flex;
+        text-align: center;
+        gap: 1em;
+    }
+}
+
+
+@media (max-width: 500px) { 
+    .reviews-text-photo-container img { 
+        width: 15em;
+    }
+
+    .reviews-header-container h1 { 
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (max-width: 400px) { 
+    .reviews-header-container h1 { 
+        font-size: 1rem;
+    }
+
+    .reviews-text-photo-container img { 
+        width: 11em;
+    }
+}
+
+
+

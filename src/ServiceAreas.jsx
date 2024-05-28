@@ -15,6 +15,9 @@ export default function ServiceAreas() {
   const location = useLocation(); 
   const delcoSection = useRef(null);
   const phillySection = useRef(null);
+  const chesterSection = useRef(null);
+  const montcoSection = useRef(null);
+  const bucksSection = useRef(null);
 
 
   useEffect(() => { 
@@ -24,7 +27,13 @@ export default function ServiceAreas() {
       delcoSection.current.scrollIntoView({ behavior: 'smooth' });
     } else if (hash === '#philly-section') { 
       phillySection.current.scrollIntoView({ behavior: 'smooth' });
-    }
+    } else if (hash === '#chester-section') { 
+      chesterSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#montco-section') { 
+      montcoSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#bucks-section') { 
+      bucksSection.current.scrollIntoView({ behavior: 'smooth' });
+    } 
 
   })
 
@@ -126,7 +135,7 @@ export default function ServiceAreas() {
 
 
 
-          <div className='service-area-container'>
+          <div className='service-area-container' id="chester-section" ref={chesterSection}>
             <img src={chesterImg}></img>
 
             <div className='service-area-content-container'> 
@@ -161,7 +170,7 @@ export default function ServiceAreas() {
 
 
 
-          <div className='service-area-container'>
+          <div className='service-area-container' id="montco-section" ref={montcoSection}>
             <img src={montgomeryCountyImg}></img>
 
             <div className='service-area-content-container'> 
@@ -194,7 +203,7 @@ export default function ServiceAreas() {
 
 
 
-          <div className='service-area-container'>
+          <div className='service-area-container' id='bucks-section' ref={bucksSection}>
             <img src={bucksCountyImg}></img>
 
             <div className='service-area-content-container'> 

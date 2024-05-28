@@ -81,9 +81,10 @@ export default function Navbar() {
         <div className="content">
           <Link to="/ServiceAreas#delco-section">Delaware County</Link>
           <Link to="/ServiceAreas#philly-section">Philadelphia</Link>
-          <a href="">Chester County</a>
-          <a href="">Montgomery County</a>
-          <a href="">Bucks County</a>
+          <Link to="/ServiceAreas#chester-section">Chester County</Link>
+          <Link to="/ServiceAreas#montco-section">Montgomery County</Link>
+          {/* <a href="">Bucks County</a> */}
+          <Link to="/ServiceAreas#bucks-section">Bucks County</Link>
         </div>
       </div>
 

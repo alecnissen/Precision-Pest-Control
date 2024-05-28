@@ -25,12 +25,30 @@ export default function Services() {
 
   const location = useLocation();
   const antSection = useRef(null);
+  const bedBugSection = useRef(null);
+  const cockroachSection = useRef(null);
+  const rodentsSection = useRef(null);
+  const mosquitoSection = useRef(null);
+  const fleaSection = useRef(null);
+  const spiderSection = useRef(null);
 
   useEffect(() => {
     const hash = location.hash;
     console.log('Current hash:', hash); // Debugging
     if (hash === '#ant-section') {
       antSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#bed-bug-section') { 
+      bedBugSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#cockroaches-section') { 
+      cockroachSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#rodents-section') { 
+      rodentsSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#mosquito-section') { 
+      mosquitoSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#flea-section') { 
+      fleaSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#spider-section') { 
+      spiderSection.current.scrollIntoView({ behavior: 'smooth' });
     }
   }, [location]);
 
@@ -141,7 +159,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="service-container">
+        <div className="service-container" id="bed-bug-section" ref={bedBugSection}>
           <img src={bedBugImg}></img>
 
           <div className="service-content-container">
@@ -174,7 +192,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="service-container">
+        <div className="service-container" id="cockroaches-section" ref={cockroachSection}>
           <img src={cockroachImg}></img>
 
           <div className="service-content-container">
@@ -207,7 +225,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="service-container">
+        <div className="service-container" id="rodents-section" ref={rodentsSection}>
           <img src={rodentsImg}></img>
 
           <div className="service-content-container">
@@ -241,7 +259,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="service-container">
+        <div className="service-container" id='mosquito-section' ref={mosquitoSection}>
           <img src={mosquitoImg}></img>
 
           <div className="service-content-container">
@@ -275,7 +293,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="service-container">
+        <div className="service-container" id="flea-section" ref={fleaSection}>
           <img src={fleaImg}></img>
 
           <div className="service-content-container">
@@ -309,7 +327,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="service-container">
+        <div className="service-container" id="spider-section" ref={spiderSection}>
           <img src={spiderImg}></img>
 
           <div className="service-content-container">

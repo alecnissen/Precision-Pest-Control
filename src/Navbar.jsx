@@ -61,14 +61,13 @@ export default function Navbar() {
         </button>
 
         <div className="content">
-          {/* <a href="">Ants</a> */}
           <Link to="/Services#ant-section">Ants</Link>
-          <a href="">Bed Bugs</a>
-          <a href="">Cockroaches</a>
-          <a href="">Rodents</a>
-          <a href="">Mosquitos</a>
-          <a href="">Fleas</a>
-          <a href="">Spiders</a>
+          <Link to="/Services#bed-bug-section">Bed Bugs</Link>
+          <Link to="/Services#cockroaches-section">Cockroaches</Link>
+          <Link to="/Services#rodents-section">Rodents</Link>
+          <Link to="/Services#mosquito-section">Mosquitos</Link>
+          <Link to="/Services#flea-section">Fleas</Link>
+          <Link to="/Services#spider-section">Spiders</Link>
         </div>
       </div>
 

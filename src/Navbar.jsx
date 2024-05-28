@@ -7,8 +7,8 @@ import { useState } from 'react';
 import Modal from './Modal';
 // import OffCanvasExample from '../src/OffCanvasExample';
 import OffCanvasExample from './OffCanvasExample.jsx';
-import { Link } from 'react-router-dom';
-
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 
@@ -61,7 +61,8 @@ export default function Navbar() {
         </button>
 
         <div className="content">
-          <a href="">Ants</a>
+          {/* <a href="">Ants</a> */}
+          <Link to="/Services#ant-section">Ants</Link>
           <a href="">Bed Bugs</a>
           <a href="">Cockroaches</a>
           <a href="">Rodents</a>

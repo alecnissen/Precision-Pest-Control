@@ -16,7 +16,27 @@ import goldMedal from '../assets/medal.png';
 import Footer from './Footer';
 import PaymentPlansServicePage from './PaymentPlansServicesPage';
 
+
+import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
+
+
 export default function Services() {
+
+  const location = useLocation();
+  const antSection = useRef(null);
+
+  useEffect(() => {
+    const hash = location.hash;
+    console.log('Current hash:', hash); // Debugging
+    if (hash === '#ant-section') {
+      antSection.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [location]);
+
+
+
+
   return (
     <>
       <Navbar></Navbar>
@@ -89,7 +109,7 @@ export default function Services() {
       <InsectCards></InsectCards>
 
       <div className="service-container-cards-wrapper">
-        <div className="service-container">
+        <div className="service-container" id="ant-section" ref={antSection}>
           <img src={AntImg}></img>
 
           <div className="service-content-container">

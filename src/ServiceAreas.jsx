@@ -6,8 +6,31 @@ import delcoImg from '../assets/chris-henry-rUMzI6Vn7hU-unsplash.jpg';
 import chesterImg from '../assets/dan-mall-HL4LuaElk2I-unsplash (1).jpg';
 import montgomeryCountyImg from '../assets/jason-pischke-TYrQCzejRxE-unsplash.jpg';
 import bucksCountyImg from '../assets/luke-hodde-9MY4Ji2w6Zg-unsplash.jpg';
+import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
+
 
 export default function ServiceAreas() {
+
+  const location = useLocation(); 
+  const delcoSection = useRef(null);
+  const phillySection = useRef(null);
+
+
+  useEffect(() => { 
+    const hash = location.hash;
+    
+    if (hash === '#delco-section') { 
+      delcoSection.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (hash === '#philly-section') { 
+      phillySection.current.scrollIntoView({ behavior: 'smooth' });
+    }
+
+  })
+
+
+
+
   return (
       <> 
       <Navbar></Navbar>
@@ -37,7 +60,7 @@ export default function ServiceAreas() {
 
 
 
-          <div className='service-area-container'>
+          <div className='service-area-container' id='delco-section' ref={delcoSection}>
             <img src={delcoImg}></img>
 
             <div className='service-area-content-container'> 
@@ -70,7 +93,7 @@ export default function ServiceAreas() {
 
 
 
-          <div className='service-area-container'>
+          <div className='service-area-container' id="philly-section" ref={phillySection}>
             <img src={philadelphiaImg}></img>
 
             <div className='service-area-content-container'> 

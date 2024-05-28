@@ -79,8 +79,8 @@ export default function Navbar() {
         </button>
 
         <div className="content">
-          <a href="">Delaware County</a>
-          <a href="">Philadelphia</a>
+          <Link to="/ServiceAreas#delco-section">Delaware County</Link>
+          <Link to="/ServiceAreas#philly-section">Philadelphia</Link>
           <a href="">Chester County</a>
           <a href="">Montgomery County</a>
           <a href="">Bucks County</a>

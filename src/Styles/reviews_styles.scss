@@ -3,7 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6em;
+    // padding: 6em;
+    
+    position: relative;
+    top: 6em;
 }
 
 
@@ -50,15 +53,17 @@
 
 .reviews-text-container p { 
     font-family: "Poppins", sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .review-name-styles { 
     font-weight: bold;
 }
 
-
-
+.reviews-footer-wrapper { 
+   position: relative;
+   top: 6em;
+}
 
 // media queries begin here 
 
@@ -82,22 +87,34 @@
     }
 }
 
-
-@media (max-width: 500px) { 
+@media (max-width: 700px) { 
     .reviews-text-photo-container img { 
         width: 15em;
     }
-
+    
     .reviews-header-container h1 { 
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
+
+    .reviews-text-container p { 
+        font-size: 1rem;
+    }
+
+    .reviews-text-photo-container p { 
+        width: 100%;
+    }
+
 }
 
 
+// @media (max-width: 500px) { 
+// }
+
+
 @media (max-width: 400px) { 
-    .reviews-header-container h1 { 
-        font-size: 1rem;
-    }
+    // .reviews-header-container h1 { 
+    //     font-size: 1rem;
+    // }
 
     .reviews-text-photo-container img { 
         width: 11em;

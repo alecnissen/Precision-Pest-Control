@@ -26,16 +26,13 @@ export default function Reviews() {
 
           <div className="reviews-text-container">
             <p>
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam animi ea, aliquid, quod fugit dolores
-              repudiandae, cumque dolorum quo hic repellat deleniti laboriosam aspernatur sit quidem voluptas quia
-              officiis dicta! Cupiditate minus perspiciatis nam eum molestiae vero iusto mollitia unde, enim quae quidem
-              pariatur modi expedita, a nesciunt tenetur ullam maxime similique! Corporis nam perferendis odio delectus
-              provident tempore consectetur. Iure vero nesciunt facilis corrupti ratione dolores quisquam autem, dolor
-              inventore? Error eveniet soluta, cumque in ipsum dolorum voluptates, reprehenderit eligendi dolore quia
-              obcaecati quibusdam. Repellendus modi laborum nostrum earum"
+              "I couldn't be happier with the pest control services provided by Prodigy Pest Solutions. Their team was
+              professional, thorough, and highly knowledgeable. They quickly identified and resolved our pest issue,
+              ensuring our home was safe and pest-free. I highly recommend their services to anyone in need of effective
+              and reliable pest control solutions."
             </p>
 
-            <p className='review-name-styles'>-Alec Nissen</p>
+            <p className="review-name-styles">-John Smith</p>
           </div>
         </div>
 
@@ -44,64 +41,54 @@ export default function Reviews() {
 
           <div className="reviews-text-container">
             <p>
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam animi ea, aliquid, quod fugit dolores
-              repudiandae, cumque dolorum quo hic repellat deleniti laboriosam aspernatur sit quidem voluptas quia
-              officiis dicta! Cupiditate minus perspiciatis nam eum molestiae vero iusto mollitia unde, enim quae quidem
-              pariatur modi expedita, a nesciunt tenetur ullam maxime similique! Corporis nam perferendis odio delectus
-              provident tempore consectetur. Iure vero nesciunt facilis corrupti ratione dolores quisquam autem, dolor
-              inventore? Error eveniet soluta, cumque in ipsum dolorum voluptates, reprehenderit eligendi dolore quia
-              obcaecati quibusdam. Repellendus modi laborum nostrum earum"
+              "Prodigy Pest Solutions exceeded our expectations with their exceptional pest control service. Their staff
+              was prompt, courteous, and extremely efficient in handling our pest problem. We appreciated their
+              attention to detail and the comprehensive approach they took to ensure our home remained pest-free. We
+              wholeheartedly recommend their services to anyone facing pest issues."
             </p>
 
-            <p className='review-name-styles'>-Alec Nissen</p>
+            <p className="review-name-styles">-Steven Anderson</p>
           </div>
         </div>
-
-
-
 
         <div className="reviews-text-photo-container">
           <img src={examplePortriatPhoto3}></img>
 
           <div className="reviews-text-container">
             <p>
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam animi ea, aliquid, quod fugit dolores
-              repudiandae, cumque dolorum quo hic repellat deleniti laboriosam aspernatur sit quidem voluptas quia
-              officiis dicta! Cupiditate minus perspiciatis nam eum molestiae vero iusto mollitia unde, enim quae quidem
-              pariatur modi expedita, a nesciunt tenetur ullam maxime similique! Corporis nam perferendis odio delectus
-              provident tempore consectetur. Iure vero nesciunt facilis corrupti ratione dolores quisquam autem, dolor
-              inventore? Error eveniet soluta, cumque in ipsum dolorum voluptates, reprehenderit eligendi dolore quia
-              obcaecati quibusdam. Repellendus modi laborum nostrum earum"
+              "We couldn't be happier with the pest control services provided by Prodigy Pest Solutions. From the moment
+              we contacted them, their team was professional and attentive. They quickly identified the problem and
+              implemented an effective solution. The results have been fantastic, and our home is now completely
+              pest-free. We highly recommend Prodigy Pest Solutions for anyone needing reliable and thorough pest
+              control."
             </p>
 
-            <p className='review-name-styles'>-Alec Nissen</p>
+            <p className="review-name-styles">-Andy Frisella</p>
           </div>
         </div>
-
 
         <div className="reviews-text-photo-container">
           <img src={examplePortriatPhoto4}></img>
 
           <div className="reviews-text-container">
             <p>
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam animi ea, aliquid, quod fugit dolores
-              repudiandae, cumque dolorum quo hic repellat deleniti laboriosam aspernatur sit quidem voluptas quia
-              officiis dicta! Cupiditate minus perspiciatis nam eum molestiae vero iusto mollitia unde, enim quae quidem
-              pariatur modi expedita, a nesciunt tenetur ullam maxime similique! Corporis nam perferendis odio delectus
-              provident tempore consectetur. Iure vero nesciunt facilis corrupti ratione dolores quisquam autem, dolor
-              inventore? Error eveniet soluta, cumque in ipsum dolorum voluptates, reprehenderit eligendi dolore quia
-              obcaecati quibusdam. Repellendus modi laborum nostrum earum"
+              "Prodigy Pest Solutions exceeded our expectations with their exceptional pest control services. Their team was
+              prompt, courteous, and extremely knowledgeable. They addressed our pest issue swiftly and effectively, and
+              we haven't seen a single pest since their visit. We are thrilled with the results and highly recommend
+              Prodigy Pest Solutions to anyone dealing with pest problems."
             </p>
 
-            <p className='review-name-styles'>-Alec Nissen</p>
+            <p className="review-name-styles">-Ed Mylett</p>
           </div>
         </div>
-
-
-
       </div>
 
+
+      <div className='reviews-footer-wrapper'> 
       <Footer></Footer>
+      </div>
+
+
     </>
   );
 }

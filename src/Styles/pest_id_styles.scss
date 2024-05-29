@@ -1,0 +1,272 @@
+.pestid-header-wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    // height: 100vh;
+   
+}
+
+
+.pestid-background-container { 
+    position: relative;
+    height: 82vh;
+    width: 100%;
+    background-image: url('../assets/peter-f-wolf-XG8eYNYdz54-unsplash.jpg');
+    // background-position: 4em -30em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // padding-bottom: 1em;
+}
+
+.pestid-background-container::before { 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 1;
+}
+
+
+.pestid-background-text-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2; /* Ensure it is above the overlay */
+    top: 77%;
+}
+
+// .pestid-background-text-container * { 
+//     font-family: "Poppins", sans-serif;
+// }
+
+.pestid-background-text-container h1 { 
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 5rem;
+}
+
+
+.pestid-header-text-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+}
+
+
+.pestid-header-text-container h1,h3 { 
+    font-family: "Poppins", sans-serif;
+}
+
+.pestid-header-text-container h1:nth-child(1) { 
+    color: darkorange;
+    font-size: 3.3rem;
+}
+
+.pestid-header-text-container h3 { 
+    
+    font-size: 2rem;
+}
+
+
+
+.service-container-cards-wrapper-2 { 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.service-container-2 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding: 2em;
+    gap: 1em;
+}
+
+.service-container-2 h1 { 
+    font-family: "Poppins", sans-serif;
+    color: darkorange;
+    font-size: 3rem;
+}
+
+.service-container-2 img { 
+    // width: 35em;
+    width: 50em;
+    border-radius: 1em;
+}
+
+
+.service-content-container-2 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    text-align: center;
+}
+
+.service-content-container-2 h1 { 
+    color: darkorange;
+}
+
+
+.service-content-container-2 p,
+.service-content-container-2 ul { 
+    font-size: 1.5rem;
+}
+
+.service-content-container-2 p, ul { 
+    max-width: 50em;
+}
+
+.service-content-container-2 ul { 
+    text-align: left;
+}
+
+.service-content-container-2 * { 
+    font-family: "Poppins", sans-serif;
+}
+
+
+.features-header-text-2 { 
+    color: darkorange;
+}
+
+.li-header-text-2 { 
+    font-weight: bold;
+    color: rgb(0, 47, 71);
+}
+
+
+.services-btn-container-2 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.services-btn-container-2 h3 { 
+    font-family: "Poppins", sans-serif;
+    color: darkorange;
+}
+
+
+.services-btn-container-2 button { 
+    background: none;
+    padding: 0.5em;
+    background-color: rgb(57, 181, 74);
+    color: white; 
+    border: none;
+    border-radius: 1em;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+// media queries begin here 
+
+
+
+@media (max-width: 900px) { 
+    .service-container-2 img { 
+        width: 35em;
+    }
+
+    .service-content-container-2 p, 
+    .service-content-container-2 ul { 
+        font-size: 1.2rem;
+        padding: 0.5em;
+    }
+
+    .pestid-header-text-container h1:nth-child(1) { 
+        font-size: 2rem;
+    }
+
+    .pestid-header-text-container h3 { 
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 815px) { 
+    .pestid-background-text-container h1 { 
+        font-size: 3rem;
+    }
+
+    .pestid-background-text-container { 
+        top: 82%;
+    }
+}
+
+
+@media (max-width: 600px) { 
+    .service-container-2 img { 
+        width: 25em;
+    }
+
+    .service-content-container-2 p, 
+    .service-content-container-2 ul { 
+        font-size: 1rem;
+        
+    }
+
+    .service-container-2 h1 { 
+        font-size: 2rem;
+    }
+}
+
+
+
+@media (max-width: 500px) { 
+    .pestid-background-container { 
+        background-position: -15em;
+    }
+
+    .pestid-header-text-container h1:nth-child(1) { 
+        font-size: 1.5rem;
+    }
+
+    .pestid-header-text-container h3 { 
+        font-size: 1.2rem;
+    }
+
+
+}
+
+
+@media (max-width: 415px) { 
+    .service-container-2 img { 
+        width: 19em;
+    }
+}
+
+
+@media (max-width: 380px) { 
+    .pestid-background-container { 
+        background-position: -18em;
+    }
+}

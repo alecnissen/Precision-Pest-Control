@@ -1,0 +1,98 @@
+.contact-tab-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 47, 71);
+   
+}
+
+.wrapper { 
+   position: relative;
+   bottom: 2em;
+}
+
+.contact-address-phone-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6em;
+    text-align: center;
+}
+
+.contact-cards-wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+.contact-card { 
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    gap: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    width: 25em;
+    height: 22em;
+    text-align: center;
+    // height: 25em;
+    
+}
+
+.contact-card h4 { 
+    font-size: 1.1rem;
+}
+
+.contact-card img { 
+    width: 8em;
+    padding-bottom: 4em;
+}
+
+.contact-address-phone-wrapper * { 
+    font-family: "Poppins", sans-serif;
+}
+
+.contact-address-phone-wrapper h5:nth-child(1) { 
+    color: rgb(57, 181, 74);
+}
+
+.contact-address-phone-wrapper h1 { 
+    color: darkorange;
+}
+
+
+
+
+// media queries begin here 
+
+@media (max-width: 600px) { 
+    .contact-card { 
+        width: 20em;
+        height: 20em;       
+    }
+}
+
+
+// @media (max-width: 500px) { 
+//     .contact-address-phone-wrapper h1 { 
+//         font-size: 1rem;
+//     }
+// }
+
+
+
+
+@media (max-width: 400px) { 
+    .contact-card { 
+        width: 18em; 
+    }
+
+    .contact-card h4 { 
+        font-size: 1rem;
+    }
+}

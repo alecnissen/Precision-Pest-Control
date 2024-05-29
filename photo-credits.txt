@@ -134,7 +134,43 @@ Flea img
 <a href="https://www.freepik.com/free-photo/close-up-winged-colorful-insect_9867357.htm#fromView=search&page=1&position=3&uuid=ab127070-6568-44cf-b225-d4c8fff5d02e">Image by erik-karits-2093459 on Freepik</a>
 
 
+// 
+
+
+Service areas tab 
+
+background img philly skyline 
+
+Photo by Trev Adams: https://www.pexels.com/photo/philadelphia-skyline-from-the-park-11531602/
+
+
+service areas listed: Philadelphia img 
+
+Photo by Trev Adams: https://www.pexels.com/photo/view-of-philadelphia-city-by-night-from-delaware-river-11531610/
+
+
+service area #2 delaware county 
+
+Photo by <a href="https://unsplash.com/@chrishenryphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chris Henry</a> on <a href="https://unsplash.com/photos/a-city-street-with-tall-buildings-and-a-clock-tower-rUMzI6Vn7hU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+  
+service area #3 chester county 
+
+Photo by <a href="https://unsplash.com/@danmall?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dan Mall</a> on <a href="https://unsplash.com/photos/time-lapse-photography-of-city-during-night-time-HL4LuaElk2I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+
+service area #4 montgomery county 
+
+Photo by <a href="https://unsplash.com/@jrpischke?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jason Pischke</a> on <a href="https://unsplash.com/photos/an-aerial-view-of-a-lush-green-valley-TYrQCzejRxE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+service area #5 bucks county 
+
+Photo by <a href="https://unsplash.com/@lukehodde?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Luke Hodde</a> on <a href="https://unsplash.com/photos/a-road-with-trees-on-the-side-9MY4Ji2w6Zg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 
 
 
+PestId background image 
 
+Photo by <a href="https://unsplash.com/@peterfwolf?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Peter F. Wolf</a> on <a href="https://unsplash.com/photos/brown-ant-on-white-surface-XG8eYNYdz54?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  

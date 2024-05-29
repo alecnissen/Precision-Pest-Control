@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import arrowRightIcon from '../assets/arrowright-svgrepo-com.svg';
 import ppsLogo from '../assets/PPS-logo.jpeg';
 import searchLogo from '../assets/search-svgrepo-com (1).svg';
@@ -12,11 +13,22 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Accordion from 'react-bootstrap/Accordion';
+=======
+import ppsLogo from "../assets/PPS-logo.jpeg";
+import searchLogo from "../assets/search-svgrepo-com (1).svg";
+import hamburgerLogo from "../assets/hamburger-menu-svgrepo-com (1).svg";
+import { useState } from 'react';
+>>>>>>> e87a6de34e34f8e674f358693eace1818ce4e53d
 
 export default function Navbar() {
  
   const [show, setShow] = useState(false);
 
+<<<<<<< HEAD
+=======
+  const [show, setShow] = useState(false);
+
+>>>>>>> e87a6de34e34f8e674f358693eace1818ce4e53d
   const handleClose = () => {
     setShow(false);
   };
@@ -26,6 +38,7 @@ export default function Navbar() {
   };
 
   return (
+<<<<<<< HEAD
     <div className="navbar-content-wrapper">
       <div className="title-subtitle-container">
         <div className="title-logo-container">
@@ -259,3 +272,11 @@ export default function Navbar() {
 //     </>
 //   );
 // }
+=======
+
+        </div>
+      </div>
+    </>
+  );
+}
+>>>>>>> e87a6de34e34f8e674f358693eace1818ce4e53d

@@ -13,7 +13,10 @@ import TestimonialsHomepage from './TestimonialsHomepage';
 import Footer from './Footer';
 import GalleryHomepage2 from './GalleryHomepage2';
 import CommericalAndResidential from './CommericalAndResidential';
+<<<<<<< HEAD
 
+=======
+>>>>>>> e87a6de34e34f8e674f358693eace1818ce4e53d
 import HomePage from './HomePage';
 import Services from './Services';
 import ServiceAreas from './ServiceAreas';

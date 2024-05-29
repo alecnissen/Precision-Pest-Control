@@ -59,6 +59,17 @@ export default function App() {
 
         <Route path="/Services#ant-section" element={<Services></Services>}></Route>
 
+        <Route path="/Serives#bed-bug-section" element={<Services></Services>}></Route>
+
+        <Route path="/Services#cockroaches-section" element={<Services></Services>}></Route>
+
+        <Route path="/Services#rodents-section" element={<Services></Services>}></Route>
+
+        <Route path="/Services#mosquito-section" element={<Services></Services>}></Route>
+
+        <Route path="/Services#flea-section" element={<Services></Services>}></Route>
+
+        <Route path="/Services#spider-section" element={<Services></Services>}></Route>
 
 
       </Routes>

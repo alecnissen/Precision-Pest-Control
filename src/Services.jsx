@@ -16,13 +16,10 @@ import goldMedal from '../assets/medal.png';
 import Footer from './Footer';
 import PaymentPlansServicePage from './PaymentPlansServicesPage';
 
-
-import { useEffect, useRef } from "react";
-import { useLocation } from "react-router-dom";
-
+import { useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export default function Services() {
-
   const location = useLocation();
   const antSection = useRef(null);
   const bedBugSection = useRef(null);
@@ -32,29 +29,25 @@ export default function Services() {
   const fleaSection = useRef(null);
   const spiderSection = useRef(null);
 
-
   useEffect(() => {
     const hash = location.hash;
     console.log('Current hash:', hash); // Debugging
     if (hash === '#ant-section') {
       antSection.current.scrollIntoView({ behavior: 'smooth' });
-    } else if (hash === '#bed-bug-section') { 
+    } else if (hash === '#bed-bug-section') {
       bedBugSection.current.scrollIntoView({ behavior: 'smooth' });
-    } else if (hash === '#cockroaches-section') { 
+    } else if (hash === '#cockroaches-section') {
       cockroachSection.current.scrollIntoView({ behavior: 'smooth' });
-    } else if (hash === '#rodents-section') { 
+    } else if (hash === '#rodents-section') {
       rodentsSection.current.scrollIntoView({ behavior: 'smooth' });
-    } else if (hash === '#mosquito-section') { 
+    } else if (hash === '#mosquito-section') {
       mosquitoSection.current.scrollIntoView({ behavior: 'smooth' });
-    } else if (hash === '#flea-section') { 
+    } else if (hash === '#flea-section') {
       fleaSection.current.scrollIntoView({ behavior: 'smooth' });
-    } else if (hash === '#spider-section') { 
+    } else if (hash === '#spider-section') {
       spiderSection.current.scrollIntoView({ behavior: 'smooth' });
-    } 
+    }
   }, [location]);
-
-
-
 
   return (
     <>
@@ -233,9 +226,10 @@ export default function Services() {
             <h1>Rodents Service Plan</h1>
 
             <p>
-              A cockroach service plan provides a thorough and strategic approach to eliminate cockroach infestations
-              and prevent their recurrence in both residential and commercial settings. This plan encompasses detailed
-              inspections, targeted treatment methods, and ongoing monitoring to ensure long-lasting control.
+              Our rodent pest control plan provides a comprehensive approach to eliminate and prevent rodent
+              infestations in your home or business. It includes thorough inspections, strategic baiting and trapping,
+              and preventative measures to seal entry points and deter future rodent activity. This plan ensures a safe
+              and rodent-free environment, protecting your property and health.
             </p>
 
             <h3 className="features-header-text">Features Of The Plan</h3>
@@ -260,7 +254,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="service-container" id='mosquito-section' ref={mosquitoSection}>
+        <div className="service-container" id="mosquito-section" ref={mosquitoSection}>
           <img src={mosquitoImg}></img>
 
           <div className="service-content-container">

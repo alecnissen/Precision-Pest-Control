@@ -213,7 +213,10 @@ export default function PestID() {
             <div className="services-btn-container-2">
               <h3>Learn More Details About Our Treatment Options!</h3>
 
+              <Link to="/Services#bed-bug-section">
               <button>Pest Services</button>
+              </Link>
+
             </div>
           </div>
         </div>
@@ -272,7 +275,10 @@ export default function PestID() {
             <div className="services-btn-container-2">
               <h3>Learn More Details About Our Treatment Options!</h3>
 
+              <Link to="/Services#cockroaches-section">
               <button>Pest Services</button>
+              </Link>
+
             </div>
           </div>
         </div>
@@ -337,7 +343,11 @@ export default function PestID() {
             <div className="services-btn-container-2">
               <h3>Learn More Details About Our Treatment Options!</h3>
 
+              <Link to="/Services#rodents-section">
               <button>Pest Services</button>
+              </Link>
+
+
             </div>
           </div>
         </div>
@@ -394,7 +404,10 @@ export default function PestID() {
             <div className="services-btn-container-2">
               <h3>Learn More Details About Our Treatment Options!</h3>
 
+              <Link to="/Services#mosquito-section"> 
               <button>Pest Services</button>
+              </Link>
+
             </div>
           </div>
         </div>
@@ -452,8 +465,10 @@ export default function PestID() {
             <div className="services-btn-container-2">
               <h3>Learn More Details About Our Treatment Options!</h3>
 
-              <button>Pest Services</button>
 
+              <Link to="/Services#flea-section">
+              <button>Pest Services</button>
+              </Link>
 
             </div>
           </div>
@@ -527,8 +542,11 @@ export default function PestID() {
 
             <div className="services-btn-container-2">
               <h3>Learn More Details About Our Treatment Options!</h3>
-
+              
+              <Link to="/Services#spider-section"> 
               <button>Pest Services</button>
+              </Link>
+
             </div>
           </div>
         </div>

@@ -14,7 +14,6 @@ import TestimonialsHomepage from './TestimonialsHomepage';
 import Footer from './Footer';
 import GalleryHomepage2 from './GalleryHomepage2';
 import CommericalAndResidential from './CommericalAndResidential';
-import OffCanvasExample from './OffCanvasExample';
 import HomePage from './HomePage';
 import Services from './Services';
 import ServiceAreas from './ServiceAreas';

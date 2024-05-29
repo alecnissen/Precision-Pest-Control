@@ -14,26 +14,20 @@
     font-size: 1.1rem;
 } 
 
+
+
 .insect-card { 
     width: 11em;
     height: auto;
-    // background-color: rgb(195 193 223);
-
-
-    // background-color: rgb(57, 181, 74);
-
-    // background-color: rgb(66 75 48);
-
-
     background-color: rgb(0, 47, 71);
-    
     color: white;
-
-
     text-align: center;
     padding: 1em;
     border-radius: 5%;
+    text-decoration: none;
 }
+
+
 
 .insect-card h3 { 
     padding-top: 1em;
@@ -47,6 +41,10 @@
     flex-wrap: wrap;
     padding: 1em;
     // max-width: 40em;
+}
+
+.insect-cards-container a { 
+    text-decoration: none;
 }
 
 

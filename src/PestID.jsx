@@ -153,7 +153,7 @@ export default function PestID() {
             <div className="services-btn-container-2">
               <h3>Learn More Details About Our Treatment Options!</h3>
               
-              <Link to="Services#ant-section">
+              <Link to="/Services#ant-section">
               <button>Pest Services</button>
               </Link>
 

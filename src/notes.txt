@@ -87,3 +87,23 @@ put something like we are here to serve you, proudly serving the philadelphia, c
 
 
 // 900px .service-area-container switch to column for responsiveness 
+
+
+
+// change book form to be a contact form 
+
+// take out date
+
+// add text area 
+
+// make it all column and double check responsiveness
+
+// add email
+
+
+// **** 
+
+// When done, clone repo, take out email/subscribe button 
+
+// fix reviews section and responsiveness 
+

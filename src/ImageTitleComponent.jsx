@@ -3,10 +3,16 @@ import ppsLogo from '../assets/PPS-logo.jpeg';
 import backgroundImg from "../assets/hero-2.png";
 import greenCheckMark from "../assets/check-mark-svgrepo-com.svg";
 
-
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 export default function ImageTitleComponent() {
+
+
+
+
+
+
   return (
     <div className='image-title-component-wrapper'>
 
@@ -38,7 +44,9 @@ export default function ImageTitleComponent() {
       </div> 
 
       <div className='discover-more-btn-container'>
+      <Link to='/Services'> 
       <button>Discover More</button>
+      </Link>
       </div>
 
     </div>

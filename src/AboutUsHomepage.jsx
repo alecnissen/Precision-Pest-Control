@@ -4,6 +4,7 @@ import ppsWorkersImg2 from '../assets/2148848567.jpg';
 import phoneImg from "../assets/phone-svgrepo-com.svg";
 import greenCheckMarkImg from "../assets/check-mark-button-svgrepo-com (1).svg"
 
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 export default function AboutUsHomepage() {
@@ -27,7 +28,9 @@ export default function AboutUsHomepage() {
         <div className='learn-more-call-help-button-container'>
 
         <div className='learn-more-btn-container'>
+        <Link to='/Services'>
         <button>Learn More</button>
+        </Link>
         </div>
 
 

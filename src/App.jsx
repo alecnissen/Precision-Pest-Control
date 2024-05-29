@@ -1,4 +1,3 @@
-
 import AboutUsHomepage from './AboutUsHomepage';
 import ContactLinksHeader from './ContactLinksHeader';
 import ImageTitleComponent from './ImageTitleComponent';
@@ -14,7 +13,7 @@ import TestimonialsHomepage from './TestimonialsHomepage';
 import Footer from './Footer';
 import GalleryHomepage2 from './GalleryHomepage2';
 import CommericalAndResidential from './CommericalAndResidential';
-import OffCanvasExample from './OffCanvasExample';
+
 import HomePage from './HomePage';
 import Services from './Services';
 import ServiceAreas from './ServiceAreas';
@@ -25,15 +24,12 @@ import PaymentPlansServicePage from './PaymentPlansServicesPage';
 
 import { Route, Routes } from 'react-router-dom';
 
-
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export default function App() {
-
   return (
     <>
-    
-    {/* <Navbar></Navbar>
+      {/* <Navbar></Navbar>
     <ImageTitleComponent></ImageTitleComponent>
     <InsectCards></InsectCards>
     <CommericalAndResidential></CommericalAndResidential>
@@ -48,29 +44,19 @@ export default function App() {
     <GalleryHomepage2></GalleryHomepage2>
     <Footer></Footer> */}
 
-    <Routes> 
+      <Routes>
+        <Route path="/" element={<HomePage></HomePage>}></Route>
 
-    <Route path='/' element={<HomePage></HomePage>}></Route>
+        <Route path="/Services" element={<Services></Services>}></Route>
 
-    <Route path='/Services' element={<Services></Services>}></Route>
-   
-    <Route path='/ServiceAreas' element={<ServiceAreas></ServiceAreas>}></Route>
+        <Route path="/ServiceAreas" element={<ServiceAreas></ServiceAreas>}></Route>
 
-    <Route path='/PestID' element={<PestID></PestID>}></Route>
+        <Route path="/PestID" element={<PestID></PestID>}></Route>
 
-    <Route path='/Contact' element={<Contact></Contact>}></Route>
+        <Route path="/Contact" element={<Contact></Contact>}></Route>
 
-    <Route path='/Reviews' element={<Reviews></Reviews>}></Route>
-
-    
-
-
-
-    </Routes>
-
-
+        <Route path="/Reviews" element={<Reviews></Reviews>}></Route>
+      </Routes>
     </>
   );
 }
-
-

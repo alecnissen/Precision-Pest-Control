@@ -32,6 +32,7 @@ export default function Services() {
   const fleaSection = useRef(null);
   const spiderSection = useRef(null);
 
+
   useEffect(() => {
     const hash = location.hash;
     console.log('Current hash:', hash); // Debugging
@@ -49,7 +50,7 @@ export default function Services() {
       fleaSection.current.scrollIntoView({ behavior: 'smooth' });
     } else if (hash === '#spider-section') { 
       spiderSection.current.scrollIntoView({ behavior: 'smooth' });
-    }
+    } 
   }, [location]);
 
 

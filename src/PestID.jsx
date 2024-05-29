@@ -31,6 +31,7 @@ export default function PestID() {
   const fleaSection = useRef(null);
   const spiderSection = useRef(null);
 
+
   useEffect(() => {
     const hash = location.hash;
     console.log('Current hash:', hash); // Debugging
@@ -48,7 +49,7 @@ export default function PestID() {
       fleaSection.current.scrollIntoView({ behavior: 'smooth' });
     } else if (hash === '#spider-section') { 
       spiderSection.current.scrollIntoView({ behavior: 'smooth' });
-    }
+    } 
   }, [location]);
 
 
@@ -151,8 +152,12 @@ export default function PestID() {
 
             <div className="services-btn-container-2">
               <h3>Learn More Details About Our Treatment Options!</h3>
-
+              
+              <Link to="Services#ant-section">
               <button>Pest Services</button>
+              </Link>
+
+
             </div>
           </div>
         </div>
@@ -448,6 +453,8 @@ export default function PestID() {
               <h3>Learn More Details About Our Treatment Options!</h3>
 
               <button>Pest Services</button>
+
+
             </div>
           </div>
         </div>

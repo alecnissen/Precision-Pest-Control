@@ -113,18 +113,108 @@ export default function Navbar() {
 
         <Offcanvas show={show} onHide={handleClose}>
           <Offcanvas.Header closeButton>
-            <Offcanvas.Title>Offcanvas Title</Offcanvas.Title>
+            <Offcanvas.Title>Prodigy Pest Solutions</Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Accordion>
-              <Accordion.Item eventKey="0">
-                <Accordion.Header>Accordion Item 1</Accordion.Header>
-                <Accordion.Body>Content for Accordion Item 1</Accordion.Body>
+
+
+
+            <Accordion.Item eventKey="0">
+                <Accordion.Header>
+                  <Link to="/">
+                  Home
+                  </Link>
+                  </Accordion.Header>
+            
               </Accordion.Item>
+
+
+
+
+
               <Accordion.Item eventKey="1">
-                <Accordion.Header>Accordion Item 2</Accordion.Header>
-                <Accordion.Body>Content for Accordion Item 2</Accordion.Body>
+                <Accordion.Header>
+                  <Link to="/Services">
+                  Services
+                  </Link>
+                  </Accordion.Header>
+                <Accordion.Body>
+                  <Link to="/Services#ant-section">Ants</Link>
+                  <Link to="/Services#bed-bug-section">Bed Bugs</Link>
+                  <Link to="/Services#cockroaches-section">Cockroaches</Link>
+                  <Link to="/Services#rodents-section">Rodents</Link>
+                  <Link to="/Services#mosquito-section">Mosquitos</Link>
+                  <Link to="/Services#flea-section">Fleas</Link>
+                  <Link to="/Services#spider-section">Spider</Link>
+              
+                </Accordion.Body>
               </Accordion.Item>
+
+
+
+
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>
+                  <Link to="/ServiceAreas">Service Areas</Link>
+                  </Accordion.Header>
+                <Accordion.Body>
+                  
+            <Link to="/ServiceAreas#delco-section">Delaware County</Link>
+            <Link to="/ServiceAreas#philly-section">Philadelphia</Link>
+            <Link to="/ServiceAreas#chester-section">Chester County</Link>
+            <Link to="/ServiceAreas#montco-section">Montgomery County</Link>
+            <Link to="/ServiceAreas#bucks-section">Bucks County</Link>
+                  
+                  
+                  
+                  </Accordion.Body>
+
+              </Accordion.Item>
+
+
+
+              <Accordion.Item eventKey="3">
+                <Accordion.Header>
+                  <Link to="/PestID">Pest ID</Link>
+                  </Accordion.Header>
+                <Accordion.Body>
+                  
+            <Link to="/PestID#ant-section">Ants</Link>
+            <Link to="/PestID#bed-bug-section">Bed Bugs</Link>
+            <Link to="/PestID#cockroaches-section">Cockroaches</Link>
+            <Link to="/PestID#rodents-section">Rodents</Link>
+            <Link to="/PestID#mosquito-section">Mosquitos</Link>
+            <Link to="/PestID#flea-section">Fleas</Link>
+            <Link to="/PestID#spider-section">Spiders</Link>
+                  
+                  
+                  
+                  </Accordion.Body>
+
+              </Accordion.Item>
+
+
+
+              <Accordion.Item eventKey="4">
+                <Accordion.Header>
+                  <Link to="/Contact">Contact</Link>
+                  </Accordion.Header>
+              </Accordion.Item>
+
+
+
+              <Accordion.Item eventKey="5">
+                <Accordion.Header>
+                  <Link to="/Reviews">Reviews</Link>
+                  </Accordion.Header>
+              </Accordion.Item>
+
+
+
+
+
+
             </Accordion>
           </Offcanvas.Body>
         </Offcanvas>

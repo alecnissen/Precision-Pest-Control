@@ -7,13 +7,12 @@ export default function ContactForm() {
   return (
     <div className="contact-form-content-wrapper">
       <div className="contact-form-title-subtitle-container">
-        <h3>Booking Form</h3>
+        <h3>Contact Form</h3>
 
-        <h1>Booking Our Service Online</h1>
+        <h1>Connecting With Us</h1>
 
         <p className='contact-form-description-text'>
-          Booking your pest control service online is quick and convenient - simply choose your preferred date and time,
-          provide necessary details, and confirm your appointment with ease.
+        Contacting us for your pest control needs is quick and convenient. Simply fill out the form, provide all the necessary details, and one of our representatives will get back to you promptly to assist you!
         </p>
 
 
@@ -39,7 +38,7 @@ export default function ContactForm() {
 
       <form className='contact-form-wrapper'>
 
-        <h1>Book Now</h1>
+        <h1>Contact Us</h1>
 
         <div className='form-name-phone-num-container'>
         
@@ -75,14 +74,16 @@ export default function ContactForm() {
 
 
         <div className='form-date-time-container'>
-        <p>Select A Date</p>
-        <input placeholder='Select Date' type='date'></input>
-        <p>Select A Time</p>
-        <input placeholder='Select Time' type='time'></input>
+        <p>Email Address</p>
+        {/* <input placeholder='Select Date' type='date'></input> */}
+        <input type="email"></input>
+        <p>Your Message</p>
+        {/* <input placeholder='Select Time' type='time'></input> */}
+        <textarea></textarea>
 
         </div>
 
-        <button>Book Now</button>
+        <button>Send</button>
 
       </form>
 

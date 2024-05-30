@@ -1,6 +1,7 @@
 import React from 'react';
 import greenCheckMark from '../assets/check-mark-svgrepo-com (1).svg';
 import pestLogo from '../assets/10780277_19198237.svg';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default function PaymentPlansServicePage() {
   return (
@@ -89,7 +90,10 @@ export default function PaymentPlansServicePage() {
       
         <div className='our-services-button-container-2'> 
 
-          <button>Our Services</button>
+
+          <Link to="/Contact">
+          <button>Contact Us</button>
+          </Link>
 
         </div>
 
@@ -159,7 +163,11 @@ export default function PaymentPlansServicePage() {
 
 <div className='our-services-button-container-2'> 
 
-  <button>Our Services</button>
+  <Link to="/Contact">
+  <button>Contact Us</button>
+  </Link>
+
+
 
 </div>
 
@@ -226,7 +234,10 @@ export default function PaymentPlansServicePage() {
 
 <div className='our-services-button-container-2'> 
 
+  <Link to="/Contact">
   <button>Our Services</button>
+  </Link>
+
 
 </div>
 

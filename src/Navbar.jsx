@@ -8,6 +8,9 @@ import { HashLink as Link } from 'react-router-hash-link';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Accordion from 'react-bootstrap/Accordion';
 
+import { useLocation } from "react-router-dom";
+import { useEffect } from 'react';
+
 
 export default function Navbar() {
   const [show, setShow] = useState(false);
@@ -19,6 +22,14 @@ export default function Navbar() {
   const toggleOffCanvas = () => {
     setShow(!show);
   };
+
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+      window.scrollTo(0, 0)
+  }, [pathname]);
+  
 
   return (
     <div className="navbar-content-wrapper">

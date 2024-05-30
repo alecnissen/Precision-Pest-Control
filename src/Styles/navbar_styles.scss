@@ -212,6 +212,43 @@
   gap: 1em;
 }
 
+.accordion-body * { 
+  font-family: "Poppins", sans-serif;
+}
+
+ 
+
+.offcanvas-body,
+.offcanvas-header { 
+  background-color: rgb(0, 47, 71);
+  
+}
+
+.offcanvas-header * { 
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.accordion-button * { 
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.accordion-button a { 
+  text-decoration: none;
+  color: darkorange;
+  cursor: pointer;
+}
+
+.accordion-body a { 
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+// .btn-close { 
+// background-color: white;
+// }
 
 
 

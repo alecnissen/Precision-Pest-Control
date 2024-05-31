@@ -32,7 +32,7 @@ export default function Reviews() {
               and reliable pest control solutions."
             </p>
 
-            <p className="review-name-styles">-John Smith</p>
+            <p className="review-name-styles">-Daniel Murphy</p>
           </div>
         </div>
 
@@ -47,7 +47,7 @@ export default function Reviews() {
               wholeheartedly recommend their services to anyone facing pest issues."
             </p>
 
-            <p className="review-name-styles">-Steven Anderson</p>
+            <p className="review-name-styles">-Andrew Johnson</p>
           </div>
         </div>
 
@@ -63,7 +63,7 @@ export default function Reviews() {
               control."
             </p>
 
-            <p className="review-name-styles">-Andy Frisella</p>
+            <p className="review-name-styles">-John Anderson</p>
           </div>
         </div>
 
@@ -78,7 +78,7 @@ export default function Reviews() {
               Prodigy Pest Solutions to anyone dealing with pest problems."
             </p>
 
-            <p className="review-name-styles">-Ed Mylett</p>
+            <p className="review-name-styles">-Jeremy Ferguson</p>
           </div>
         </div>
       </div>

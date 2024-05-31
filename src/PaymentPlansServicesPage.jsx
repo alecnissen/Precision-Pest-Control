@@ -235,7 +235,7 @@ export default function PaymentPlansServicePage() {
 <div className='our-services-button-container-2'> 
 
   <Link to="/Contact">
-  <button>Our Services</button>
+  <button>Contact Us</button>
   </Link>
 
 

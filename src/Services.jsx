@@ -186,7 +186,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="service-container" id="cockroaches-section" ref={cockroachSection}>
+        {/* <div className="service-container" id="cockroaches-section" ref={cockroachSection}>
           <img src={cockroachImg}></img>
 
           <div className="service-content-container">
@@ -217,7 +217,7 @@ export default function Services() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
         <div className="service-container" id="rodents-section" ref={rodentsSection}>
           <img src={rodentsImg}></img>

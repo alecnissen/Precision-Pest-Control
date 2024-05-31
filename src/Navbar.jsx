@@ -59,7 +59,7 @@ export default function Navbar() {
           <div className="content">
             <Link to="/Services#ant-section">Ants</Link>
             <Link to="/Services#bed-bug-section">Bed Bugs</Link>
-            <Link to="/Services#cockroaches-section">Cockroaches</Link>
+            {/* <Link to="/Services#cockroaches-section">Cockroaches</Link> */}
             <Link to="/Services#rodents-section">Rodents</Link>
             <Link to="/Services#mosquito-section">Mosquitos</Link>
             <Link to="/Services#flea-section">Fleas</Link>
@@ -93,7 +93,7 @@ export default function Navbar() {
           <div className="content">
             <Link to="/PestID#ant-section">Ants</Link>
             <Link to="/PestID#bed-bug-section">Bed Bugs</Link>
-            <Link to="/PestID#cockroaches-section">Cockroaches</Link>
+            {/* <Link to="/PestID#cockroaches-section">Cockroaches</Link> */}
             <Link to="/PestID#rodents-section">Rodents</Link>
             <Link to="/PestID#mosquito-section">Mosquitos</Link>
             <Link to="/PestID#flea-section">Fleas</Link>

@@ -228,7 +228,7 @@ export default function PestID() {
           </div>
         </div>
 
-        <div className="service-container-2" id="cockroaches-section" ref={cockroachSection}>
+        {/* <div className="service-container-2" id="cockroaches-section" ref={cockroachSection}>
           <h1>Cockroaches</h1>
           <img src={cockroachImg}></img>
 
@@ -288,7 +288,7 @@ export default function PestID() {
 
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="service-container-2" id="rodents-section" ref={rodentsSection}>
           <h1>Rodents</h1>

@@ -32,54 +32,78 @@ then `npm install` which will install all dependency's and packages.
 
 <h1>Features</h1>
 
-- Dropdown menu for services, service areas and pest id, along with background image and overlay on the homepage
+- Dropdown menu for services, service areas and pest id, along with background image and overlay text on the homepage.
 
-<img src="assets/pps-readme-dropdown-bk.png" style="width: 500px"></img>
+<img src="assets/pps-readme-dropdown-bk.png" style="width: 600px"></img>
 
 - Header that is sticky to ensure the user can navigate between pages easily, 
 pest buttons that user can click on and user will be sent to that specific pest control plan.
 
-<img src="assets/pps-readme-nav-links.png" style="width: 500px">
+<img src="assets/pps-readme-nav-links.png" style="width: 600px">
 
 - Hover classes over certain elements to highlight key points and enhance user experience. 
 
-<img src="assets/pps-readme-hover.png" style="width: 500px">
+<img src="assets/pps-readme-hover.png" style="width: 600px">
 
-- Includes details about the treatment process 
+- Includes details about the treatment process.
 
-<img src="assets/pps-readme-process.png" style="width: 500px">
+<img src="assets/pps-readme-process.png" style="width: 600px">
 
-- Payment plan details 
+- Payment plan details.
 
-<img src="assets/pps-readme-payments.png" style="width: 500px">
+<img src="assets/pps-readme-payments.png" style="width: 600px">
 
-- Contact form 
+- Contact form on homepage as well as contact form page.
 
-<img src="assets/pps-readme-contact-form.png" style="width: 500px">
+<img src="assets/pps-readme-contact-form.png" style="width: 600px">
 
-- Meet your team section 
+- Meet your team section.
 
-<img src="assets/pps-readme-team.png" style="width: 500px">
+<img src="assets/pps-readme-team.png" style="width: 600px">
 
-- Reviews section, and image gallery 
+- Reviews section, and image gallery.
 
-<img src="assets/pps-readme-reviews-imgs.png" style="width: 500px">
+<img src="assets/pps-readme-reviews-imgs.png" style="width: 600px">
 
-- Services page with background image and overlay 
+- Services page with background image and overlay.
 
-<img src="assets/pps-readme-services.png" style="width: 500px">
+<img src="assets/pps-readme-services.png" style="width: 600px">
 
-- Includes details about the particular pest service plan and treatment options 
+- Includes details about the particular pest service plan and treatment options.
 
-<img src="assets/pps-readme-service-details.png" style="width: 500px">
+<img src="assets/pps-readme-service-details.png" style="width: 600px">
 
-- Service areas includes backdrop with city skyline and text overlay 
+- Service areas includes a backdrop with city skyline and text overlay.
 
-<img src="assets/pps-readme-service-area.png" style="width: 500px">
+<img src="assets/pps-readme-service-area.png" style="width: 600px">
 
-- Service area includes a list of locations for treatments
+- Service area includes a list of locations for treatment.
 
-<img src="assets/pps-readme-service-list.png" style="width: 500px">
+<img src="assets/pps-readme-service-list.png" style="width: 600px">
+
+- PestID page includes background image with text overlay 
+
+<img src="assets/pps-readme-pest-bk.png" style="width: 600px">
+
+- PestID page includes facts about common pests, how to identify, and how to treat.
+
+<img src="assets/pps-readme-details.png" style="width: 600px">
+
+- Contact page features methods to contact the business and also features another contact form.
+
+<img src="assets/pps-readme-contact.png" style="width: 600px">
+
+- Reviews page.
+
+<img src="assets/pps-readme-reviews.png" style="width: 600px">
+
+- offcanvas featured on tablets and mobile phones which includes all the header links.
+
+<img src="assets/pps-readme-offcanvas.png" style="width: 600px">
+
+- Fully responsive for all devices including tablets and mobile phones. At tablet screen size the homepage background image will change. 
+
+<img src="assets/pps-readme-mobile.png" style="width: 300px">
 
 
 <h1>Acknowledgments</h1> Thank you to everyone within The Odin Project Curriculum from the bottom of my heart! Thank you to anyone who helped me in the discord channels. I promise to help others throughout this journey.

@@ -7,6 +7,15 @@ import pestControlWorkerImg from '../assets/5972364_21696.jpg';
 
 import pestControlTeamImg from '../assets/5972364_21696.jpg';
 
+
+import examplePortriatPhoto2 from '../assets/andrew-power-y9L5-wmifaY-unsplash.jpg';
+import examplePortriatPhoto3 from '../assets/ali-morshedlou-WMD64tMfc4k-unsplash.jpg';
+import examplePortriatPhoto4 from '../assets/jeremy-mcgilvrey-Mum-4dB0VsE-unsplash.jpg';
+
+import worker2 from '../assets/pexels-olly-3777557.jpg';
+import worker3 from '../assets/pexels-divinetechygirl-1181391.jpg';
+import worker4 from '../assets/pexels-teddyjmodel-2955375.jpg';
+
 export default function MeetYourTeam() {
   return (
     <div className="meet-team-content-wrapper">
@@ -81,7 +90,7 @@ export default function MeetYourTeam() {
             <h3>David Williams</h3>
 
             <div className='team-member-img-container'> 
-            <img src={mockEmployeeImg}></img>
+            <img src={worker2}></img>
             </div>
             
             
@@ -109,7 +118,7 @@ export default function MeetYourTeam() {
             <h3>Andy Frisella</h3>
 
             <div className='team-member-img-container'> 
-            <img src={mockEmployeeImg}></img>
+            <img src={worker3}></img>
             </div>
 
 
@@ -137,9 +146,8 @@ export default function MeetYourTeam() {
 
 
             <div className='team-member-img-container'> 
-            <img src={mockEmployeeImg}></img>
+            <img src={worker4}></img>
             </div>
-            
             
             
             

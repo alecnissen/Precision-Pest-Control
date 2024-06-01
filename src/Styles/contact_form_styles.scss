@@ -100,7 +100,9 @@
 .form-name-phone-num-container { 
     display: flex;
     justify-content: center;
-    align-items: center;
+    // error message for contact form, removed the align items center, error message now does not move the other elements
+    // align-items: center;
+
     // flex-direction: column;
     gap: 1em;
 }
@@ -197,6 +199,9 @@ form h1 {
 }
 
 
+.error-message { 
+   color: red;
+}
 
 
 // contact form plan 

@@ -249,9 +249,27 @@
   cursor: pointer;
 }
 
-// .btn-close { 
-// background-color: white;
+// .accordion-button:nth-child(1)::after,
+// .accordion-button:nth-child(5)::after,
+// .accordion-button:nth-child(6)::after {
+//     background-image: none;
 // }
+
+
+/* Remove background image for the 1st button */
+.accordion-item:nth-child(1) .accordion-button::after {
+  background-image: none;
+}
+
+/* Remove background image for the 5th button */
+.accordion-item:nth-child(5) .accordion-button::after {
+  background-image: none;
+}
+
+/* Remove background image for the 6th button */
+.accordion-item:nth-child(6) .accordion-button::after {
+  background-image: none;
+}
 
 
 

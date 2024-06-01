@@ -6,8 +6,15 @@ import mosquitoImg from "../assets/mosquito-3-svgrepo-com.svg";
 import bedbugImg from "../assets/bed-bug-buggy-svgrepo-com.svg";
 import fleaImg from "../assets/flea-svgrepo-com.svg";
 import { HashLink as Link } from 'react-router-hash-link';
+import { useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export default function InsectCards() {
+
+  
+
+
+
   return (
     <div className='insect-cards-content-wrapper'>
 

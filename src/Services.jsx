@@ -29,9 +29,10 @@ export default function Services() {
   const fleaSection = useRef(null);
   const spiderSection = useRef(null);
 
+
   useEffect(() => {
     const hash = location.hash;
-    console.log('Current hash:', hash); // Debugging
+    console.log('Current hash:', hash); 
     if (hash === '#ant-section') {
       antSection.current.scrollIntoView({ behavior: 'smooth' });
     } else if (hash === '#bed-bug-section') {
@@ -48,6 +49,34 @@ export default function Services() {
       spiderSection.current.scrollIntoView({ behavior: 'smooth' });
     }
   }, [location]);
+
+
+
+  // const scrollToSection = (sectionRef) => {
+  //   const yOffset = -100; // Adjust this value as needed
+  //   const y = sectionRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  //   window.scrollTo({ top: y, behavior: 'smooth' });
+  // };
+
+  // useEffect(() => {
+  //   const hash = location.hash;
+  //   console.log('Current hash:', hash); // Debugging
+  //   if (hash === '#ant-section') {
+  //     scrollToSection(antSection);
+  //   } else if (hash === '#bed-bug-section') {
+  //     scrollToSection(bedBugSection);
+  //   } else if (hash === '#cockroaches-section') {
+  //     scrollToSection(cockroachSection);
+  //   } else if (hash === '#rodents-section') {
+  //     scrollToSection(rodentsSection);
+  //   } else if (hash === '#mosquito-section') {
+  //     scrollToSection(mosquitoSection);
+  //   } else if (hash === '#flea-section') {
+  //     scrollToSection(fleaSection);
+  //   } else if (hash === '#spider-section') {
+  //     scrollToSection(spiderSection);
+  //   }
+  // }, [location]);
 
   return (
     <>

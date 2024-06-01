@@ -83,7 +83,9 @@ export default function ContactForm() {
 
         </div>
 
-        <button>Send</button>
+        <button onClick={() => { 
+          alert('Your message has been sent, we will be in contact with you shortly thank you!');
+        }}>Send</button>
 
       </form>
 

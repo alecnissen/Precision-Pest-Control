@@ -4,8 +4,12 @@ import ppsLogo from '../assets/PPS-logo.jpeg';
 import fbLogo from '../assets/facebook-logo-meta-2-svgrepo-com (1).svg';
 import instaLogo from '../assets/instagram-svgrepo-com (2).svg';
 import linkedInLogo from '../assets/linkedin-161-svgrepo-com.svg';
+import { useState } from 'react';
 
 export default function Footer() {
+
+  const [email, setEmail] = useState('');
+
   return (
     <div className="footer-content-wrapper">
       <div className="footer-welcome-to-container">
@@ -63,10 +67,14 @@ export default function Footer() {
       <div className='newsletter-container'>
         <h4>Newsletter</h4>
 
-        <input placeholder='Email Address'></input>
+        <input placeholder='Email Address'  value={email}
+        onChange={(e) => setEmail(e.target.value)}></input>
 
         <div className='newsletter-btn-container'>
-        <button>Subscribe</button>
+        <button onClick={() => { 
+          alert('Success!');
+          setEmail(''); 
+        }}>Subscribe</button>
         </div>
 
       </div>

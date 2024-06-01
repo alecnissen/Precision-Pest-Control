@@ -29,6 +29,8 @@ export default function Navbar() {
   useEffect(() => {
       window.scrollTo(0, 0)
   }, [pathname]);
+
+  const handleCanvasClose = () => setShow(false);
   
 
   return (
@@ -133,7 +135,7 @@ export default function Navbar() {
 
             <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <Link to="/">
+                  <Link to="/" onClick={handleCanvasClose}>
                   Home
                   </Link>
                   </Accordion.Header>
@@ -146,18 +148,17 @@ export default function Navbar() {
 
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  <Link to="/Services">
+                  <Link to="/Services" onClick={handleCanvasClose}>
                   Services
                   </Link>
                   </Accordion.Header>
                 <Accordion.Body>
-                  <Link to="/Services#ant-section">Ants</Link>
-                  <Link to="/Services#bed-bug-section">Bed Bugs</Link>
-                  <Link to="/Services#cockroaches-section">Cockroaches</Link>
-                  <Link to="/Services#rodents-section">Rodents</Link>
-                  <Link to="/Services#mosquito-section">Mosquitos</Link>
-                  <Link to="/Services#flea-section">Fleas</Link>
-                  <Link to="/Services#spider-section">Spider</Link>
+                  <Link to="/Services#ant-section" onClick={handleCanvasClose}>Ants</Link>
+                  <Link to="/Services#bed-bug-section" onClick={handleCanvasClose}>Bed Bugs</Link>
+                  <Link to="/Services#rodents-section" onClick={handleCanvasClose}>Rodents</Link>
+                  <Link to="/Services#mosquito-section" onClick={handleCanvasClose}>Mosquitos</Link>
+                  <Link to="/Services#flea-section" onClick={handleCanvasClose}>Fleas</Link>
+                  <Link to="/Services#spider-section" onClick={handleCanvasClose}>Spiders</Link>
               
                 </Accordion.Body>
               </Accordion.Item>
@@ -167,15 +168,15 @@ export default function Navbar() {
 
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  <Link to="/ServiceAreas">Service Areas</Link>
+                  <Link to="/ServiceAreas" onClick={handleCanvasClose}>Service Areas</Link>
                   </Accordion.Header>
                 <Accordion.Body>
                   
-            <Link to="/ServiceAreas#delco-section">Delaware County</Link>
-            <Link to="/ServiceAreas#philly-section">Philadelphia</Link>
-            <Link to="/ServiceAreas#chester-section">Chester County</Link>
-            <Link to="/ServiceAreas#montco-section">Montgomery County</Link>
-            <Link to="/ServiceAreas#bucks-section">Bucks County</Link>
+            <Link to="/ServiceAreas#delco-section" onClick={handleCanvasClose}>Delaware County</Link>
+            <Link to="/ServiceAreas#philly-section" onClick={handleCanvasClose}>Philadelphia</Link>
+            <Link to="/ServiceAreas#chester-section" onClick={handleCanvasClose}>Chester County</Link>
+            <Link to="/ServiceAreas#montco-section" onClick={handleCanvasClose}>Montgomery County</Link>
+            <Link to="/ServiceAreas#bucks-section" onClick={handleCanvasClose}>Bucks County</Link>
                   
                   
                   
@@ -187,17 +188,16 @@ export default function Navbar() {
 
               <Accordion.Item eventKey="3">
                 <Accordion.Header>
-                  <Link to="/PestID">Pest ID</Link>
+                  <Link to="/PestID" onClick={handleCanvasClose}>Pest ID</Link>
                   </Accordion.Header>
                 <Accordion.Body>
                   
-            <Link to="/PestID#ant-section">Ants</Link>
-            <Link to="/PestID#bed-bug-section">Bed Bugs</Link>
-            <Link to="/PestID#cockroaches-section">Cockroaches</Link>
-            <Link to="/PestID#rodents-section">Rodents</Link>
-            <Link to="/PestID#mosquito-section">Mosquitos</Link>
-            <Link to="/PestID#flea-section">Fleas</Link>
-            <Link to="/PestID#spider-section">Spiders</Link>
+            <Link to="/PestID#ant-section" onClick={handleCanvasClose}>Ants</Link>
+            <Link to="/PestID#bed-bug-section" onClick={handleCanvasClose}>Bed Bugs</Link>
+            <Link to="/PestID#rodents-section" onClick={handleCanvasClose}>Rodents</Link>
+            <Link to="/PestID#mosquito-section" onClick={handleCanvasClose}>Mosquitos</Link>
+            <Link to="/PestID#flea-section" onClick={handleCanvasClose}>Fleas</Link>
+            <Link to="/PestID#spider-section" onClick={handleCanvasClose}>Spiders</Link>
                   
                   
                   
@@ -209,7 +209,7 @@ export default function Navbar() {
 
               <Accordion.Item eventKey="4">
                 <Accordion.Header>
-                  <Link to="/Contact">Contact</Link>
+                  <Link to="/Contact" onClick={handleCanvasClose}>Contact</Link>
                   </Accordion.Header>
               </Accordion.Item>
 
@@ -217,7 +217,7 @@ export default function Navbar() {
 
               <Accordion.Item eventKey="5">
                 <Accordion.Header>
-                  <Link to="/Reviews">Reviews</Link>
+                  <Link to="/Reviews" onClick={handleCanvasClose}>Reviews</Link>
                   </Accordion.Header>
               </Accordion.Item>
 

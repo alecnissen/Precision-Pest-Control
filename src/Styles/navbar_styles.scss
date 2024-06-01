@@ -235,6 +235,8 @@
   
 }
 
+
+ 
 .accordion-button a { 
   text-decoration: none;
   color: darkorange;
@@ -369,6 +371,22 @@
 
   .navbar-button-container  { 
     gap: 0;
+  }
+}
+
+// media query for the offcanvas, make the body, header smaller as well as the title 
+
+@media (max-width: 450px) { 
+  .offcanvas-body, .offcanvas-header { 
+    width: 15em;
+  }
+
+.offcanvas.offcanvas-start { 
+  width: auto;
+}
+
+  .offcanvas-title { 
+    font-size: 1rem;
   }
 }
 

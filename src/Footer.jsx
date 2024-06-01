@@ -68,7 +68,7 @@ export default function Footer() {
         <h4>Newsletter</h4>
 
         <input placeholder='Email Address'  value={email}
-        onChange={(e) => setEmail(e.target.value)}></input>
+        onChange={(e) => setEmail(e.target.value)} type='email'></input>
 
         <div className='newsletter-btn-container'>
         <button onClick={() => { 

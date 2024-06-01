@@ -51,11 +51,11 @@ export default function ServiceAreas() {
         </div>
 
         <div className="service-areas-wrapper">
-          <div className="service-area-container" id="delco-section" ref={delcoSection}>
+          <div className="service-area-container" >
             <img src={delcoImg}></img>
 
             <div className="service-area-content-container">
-              <h1>Delaware County</h1>
+              <h1 id="delco-section" ref={delcoSection}>Delaware County</h1>
 
               <p>
                 We proudly serve Delaware County, PA, providing top-notch pest control services to keep your homes and
@@ -76,11 +76,11 @@ export default function ServiceAreas() {
             </div>
           </div>
 
-          <div className="service-area-container" id="philly-section" ref={phillySection}>
+          <div className="service-area-container">
             <img src={philadelphiaImg}></img>
 
             <div className="service-area-content-container">
-              <h1>Philadelphia</h1>
+              <h1 id="philly-section" ref={phillySection}>Philadelphia</h1>
 
               <p>
                 We proudly serve Philadelphia, PA, delivering exceptional pest control services to ensure your homes and
@@ -101,11 +101,11 @@ export default function ServiceAreas() {
             </div>
           </div>
 
-          <div className="service-area-container" id="chester-section" ref={chesterSection}>
+          <div className="service-area-container">
             <img src={chesterImg}></img>
 
             <div className="service-area-content-container">
-              <h1>Chester County</h1>
+              <h1 id="chester-section" ref={chesterSection}>Chester County</h1>
 
               <p>
                 We are proud to serve Chester County, PA, providing top-notch pest control services to ensure your homes
@@ -126,11 +126,11 @@ export default function ServiceAreas() {
             </div>
           </div>
 
-          <div className="service-area-container" id="montco-section" ref={montcoSection}>
+          <div className="service-area-container">
             <img src={montgomeryCountyImg}></img>
 
             <div className="service-area-content-container">
-              <h1>Montgomery County</h1>
+              <h1 id="montco-section" ref={montcoSection}>Montgomery County</h1>
 
               <p>
                 We are proud to extend our exceptional pest control services to Montgomery County, PA. Our experienced
@@ -152,11 +152,11 @@ export default function ServiceAreas() {
             </div>
           </div>
 
-          <div className="service-area-container" id="bucks-section" ref={bucksSection}>
+          <div className="service-area-container">
             <img src={bucksCountyImg}></img>
 
             <div className="service-area-content-container">
-              <h1>Bucks County</h1>
+              <h1 id="bucks-section" ref={bucksSection}>Bucks County</h1>
 
               <p>
                 We are delighted to offer our comprehensive pest control services to the residents and businesses of

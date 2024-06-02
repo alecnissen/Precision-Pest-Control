@@ -29,10 +29,9 @@ export default function Services() {
   const fleaSection = useRef(null);
   const spiderSection = useRef(null);
 
-
   useEffect(() => {
     const hash = location.hash;
-    console.log('Current hash:', hash); 
+    console.log('Current hash:', hash);
     if (hash === '#ant-section') {
       antSection.current.scrollIntoView({ behavior: 'smooth' });
     } else if (hash === '#bed-bug-section') {
@@ -49,8 +48,6 @@ export default function Services() {
       spiderSection.current.scrollIntoView({ behavior: 'smooth' });
     }
   }, [location]);
-
-
 
   // const scrollToSection = (sectionRef) => {
   //   const yOffset = -100; // Adjust this value as needed
@@ -118,9 +115,9 @@ export default function Services() {
             </span>
 
             <p className="description-text-expertise-header">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iste praesentium unde culpa facilis soluta
-              mollitia, minima sequi repudiandae, dicta iure omnis exercitationem similique voluptas molestias voluptate
-              alias. Aut, accusamus?
+              Our team at Prodigy Pest Solutions combines exceptional expertise and proven techniques to deliver
+              unparalleled pest control results. With years of industry experience, we ensure every job is handled with
+              precision and professionalism.
             </p>
           </div>
 

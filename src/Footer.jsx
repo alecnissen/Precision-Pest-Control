@@ -8,7 +8,43 @@ import { useState } from 'react';
 
 export default function Footer() {
 
-  const [email, setEmail] = useState('');
+  const [errors, setErrors] = useState({});
+
+  // const [email, setEmail] = useState('');
+
+  const [formInput, setFormInput] = useState('');
+
+  const [formData, setFormData] = useState({ 
+    email: ''
+  });
+
+  const handleChange = (e) => { 
+    const { name, value } = e.target;
+
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+
+  const handleSubmit = (e) => { 
+    e.preventDefault() 
+    const validationErrors = {}
+
+    if (!formData.email.trim()) { 
+      validationErrors.email = "Email is required";
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) { 
+      validationErrors.email = "Email is not valid";
+    }
+
+    setErrors(validationErrors);
+
+    if (Object.keys(validationErrors).length === 0) { 
+      alert('Form Submitted Successfully')
+    }
+  };
+
+ 
 
   return (
     <div className="footer-content-wrapper">
@@ -67,15 +103,26 @@ export default function Footer() {
       <div className='newsletter-container'>
         <h4>Newsletter</h4>
 
-        <input placeholder='Email Address'  value={email}
-        onChange={(e) => setEmail(e.target.value)} type='email'></input>
+        {/* input GOES WITHIN THE FORM */}
+
+        <form onClick={handleSubmit} className='email-subscribe-container'> 
+        {/* <input placeholder='Email Address' name="email"  value={formData.email}
+        onChange={handleChange} type='email'>{errors.email && <span className='error-message'>{errors.email}</span>}</input> */} 
+
+        
+          <input 
+            placeholder="Email Address" 
+            name="email"  
+            value={formData.email}
+            onChange={handleChange} 
+            type="email"
+          />
+          {errors.email && <span className="error-message">{errors.email}</span>}
 
         <div className='newsletter-btn-container'>
-        <button onClick={() => { 
-          alert('Success!');
-          setEmail(''); 
-        }}>Subscribe</button>
+        <button type="submit">Subscribe</button>
         </div>
+        </form>
 
       </div>
 

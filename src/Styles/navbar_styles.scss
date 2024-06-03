@@ -281,6 +281,19 @@
   color: white;
 }
 
+.offcanvas { 
+  background-color: transparent;
+}
+
+.offcanvas.offcanvas-start { 
+  width: auto !important;
+}
+
+.offcanvas-title { 
+  font-size: 1rem !important;
+  // padding: 0.5em !important;
+}
+
 
 
 // media queries begin here, 
@@ -413,8 +426,17 @@
 }
 
   .offcanvas-title { 
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
+
+
+  .offcanvas { 
+    background-color: transparent;
+  }
+  
+
+
+
 }
 
 

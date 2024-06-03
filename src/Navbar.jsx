@@ -11,6 +11,10 @@ import Accordion from 'react-bootstrap/Accordion';
 import { useLocation } from "react-router-dom";
 import { useEffect } from 'react';
 
+import { NavLink } from 'react-router-dom';
+
+import './Styles/index.scss'
+
 
 export default function Navbar() {
   const [show, setShow] = useState(false);
@@ -45,9 +49,17 @@ export default function Navbar() {
       <div className="navbar-button-container">
         <div className="dropdown">
           <button>
-            <Link to="/" className="header-link">
+            {/* <Link to="/" className="header-link">
               Home
-            </Link>
+            </Link> */}
+
+
+  <NavLink to="/" className={({ isActive }) => isActive ? "active-link header-link" : "header-link"}>
+  Home
+</NavLink>
+
+
+
           </button>
         </div>
 
@@ -56,6 +68,14 @@ export default function Navbar() {
             <Link to="/Services" className="header-link">
               Services
             </Link>
+
+            
+            {/* <NavLink to="/Services" activeClassName="active-link" className="header-link">
+              Services
+            </NavLink> */}
+
+
+
           </button>
 
           <div className="content">

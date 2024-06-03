@@ -116,6 +116,14 @@ put something like we are here to serve you, proudly serving the philadelphia, c
 
 // then share the website 
 
-// added white background to the insect buttons, I like how it looks, 
+// added white background to the insect buttons, I like how it looks, / 
 
-// now double check the border radius on each button on the homepage
+// now double check the border radius on each button on the homepage / 
+
+
+
+// now I want to ensure that the active link has an orange color 
+
+// in both desktop and within the offcanvas, 
+
+

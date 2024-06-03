@@ -107,3 +107,15 @@ put something like we are here to serve you, proudly serving the philadelphia, c
 
 // fix reviews section and responsiveness 
 
+
+// ----> 
+
+// 6/3 
+
+// Implement all feedback fron Ion 
+
+// then share the website 
+
+// added white background to the insect buttons, I like how it looks, 
+
+// now double check the border radius on each button on the homepage

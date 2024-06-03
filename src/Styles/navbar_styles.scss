@@ -101,7 +101,7 @@
 }
 
 .active-link {
-  color: orange !important;
+  color: rgb(216, 216, 3) !important;
 }
 
 
@@ -241,7 +241,7 @@
  
 .accordion-button a { 
   text-decoration: none;
-  color: darkorange;
+  color: black;
   cursor: pointer;
 }
 
@@ -275,6 +275,10 @@
 
 .offcanvas-header .btn-close { 
   background-color: white;
+}
+
+.offcanvas-header { 
+  color: white;
 }
 
 

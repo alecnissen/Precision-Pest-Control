@@ -8,13 +8,12 @@ import { HashLink as Link } from 'react-router-hash-link';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Accordion from 'react-bootstrap/Accordion';
 
-import { useLocation } from "react-router-dom";
+import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 
 import { NavLink } from 'react-router-dom';
 
-import './Styles/index.scss'
-
+import './Styles/index.scss';
 
 export default function Navbar() {
   const [show, setShow] = useState(false);
@@ -27,15 +26,13 @@ export default function Navbar() {
     setShow(!show);
   };
 
-
   const { pathname } = useLocation();
 
   useEffect(() => {
-      window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }, [pathname]);
 
   const handleCanvasClose = () => setShow(false);
-  
 
   return (
     <div className="navbar-content-wrapper">
@@ -53,29 +50,24 @@ export default function Navbar() {
               Home
             </Link> */}
 
-
-  <NavLink to="/" className={({ isActive }) => isActive ? "active-link header-link" : "header-link"}>
-  Home
-</NavLink>
-
-
-
+            <NavLink to="/" className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}>
+              Home
+            </NavLink>
           </button>
         </div>
 
         <div className="dropdown">
           <button>
-            <Link to="/Services" className="header-link">
+            {/* <Link to="/Services" className="header-link">
               Services
-            </Link>
+            </Link> */}
 
-            
-            {/* <NavLink to="/Services" activeClassName="active-link" className="header-link">
+            <NavLink
+              to="/Services"
+              className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
+            >
               Services
-            </NavLink> */}
-
-
-
+            </NavLink>
           </button>
 
           <div className="content">
@@ -91,9 +83,16 @@ export default function Navbar() {
 
         <div className="dropdown">
           <button>
-            <Link to="/ServiceAreas" className="header-link">
+            {/* <Link to="/ServiceAreas" className="header-link">
               Service Areas
-            </Link>
+            </Link> */}
+
+            <NavLink
+              to="/ServiceAreas"
+              className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
+            >
+              Service Areas
+            </NavLink>
           </button>
 
           <div className="content">
@@ -107,9 +106,13 @@ export default function Navbar() {
 
         <div className="dropdown">
           <button>
-            <Link to="/PestID" className="header-link">
+            {/* <Link to="/PestID" className="header-link">
               Pest ID
-            </Link>
+            </Link> */}
+
+            <NavLink to="/PestID" className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}>
+              Pest ID
+            </NavLink>
           </button>
 
           <div className="content">
@@ -125,17 +128,25 @@ export default function Navbar() {
 
         <div className="dropdown">
           <button>
-            <Link to="/Contact" className="header-link">
+            {/* <Link to="/Contact" className="header-link">
               Contact
-            </Link>
+            </Link> */}
+
+            <NavLink to="/Contact" className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}>
+              Contact
+            </NavLink>
           </button>
         </div>
 
         <div className="dropdown">
           <button>
-            <Link to="/Reviews" className="header-link">
+            {/* <Link to="/Reviews" className="header-link">
               Reviews
-            </Link>
+            </Link> */}
+
+            <NavLink to="/Reviews" className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}>
+              Reviews
+            </NavLink>
           </button>
         </div>
 
@@ -150,102 +161,158 @@ export default function Navbar() {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Accordion>
-
-
-
-            <Accordion.Item eventKey="0">
+              <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <Link to="/" onClick={handleCanvasClose}>
-                  Home
-                  </Link>
-                  </Accordion.Header>
-            
+                  {/* <Link to="/" onClick={handleCanvasClose}>
+                    Home
+                  </Link> */}
+
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
+                    onClick={handleCanvasClose}
+                  >
+                    Home
+                  </NavLink>
+                </Accordion.Header>
               </Accordion.Item>
-
-
-
-
 
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  <Link to="/Services" onClick={handleCanvasClose}>
-                  Services
-                  </Link>
-                  </Accordion.Header>
+                  {/* <Link to="/Services" onClick={handleCanvasClose}>
+                    Services
+                  </Link> */}
+
+                  <NavLink
+                    to="/Services"
+                    className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
+                    onClick={handleCanvasClose}
+                  >
+                    Services
+                  </NavLink>
+                </Accordion.Header>
                 <Accordion.Body>
-                  <Link to="/Services#ant-section" onClick={handleCanvasClose}>Ants</Link>
-                  <Link to="/Services#bed-bug-section" onClick={handleCanvasClose}>Bed Bugs</Link>
-                  <Link to="/Services#rodents-section" onClick={handleCanvasClose}>Rodents</Link>
-                  <Link to="/Services#mosquito-section" onClick={handleCanvasClose}>Mosquitos</Link>
-                  <Link to="/Services#flea-section" onClick={handleCanvasClose}>Fleas</Link>
-                  <Link to="/Services#spider-section" onClick={handleCanvasClose}>Spiders</Link>
-              
+                  <Link to="/Services#ant-section" onClick={handleCanvasClose}>
+                    Ants
+                  </Link>
+                  <Link to="/Services#bed-bug-section" onClick={handleCanvasClose}>
+                    Bed Bugs
+                  </Link>
+                  <Link to="/Services#rodents-section" onClick={handleCanvasClose}>
+                    Rodents
+                  </Link>
+                  <Link to="/Services#mosquito-section" onClick={handleCanvasClose}>
+                    Mosquitos
+                  </Link>
+                  <Link to="/Services#flea-section" onClick={handleCanvasClose}>
+                    Fleas
+                  </Link>
+                  <Link to="/Services#spider-section" onClick={handleCanvasClose}>
+                    Spiders
+                  </Link>
                 </Accordion.Body>
               </Accordion.Item>
 
-
-
-
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  <Link to="/ServiceAreas" onClick={handleCanvasClose}>Service Areas</Link>
-                  </Accordion.Header>
+                  {/* <Link to="/ServiceAreas" onClick={handleCanvasClose}>
+                    Service Areas
+                  </Link> */}
+
+                  <NavLink
+                    to="/ServiceAreas"
+                    className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
+                    onClick={handleCanvasClose}
+                  >
+                    Services Areas
+                  </NavLink>
+                </Accordion.Header>
                 <Accordion.Body>
-                  
-            <Link to="/ServiceAreas#delco-section" onClick={handleCanvasClose}>Delaware County</Link>
-            <Link to="/ServiceAreas#philly-section" onClick={handleCanvasClose}>Philadelphia</Link>
-            <Link to="/ServiceAreas#chester-section" onClick={handleCanvasClose}>Chester County</Link>
-            <Link to="/ServiceAreas#montco-section" onClick={handleCanvasClose}>Montgomery County</Link>
-            <Link to="/ServiceAreas#bucks-section" onClick={handleCanvasClose}>Bucks County</Link>
-                  
-                  
-                  
-                  </Accordion.Body>
-
+                  <Link to="/ServiceAreas#delco-section" onClick={handleCanvasClose}>
+                    Delaware County
+                  </Link>
+                  <Link to="/ServiceAreas#philly-section" onClick={handleCanvasClose}>
+                    Philadelphia
+                  </Link>
+                  <Link to="/ServiceAreas#chester-section" onClick={handleCanvasClose}>
+                    Chester County
+                  </Link>
+                  <Link to="/ServiceAreas#montco-section" onClick={handleCanvasClose}>
+                    Montgomery County
+                  </Link>
+                  <Link to="/ServiceAreas#bucks-section" onClick={handleCanvasClose}>
+                    Bucks County
+                  </Link>
+                </Accordion.Body>
               </Accordion.Item>
-
-
 
               <Accordion.Item eventKey="3">
                 <Accordion.Header>
-                  <Link to="/PestID" onClick={handleCanvasClose}>Pest ID</Link>
-                  </Accordion.Header>
+                  {/* <Link to="/PestID" onClick={handleCanvasClose}>
+                    Pest ID
+                  </Link> */}
+
+                  <NavLink
+                    to="/PestID"
+                    className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
+                    onClick={handleCanvasClose}
+                  >
+                    Pest ID
+                  </NavLink>
+                </Accordion.Header>
                 <Accordion.Body>
-                  
-            <Link to="/PestID#ant-section" onClick={handleCanvasClose}>Ants</Link>
-            <Link to="/PestID#bed-bug-section" onClick={handleCanvasClose}>Bed Bugs</Link>
-            <Link to="/PestID#rodents-section" onClick={handleCanvasClose}>Rodents</Link>
-            <Link to="/PestID#mosquito-section" onClick={handleCanvasClose}>Mosquitos</Link>
-            <Link to="/PestID#flea-section" onClick={handleCanvasClose}>Fleas</Link>
-            <Link to="/PestID#spider-section" onClick={handleCanvasClose}>Spiders</Link>
-                  
-                  
-                  
-                  </Accordion.Body>
-
+                  <Link to="/PestID#ant-section" onClick={handleCanvasClose}>
+                    Ants
+                  </Link>
+                  <Link to="/PestID#bed-bug-section" onClick={handleCanvasClose}>
+                    Bed Bugs
+                  </Link>
+                  <Link to="/PestID#rodents-section" onClick={handleCanvasClose}>
+                    Rodents
+                  </Link>
+                  <Link to="/PestID#mosquito-section" onClick={handleCanvasClose}>
+                    Mosquitos
+                  </Link>
+                  <Link to="/PestID#flea-section" onClick={handleCanvasClose}>
+                    Fleas
+                  </Link>
+                  <Link to="/PestID#spider-section" onClick={handleCanvasClose}>
+                    Spiders
+                  </Link>
+                </Accordion.Body>
               </Accordion.Item>
-
-
 
               <Accordion.Item eventKey="4">
                 <Accordion.Header>
-                  <Link to="/Contact" onClick={handleCanvasClose}>Contact</Link>
-                  </Accordion.Header>
+                  {/* <Link to="/Contact" onClick={handleCanvasClose}>
+                    Contact
+                  </Link> */}
+
+                  <NavLink
+                    to="/Contact"
+                    className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
+                    onClick={handleCanvasClose}
+                  >
+                    Contact
+                  </NavLink>
+                </Accordion.Header>
               </Accordion.Item>
-
-
 
               <Accordion.Item eventKey="5">
                 <Accordion.Header>
-                  <Link to="/Reviews" onClick={handleCanvasClose}>Reviews</Link>
-                  </Accordion.Header>
+                  {/* <Link to="/Reviews" onClick={handleCanvasClose}>
+                    Reviews
+                  </Link> */}
+
+                  <NavLink
+                    to="/Reviews"
+                    className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
+                    onClick={handleCanvasClose}
+                  >
+                    Reviews
+                  </NavLink>
+                </Accordion.Header>
               </Accordion.Item>
-
-
-
-
-
-
             </Accordion>
           </Offcanvas.Body>
         </Offcanvas>

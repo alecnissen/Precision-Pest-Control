@@ -1,6 +1,9 @@
 import React from 'react';
 import arrowRightIcon from '../assets/arrowright-svgrepo-com.svg';
-import ppsLogo from '../assets/PPS-logo.jpeg';
+// import ppsLogo from '../assets/PPS-logo.jpeg';
+
+import ppsLogo from '../assets/bug-fixing-svgrepo-com (1).svg';
+
 import searchLogo from '../assets/search-svgrepo-com (1).svg';
 import hamburgerLogo from '../assets/hamburger-menu-svgrepo-com (1).svg';
 import { useState } from 'react';
@@ -39,7 +42,7 @@ export default function Navbar() {
       <div className="title-subtitle-container">
         <div className="title-logo-container">
           <img src={ppsLogo}></img>
-          <h1>Prodigy Pest Solutions</h1>
+          <h1>Precision Pest Control</h1>
         </div>
       </div>
 
@@ -157,7 +160,7 @@ export default function Navbar() {
 
         <Offcanvas show={show} onHide={handleClose}>
           <Offcanvas.Header closeButton>
-            <Offcanvas.Title>Prodigy Pest Solutions</Offcanvas.Title>
+            <Offcanvas.Title>Precision Pest Control</Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Accordion>

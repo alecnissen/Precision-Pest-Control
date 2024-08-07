@@ -116,6 +116,6 @@ Creator: Alec J Nissen
 <br>
 E-Mail: alecnissen@yahoo.com
 <br>
-GitHub: https://github.com/alecnissen/prodigy-pest-solutions
+GitHub: https://github.com/alecnissen/Precision-Pest-Control
 <br>
-Live Link: https://prodigypestsolutions.netlify.app/
+Live Link: https://precisionpestcontrol.netlify.app/

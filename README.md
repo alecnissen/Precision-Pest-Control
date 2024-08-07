@@ -1,4 +1,6 @@
 <h1>About This Project</h1> 
+Demo Site for client
+
 This project was undertaken as a revamp for a friend's local pest control business. My goal was to create a modern layout and feel with a robust homepage, dropdown menu's, an offcanvas for tablet and mobile phones, numerous images, distinct tabs showcasing various services, service areas, and a PestID section where users can learn about common pests and their proper identification and treatment. This project provided valuable practice in React.js, utilizing hooks such as useEffect, useRef, and useState. Additionally, it allowed me to gain more experience with Bootstrap and SASS.
 
 <br>
@@ -26,7 +28,7 @@ This project was undertaken as a revamp for a friend's local pest control busine
 
 <h1>Getting Started</h1>
 
-To get project cloned locally: git clone git@github.com:alecnissen/prodigy-pest-solutions.git
+To get project cloned locally: git clone git@github.com:alecnissen/Precision-Pest-Control.git
 
 then `npm install` which will install all dependency's and packages.
 
@@ -34,40 +36,40 @@ then `npm install` which will install all dependency's and packages.
 
 - Dropdown menu for services, service areas and pest id, along with background image and overlay text on the homepage.
 
-<img src="assets/pps-readme-dropdown-bk.png" style="width: 600px"></img>
+<img src="assets/pr-pps-dropdown-rm.png" style="width: 600px"></img>
 
 - Header that is sticky to ensure the user can navigate between pages easily, 
 pest buttons that user can click on and user will be sent to that specific pest control plan.
 
-<img src="assets/pps-readme-nav-links.png" style="width: 600px">
+<img src="assets/pr-pps-pest-btns.png" style="width: 600px">
 
 - Hover classes over certain elements to highlight key points and enhance user experience. 
 
-<img src="assets/pps-readme-hover.png" style="width: 600px">
+<img src="assets/pr-pps-hover.png" style="width: 600px">
 
 - Includes details about the treatment process.
 
-<img src="assets/pps-readme-process.png" style="width: 600px">
+<img src="assets/pr-pps-process.png" style="width: 600px">
 
 - Payment plan details.
 
-<img src="assets/pps-readme-payments.png" style="width: 600px">
+<img src="assets/pr-pps-payment.png" style="width: 600px">
 
 - Contact form on homepage as well as contact form page.
 
-<img src="assets/pps-readme-contact-form.png" style="width: 600px">
+<img src="assets/pr-pps-contact.png" style="width: 600px">
 
 - Meet your team section.
 
-<img src="assets/pps-readme-team.png" style="width: 600px">
+<img src="assets/pr-pps-team.png" style="width: 600px">
 
 - Reviews section, and image gallery.
 
-<img src="assets/pps-readme-reviews-imgs.png" style="width: 600px">
+<img src="assets/pr-pps-reviews.png" style="width: 600px">
 
 - Services page with background image and overlay.
 
-<img src="assets/pps-readme-services.png" style="width: 600px">
+<img src="assets/pr-pps-services.png" style="width: 600px">
 
 - Includes details about the particular pest service plan and treatment options.
 

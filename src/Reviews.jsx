@@ -26,7 +26,7 @@ export default function Reviews() {
 
           <div className="reviews-text-container">
             <p>
-              "I couldn't be happier with the pest control services provided by Prodigy Pest Solutions. Their team was
+              "I couldn't be happier with the pest control services provided by Precision Pest Control. Their team was
               professional, thorough, and highly knowledgeable. They quickly identified and resolved our pest issue,
               ensuring our home was safe and pest-free. I highly recommend their services to anyone in need of effective
               and reliable pest control solutions."
@@ -41,7 +41,7 @@ export default function Reviews() {
 
           <div className="reviews-text-container">
             <p>
-              "Prodigy Pest Solutions exceeded our expectations with their exceptional pest control service. Their staff
+              "Precision Pest Control exceeded our expectations with their exceptional pest control service. Their staff
               was prompt, courteous, and extremely efficient in handling our pest problem. We appreciated their
               attention to detail and the comprehensive approach they took to ensure our home remained pest-free. We
               wholeheartedly recommend their services to anyone facing pest issues."
@@ -56,10 +56,10 @@ export default function Reviews() {
 
           <div className="reviews-text-container">
             <p>
-              "We couldn't be happier with the pest control services provided by Prodigy Pest Solutions. From the moment
+              "We couldn't be happier with the pest control services provided by Precision Pest Control. From the moment
               we contacted them, their team was professional and attentive. They quickly identified the problem and
               implemented an effective solution. The results have been fantastic, and our home is now completely
-              pest-free. We highly recommend Prodigy Pest Solutions for anyone needing reliable and thorough pest
+              pest-free. We highly recommend Precision Pest Control for anyone needing reliable and thorough pest
               control."
             </p>
 
@@ -72,10 +72,10 @@ export default function Reviews() {
 
           <div className="reviews-text-container">
             <p>
-              "Prodigy Pest Solutions exceeded our expectations with their exceptional pest control services. Their team was
+              "Precision Pest Control exceeded our expectations with their exceptional pest control services. Their team was
               prompt, courteous, and extremely knowledgeable. They addressed our pest issue swiftly and effectively, and
               we haven't seen a single pest since their visit. We are thrilled with the results and highly recommend
-              Prodigy Pest Solutions to anyone dealing with pest problems."
+              Precision Pest Control to anyone dealing with pest problems."
             </p>
 
             <p className="review-name-styles">-Jeremy Ferguson</p>

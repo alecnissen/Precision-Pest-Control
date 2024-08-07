@@ -73,39 +73,39 @@ pest buttons that user can click on and user will be sent to that specific pest 
 
 - Includes details about the particular pest service plan and treatment options.
 
-<img src="assets/pps-readme-service-details.png" style="width: 600px">
+<img src="assets/pr-pps-service-plan.png" style="width: 600px">
 
 - Service areas includes a backdrop with city skyline and text overlay.
 
-<img src="assets/pps-readme-service-area.png" style="width: 600px">
+<img src="assets/pr-pps-service-area.png" style="width: 600px">
 
 - Service area includes a list of locations for treatment.
 
-<img src="assets/pps-readme-service-list.png" style="width: 600px">
+<img src="assets/pr-pps-service-area-2.png" style="width: 600px">
 
 - PestID page includes background image with text overlay 
 
-<img src="assets/pps-readme-pest-bk.png" style="width: 600px">
+<img src="assets/pr-pps-pestid.png" style="width: 600px">
 
 - PestID page includes facts about common pests, how to identify, and how to treat.
 
-<img src="assets/pps-readme-details.png" style="width: 600px">
+<img src="assets/pr-pps-pestid-detail.png" style="width: 600px">
 
 - Contact page features methods to contact the business and also features another contact form.
 
-<img src="assets/pps-readme-contact.png" style="width: 600px">
+<img src="assets/pr-pps-contact-2.png">
 
 - Reviews page.
 
-<img src="assets/pps-readme-reviews.png" style="width: 600px">
+<img src="assets/pr-pps-reviews-2.png" style="width: 600px">
 
 - offcanvas featured on tablets and mobile phones which includes all the header links.
 
-<img src="assets/pps-readme-offcanvas.png" style="width: 600px">
+<img src="assets/pr-pps-offcanvas.png" style="width: 600px">
 
 - Fully responsive for all devices including tablets and mobile phones. At tablet screen size the homepage background image will change. 
 
-<img src="assets/pps-readme-mobile.png" style="width: 300px">
+<img src="assets/pr-pps-mobile.png" style="width: 300px">
 
 
 <h1>Acknowledgments</h1> Thank you to everyone within The Odin Project Curriculum from the bottom of my heart! Thank you to anyone who helped me in the discord channels. I promise to help others throughout this journey.

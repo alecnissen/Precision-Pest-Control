@@ -45,7 +45,7 @@ export default function Contact() {
 
         <h5>Email Address:</h5>
 
-        <h4>prodigypestsolutions@gmail.com</h4>
+        <h4>precisionpestsolutions@gmail.com</h4>
 
       </div>
 

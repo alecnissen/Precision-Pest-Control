@@ -1,50 +1,44 @@
 import React from 'react';
 import ppsLogo from '../assets/PPS-logo.jpeg';
-// import instaLogo from '../assets/facebook-logo-svgrepo-com.svg';
 import fbLogo from '../assets/facebook-logo-meta-2-svgrepo-com (1).svg';
 import instaLogo from '../assets/instagram-svgrepo-com (2).svg';
 import linkedInLogo from '../assets/linkedin-161-svgrepo-com.svg';
 import { useState } from 'react';
 
 export default function Footer() {
-
   const [errors, setErrors] = useState({});
-
-  // const [email, setEmail] = useState('');
 
   const [formInput, setFormInput] = useState('');
 
-  const [formData, setFormData] = useState({ 
-    email: ''
+  const [formData, setFormData] = useState({
+    email: '',
   });
 
-  const handleChange = (e) => { 
+  const handleChange = (e) => {
     const { name, value } = e.target;
 
     setFormData({
       ...formData,
-      [name]: value
+      [name]: value,
     });
   };
 
-  const handleSubmit = (e) => { 
-    e.preventDefault() 
-    const validationErrors = {}
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const validationErrors = {};
 
-    if (!formData.email.trim()) { 
-      validationErrors.email = "Email is required";
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) { 
-      validationErrors.email = "Email is not valid";
+    if (!formData.email.trim()) {
+      validationErrors.email = 'Email is required';
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      validationErrors.email = 'Email is not valid';
     }
 
     setErrors(validationErrors);
 
-    if (Object.keys(validationErrors).length === 0) { 
-      alert('Form Submitted Successfully')
+    if (Object.keys(validationErrors).length === 0) {
+      alert('Form Submitted Successfully');
     }
   };
-
- 
 
   return (
     <div className="footer-content-wrapper">
@@ -85,8 +79,6 @@ export default function Footer() {
         <h5>Information Security</h5>
       </div>
 
-
-
       <div className="footer-emergency-services-container">
         <h4>Emergency Services</h4>
 
@@ -99,35 +91,18 @@ export default function Footer() {
         <h5>Instant Help</h5>
       </div>
 
-
-      <div className='newsletter-container'>
+      <div className="newsletter-container">
         <h4>Newsletter</h4>
 
-        {/* input GOES WITHIN THE FORM */}
-
-        <form onClick={handleSubmit} className='email-subscribe-container'> 
-        {/* <input placeholder='Email Address' name="email"  value={formData.email}
-        onChange={handleChange} type='email'>{errors.email && <span className='error-message'>{errors.email}</span>}</input> */} 
-
-        
-          <input 
-            placeholder="Email Address" 
-            name="email"  
-            value={formData.email}
-            onChange={handleChange} 
-            type="email"
-          />
+        <form onClick={handleSubmit} className="email-subscribe-container">
+          <input placeholder="Email Address" name="email" value={formData.email} onChange={handleChange} type="email" />
           {errors.email && <span className="error-message">{errors.email}</span>}
 
-        <div className='newsletter-btn-container'>
-        <button type="submit">Subscribe</button>
-        </div>
+          <div className="newsletter-btn-container">
+            <button type="submit">Subscribe</button>
+          </div>
         </form>
-
       </div>
-
-
-
     </div>
   );
 }

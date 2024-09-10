@@ -1,249 +1,187 @@
-.process-title-subtitle-container { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1em
+.process-title-subtitle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
 }
 
-.process-title-subtitle-wrapper { 
-    display: flex;
-    justify-content: space-evenly;
+.process-title-subtitle-wrapper {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.process-title-subtitle-container * { 
-    font-family: "Poppins", sans-serif;
-    text-align: center;
+.process-title-subtitle-container * {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
-.process-pest-control-img { 
-    width: 35em;
+.process-pest-control-img {
+  width: 35em;
 }
 
-
-.process-title-subtitle-container h3 { 
-    font-size: 3rem;
-    color: rgb(57, 181, 74);
-    font-weight: 400;
+.process-title-subtitle-container h3 {
+  font-size: 3rem;
+  color: rgb(57, 181, 74);
+  font-weight: 400;
 }
 
-.process-title-subtitle-container h1 { 
-    font-size: 2.5rem;
-    font-weight: 400;
+.process-title-subtitle-container h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
 }
 
-.process-pest-free-text { 
-    // color: darkorange;
-    color: rgb(57, 181, 74);
+.process-pest-free-text {
+  color: rgb(57, 181, 74);
 }
 
-.process-title-subtitle-container p { 
-    // max-width: 45em;
-    max-width: 35em;
-    font-size: 1.1rem;
+.process-title-subtitle-container p {
+  // max-width: 45em;
+  max-width: 35em;
+  font-size: 1.1rem;
 }
 
-
-.process-cards-container { 
-    display: flex;
-    padding-top: 2em;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
-    padding: 2em;
-    flex-wrap: wrap;
+.process-cards-container {
+  display: flex;
+  padding-top: 2em;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+  flex-wrap: wrap;
 }
 
-.process-card { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: whitesmoke;
-    // border: 2px solid white;
-    // box-shadow: 2em;
-    box-shadow: 3px 3px 3px gray;
-    gap: 1em;
-    // padding: 3em;
-    padding: 1em;
+.process-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  box-shadow: 3px 3px 3px gray;
+  gap: 1em;
+  padding: 1em;
 }
 
-// .process-card:hover { 
-//     border: 1px solid darkorange;
-// }
-
-.process-card * { 
-    font-family: "Poppins", sans-serif;
+.process-card * {
+  font-family: 'Poppins', sans-serif;
 }
 
-.process-card h3 { 
-    // font-family: "Poppins", sans-serif;
-    padding-top: 1em;
-    font-size: 1.7rem;
-    font-weight: 500;
+.process-card h3 {
+  padding-top: 1em;
+  font-size: 1.7rem;
+  font-weight: 500;
 }
 
-.process-card p { 
-    font-size: 1rem;
-    text-align: center;
-    max-width: 20em;
+.process-card p {
+  font-size: 1rem;
+  text-align: center;
+  max-width: 20em;
 }
 
-
-.process-step-number-container { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:  rgb(57, 181, 74);
-    border-radius: 50%;
-    width: 2em;
+.process-step-number-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(57, 181, 74);
+  border-radius: 50%;
+  width: 2em;
 }
 
-.process-step-number-container h4 { 
-    font-size: 1rem;
-    padding-top: 0.5em;
+.process-step-number-container h4 {
+  font-size: 1rem;
+  padding-top: 0.5em;
 }
 
-.process-card-img-container { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(57, 181, 74);
-    border-radius: 50%;
-    width: 5.7em;
-    height: 5.7em;
-
+.process-card-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(57, 181, 74);
+  border-radius: 50%;
+  width: 5.7em;
+  height: 5.7em;
 }
 
-
-
-// media queries begin here 
-
-
+// media queries begin here
 
 @media (max-width: 1567px) {
-
-    .process-content-wrapper { 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-    .process-cards-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 50em;
-      flex-wrap: wrap;
-    //   flex-basis: 33.33333%;
-    }
-  
-    // .process-card {
-    //   flex-basis: calc(50% - 1em); /* Adjust the width of each card */
-    //   max-width: calc(50% - 1em); /* Adjust the maximum width of each card */
-    //   margin-right: 1em; /* Adjust the gap between cards */
-    // }
-  
-    // .process-card:last-child {
-    //   margin-right: 0; /* Remove the right margin of the last card */
-    // }
-
-
+  .process-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-
-
-// @media (max-width: 1567px) { 
-//     .process-cards-container { 
-//         display: flex;
-//         flex-basis: calc(50% - 1em);
-//     }
-// }
-
-
-// @media (max-width: 1288px) { 
-//    .process-cards-container {
-//     display: flex; 
-//     flex-basis: 54.444%;
-//    }
-// }
-
-
-
-
-
-@media (max-width: 1070px) { 
-    .process-title-subtitle-container h3 { 
-        font-size: 2rem;
-    }
-
-    .process-title-subtitle-container h1 { 
-        font-size: 2rem;
-    }
-
-    .process-title-subtitle-container p { 
-        font-size: 0.9rem;
-    }
-
-    .process-pest-control-img { 
-        width: 24em;
-    } 
-
-    .process-card { 
-        padding: 0.5em;
-    }
-
-    .process-cards-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: auto;
-        flex-wrap: wrap;
-      //   flex-basis: 33.33333%;
-      }
-
+  .process-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50em;
+    flex-wrap: wrap;
+  }
 }
 
+@media (max-width: 1070px) {
+  .process-title-subtitle-container h3 {
+    font-size: 2rem;
+  }
 
-@media (max-width: 800px) { 
-    .process-title-subtitle-wrapper { 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .process-title-subtitle-container h1 {
+    font-size: 2rem;
+  }
 
-    .process-title-subtitle-container p { 
-        max-width: 30em;
-    }
+  .process-title-subtitle-container p {
+    font-size: 0.9rem;
+  }
+
+  .process-pest-control-img {
+    width: 24em;
+  }
+
+  .process-card {
+    padding: 0.5em;
+  }
+
+  .process-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    flex-wrap: wrap;
+  }
 }
 
+@media (max-width: 800px) {
+  .process-title-subtitle-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-@media (max-width: 500px) { 
-    .process-pest-control-img { 
-        width: 20em;
-    }
-
-    .process-title-subtitle-container h1 { 
-        font-size: 1.5rem;
-    }
-
-    .process-title-subtitle-container p { 
-        font-size: 0.8rem;
-    }
-
-    .process-card h3 { 
-        font-size: 1.4rem;
-    }
-
-    .process-card p { 
-        font-size: 0.8rem;
-    }
-
+  .process-title-subtitle-container p {
+    max-width: 30em;
+  }
 }
 
+@media (max-width: 500px) {
+  .process-pest-control-img {
+    width: 20em;
+  }
 
+  .process-title-subtitle-container h1 {
+    font-size: 1.5rem;
+  }
 
+  .process-title-subtitle-container p {
+    font-size: 0.8rem;
+  }
 
+  .process-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .process-card p {
+    font-size: 0.8rem;
+  }
+}

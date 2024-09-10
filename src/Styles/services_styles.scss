@@ -1,436 +1,278 @@
-// .services-content-wrapper { 
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     // background-color: rgb(70, 8, 70);
-//     background-color: rgb(44, 28, 44);
-//     color: white;
-//     font-family: sans-serif;
-// }
-
-// .services-content-wrapper h1 { 
-//     font-size: 2rem;
-// }
-
-// .services-card-wrapper { 
-//     display: flex;
-//     gap: 1em;
-//     flex-wrap: wrap;
-// } 
-
-// .service-card-set-1,
-// .service-card-set-2 { 
-//     display: flex;
-//     gap: 1em;
-//     flex-wrap: wrap;
-// }
-
-// .service-card-styles { 
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     width: 16em;
-//     border: 1px solid white;
-//     text-align: center;
-//     border-radius: 5%;
-// }
-
-// .service-card-img { 
-//     // width: 15em;
-//     width: 100%;
-//     border-radius: 5%;
-// }
-
-// .service-card-body { 
-//     padding: 0.5em;
-//     font-family: sans-serif;
-// }
-
-// .service-card-title-text { 
-//     font-size: 1.5rem;
-//     padding: 0.2em;
-// } 
-
-// .service-card-title-text,
-// .service-card-body-text { 
-//     font-family: sans-serif;
-// }
-
-// .service-card-learn-more-btn { 
-//     padding: 0.2em;
-//     border-radius: 5%;
-//     border: none;
-//     font-size: 1.2rem;
-// }
-
-// .service-card-learn-more-btn:hover { 
-//     cursor: pointer;
-// }
-
-// @media (max-width: 1200px) { 
-//     .services-card-wrapper { 
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         flex-wrap: wrap;
-//     }
-// }
-
-// @media (max-width: 600px) { 
-//     .services-card-wrapper { 
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         flex-wrap: wrap;
-//     }
-
-//     .service-card-set-1,
-//     .service-card-set-2 { 
-//         display: flex;
-//         justify-content: center;
-//     }
-
- 
-// }
-
-
-
-
-
-
-
-.services-tab-content-wrapper { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
+.services-tab-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
 }
 
-.services-header-wrapper { 
-    position: relative;
-    height: 82vh;
-    width: 100%;
-    background-image: url('/assets/person-disinfecting-dangerous-area-while-wearing-protective-suit.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.services-header-wrapper {
+  position: relative;
+  height: 82vh;
+  width: 100%;
+  background-image: url('/assets/person-disinfecting-dangerous-area-while-wearing-protective-suit.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .services-header-wrapper::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-    z-index: 1;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
-.services-header-btn-wrapper { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    z-index: 2; /* Ensure it is above the overlay */
-    top: 55%;
-
-
+.services-header-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  top: 55%;
 }
 
-.services-header-btn-wrapper h1 { 
-    padding-top: 0.7em;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    font-size: 5rem;
+.services-header-btn-wrapper h1 {
+  padding-top: 0.7em;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 5rem;
 }
 
-.services-btn-container { 
-    display: flex;
-    align-items: center;
-    gap: 1.5em;
+.services-btn-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
 }
 
-.services-btn-container button { 
-    font-family: "Poppins", sans-serif;
-    border: none;
-    background: none;
-    color: white;
+.services-btn-container button {
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  background: none;
+  color: white;
 }
 
-.services-btn-container button:nth-child(3) { 
-    text-decoration: underline;
+.services-btn-container button:nth-child(3) {
+  text-decoration: underline;
 }
 
-
-.title-cards-container { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    // padding-top: 0.5em;
-    // padding: 2em 1em; /* Added padding to give space */
-    // background-color: white; /* Background color to differentiate */
-    // z-index: 2; /* Ensure it is above the overlay */
-    // width: 100%;
+.title-cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-// .title-cards-container h1:nth-child(1) { 
-//     font-size: 1rem;
-// }
-
-.trusted-source-text-styles { 
-    color: darkorange;
+.trusted-source-text-styles {
+  color: darkorange;
 }
 
-.title-cards-container * { 
-    font-family: "Poppins", sans-serif;
+.title-cards-container * {
+  font-family: 'Poppins', sans-serif;
 }
 
-.title-cards-container h1 { 
-    padding-top: 0.5em;
+.title-cards-container h1 {
+  padding-top: 0.5em;
 }
 
-.service-container-cards-wrapper { 
-    display: flex;
-    flex-direction: column;
+.service-container-cards-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
-.service-container { 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
-    gap: 1.5em;
+.service-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  gap: 1.5em;
 }
 
-.service-content-container { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
+.service-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .service-content-container p,
-.service-content-container ul { 
-    font-size: 1.2rem;
+.service-content-container ul {
+  font-size: 1.2rem;
 }
 
-.service-content-container li { 
-    padding-bottom: 0.5em;
+.service-content-container li {
+  padding-bottom: 0.5em;
 }
 
-
-
-
-.service-content-container h1 { 
-    color: darkorange;
+.service-content-container h1 {
+  color: darkorange;
 }
 
-.service-content-container * { 
-    font-family: "Poppins", sans-serif;
+.service-content-container * {
+  font-family: 'Poppins', sans-serif;
 }
 
-.service-container img { 
-    width: 35em;
-    border-radius: 1em;
-    
+.service-container img {
+  width: 35em;
+  border-radius: 1em;
 }
 
-.service-content-container p, ul { 
-    max-width: 50em;  
+.service-content-container p,
+ul {
+  max-width: 50em;
 }
 
-.features-header-text { 
-    color: darkorange;
+.features-header-text {
+  color: darkorange;
 }
 
-.li-header-text { 
-    font-weight: bold;
-    color: rgb(0, 47, 71);
+.li-header-text {
+  font-weight: bold;
+  color: rgb(0, 47, 71);
 }
 
-.service-content-container ul { 
-    text-align: left;
+.service-content-container ul {
+  text-align: left;
 }
 
-// .services-li-container { 
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     text-align: left;
-// }
-
-.expertise-wrapper { 
-    display: flex;
-    // justify-content: center;
-    // align-items: center;
+.expertise-wrapper {
+  display: flex;
 }
 
-.expertise-container { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60em;
-    height: 30em;
-    background-color: rgb(0, 47, 71);
-    border-radius: 1em;
-} 
-
-// .expertise-stats-container-wrapper { 
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: flex-start;
-//     align-items: center;
-//     width: 50em;
-//     height: 25em;
-//     border-radius: 1em;
-//     background-color: rgb(247, 237, 182);
-// } 
-
-.expertise-stats-container-wrapper * { 
-    font-family: "Poppins", sans-serif;
+.expertise-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60em;
+  height: 30em;
+  background-color: rgb(0, 47, 71);
+  border-radius: 1em;
 }
 
-.expertise-stats-container-wrapper p:nth-child(1) { 
-    color: green;
-    font-size: 1.2rem;
-    text-decoration: underline;
+.expertise-stats-container-wrapper * {
+  font-family: 'Poppins', sans-serif;
 }
 
-.exceptional-results-text { 
-    color: darkorange;
+.expertise-stats-container-wrapper p:nth-child(1) {
+  color: green;
+  font-size: 1.2rem;
+  text-decoration: underline;
 }
 
-
-.expertise-stats-container-wrapper p { 
-    max-width: 20em;
-    text-align: center;
+.exceptional-results-text {
+  color: darkorange;
 }
 
-.professional-abilities-container { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5em;
-    
+.expertise-stats-container-wrapper p {
+  max-width: 20em;
+  text-align: center;
 }
 
-.progress { 
-    display: flex;
-    flex-direction: column;
-    height: 4px;
-    background-color: #e9ecef;
-    width: 75%;
+.professional-abilities-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
 }
 
-
-/* new styles for stats container */ 
-
-
-.expertise-wrapper { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // padding-bottom: 2em;
+.progress {
+  display: flex;
+  flex-direction: column;
+  height: 4px;
+  background-color: #e9ecef;
+  width: 75%;
 }
 
-.expertise-container * { 
-    font-family: "Poppins", sans-serif;
+.expertise-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.expertise-container { 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    // align-items: center;
-    // justify-content: flex-start;
-    padding: 1em;
-    background-color: rgb(0, 47, 71);
+.expertise-container * {
+  font-family: 'Poppins', sans-serif;
 }
 
-.expertise-container h5 { 
-    color: rgb(57, 181, 74);
+.expertise-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: rgb(0, 47, 71);
 }
 
-
-.description-text-expertise-header { 
-    color: white;
-    max-width: 30em;
-    text-align: center;
+.expertise-container h5 {
+  color: rgb(57, 181, 74);
 }
 
-
-.stats-wrapper { 
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    // align-items: flex-end;
+.description-text-expertise-header {
+  color: white;
+  max-width: 30em;
+  text-align: center;
 }
 
-.expertise-header-container { 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+.stats-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-
-.expertise-container h1 { 
-    color: white;
+.expertise-header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-
-.exceptional-results-text h1 { 
-    color: darkorange;
+.expertise-container h1 {
+  color: white;
 }
 
-.stats-container * { 
-    font-family: "Poppins", sans-serif;
+.exceptional-results-text h1 {
+  color: darkorange;
+}
+
+.stats-container * {
+  font-family: 'Poppins', sans-serif;
 }
 
 .customers-served-container,
 .five-star-review-container,
-.years-operating-container { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 0.5em;
+.years-operating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5em;
 }
 
-
-
-.stats-container { 
-    display: flex;
-    flex-direction: row;
-    gap: 2em;
+.stats-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
 }
 
-.stats-container h3:nth-child(2) { 
-    color: white;
+.stats-container h3:nth-child(2) {
+  color: white;
 }
 
-.stats-container h3:nth-child(3) { 
-    color: darkorange;
-    
+.stats-container h3:nth-child(3) {
+  color: darkorange;
 }
 
 .customers-served-container img,
 .five-star-review-container img,
-.years-operating-container img { 
-    width: 2em;
+.years-operating-container img {
+  width: 2em;
 }
 
 #ant-section,
@@ -438,292 +280,67 @@
 #rodents-section,
 #mosquito-section,
 #flea-section,
-#spider-section { 
-    // scroll-margin-top: 100px;
-    scroll-margin-top: 4em;
+#spider-section {
+  scroll-margin-top: 4em;
 }
 
-
-
-
-@media (max-width: 1250px) { 
-    .service-container { 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+@media (max-width: 1250px) {
+  .service-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-@media (max-width: 1000px) { 
-    .service-container img { 
-        width: 30em;
-    }
+@media (max-width: 1000px) {
+  .service-container img {
+    width: 30em;
+  }
 
-    .service-content-container p, 
-    .service-content-container ul { 
-        font-size: 1rem;
-    }
-
-
+  .service-content-container p,
+  .service-content-container ul {
+    font-size: 1rem;
+  }
 }
 
-
-
-@media (max-width: 890px) { 
-    // .title-cards-container h1 { 
-    //     font-size: 2rem;
-    // }
-
-    .title-cards-container h1:nth-child(1) { 
-        max-width: 15em;
-    }
-
+@media (max-width: 890px) {
+  .title-cards-container h1:nth-child(1) {
+    max-width: 15em;
+  }
 }
 
+@media (max-width: 570px) {
+  .services-header-btn-wrapper h1 {
+    padding-top: 1em;
+    font-size: 3rem;
+  }
 
-
-
-@media (max-width: 570px) { 
-    .services-header-btn-wrapper h1 { 
-        padding-top: 1em;
-        font-size: 3rem;
-    }
-
-    .service-content-container p, 
-    .service-content-container ul { 
-        font-size: 0.9rem;
-    }
+  .service-content-container p,
+  .service-content-container ul {
+    font-size: 0.9rem;
+  }
 }
 
-
-@media (max-width: 530px) { 
-    .service-container img { 
-        width: 22em;
-    }
+@media (max-width: 530px) {
+  .service-container img {
+    width: 22em;
+  }
 }
 
-@media (max-width: 500px) { 
-    .service-content-container h1 { 
-        font-size: 1.8rem;
-    }
+@media (max-width: 500px) {
+  .service-content-container h1 {
+    font-size: 1.8rem;
+  }
 }
 
-@media (max-width: 400px) { 
-    .service-container img { 
-        width: 16em;
-    }
+@media (max-width: 400px) {
+  .service-container img {
+    width: 16em;
+  }
 
-    .service-content-container h1,
-    .features-header-text { 
-        font-size: 1.2rem;
-    }
-
-
-   
-
+  .service-content-container h1,
+  .features-header-text {
+    font-size: 1.2rem;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// previous styles 
-
-// .services-tab-content-wrapper { 
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 100%;
-//     height: 100vh;
-//     // background-image: url('../assets/ali-morshedlou-WMD64tMfc4k-unsplash.jpg');
-    
-// }
-
-// .services-header-wrapper { 
-//     position: relative;
-//     height: 80vh;
-//     width: 100%;
-//     // background-image: url('../assets/person-white-chemical-protection-suit-holding-sprayer-with-disinfectant-chemicals-stop-spreading-highly-contagious-virus.jpg');
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     background-image: url('../assets/person-disinfecting-dangerous-area-while-wearing-protective-suit.jpg');
-//     background-size: cover;
-//     opacity: 1;
-//     // display: flex;
-//     // justify-content: center;
-//     // align-items: center;
-
-// }
-
-// .services-header-btn-wrapper { 
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     flex-direction: column;
-//     position: relative;
-//     // top: 4em;
-//     // right: 15em;
-//     // left: 2em;
-
-// }
-
-// .services-header-btn-wrapper h1 { 
-//     color: white;
-//     font-family: "Poppins", sans-serif;
-//     font-size: 4rem;
-//     // position: relative;
-//     // left: 1em;
-// }
-
-
-// .services-btn-container { 
-//     display: flex;
-//     align-items: center;
-    
-//     gap: 1.5em;
-//     // position: relative;
-//     // right: 1em;
-// }
-
-// .services-btn-container button { 
-//     font-family: "Poppins", sans-serif;
-//     border: none;
-//     outline: none;
-//     background: none;
-//     color: white;
-// }
-
-// .services-btn-container button:nth-child(3) { 
-//     text-decoration: underline;
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .services-header-wrapper {
-//     position: relative;
-//     height: 100vh;
-//     width: 100%;
-// }
-
-// .services-header-wrapper::before {
-//     content: '';
-//     position: absolute;
-//     background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black */
-//     top: 0;
-//     left: 0;
-//     height: 100%;
-//     width: 100%;
-//     background-image: url('../assets/person-white-chemical-protection-suit-holding-sprayer-with-disinfectant-chemicals-stop-spreading-highly-contagious-virus.jpg');
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     background-size: cover; /* or contain, depending on your needs */
-//     opacity: 1; 
-//     z-index: 1; /* Ensure it stays behind the content */
-// }
-
-
-
-
-

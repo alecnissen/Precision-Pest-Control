@@ -22,11 +22,8 @@ export default function Modal({ isOpen, onClose }) {
                   <a href="">Mosquitos</a>
                   <a href="">Rats</a>
                   <a href="">Spiders</a>
-                  {/* Other links... */}
                 </div>
               </div>
-
-              {/* Other dropdowns... */}
 
               <div className="dropdown">
                 <button>Service Areas</button>

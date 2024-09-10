@@ -17,8 +17,6 @@ export default function Reviews() {
       <div className="reviews-content-wrapper">
         <div className="reviews-header-container">
           <h1>Hear From Our Customers!</h1>
-
-          {/* <h1>Discover Why Prodigy Pest Solutions Is The Best!</h1> */}
         </div>
 
         <div className="reviews-text-photo-container">
@@ -72,9 +70,9 @@ export default function Reviews() {
 
           <div className="reviews-text-container">
             <p>
-              "Precision Pest Control exceeded our expectations with their exceptional pest control services. Their team was
-              prompt, courteous, and extremely knowledgeable. They addressed our pest issue swiftly and effectively, and
-              we haven't seen a single pest since their visit. We are thrilled with the results and highly recommend
+              "Precision Pest Control exceeded our expectations with their exceptional pest control services. Their team
+              was prompt, courteous, and extremely knowledgeable. They addressed our pest issue swiftly and effectively,
+              and we haven't seen a single pest since their visit. We are thrilled with the results and highly recommend
               Precision Pest Control to anyone dealing with pest problems."
             </p>
 
@@ -83,12 +81,9 @@ export default function Reviews() {
         </div>
       </div>
 
-
-      <div className='reviews-footer-wrapper'> 
-      <Footer></Footer>
+      <div className="reviews-footer-wrapper">
+        <Footer></Footer>
       </div>
-
-
     </>
   );
 }

@@ -1,94 +1,80 @@
-.insect-cards-content-wrapper { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding-top: 1em;
+.insect-cards-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-top: 1em;
 }
 
-.insect-cards-content-wrapper * { 
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    // font-size: 1.2rem;
-    font-size: 1.1rem;
-} 
-
-
-
-.insect-card { 
-    width: 11em;
-    height: auto;
-    background-color: rgb(0, 47, 71);
-    color: white;
-    text-align: center;
-    padding: 1em;
-    border-radius: 5%;
-    text-decoration: none;
+.insect-cards-content-wrapper * {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.1rem;
 }
 
-.insect-card img { 
-    background-color: white;
-    padding: 0.5em;
-    border-radius: 0.5em;
+.insect-card {
+  width: 11em;
+  height: auto;
+  background-color: rgb(0, 47, 71);
+  color: white;
+  text-align: center;
+  padding: 1em;
+  border-radius: 5%;
+  text-decoration: none;
 }
 
+.insect-card img {
+  background-color: white;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
 
-
-.insect-card h3 { 
-    padding-top: 1em;
+.insect-card h3 {
+  padding-top: 1em;
 }
 
 .insect-cards-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-    flex-wrap: wrap;
-    padding: 1em;
-    // max-width: 40em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
+  padding: 1em;
 }
 
-.insect-cards-container a { 
-    text-decoration: none;
+.insect-cards-container a {
+  text-decoration: none;
 }
 
+@media (max-width: 1330px) {
+  .insect-cards-content-wrapper * {
+    font-size: 1rem;
+  }
 
-
-@media (max-width: 1330px) { 
-    .insect-cards-content-wrapper * { 
-        font-size: 1rem;
-    }
-
-
-    .insect-card img { 
-        width: 3em;
-    }
+  .insect-card img {
+    width: 3em;
+  }
 }
 
-@media (max-width: 1170px) { 
-    .insect-cards-container { 
-        max-width: 50em;
-    }
+@media (max-width: 1170px) {
+  .insect-cards-container {
+    max-width: 50em;
+  }
 }
 
-
-@media (max-width: 1072px) { 
-    .insect-cards-container { 
-        max-width: 50em;
-    }
+@media (max-width: 1072px) {
+  .insect-cards-container {
+    max-width: 50em;
+  }
 }
 
+@media (max-width: 765px) {
+  .insect-cards-content-wrapper * {
+    font-size: 0.8rem;
+  }
 
-@media (max-width: 765px) { 
-    .insect-cards-content-wrapper * { 
-        font-size: 0.8rem;
-    }
-
-    .insect-card { 
-        width: 9em;
-    }
-
+  .insect-card {
+    width: 9em;
+  }
 }
-
-

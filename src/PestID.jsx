@@ -17,11 +17,10 @@ import Footer from './Footer';
 import PaymentPlansServicePage from './PaymentPlansServicesPage';
 import antBackgroundImg from '../assets/peter-f-wolf-XG8eYNYdz54-unsplash.jpg';
 
-import { useEffect, useRef } from "react";
-import { useLocation } from "react-router-dom";
+import { useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export default function PestID() {
-
   const location = useLocation();
   const antSection = useRef(null);
   const bedBugSection = useRef(null);
@@ -31,36 +30,31 @@ export default function PestID() {
   const fleaSection = useRef(null);
   const spiderSection = useRef(null);
 
-
   useEffect(() => {
     const hash = location.hash;
     console.log('Current hash:', hash); // Debugging
     if (hash === '#ant-section') {
       antSection.current.scrollIntoView({ behavior: 'smooth' });
-    } else if (hash === '#bed-bug-section') { 
+    } else if (hash === '#bed-bug-section') {
       bedBugSection.current.scrollIntoView({ behavior: 'smooth' });
-    } else if (hash === '#cockroaches-section') { 
+    } else if (hash === '#cockroaches-section') {
       cockroachSection.current.scrollIntoView({ behavior: 'smooth' });
-    } else if (hash === '#rodents-section') { 
+    } else if (hash === '#rodents-section') {
       rodentsSection.current.scrollIntoView({ behavior: 'smooth' });
-    } else if (hash === '#mosquito-section') { 
+    } else if (hash === '#mosquito-section') {
       mosquitoSection.current.scrollIntoView({ behavior: 'smooth' });
-    } else if (hash === '#flea-section') { 
+    } else if (hash === '#flea-section') {
       fleaSection.current.scrollIntoView({ behavior: 'smooth' });
-    } else if (hash === '#spider-section') { 
+    } else if (hash === '#spider-section') {
       spiderSection.current.scrollIntoView({ behavior: 'smooth' });
-    } 
+    }
   }, [location]);
-
 
   const { pathname } = useLocation();
 
   useEffect(() => {
-      window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }, [pathname]);
-
-
-
 
   return (
     <>
@@ -159,12 +153,10 @@ export default function PestID() {
 
             <div className="services-btn-container-2">
               <h3>Learn More Details About Our Treatment Options!</h3>
-              
+
               <Link to="/Services#ant-section">
-              <button>Pest Services</button>
+                <button>Pest Services</button>
               </Link>
-
-
             </div>
           </div>
         </div>
@@ -221,74 +213,11 @@ export default function PestID() {
               <h3>Learn More Details About Our Treatment Options!</h3>
 
               <Link to="/Services#bed-bug-section">
-              <button>Pest Services</button>
+                <button>Pest Services</button>
               </Link>
-
             </div>
           </div>
         </div>
-
-        {/* <div className="service-container-2" id="cockroaches-section" ref={cockroachSection}>
-          <h1>Cockroaches</h1>
-          <img src={cockroachImg}></img>
-
-          <div className="service-content-container-2">
-            <h1>Facts About Cockroaches</h1>
-
-            <p>
-              Cockroaches are ancient insects that have been around for millions of years, with over 4,500 species
-              worldwide. They are known for their resilience and adaptability, able to survive in a wide range of
-              environments, including urban areas, forests, and deserts. Cockroaches are scavengers, feeding on almost
-              anything, including food scraps, paper, and even glue.
-            </p>
-
-            <h3 className="features-header-text-2">How to Identify</h3>
-
-            <ul>
-              <li>
-                <span className="li-header-text-2">Size and Shape: </span>Cockroaches vary in size depending on the
-                species, but most are oval-shaped and range from about 1/2 to 2 inches in length.
-              </li>
-              <li>
-                <span className="li-header-text-2">Color: </span>They can be brown, black, or reddish-brown, with some
-                species exhibiting distinctive markings or patterns on their bodies.
-              </li>
-              <li>
-                <span className="li-header-text-2">Antennae: </span> Cockroaches have long, flexible antennae that are
-                often as long as or longer than their bodies. These antennae are used for sensing their environment and
-                detecting food sources.
-              </li>
-            </ul>
-
-            <h3 className="features-header-text-2">How to Treat</h3>
-
-            <ul>
-              <li>
-                <span className="li-header-text-2">Bait Stations: </span>Place bait stations in areas where cockroaches
-                are frequently seen, as they will be attracted to the bait and carry it back to their nest, effectively
-                eliminating the colony.
-              </li>
-              <li>
-                <span className="li-header-text-2">Sealing Entry Points: </span> Seal cracks and crevices in walls,
-                floors, and around pipes to prevent cockroaches from entering your home.
-              </li>
-              <li>
-                <span className="li-header-text-2">Sanitation: </span> Keep your home clean and free of food crumbs and
-                spills, as cockroaches are attracted to food sources. Regularly clean kitchen appliances and cabinets to
-                remove food residues.
-              </li>
-            </ul>
-
-            <div className="services-btn-container-2">
-              <h3>Learn More Details About Our Treatment Options!</h3>
-
-              <Link to="/Services#cockroaches-section">
-              <button>Pest Services</button>
-              </Link>
-
-            </div>
-          </div>
-        </div> */}
 
         <div className="service-container-2" id="rodents-section" ref={rodentsSection}>
           <h1>Rodents</h1>
@@ -351,10 +280,8 @@ export default function PestID() {
               <h3>Learn More Details About Our Treatment Options!</h3>
 
               <Link to="/Services#rodents-section">
-              <button>Pest Services</button>
+                <button>Pest Services</button>
               </Link>
-
-
             </div>
           </div>
         </div>
@@ -411,10 +338,9 @@ export default function PestID() {
             <div className="services-btn-container-2">
               <h3>Learn More Details About Our Treatment Options!</h3>
 
-              <Link to="/Services#mosquito-section"> 
-              <button>Pest Services</button>
+              <Link to="/Services#mosquito-section">
+                <button>Pest Services</button>
               </Link>
-
             </div>
           </div>
         </div>
@@ -472,11 +398,9 @@ export default function PestID() {
             <div className="services-btn-container-2">
               <h3>Learn More Details About Our Treatment Options!</h3>
 
-
               <Link to="/Services#flea-section">
-              <button>Pest Services</button>
+                <button>Pest Services</button>
               </Link>
-
             </div>
           </div>
         </div>
@@ -523,13 +447,16 @@ export default function PestID() {
 
             <ul>
               <li>
-                <span className="li-header-text-2">Eight Legs: </span>Spiders have eight legs, distinguishing them from insects, which have six legs.
+                <span className="li-header-text-2">Eight Legs: </span>Spiders have eight legs, distinguishing them from
+                insects, which have six legs.
               </li>
               <li>
-                <span className="li-header-text-2">Two Body Segments: </span>Spiders have two main body segments: the cephalothorax (head and thorax combined) and the abdomen.
+                <span className="li-header-text-2">Two Body Segments: </span>Spiders have two main body segments: the
+                cephalothorax (head and thorax combined) and the abdomen.
               </li>
               <li>
-                <span className="li-header-text-2">Silk Production: </span> Spiders produce silk from spinnerets located at the rear of their abdomen, which they use to build webs, wrap prey, and create egg sacs.
+                <span className="li-header-text-2">Silk Production: </span> Spiders produce silk from spinnerets located
+                at the rear of their abdomen, which they use to build webs, wrap prey, and create egg sacs.
               </li>
             </ul>
 
@@ -537,36 +464,28 @@ export default function PestID() {
 
             <ul>
               <li>
-                <span className="li-header-text-2">Remove Clutter: </span> Clear away clutter and debris from indoor and outdoor areas to eliminate hiding spots for spiders.
+                <span className="li-header-text-2">Remove Clutter: </span> Clear away clutter and debris from indoor and
+                outdoor areas to eliminate hiding spots for spiders.
               </li>
               <li>
-                <span className="li-header-text-2">Seal Entry Points: </span> Seal cracks, gaps, and openings around windows, doors, and foundation to prevent spiders from entering buildings.
+                <span className="li-header-text-2">Seal Entry Points: </span> Seal cracks, gaps, and openings around
+                windows, doors, and foundation to prevent spiders from entering buildings.
               </li>
               <li>
-                <span className="li-header-text-2">Regular Cleaning:  </span> Regularly clean and vacuum indoor spaces, especially corners, ceilings, and behind furniture, to remove webs and spiders.
+                <span className="li-header-text-2">Regular Cleaning: </span> Regularly clean and vacuum indoor spaces,
+                especially corners, ceilings, and behind furniture, to remove webs and spiders.
               </li>
             </ul>
 
             <div className="services-btn-container-2">
               <h3>Learn More Details About Our Treatment Options!</h3>
-              
-              <Link to="/Services#spider-section"> 
-              <button>Pest Services</button>
-              </Link>
 
+              <Link to="/Services#spider-section">
+                <button>Pest Services</button>
+              </Link>
             </div>
           </div>
         </div>
-
-
-
-
-
-
-
-
-
-
       </div>
 
       <Footer></Footer>

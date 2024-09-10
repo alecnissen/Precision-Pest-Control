@@ -1,110 +1,92 @@
-.contact-links-content-wrapper { 
-   display: flex;
-   justify-content: space-between;
-   background-color: rgb(37, 1, 37);
-   padding: 0.3em;
-   color: gray;
-   border-bottom: 2px solid black;
-//    position: fixed;
+.contact-links-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(37, 1, 37);
+  padding: 0.3em;
+  color: gray;
+  border-bottom: 2px solid black;
 }
 
-.contact-links-content-wrapper * { 
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+.contact-links-content-wrapper * {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
-.phone-email-hours-container { 
-    display: flex;
-    align-items: center;
-    color: white;
-    // gap: 1em;
-} 
-
-.social-media-icons-container { 
-    display: flex;
-    // gap: 1em;
-    // padding: 0.5em;
+.phone-email-hours-container {
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
-.social-media-icons-container img { 
-    width: 2em;
-    
+.social-media-icons-container {
+  display: flex;
 }
 
-.phone-container-contact-header { 
-    display: flex;
-    align-items: center;
-    padding: 0.5em;
-    height: 100%;
-    border-left: 2px solid darkgray;
-    border-right: 2px solid darkgray;
+.social-media-icons-container img {
+  width: 2em;
 }
 
-.email-container-contact-header { 
-    display: flex;
-    align-items: center;
-    padding: 0.5em;
-    height: 100%;
-    border-right: 2px solid darkgray;
+.phone-container-contact-header {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  height: 100%;
+  border-left: 2px solid darkgray;
+  border-right: 2px solid darkgray;
 }
 
-
-.hours-container-contact-header { 
-    display: flex;
-    align-items: center;
-    padding: 0.5em;
-    border-right: 2px solid darkgray;
-    height: 100%;
+.email-container-contact-header {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  height: 100%;
+  border-right: 2px solid darkgray;
 }
 
-.insta-icon-container-contact-header { 
-    display: flex;
-    align-items: center;
-    padding: 0.5em;
-    border-left: 2px solid darkgray;
-    border-right: 2px solid darkgray;
-    height: 100%;
+.hours-container-contact-header {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  border-right: 2px solid darkgray;
+  height: 100%;
 }
 
-.fb-container-contact-header { 
-    display: flex;
-    align-items: center;
-    padding: 0.5em;
-    border-right: 2px solid darkgray;
-    height: 100%;
+.insta-icon-container-contact-header {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  border-left: 2px solid darkgray;
+  border-right: 2px solid darkgray;
+  height: 100%;
 }
 
-.linkedin-container-contact-header { 
-    display: flex;
-    align-items: center;
-    padding: 0.5em;
-    border-right: 2px solid darkgray;
-    height: 100%;
+.fb-container-contact-header {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  border-right: 2px solid darkgray;
+  height: 100%;
 }
 
-
-@media (max-width: 800px) { 
-    .contact-links-content-wrapper * { 
-        font-size: 0.7rem;
-    } 
+.linkedin-container-contact-header {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  border-right: 2px solid darkgray;
+  height: 100%;
 }
 
+@media (max-width: 800px) {
+  .contact-links-content-wrapper * {
+    font-size: 0.7rem;
+  }
+}
 
-@media (max-width: 600px) { 
-    // .contact-links-content-wrapper  { 
-    //     display: flex;
-    //     flex-direction: column;
-    //     justify-content: center;
-    //     align-items: center;
-    // }
-
-
-    .phone-container-contact-header p,
-    .email-container-contact-header p,
-    .hours-container-contact-header p { 
-        display: none;
-    }
-
-
+@media (max-width: 600px) {
+  .phone-container-contact-header p,
+  .email-container-contact-header p,
+  .hours-container-contact-header p {
+    display: none;
+  }
 }

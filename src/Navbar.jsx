@@ -1,6 +1,5 @@
 import React from 'react';
 import arrowRightIcon from '../assets/arrowright-svgrepo-com.svg';
-// import ppsLogo from '../assets/PPS-logo.jpeg';
 
 import ppsLogo from '../assets/bug-fixing-svgrepo-com (1).svg';
 
@@ -49,10 +48,6 @@ export default function Navbar() {
       <div className="navbar-button-container">
         <div className="dropdown">
           <button>
-            {/* <Link to="/" className="header-link">
-              Home
-            </Link> */}
-
             <NavLink to="/" className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}>
               Home
             </NavLink>
@@ -61,10 +56,6 @@ export default function Navbar() {
 
         <div className="dropdown">
           <button>
-            {/* <Link to="/Services" className="header-link">
-              Services
-            </Link> */}
-
             <NavLink
               to="/Services"
               className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
@@ -76,7 +67,7 @@ export default function Navbar() {
           <div className="content">
             <Link to="/Services#ant-section">Ants</Link>
             <Link to="/Services#bed-bug-section">Bed Bugs</Link>
-            {/* <Link to="/Services#cockroaches-section">Cockroaches</Link> */}
+
             <Link to="/Services#rodents-section">Rodents</Link>
             <Link to="/Services#mosquito-section">Mosquitos</Link>
             <Link to="/Services#flea-section">Fleas</Link>
@@ -86,10 +77,6 @@ export default function Navbar() {
 
         <div className="dropdown">
           <button>
-            {/* <Link to="/ServiceAreas" className="header-link">
-              Service Areas
-            </Link> */}
-
             <NavLink
               to="/ServiceAreas"
               className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
@@ -109,10 +96,6 @@ export default function Navbar() {
 
         <div className="dropdown">
           <button>
-            {/* <Link to="/PestID" className="header-link">
-              Pest ID
-            </Link> */}
-
             <NavLink to="/PestID" className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}>
               Pest ID
             </NavLink>
@@ -121,7 +104,6 @@ export default function Navbar() {
           <div className="content">
             <Link to="/PestID#ant-section">Ants</Link>
             <Link to="/PestID#bed-bug-section">Bed Bugs</Link>
-            {/* <Link to="/PestID#cockroaches-section">Cockroaches</Link> */}
             <Link to="/PestID#rodents-section">Rodents</Link>
             <Link to="/PestID#mosquito-section">Mosquitos</Link>
             <Link to="/PestID#flea-section">Fleas</Link>
@@ -131,10 +113,6 @@ export default function Navbar() {
 
         <div className="dropdown">
           <button>
-            {/* <Link to="/Contact" className="header-link">
-              Contact
-            </Link> */}
-
             <NavLink to="/Contact" className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}>
               Contact
             </NavLink>
@@ -143,10 +121,6 @@ export default function Navbar() {
 
         <div className="dropdown">
           <button>
-            {/* <Link to="/Reviews" className="header-link">
-              Reviews
-            </Link> */}
-
             <NavLink to="/Reviews" className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}>
               Reviews
             </NavLink>
@@ -166,10 +140,6 @@ export default function Navbar() {
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  {/* <Link to="/" onClick={handleCanvasClose}>
-                    Home
-                  </Link> */}
-
                   <NavLink
                     to="/"
                     className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
@@ -182,10 +152,6 @@ export default function Navbar() {
 
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  {/* <Link to="/Services" onClick={handleCanvasClose}>
-                    Services
-                  </Link> */}
-
                   <NavLink
                     to="/Services"
                     className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
@@ -218,10 +184,6 @@ export default function Navbar() {
 
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  {/* <Link to="/ServiceAreas" onClick={handleCanvasClose}>
-                    Service Areas
-                  </Link> */}
-
                   <NavLink
                     to="/ServiceAreas"
                     className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
@@ -251,10 +213,6 @@ export default function Navbar() {
 
               <Accordion.Item eventKey="3">
                 <Accordion.Header>
-                  {/* <Link to="/PestID" onClick={handleCanvasClose}>
-                    Pest ID
-                  </Link> */}
-
                   <NavLink
                     to="/PestID"
                     className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
@@ -287,10 +245,6 @@ export default function Navbar() {
 
               <Accordion.Item eventKey="4">
                 <Accordion.Header>
-                  {/* <Link to="/Contact" onClick={handleCanvasClose}>
-                    Contact
-                  </Link> */}
-
                   <NavLink
                     to="/Contact"
                     className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}
@@ -303,10 +257,6 @@ export default function Navbar() {
 
               <Accordion.Item eventKey="5">
                 <Accordion.Header>
-                  {/* <Link to="/Reviews" onClick={handleCanvasClose}>
-                    Reviews
-                  </Link> */}
-
                   <NavLink
                     to="/Reviews"
                     className={({ isActive }) => (isActive ? 'active-link header-link' : 'header-link')}

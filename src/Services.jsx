@@ -49,32 +49,6 @@ export default function Services() {
     }
   }, [location]);
 
-  // const scrollToSection = (sectionRef) => {
-  //   const yOffset = -100; // Adjust this value as needed
-  //   const y = sectionRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
-  //   window.scrollTo({ top: y, behavior: 'smooth' });
-  // };
-
-  // useEffect(() => {
-  //   const hash = location.hash;
-  //   console.log('Current hash:', hash); // Debugging
-  //   if (hash === '#ant-section') {
-  //     scrollToSection(antSection);
-  //   } else if (hash === '#bed-bug-section') {
-  //     scrollToSection(bedBugSection);
-  //   } else if (hash === '#cockroaches-section') {
-  //     scrollToSection(cockroachSection);
-  //   } else if (hash === '#rodents-section') {
-  //     scrollToSection(rodentsSection);
-  //   } else if (hash === '#mosquito-section') {
-  //     scrollToSection(mosquitoSection);
-  //   } else if (hash === '#flea-section') {
-  //     scrollToSection(fleaSection);
-  //   } else if (hash === '#spider-section') {
-  //     scrollToSection(spiderSection);
-  //   }
-  // }, [location]);
-
   return (
     <>
       <Navbar></Navbar>
@@ -86,8 +60,6 @@ export default function Services() {
           </div>
         </div>
 
-        {/* <img src={servicesHeaderBackgroundImg} className='services-header-img'></img> */}
-
         <div className="title-cards-container">
           <h1>
             Your <span className="trusted-source-text-styles">Trusted Source</span> for Professional Pest Control
@@ -96,12 +68,8 @@ export default function Services() {
           <h1>
             <span className="trusted-source-text-styles">Explore Our Treatment Options</span>
           </h1>
-
-          {/* <InsectCards></InsectCards> */}
         </div>
       </div>
-
-      {/* <InsectCards></InsectCards> */}
 
       <div className="expertise-wrapper">
         <div className="expertise-container">
@@ -211,39 +179,6 @@ export default function Services() {
             </ul>
           </div>
         </div>
-
-        {/* <div className="service-container" id="cockroaches-section" ref={cockroachSection}>
-          <img src={cockroachImg}></img>
-
-          <div className="service-content-container">
-            <h1>Cockroaches Service Plan</h1>
-
-            <p>
-              A cockroach service plan provides a thorough and strategic approach to eliminate cockroach infestations
-              and prevent their recurrence in both residential and commercial settings. This plan encompasses detailed
-              inspections, targeted treatment methods, and ongoing monitoring to ensure long-lasting control.
-            </p>
-
-            <h3 className="features-header-text">Features Of The Plan</h3>
-
-            <ul>
-              <li>
-                <span className="li-header-text">Comprehensive Assessments: </span> Skilled technicians perform
-                exhaustive inspections to identify key infestation areas, entry points, and the severity of the problem.
-              </li>
-              <li>
-                <span className="li-header-text">Strategic Treatments: </span>Utilizing a combination of baits,
-                insecticides, and traps, the plan targets cockroaches at their source, aiming to disrupt their life
-                cycles and prevent reproduction.
-              </li>
-              <li>
-                <span className="li-header-text">Ongoing Surveillance: </span> Regular follow-up visits and continuous
-                monitoring ensure the treatment's effectiveness, with proactive measures implemented to prevent future
-                infestations and maintain a pest-free environment.
-              </li>
-            </ul>
-          </div>
-        </div> */}
 
         <div className="service-container" id="rodents-section" ref={rodentsSection}>
           <img src={rodentsImg}></img>
@@ -382,8 +317,6 @@ export default function Services() {
           </div>
         </div>
       </div>
-
-      {/* <PaymentPlans></PaymentPlans> */}
 
       <PaymentPlansServicePage></PaymentPlansServicePage>
 

@@ -29,21 +29,6 @@ import { Link } from 'react-router-dom';
 export default function App() {
   return (
     <>
-      {/* <Navbar></Navbar>
-    <ImageTitleComponent></ImageTitleComponent>
-    <InsectCards></InsectCards>
-    <CommericalAndResidential></CommericalAndResidential>
-    <AboutUsHomepage></AboutUsHomepage>
-    <FeaturesHomepage></FeaturesHomepage>
-    <Process></Process>
-    <GalleryHomepage></GalleryHomepage>
-    <PaymentPlans></PaymentPlans>
-    <ContactForm></ContactForm>
-    <MeetYourTeam></MeetYourTeam>
-    <TestimonialsHomepage></TestimonialsHomepage> 
-    <GalleryHomepage2></GalleryHomepage2>
-    <Footer></Footer> */}
-
       <Routes>
         <Route path="/" element={<HomePage></HomePage>}></Route>
 
@@ -70,8 +55,6 @@ export default function App() {
         <Route path="/Services#flea-section" element={<Services></Services>}></Route>
 
         <Route path="/Services#spider-section" element={<Services></Services>}></Route>
-
-
       </Routes>
     </>
   );

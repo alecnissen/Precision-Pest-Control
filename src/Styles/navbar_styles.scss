@@ -7,11 +7,6 @@
   justify-content: space-around;
   align-items: center;
   gap: 3em;
-  // background-color: darkblue;
-  // background-color: rgb(44, 28, 44);
-  // background-color: rgb(2, 2, 49);
-  // background-color: rgb(57, 181, 74);
-  // background-color: rgb(38, 38, 38);
 
 
   background-color: rgb(0, 47, 71);
@@ -21,7 +16,6 @@
   padding: 0.5em;
   position: fixed;
   
-  // border-bottom: 2px solid white;
 }
 
 .navbar-content-wrapper * { 
@@ -36,17 +30,11 @@
 }
 
 .title-subtitle-container { 
-  // color: white;
-  // color: rgb(44, 28, 44);
-  // font-family: sans-serif;
   font-family: sans-serif;
 }
 
 .title-subtitle-container h1 { 
   font-size: 2.5rem;
-  // font-family: sans-serif;
-  // font-family: Georgia, 'Times New Roman', Times, serif;
-  // color: black;
   color: white;
 }
 
@@ -66,13 +54,7 @@
 .title-subtitle-container img { 
   width: 3em;
   border-radius: 5%;
-  // border: 2px solid black;
 }
-
-// .header-link { 
-//   text-decoration: none;
-//   color: white;
-// }
 
 .header-link,
 .navbar-content-wrapper button {
@@ -84,15 +66,6 @@
   color: white;
   z-index: 3000;
 }
-
-// .navbar-content-wrapper button {
-//   font-size: 1.1rem;
-//   border: none;
-
-//   background: none;
-//   color: white;
-  
-// }
 
 .navbar-button-container { 
   display: flex;
@@ -108,15 +81,7 @@
 
 .dropdown {
   display: block;
-
-  // position: relative;
 }
-
-// .dropdown a {
-//   display: block;
-//   text-decoration: none;
-//   padding: 0.3em;
-// }
 
 .dropdown .content {
   display: none;
@@ -137,7 +102,6 @@
 }
 
 .dropdown a:hover {
-  // color: red;
   color: darkorange;
 }
 
@@ -147,11 +111,8 @@
   display: block;
   text-decoration: none;
   padding: 0.3em;
-  // font-family: sans-serif;
-  // text-align: center;
 }
 
-/* apply the same content here for other */
 
 .dropdown .dropdown-for-stinging-pests .content-for-stinging-pests {
   display: none;
@@ -182,27 +143,19 @@
   min-width: 80px;
   box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
   border: 2px solid black;
-  // z-index: 3000;
 }
 
 .dropdown .dropdown-for-other-pests:hover .content-for-other-pests {
   display: block;
 }
 
-// .hamburger-menu-icon-navbar { 
-  
-// }
 
 .search-hamburger-icon-container { 
   display: none;
 
-  // align-items: center;
   
 }
 
-// .search-icon-navbar { 
-//   width: 2.2em;
-// }
 
 .navbar-content-wrapper button:hover {
   z-index: 3000; 
@@ -251,24 +204,15 @@
   cursor: pointer;
 }
 
-// .accordion-button:nth-child(1)::after,
-// .accordion-button:nth-child(5)::after,
-// .accordion-button:nth-child(6)::after {
-//     background-image: none;
-// }
 
-
-/* Remove background image for the 1st button */
 .accordion-item:nth-child(1) .accordion-button::after {
   background-image: none;
 }
 
-/* Remove background image for the 5th button */
 .accordion-item:nth-child(5) .accordion-button::after {
   background-image: none;
 }
 
-/* Remove background image for the 6th button */
 .accordion-item:nth-child(6) .accordion-button::after {
   background-image: none;
 }
@@ -291,7 +235,6 @@
 
 .offcanvas-title { 
   font-size: 0.92rem !important;
-  // padding: 0.5em !important;
 }
 
 
@@ -312,9 +255,6 @@
 
 @media (max-width: 1080px) { 
 
-  // decrease the size of the navbar header 
-  // and the font size of the navbar buttons 
-
   .title-subtitle-container h1 { 
     font-size: 1.8rem;
   }
@@ -322,10 +262,6 @@
   .title-logo-container { 
     align-items: flex-end;
   }
-
-  // .navbar-content-wrapper button { 
-  //   font-size: 0.9rem;
-  // }
 
   .navbar-content-wrapper button { 
     font-size: 0.8rem;
@@ -347,7 +283,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    // width: 100vw;
   }
 
   
@@ -362,7 +297,6 @@
     display: flex;
     align-items: center;
     gap: 1em;
-    // width: 2em;
   }
 
   
@@ -415,7 +349,7 @@
   }
 }
 
-// media query for the offcanvas, make the body, header smaller as well as the title 
+// media query for the offcanvas 
 
 @media (max-width: 450px) { 
   .offcanvas-body, .offcanvas-header { 
@@ -449,63 +383,9 @@
 }
 
 
-// @media (max-width: 1120px) { 
-//   // .navbar-button-container { 
-//   //   display: none;
-//   // }
-
-//   .navbar-content-wrapper { 
-//     padding: 0.3em;
-//   }
-
-//   .search-hamburger-icon-container { 
-//     display: flex;
-//     align-items: center;
-//     gap: 1em;
-//     // width: 2em;
-//   }
-
-//   // .search-icon-navbar { 
-//   //   width: 1.5em;
-//   // }
-
-//   .dropdown { 
-//     display: none;
-//   }
-
-//   .hamburger-menu-icon-navbar { 
-//     display: block;
-//     visibility: visible;
-//     // width: 2em;
-//   }
-
-  
-// }
-
-// @media (max-width: 680px) { 
 
 
-//   // .title-subtitle-container h1 { 
 
-
-//   //   // font-size: 1.5rem;
-//   //   // display: none;
-
-//   //   // font-size: 4rem;
-//   // }
-
-//   // .title-subtitle-container img { 
-//   //   width: 2.3em;
-//   // }
-
-
-// }
-
-// @media (max-width: 505px) { 
-//   .title-subtitle-container h1 { 
-//     font-size: 1.2rem;
-//   }
-// }
 
 
 

@@ -1,276 +1,191 @@
 .testimonial-content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 3em;
-    padding-top: 3rem;
-    background-color: rgb(0, 47, 71);
-    // width: 80em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3em;
+  padding-top: 3rem;
+  background-color: rgb(0, 47, 71);
 }
-
 
 #carousel-image {
-    height: 8rem;
-    
-    // width: 40em;
+  height: 8rem;
 }
 
-.carousel-control-next-icon { 
-    position: relative;
-    right: 6em;
+.carousel-control-next-icon {
+  position: relative;
+  right: 6em;
 }
-
 
 .testimonial-header-container * {
-    color: white;
-    font-family: "Poppins", sans-serif;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 .testimonial-img-container {
-    display: flex;
+  display: flex;
 }
 
 .testimonial-header-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .testimonial-header-container h3 {
-    font-size: 1.5rem;
-    font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .testimonial-header-container h1 {
-    font-weight: 500;
-    font-size: 2rem;
+  font-weight: 500;
+  font-size: 2rem;
 }
 
 .those-who-trust-text {
-    color: yellow;
+  color: yellow;
 }
 
 .carousel-content-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 30em;
-    color: white;
-    padding-left: 3em;
-    font-family: "Poppins", sans-serif;
-    font-size: 0.9rem;
-   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 30em;
+  color: white;
+  padding-left: 3em;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
 }
 
-.carousel-control-prev-icon { 
-    position: relative;
-    right: 2em;
+.carousel-control-prev-icon {
+  position: relative;
+  right: 2em;
 }
-
-// @media (max-width: 600px) {
-//     .testimonial-content-card-container {
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: center;
-//         align-items: center;
-//         background-color: rgb(0, 47, 71);
-//         padding: 2em;
-//         border-radius: 1em;
-//         width: 95% !important;
-//         margin-left: auto;
-//         margin-right: auto;
-//     }
-// }
-
-// @media (min-width: 601px) {
-//     .carousel-indicators {
-//         position: absolute;
-//         top: 15rem;
-//     }
-// }
-
-// @media (max-width: 600px) {
-//     .carousel-indicators {
-//         position: absolute;
-//     }
-// }
-
 
 .example-portriat-photo-1 {
-    width: 6em;
-    border-radius: 2em;
+  width: 6em;
+  border-radius: 2em;
 }
 
 .example-portriat-photo-2 {
-    width: 7em;
-    border-radius: 2em;
+  width: 7em;
+  border-radius: 2em;
 }
 
 .example-portriat-photo-3 {
-    width: 6em;
+  width: 6em;
 
-    border-radius: 2em;
+  border-radius: 2em;
 }
 
 .example-portriat-photo-4 {
-    width: 7em;
-    border-radius: 2em;
+  width: 7em;
+  border-radius: 2em;
 }
 
 #quote {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .example-img-1 {
-    width: 10em;
-    padding-bottom: 1em;
-    border-radius: 2em;
+  width: 10em;
+  padding-bottom: 1em;
+  border-radius: 2em;
 }
 
 .carousel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container p {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  max-width: 40em;
+}
+
+.bold-text {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.testimonial-text {
+  display: flex;
+  justify-content: center;
+  height: 25rem;
+  box-sizing: border-box;
+}
+
+// media queries
+
+@media (min-width: 1000px) {
+  #event-carousel-container {
+    display: flex;
+    align-items: center;
+    width: 60em;
+    padding: 5em;
+  }
+
+  .carousel-control-next-icon {
+    position: relative;
+    left: 2em;
+  }
+}
+
+@media (max-width: 999px) {
+  #event-carousel-container {
+    display: flex;
+    align-items: center;
+    max-width: 70em;
+    padding: 3em;
+    color: white;
+    text-align: center;
+  }
+
+  .carousel-control-next-icon {
+    position: relative;
+    left: 2em;
+  }
+}
+
+@media (min-width: 601px) {
+  .carousel-indicators {
+    position: absolute;
+    top: 15rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonial-content-card-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.carousel-container p {
-    color: white;
-    font-family: "Poppins", sans-serif;
-    max-width: 40em;
-}
-
-.bold-text {
-    font-weight: bold;
-    margin-top: .5rem;
-}
-
-.testimonial-text {
-    display: flex;
-    // align-items: center;
-    justify-content: center;
-    height: 25rem;
-    box-sizing: border-box;
+    background-color: rgb(0, 47, 71);
+    padding: 2em;
+    border-radius: 1em;
+    width: 95% !important;
+    margin-left: auto;
+    margin-right: auto;
   }
-
-
-
-
-  // media queries 
-
-  @media (min-width: 1000px) {
-    #event-carousel-container {
-        display: flex;
-        align-items: center;
-        width: 60em;
-        padding: 5em;
-    }
-
-    .carousel-control-next-icon { 
-        position: relative;
-        left: 2em;
-    }
 }
-
-@media (max-width: 999px) {
-    #event-carousel-container {
-        display: flex;
-        align-items: center;
-        max-width: 70em;
-        padding: 3em;
-        color: white;
-        text-align: center;
-    }
-
-    .carousel-control-next-icon { 
-        position: relative;
-        left: 2em;
-    }
-}
-
-@media (min-width: 601px) {
-    .carousel-indicators {
-        position: absolute;
-        top: 15rem;
-    }
-}
-
 
 @media (max-width: 600px) {
-    .testimonial-content-card-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: rgb(0, 47, 71);
-        padding: 2em;
-        border-radius: 1em;
-        width: 95% !important;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .carousel-indicators {
+    position: absolute;
+  }
 }
-
-
-@media (max-width: 600px) {
-    .carousel-indicators {
-        position: absolute;
-    }
-}
-
-
 
 @media (max-width: 550px) {
-    #event-carousel-container {
-        display: flex;
-        align-items: center;
-        max-width: 70em;
-        padding: 3em;
-        color: white;
-        text-align: center;
-    }
+  #event-carousel-container {
+    display: flex;
+    align-items: center;
+    max-width: 70em;
+    padding: 3em;
+    color: white;
+    text-align: center;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-// @media (min-width: 1000px) {
-//     #event-carousel-container {
-//         display: flex;
-//         align-items: center;
-//         width: 60em;
-//         padding: 5em;
-//     }
-// }
-
-// @media (max-width: 999px) {
-//     #event-carousel-container {
-//         display: flex;
-//         align-items: center;
-//         max-width: 70em;
-//         padding: 3em;
-//         color: white;
-//         text-align: center;
-//     }
-// }
-
-// @media (max-width: 550px) {
-//     #event-carousel-container {
-//         display: flex;
-//         align-items: center;
-//         max-width: 70em;
-//         padding: 3em;
-//         color: white;
-//         text-align: center;
-//     }
-// }

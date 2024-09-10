@@ -1,125 +1,101 @@
-.commerical-residential-wrapper { 
-    display: flex;
-    // justify-content: space-evenly;
-    justify-content: center;
-    align-items: center;
-    gap: 5em;
-    
+.commerical-residential-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
 }
 
-// .commerical-residential-wrapper img { 
-//     width: 30em;
-// }
-
-.pest-control-animated-img-1 { 
-    width: 30em;
+.pest-control-animated-img-1 {
+  width: 30em;
 }
 
-.animated-worker-img { 
-    width: 20em;
+.animated-worker-img {
+  width: 20em;
 }
-
-// .animated-worker-img { 
-//     width: 5em;
-// }
 
 .residential-services-container,
-.commerical-services-container { 
-    display: flex;
-    border: 2px solid orange;
-    border-radius: 1em;
-    padding: 1em;
-    gap: 1em;
+.commerical-services-container {
+  display: flex;
+  border: 2px solid orange;
+  border-radius: 1em;
+  padding: 1em;
+  gap: 1em;
 }
 
-.residential-services-content-container { 
-    display: flex;
-    flex-direction: column;
-    
-    
+.residential-services-content-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .residential-services-content-container p,
-.commerical-services-content-container p  { 
-    max-width: 20em;
+.commerical-services-content-container p {
+  max-width: 20em;
 }
 
-.residential-services-content-container h6, 
-.commerical-services-content-container h6 { 
-    color: darkorange;
+.residential-services-content-container h6,
+.commerical-services-content-container h6 {
+  color: darkorange;
 }
 
 .residential-services-container img,
-.commerical-services-container img { 
-    width: 7em;
+.commerical-services-container img {
+  width: 7em;
 }
 
-.commerical-services-container { 
-    display: flex;
+.commerical-services-container {
+  display: flex;
 }
 
-.commerical-services-content-container { 
+.commerical-services-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.residential-and-commerical-containers {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.residential-and-commerical-containers * {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 1150px) {
+  .commerical-residential-wrapper {
     display: flex;
     flex-direction: column;
-}
-
-
-.residential-and-commerical-containers { 
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 1em;
+  }
+
+  .pest-control-animated-img-1 {
+    width: 24em;
+  }
 }
 
-.residential-and-commerical-containers * { 
-    font-family: "Poppins", sans-serif;
-}
+@media (max-width: 500px) {
+  .pest-control-animated-img-1 {
+    width: 18em;
+  }
 
+  .commerical-residential-wrapper {
+    padding: 1em;
+  }
 
+  .residential-services-container img,
+  .commerical-services-container img {
+    width: 4em;
+  }
 
-@media (max-width: 1150px) { 
-    .commerical-residential-wrapper { 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1em;
-    }
+  .residential-services-content-container h1,
+  .commerical-services-content-container h1 {
+    font-size: 1.3rem;
+  }
 
-    .pest-control-animated-img-1 { 
-        width: 24em;
-    }
-}
-
-@media (max-width: 500px) { 
-
-    .pest-control-animated-img-1 { 
-        width: 18em;
-    }
-
-    // .commerical-residential-wrapper { 
-    //     gap: 1em;
-    // } 
-
-    .commerical-residential-wrapper { 
-        padding: 1em;
-    }
-
-    .residential-services-container img, 
-    .commerical-services-container img  { 
-        width: 4em;
-    }
-
-    .residential-services-content-container h1,
-    .commerical-services-content-container h1 { 
-        font-size: 1.3rem;
-    }
-
-    .residential-services-content-container p,
-    .commerical-services-content-container p { 
-        font-size: 0.8rem;
-    }
-
-   
-
-
+  .residential-services-content-container p,
+  .commerical-services-content-container p {
+    font-size: 0.8rem;
+  }
 }

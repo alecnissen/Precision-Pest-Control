@@ -1,7 +1,6 @@
 .contact-header-content-wrapper {
   display: flex;
   flex-direction: column;
-//   justify-content: space-between;
   justify-content: center;
   align-items: center;
   background-color: rgb(70, 8, 70);
@@ -10,101 +9,50 @@
   padding: 0.3em;
 }
 
-.contact-header-content-wrapper h1 { 
+.contact-header-content-wrapper h1 {
   font-size: 3.5rem;
 }
 
-.contact-header-content-wrapper h3 { 
+.contact-header-content-wrapper h3 {
   font-size: 2rem;
 }
 
-.contact-header-content-wrapper img { 
+.contact-header-content-wrapper img {
   width: 6em;
   border-radius: 6%;
 }
 
-
-@media (max-width: 700px) { 
-  .contact-header-content-wrapper h1 { 
+@media (max-width: 700px) {
+  .contact-header-content-wrapper h1 {
     font-size: 2.9rem;
   }
 
-  .contact-header-content-wrapper h3 { 
+  .contact-header-content-wrapper h3 {
     font-size: 1.7rem;
   }
 }
 
-@media (max-width: 535px) { 
-  .contact-header-content-wrapper h1 { 
+@media (max-width: 535px) {
+  .contact-header-content-wrapper h1 {
     font-size: 2.4rem;
   }
 
-  .contact-header-content-wrapper h3 { 
+  .contact-header-content-wrapper h3 {
     font-size: 1.4rem;
   }
 
-  .contact-header-content-wrapper img { 
+  .contact-header-content-wrapper img {
     width: 4em;
     border-radius: 6%;
   }
 }
 
-
-
-@media (max-width: 432px) { 
-  .contact-header-content-wrapper h1 { 
+@media (max-width: 432px) {
+  .contact-header-content-wrapper h1 {
     font-size: 1.9rem;
   }
 
-  .contact-header-content-wrapper h3 { 
+  .contact-header-content-wrapper h3 {
     font-size: 1.4rem;
   }
 }
-
-
-
-// .contact-header-icons-container {
-//   display: flex;
-//   align-items: center;
-//   flex-direction: row;
-//   gap: 0.5em;
-// }
-
-// .contact-header-phone-email-container {
-//   display: flex;
-//   // flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   font-size: 1.3rem;
-//   font-weight: bold;
-//   gap: 0.5em;
-//   // justify-content: flex-end;
-//   // align-items: center;
-// }
-
-// .email-container,
-// .phone-container {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
-
-// @media (max-width: 735px) {
-//   .contact-header-content-wrapper {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//   }
-
-//   .contact-header-phone-email-container {
-//     font-size: 0.9rem;
-//   }
-// }
-
-// @media (max-width: 440px) {
-//   .contact-header-phone-email-container {
-//     display: flex;
-//     flex-direction: column;
-//   }
-// }

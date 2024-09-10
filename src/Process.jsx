@@ -6,36 +6,25 @@ import handshakeImg from '../assets/handshake-svgrepo-com.svg';
 
 import pestControlSvgImg from '../assets/10780550_19198459.svg';
 
-
 export default function Process() {
   return (
     <div className="process-content-wrapper">
+      <div className="process-title-subtitle-wrapper">
+        <div className="process-title-subtitle-container">
+          <h3>Behind the Scenes</h3>
 
+          <h1>How We Keep Your Space</h1>
 
-      <div className='process-title-subtitle-wrapper'> 
+          <h1 className="process-pest-free-text">Pest Free</h1>
 
+          <p>
+            Discover our simple three-step process: Inspection, Treatment, and Follow-up, ensuring effective pest
+            control solutions tailored to your need
+          </p>
+        </div>
 
-      <div className="process-title-subtitle-container">
-        <h3>Behind the Scenes</h3>
-
-        <h1>How We Keep Your Space</h1>
-
-        <h1 className="process-pest-free-text">Pest Free</h1>
-
-        <p>
-          Discover our simple three-step process: Inspection, Treatment, and Follow-up, ensuring effective pest control
-          solutions tailored to your need
-        </p>
+        <img src={pestControlSvgImg} className="process-pest-control-img"></img>
       </div>
-
-
-      <img src={pestControlSvgImg} className='process-pest-control-img'></img>
-
-      </div>
-
-
-
-
 
       <div className="process-cards-container">
         <div className="process-card">

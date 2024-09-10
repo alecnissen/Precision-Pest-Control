@@ -1,422 +1,300 @@
-.contact-form-content-wrapper { 
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgba(0, 47, 71, 1);
-    margin-top: 1em;
-    padding: 2em;
+.contact-form-content-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 47, 71, 1);
+  margin-top: 1em;
+  padding: 2em;
 }
 
-.contact-form-title-subtitle-container { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1em;
+.contact-form-title-subtitle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
 }
 
-.contact-form-title-subtitle-container * { 
-    font-family: "Poppins", sans-serif;
-    // color: white;
-    // font-weight: 300;
+.contact-form-title-subtitle-container * {
+  font-family: 'Poppins', sans-serif;
 }
 
-.contact-form-title-subtitle-container h3 { 
-    color: lightgray;
-    font-weight: 400;
+.contact-form-title-subtitle-container h3 {
+  color: lightgray;
+  font-weight: 400;
 }
 
-.contact-form-title-subtitle-container h1 { 
-    color: white;
-    font-weight: 400;
+.contact-form-title-subtitle-container h1 {
+  color: white;
+  font-weight: 400;
 }
 
-.contact-form-description-text { 
-    color: lightgray;
-    font-weight: 300;
-    max-width: 30em;
+.contact-form-description-text {
+  color: lightgray;
+  font-weight: 300;
+  max-width: 30em;
 }
 
-.phone-num-container p { 
-    color: lightgrey;
+.phone-num-container p {
+  color: lightgrey;
 }
 
-.phone-num-container { 
-    display: flex;
-    flex-direction: column;
+.phone-num-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.phone-num-container p { 
-    font-size: 1.5rem;
+.phone-num-container p {
+  font-size: 1.5rem;
 }
 
-.phone-num-container h4 { 
-    color: yellow;
-    font-size: 1.6rem;
-    font-weight: 700;
+.phone-num-container h4 {
+  color: yellow;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 
-.phone-icon-container-contact-form { 
-    display: flex;
-    align-items: center;
-   
-    background-color: yellow;
-    border-radius: 50%;
-    padding: 0.5em;
-    
+.phone-icon-container-contact-form {
+  display: flex;
+  align-items: center;
+
+  background-color: yellow;
+  border-radius: 50%;
+  padding: 0.5em;
 }
 
-
-
-.phone-icon-container-contact-form img { 
-    width: 3em;
+.phone-icon-container-contact-form img {
+  width: 3em;
 }
 
-.call-for-help-container-contact-form { 
-    display: flex;
-    gap: 1em;
-    align-items: center;
+.call-for-help-container-contact-form {
+  display: flex;
+  gap: 1em;
+  align-items: center;
 }
 
-.contact-form-wrapper * { 
-    font-family: "Poppins", sans-serif;
+.contact-form-wrapper * {
+  font-family: 'Poppins', sans-serif;
 }
 
-
-
-
-.contact-form-wrapper { 
-    display: flex;
-    flex-direction: column;
-    
-    background-color: white;
-    // z-index: 1000;
-    gap: 1.5em;
-    
-    // padding: 3.5em;
-    padding: 1.7em;
-    border-radius: 1em;
-    // clip-path: polygon(8% 0, 100% 0%, 100% 100%, 2% 100%);
+.contact-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 1.5em;
+  padding: 1.7em;
+  border-radius: 1em;
 }
 
-.form-name-phone-num-container { 
-    display: flex;
-    justify-content: center;
-    // error message for contact form, removed the align items center, error message now does not move the other elements
-    // align-items: center;
-
-    // flex-direction: column;
-    gap: 1em;
+.form-name-phone-num-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
 }
 
-.form-date-time-container textarea { 
-    width: 100%;
-    max-height: 10em;
-    border-radius: 0.5em;
+.form-date-time-container textarea {
+  width: 100%;
+  max-height: 10em;
+  border-radius: 0.5em;
 }
 
 .contact-form-name-container input::placeholder,
-.contact-form-phone-num-container input::placeholder  { 
-    font-family: "Poppins", sans-serif;
-    font-size: 1rem;
+.contact-form-phone-num-container input::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
 }
 
 .form-date-time-container p,
 .contact-form-services-container label,
 .contact-form-name-container label,
-.contact-form-phone-num-container label { 
-    color: gray;
-    font-weight: 300;
+.contact-form-phone-num-container label {
+  color: gray;
+  font-weight: 300;
 }
 
-
-
-.contact-form-wrapper button { 
-    font-size: 1.2rem;
-    background-color: yellow;
-    border: none;
-    border-radius: 1em;
-    font-weight: 500;
-    // width: 8em;
-    padding: 0.5em;
-    color: black;
+.contact-form-wrapper button {
+  font-size: 1.2rem;
+  background-color: yellow;
+  border: none;
+  border-radius: 1em;
+  font-weight: 500;
+  padding: 0.5em;
+  color: black;
 }
 
-form h1 { 
-    text-align: center;
-    font-weight: 400;
+form h1 {
+  text-align: center;
+  font-weight: 400;
 }
-
-// .contact-form-name-container input { 
-//     outline: none;
-//     border: none;
-// }
 
 .contact-form-wrapper input,
-.contact-form-wrapper select { 
-    outline: none;
-    // border: none;
-    border: 1px solid black;
-    border-radius: 0.5em;
-    padding: 0.2em;
-    // width: 22em;
-    width: 100%;
+.contact-form-wrapper select {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  padding: 0.2em;
+  width: 100%;
 }
 
 .contact-form-name-container,
-.contact-form-phone-num-container { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contact-form-phone-num-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-// .contact-form-wrapper form { 
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
-
-
-.contact-form-services-container select { 
-    width: 100%;
-    color: black;
+.contact-form-services-container select {
+  width: 100%;
+  color: black;
 }
 
 .contact-form-name-container img,
 .contact-form-phone-num-container img,
-.contact-form-services-container img { 
-    // border: 1px solid black;
-    width: 1.7em;
-    display: none;
+.contact-form-services-container img {
+  border: 1px solid black;
+  width: 1.7em;
+  display: none;
 }
 
 .form-date-time-container,
-.contact-form-services-container { 
+.contact-form-services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-date-time-container label {
+  font-size: 0.8rem;
+}
+
+.error-message {
+  color: red;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 1350px) {
+  .contact-form-title-subtitle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1em;
+  }
+
+  .phone-icon-container-contact-form {
+    position: relative;
+    right: 2em;
+  }
+
+  .phone-num-container {
+    position: relative;
+    right: 2em;
+  }
+}
+
+@media (max-width: 1260px) {
+  .form-name-phone-num-container,
+  .form-date-time-container,
+  .contact-form-services-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
+  }
 
-.form-date-time-container label { 
-    font-size: 0.8rem;
-}
+  .contact-form-title-subtitle-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2em;
+  }
 
-
-.error-message { 
-   color: red;
-   font-family: "Poppins", sans-serif;
-}
-
-
-// contact form plan 
-
-// place borders around inputs 
-
-// try to center the left side text so its more in the center of the container 
-
-// try to make sure the inputs and everything is even within the form, 
-
-// fix that then begin the responsiveness aspect 
-
-
-
-
-
-@media (max-width: 1350px) { 
-    .contact-form-title-subtitle-container { 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding-right: 1em;
-        // text-align: center;
-    }
-
-    .phone-icon-container-contact-form { 
-        position: relative;
-        right: 2em;
-    }
-
-    .phone-num-container { 
-        position: relative;
-        right: 2em;
-    }
-
-    // .phone-num-container { 
-    //     display: flex;
-    //     align-items: center;
-    //     justify-content: center;
-    //     flex-direction: row;
-    // }
-}
-
-
-
-
-
-
-@media (max-width: 1260px) { 
-    .form-name-phone-num-container,
-    .form-date-time-container, 
-    .contact-form-services-container { 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .contact-form-title-subtitle-container { 
-        display: flex;
-        flex-direction: column;
-        // justify-content: flex-start;
-        padding-right: 2em;
-    }
-
-    .contact-form-name-container img,
-.contact-form-phone-num-container img,
-.contact-form-services-container img { 
-    // border: 1px solid black;
+  .contact-form-name-container img,
+  .contact-form-phone-num-container img,
+  .contact-form-services-container img {
     width: 1.4em;
+  }
 }
 
-    
+@media (max-width: 800px) {
+  .contact-form-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .contact-form-title-subtitle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 1em;
+  }
+
+  .phone-icon-container-contact-form img {
+    width: 2em;
+  }
+
+  .phone-num-container p {
+    font-size: 1rem;
+  }
+
+  .phone-num-container h4 {
+    font-size: 1rem;
+  }
+
+  .contact-form-description-text {
+    max-width: 30em;
+  }
+
+  .call-for-help-container-contact-form {
+    gap: 0.5em;
+  }
+
+  .phone-num-container {
+    position: relative;
+    right: 1em;
+  }
 }
 
-// new 800 
-// old 756 
+@media (max-width: 450px) {
+  .contact-form-title-subtitle-container h1 {
+    font-size: 1.3rem;
+    white-space: nowrap;
+  }
 
-@media (max-width: 800px) { 
-    .contact-form-content-wrapper { 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1em;
-    }
+  .contact-form-description-text {
+    font-size: 0.9rem;
+  }
 
-    .contact-form-title-subtitle-container { 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        left: 1em;
-    }
+  .phone-num-container p,
+  .phone-num-container h4 {
+    font-size: 0.9rem;
+  }
 
-    .phone-icon-container-contact-form img { 
-        width: 2em;
-    }
+  .phone-icon-container-contact-form img {
+    width: 1.5em;
+  }
 
+  .contact-form-wrapper input,
+  .contact-form-wrapper select,
+  .form-date-time-container textarea {
+    width: 15em;
+  }
 
-    .phone-num-container p { 
-        // position: relative;
-        // right: 1.3em;
-        font-size: 1rem;
-    }
+  .contact-form-wrapper button {
+    font-size: 1rem;
+  }
 
-    .phone-num-container h4 { 
-        // position: relative;
-        // right: 0.5em;
-        font-size: 1rem;
-        // font-weight: 300;
-    }
-
-    .contact-form-description-text { 
-        max-width: 30em;
-    }
-
-    .call-for-help-container-contact-form { 
-        gap: 0.5em;
-    }
-
-    .phone-num-container { 
-        position: relative;
-        right: 1em;
-    }
-
-
-    // .phone-num-container { 
-    //     display: flex;
-       
-    //     align-items: center;
-    //     flex-direction: row;
-    // }
-
+  .phone-num-container {
+    position: relative;
+    right: 1.5em;
+  }
 }
 
-
-// make the form smaller too, 
-
-@media (max-width: 450px) { 
-
-    .contact-form-title-subtitle-container h1 { 
-        font-size: 1.3rem;
-        white-space: nowrap;
-    }
-
-    .contact-form-description-text { 
-        font-size: 0.9rem;
-    }
-
-
-    .phone-num-container p,
-    .phone-num-container h4 { 
-        font-size: 0.9rem;
-    }
-
-    .phone-icon-container-contact-form img { 
-        width: 1.5em;
-    }
-
-
-    // .contact-form-wrapper { 
-    //     padding: 0.6em;
-    // }
-
-
-    .contact-form-wrapper input, 
-    .contact-form-wrapper select,
-    .form-date-time-container textarea { 
-        // font-size: 0.9rem;
-        width: 15em;
-    }
-
-    .contact-form-wrapper button { 
-        font-size: 1rem;
-    }
-
-    .phone-num-container { 
-        position: relative;
-        right: 1.5em;
-    }
-
-
+@media (max-width: 375px) {
+  .contact-form-title-subtitle-container h1 {
+    font-size: 1.2rem;
+  }
 }
-
-
-@media (max-width: 375px) { 
-    .contact-form-title-subtitle-container h1 { 
-        font-size: 1.2rem;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-// @media (max-width: 360px) { 
-//     .contact-form-wrapper { 
-//         padding: 0.4em;
-//     }
-
-//     .contact-form-wrapper input, 
-//     .contact-form-wrapper select { 
-//         font-size: 0.8rem;
-//     }
-// }
